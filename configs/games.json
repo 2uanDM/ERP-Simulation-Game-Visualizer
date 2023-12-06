@@ -1,0 +1,8 @@
+{
+    "round": 5,
+    "day_per_round": 20,
+    "data_source_link": "https://e04.sapucc.in.tum.de/odata/907/",
+    "username": "D_4",
+    "password": "sem123",
+    "auto_refresh": 30
+}

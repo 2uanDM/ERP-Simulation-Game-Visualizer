@@ -1,0 +1,16 @@
+{
+	"autopep8.args": ["--max-line-length", "120"],
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/Thumbs.db": true,
+		".venv": true,
+		"LICENSE": true
+	},
+	"editor.formatOnSave": true,
+	"xml.completion.autoCloseTags": true
+	// Indent of json equal 4 spaces
+}

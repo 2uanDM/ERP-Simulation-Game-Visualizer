@@ -1,0 +1,1521 @@
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xml:base="http://e04.sapucc.in.tum.de/odata/907/">
+  <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation</id>
+  <title type="text">Company_Valuation</title>
+  <updated>2023-12-05T15:09:21Z</updated>
+  <author>
+    <name/>
+  </author>
+  <link href="Company_Valuation" rel="self" title="Company_Valuation"/>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~1')</id>
+    <title type="text">Company_Valuation('.1~1')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~1')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~1</d:ID>
+        <d:ROW_ID>1</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>01</d:SIM_ROUND>
+        <d:SIM_STEP>01</d:SIM_STEP>
+        <d:SIM_DATE>01/01</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-01T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>1</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>1</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>0.00</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>0.00</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7500000.00</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>0.00</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>-500000.00</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-7500000.00</d:DEBT_LOADING>
+        <d:CREDIT_RATING>BBB+</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.75</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>-3921568.63</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~2')</id>
+    <title type="text">Company_Valuation('.1~2')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~2')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~2</d:ID>
+        <d:ROW_ID>2</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>01</d:SIM_ROUND>
+        <d:SIM_STEP>02</d:SIM_STEP>
+        <d:SIM_DATE>01/02</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-02T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>1</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>2</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>0.00</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>0.00</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7500000.00</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-328980.00</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>-500000.00</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-7828980.00</d:DEBT_LOADING>
+        <d:CREDIT_RATING>BBB+</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.75</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>-3921568.63</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~3')</id>
+    <title type="text">Company_Valuation('.1~3')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~3')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~3</d:ID>
+        <d:ROW_ID>3</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>01</d:SIM_ROUND>
+        <d:SIM_STEP>03</d:SIM_STEP>
+        <d:SIM_DATE>01/03</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-03T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>1</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>3</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>0.00</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>0.00</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7500000.00</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-328980.00</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>-499862.50</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-7828980.00</d:DEBT_LOADING>
+        <d:CREDIT_RATING>BBB+</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.75</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>-3835294.12</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~4')</id>
+    <title type="text">Company_Valuation('.1~4')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~4')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~4</d:ID>
+        <d:ROW_ID>4</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>01</d:SIM_ROUND>
+        <d:SIM_STEP>04</d:SIM_STEP>
+        <d:SIM_DATE>01/04</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-04T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>1</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>4</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>0.00</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>79439.46</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7500000.00</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-511470.00</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>-438331.11</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-7932030.54</d:DEBT_LOADING>
+        <d:CREDIT_RATING>BBB+</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.75</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>25099085.49</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~5')</id>
+    <title type="text">Company_Valuation('.1~5')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~5')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~5</d:ID>
+        <d:ROW_ID>5</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>01</d:SIM_ROUND>
+        <d:SIM_STEP>05</d:SIM_STEP>
+        <d:SIM_DATE>01/05</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-05T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>1</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>5</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>-75000.00</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>194798.19</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7513117.95</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-511470.00</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>-492753.14</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-7904789.76</d:DEBT_LOADING>
+        <d:CREDIT_RATING>BBB+</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.75</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>-1193338.98</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~6')</id>
+    <title type="text">Company_Valuation('.1~6')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~6')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~6</d:ID>
+        <d:ROW_ID>6</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>01</d:SIM_ROUND>
+        <d:SIM_STEP>06</d:SIM_STEP>
+        <d:SIM_DATE>01/06</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-06T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>2</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>6</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>0.00</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>286834.86</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7588117.95</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-511470.00</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>-424731.56</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-7812753.09</d:DEBT_LOADING>
+        <d:CREDIT_RATING>BBB+</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.75</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>19692059.61</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~7')</id>
+    <title type="text">Company_Valuation('.1~7')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~7')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~7</d:ID>
+        <d:ROW_ID>7</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>01</d:SIM_ROUND>
+        <d:SIM_STEP>07</d:SIM_STEP>
+        <d:SIM_DATE>01/07</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-07T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>2</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>7</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>0.00</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>365668.03</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7588117.95</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-511470.00</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>-365518.24</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-7733919.92</d:DEBT_LOADING>
+        <d:CREDIT_RATING>BBB+</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.75</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>32241593.73</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~8')</id>
+    <title type="text">Company_Valuation('.1~8')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~8')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~8</d:ID>
+        <d:ROW_ID>8</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>01</d:SIM_ROUND>
+        <d:SIM_STEP>08</d:SIM_STEP>
+        <d:SIM_DATE>01/08</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-08T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>2</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>8</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>0.00</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>450063.25</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7588117.95</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-511470.00</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>-303441.82</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-7649524.70</d:DEBT_LOADING>
+        <d:CREDIT_RATING>BBB+</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.75</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>42327414.90</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~9')</id>
+    <title type="text">Company_Valuation('.1~9')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~9')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~9</d:ID>
+        <d:ROW_ID>9</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>01</d:SIM_ROUND>
+        <d:SIM_STEP>09</d:SIM_STEP>
+        <d:SIM_DATE>01/09</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-09T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>2</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>9</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>0.00</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>532128.75</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7588117.95</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-511470.00</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>-241528.96</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-7567459.20</d:DEBT_LOADING>
+        <d:CREDIT_RATING>BBB+</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.75</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>50137733.86</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~10')</id>
+    <title type="text">Company_Valuation('.1~10')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~10')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~10</d:ID>
+        <d:ROW_ID>10</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>01</d:SIM_ROUND>
+        <d:SIM_STEP>10</d:SIM_STEP>
+        <d:SIM_DATE>01/10</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-10T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>2</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>10</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>-75000.00</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>642662.26</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7601363.77</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-511470.00</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>-299675.00</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-7545171.51</d:DEBT_LOADING>
+        <d:CREDIT_RATING>BBB+</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.75</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>33786666.67</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~11')</id>
+    <title type="text">Company_Valuation('.1~11')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~11')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~11</d:ID>
+        <d:ROW_ID>11</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>01</d:SIM_ROUND>
+        <d:SIM_STEP>11</d:SIM_STEP>
+        <d:SIM_DATE>01/11</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-11T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>3</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>11</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>0.00</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>749754.36</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7676363.77</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-871533.00</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>-218396.26</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-7798142.41</d:DEBT_LOADING>
+        <d:CREDIT_RATING>BBB+</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.75</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>44267306.67</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~12')</id>
+    <title type="text">Company_Valuation('.1~12')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~12')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~12</d:ID>
+        <d:ROW_ID>12</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>01</d:SIM_ROUND>
+        <d:SIM_STEP>12</d:SIM_STEP>
+        <d:SIM_DATE>01/12</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-12T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>3</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>12</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>0.00</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>824640.07</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7676363.77</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-871533.00</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>-160436.74</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-7723256.70</d:DEBT_LOADING>
+        <d:CREDIT_RATING>BBB+</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.75</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>49343256.47</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~13')</id>
+    <title type="text">Company_Valuation('.1~13')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~13')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~13</d:ID>
+        <d:ROW_ID>13</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>01</d:SIM_ROUND>
+        <d:SIM_STEP>13</d:SIM_STEP>
+        <d:SIM_DATE>01/13</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-13T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>3</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>13</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>0.00</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>934892.00</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7676363.77</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-871533.00</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>-73547.15</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-7613004.77</d:DEBT_LOADING>
+        <d:CREDIT_RATING>BBB+</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.75</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>57827260.33</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~14')</id>
+    <title type="text">Company_Valuation('.1~14')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~14')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~14</d:ID>
+        <d:ROW_ID>14</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>01</d:SIM_ROUND>
+        <d:SIM_STEP>14</d:SIM_STEP>
+        <d:SIM_DATE>01/14</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-14T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>3</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>14</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>0.00</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>979365.96</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7676363.77</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-871533.00</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>-38010.00</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-7568530.81</d:DEBT_LOADING>
+        <d:CREDIT_RATING>BBB+</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.75</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>58194733.89</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~15')</id>
+    <title type="text">Company_Valuation('.1~15')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~15')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~15</d:ID>
+        <d:ROW_ID>15</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>01</d:SIM_ROUND>
+        <d:SIM_STEP>15</d:SIM_STEP>
+        <d:SIM_DATE>01/15</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-15T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>3</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>15</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>-61592.29</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>1008741.56</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7689763.94</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-871533.00</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>-147068.42</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-7614147.67</d:DEBT_LOADING>
+        <d:CREDIT_RATING>BBB+</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.75</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>40367884.55</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~16')</id>
+    <title type="text">Company_Valuation('.1~16')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~16')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~16</d:ID>
+        <d:ROW_ID>16</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>01</d:SIM_ROUND>
+        <d:SIM_STEP>16</d:SIM_STEP>
+        <d:SIM_DATE>01/16</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-16T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>4</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>16</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>9182.23</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>1030645.42</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7751356.23</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-1042863.50</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>-121248.92</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-7754392.08</d:DEBT_LOADING>
+        <d:CREDIT_RATING>BBB+</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.75</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>40637381.96</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~17')</id>
+    <title type="text">Company_Valuation('.1~17')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~17')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~17</d:ID>
+        <d:ROW_ID>17</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>01</d:SIM_ROUND>
+        <d:SIM_STEP>17</d:SIM_STEP>
+        <d:SIM_DATE>01/17</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-17T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>4</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>17</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>9182.23</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>1150109.09</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7751356.23</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-1042863.50</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>-25515.24</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-7634928.41</d:DEBT_LOADING>
+        <d:CREDIT_RATING>BBB+</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.75</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>48616536.29</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~18')</id>
+    <title type="text">Company_Valuation('.1~18')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~18')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~18</d:ID>
+        <d:ROW_ID>18</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>01</d:SIM_ROUND>
+        <d:SIM_STEP>18</d:SIM_STEP>
+        <d:SIM_DATE>01/18</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-18T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>4</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>18</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>44060.92</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>1162534.34</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7751356.23</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-1042863.50</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>12545.72</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-7587624.47</d:DEBT_LOADING>
+        <d:CREDIT_RATING>BBB+</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.75</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>49677983.79</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~19')</id>
+    <title type="text">Company_Valuation('.1~19')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~19')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~19</d:ID>
+        <d:ROW_ID>19</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>01</d:SIM_ROUND>
+        <d:SIM_STEP>19</d:SIM_STEP>
+        <d:SIM_DATE>01/19</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-19T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>4</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>19</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>47696.32</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>1216748.28</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7751356.23</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-1098363.50</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>60975.95</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-7585275.13</d:DEBT_LOADING>
+        <d:CREDIT_RATING>BBB+</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.75</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>51654996.08</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~20')</id>
+    <title type="text">Company_Valuation('.1~20')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~20')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~20</d:ID>
+        <d:ROW_ID>20</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>01</d:SIM_ROUND>
+        <d:SIM_STEP>20</d:SIM_STEP>
+        <d:SIM_DATE>01/20</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-20T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>4</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>20</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>-19679.55</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>1247371.54</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7751356.23</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-1098363.50</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>-38528.65</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-7622027.74</d:DEBT_LOADING>
+        <d:CREDIT_RATING>BBB+</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.75</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>39511029.02</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~21')</id>
+    <title type="text">Company_Valuation('.1~21')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~21')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~21</d:ID>
+        <d:ROW_ID>21</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>02</d:SIM_ROUND>
+        <d:SIM_STEP>01</d:SIM_STEP>
+        <d:SIM_DATE>02/01</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-21T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>5</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>21</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>66351.48</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>1278080.13</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7771035.78</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-1098363.50</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>40820.30</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-7524967.67</d:DEBT_LOADING>
+        <d:CREDIT_RATING>BBB+</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.75</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>44555321.01</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~22')</id>
+    <title type="text">Company_Valuation('.1~22')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~22')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~22</d:ID>
+        <d:ROW_ID>22</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>02</d:SIM_ROUND>
+        <d:SIM_STEP>02</d:SIM_STEP>
+        <d:SIM_DATE>02/02</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-22T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>5</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>22</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>-198469.64</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>1348392.37</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7771035.78</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-769383.50</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>149365.44</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-7390496.55</d:DEBT_LOADING>
+        <d:CREDIT_RATING>BBB+</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.75</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>51639110.73</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~23')</id>
+    <title type="text">Company_Valuation('.1~23')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~23')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~23</d:ID>
+        <d:ROW_ID>23</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>02</d:SIM_ROUND>
+        <d:SIM_STEP>03</d:SIM_STEP>
+        <d:SIM_DATE>02/03</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-23T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>5</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>23</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>71014.25</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>1462945.55</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7969505.42</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-769383.50</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>299937.06</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-7204929.12</d:DEBT_LOADING>
+        <d:CREDIT_RATING>BBB+</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.75</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>61546426.05</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~24')</id>
+    <title type="text">Company_Valuation('.1~24')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~24')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~24</d:ID>
+        <d:ROW_ID>24</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>02</d:SIM_ROUND>
+        <d:SIM_STEP>04</d:SIM_STEP>
+        <d:SIM_DATE>02/04</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-24T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>5</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>24</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>-6771.78</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>1566263.23</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7969505.42</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-586893.50</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>464713.76</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-6996907.47</d:DEBT_LOADING>
+        <d:CREDIT_RATING>A-</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.25</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>74670511.02</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~25')</id>
+    <title type="text">Company_Valuation('.1~25')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~25')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~25</d:ID>
+        <d:ROW_ID>25</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>02</d:SIM_ROUND>
+        <d:SIM_STEP>05</d:SIM_STEP>
+        <d:SIM_DATE>02/05</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-25T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>5</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>25</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>53129.82</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>1663742.37</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7989847.89</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-586893.50</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>502512.81</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-6859869.20</d:DEBT_LOADING>
+        <d:CREDIT_RATING>A-</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.25</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>74482636.54</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~26')</id>
+    <title type="text">Company_Valuation('.1~26')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~26')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~26</d:ID>
+        <d:ROW_ID>26</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>02</d:SIM_ROUND>
+        <d:SIM_STEP>06</d:SIM_STEP>
+        <d:SIM_DATE>02/06</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-26T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>6</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>26</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>159821.20</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>1761759.14</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7989847.89</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-586893.50</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>663121.59</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-6655161.05</d:DEBT_LOADING>
+        <d:CREDIT_RATING>A-</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.25</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>83563322.32</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~27')</id>
+    <title type="text">Company_Valuation('.1~27')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~27')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~27</d:ID>
+        <d:ROW_ID>27</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>02</d:SIM_ROUND>
+        <d:SIM_STEP>07</d:SIM_STEP>
+        <d:SIM_DATE>02/07</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-27T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>6</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>27</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>282244.20</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>1762907.92</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7989847.89</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-586893.50</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>763743.37</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-6531589.27</d:DEBT_LOADING>
+        <d:CREDIT_RATING>A-</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.25</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>87618566.53</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~28')</id>
+    <title type="text">Company_Valuation('.1~28')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~28')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~28</d:ID>
+        <d:ROW_ID>28</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>02</d:SIM_ROUND>
+        <d:SIM_STEP>08</d:SIM_STEP>
+        <d:SIM_DATE>02/08</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-28T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>6</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>28</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>341619.82</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>1825839.05</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7989847.89</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-586893.50</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>862471.17</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-6409282.52</d:DEBT_LOADING>
+        <d:CREDIT_RATING>A-</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.25</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>91251627.06</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~29')</id>
+    <title type="text">Company_Valuation('.1~29')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~29')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~29</d:ID>
+        <d:ROW_ID>29</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>02</d:SIM_ROUND>
+        <d:SIM_STEP>09</d:SIM_STEP>
+        <d:SIM_DATE>02/09</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-29T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>6</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>29</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>441935.20</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>1774691.43</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7989847.89</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-586893.50</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>902528.42</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-6360114.76</d:DEBT_LOADING>
+        <d:CREDIT_RATING>A-</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.25</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>90670463.28</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~30')</id>
+    <title type="text">Company_Valuation('.1~30')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~30')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~30</d:ID>
+        <d:ROW_ID>30</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>02</d:SIM_ROUND>
+        <d:SIM_STEP>10</d:SIM_STEP>
+        <d:SIM_DATE>02/10</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-30T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>6</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>30</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>466733.86</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>1664577.22</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7989847.89</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-586893.50</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>764120.92</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-6445430.31</d:DEBT_LOADING>
+        <d:CREDIT_RATING>A-</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.25</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>78473202.94</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~31')</id>
+    <title type="text">Company_Valuation('.1~31')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~31')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~31</d:ID>
+        <d:ROW_ID>31</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>02</d:SIM_ROUND>
+        <d:SIM_STEP>11</d:SIM_STEP>
+        <d:SIM_DATE>02/11</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-01-31T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>7</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>31</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>184154.85</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>1610292.34</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7989847.89</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-226830.50</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>783023.30</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-6422231.20</d:DEBT_LOADING>
+        <d:CREDIT_RATING>A-</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.25</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>77004764.19</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~32')</id>
+    <title type="text">Company_Valuation('.1~32')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~32')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~32</d:ID>
+        <d:ROW_ID>32</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>02</d:SIM_ROUND>
+        <d:SIM_STEP>12</d:SIM_STEP>
+        <d:SIM_DATE>02/12</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-02-01T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>7</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>32</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>303559.03</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>1493989.83</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7989847.89</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-304430.50</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>785504.20</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-6496729.53</d:DEBT_LOADING>
+        <d:CREDIT_RATING>A-</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.25</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>74622706.12</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~33')</id>
+    <title type="text">Company_Valuation('.1~33')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~33')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~33</d:ID>
+        <d:ROW_ID>33</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>02</d:SIM_ROUND>
+        <d:SIM_STEP>13</d:SIM_STEP>
+        <d:SIM_DATE>02/13</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-02-02T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>7</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>33</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>412430.41</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>1390902.45</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7989847.89</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-573280.50</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>790721.77</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-6759795.53</d:DEBT_LOADING>
+        <d:CREDIT_RATING>A-</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.25</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>72547489.13</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~34')</id>
+    <title type="text">Company_Valuation('.1~34')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~34')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~34</d:ID>
+        <d:ROW_ID>34</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>02</d:SIM_ROUND>
+        <d:SIM_STEP>14</d:SIM_STEP>
+        <d:SIM_DATE>02/14</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-02-03T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>7</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>34</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>461706.46</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>1390308.25</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7989847.89</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-573280.50</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>829988.99</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-6711113.68</d:DEBT_LOADING>
+        <d:CREDIT_RATING>A-</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.25</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>72556388.38</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~35')</id>
+    <title type="text">Company_Valuation('.1~35')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~35')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~35</d:ID>
+        <d:ROW_ID>35</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>02</d:SIM_ROUND>
+        <d:SIM_STEP>15</d:SIM_STEP>
+        <d:SIM_DATE>02/15</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-02-04T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>7</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>35</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>463361.50</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>1522559.46</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7989847.89</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-573280.50</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>857663.29</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-6577207.43</d:DEBT_LOADING>
+        <d:CREDIT_RATING>A-</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.25</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>71915845.97</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~36')</id>
+    <title type="text">Company_Valuation('.1~36')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~36')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~36</d:ID>
+        <d:ROW_ID>36</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>02</d:SIM_ROUND>
+        <d:SIM_STEP>16</d:SIM_STEP>
+        <d:SIM_DATE>02/16</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-02-05T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>8</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>36</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>365604.91</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>1667245.79</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7989847.89</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-401950.00</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>1022310.15</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-6358947.19</d:DEBT_LOADING>
+        <d:CREDIT_RATING>A-</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.25</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>78765178.23</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~37')</id>
+    <title type="text">Company_Valuation('.1~37')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~37')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~37</d:ID>
+        <d:ROW_ID>37</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>02</d:SIM_ROUND>
+        <d:SIM_STEP>17</d:SIM_STEP>
+        <d:SIM_DATE>02/17</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-02-06T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>8</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>37</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>475255.66</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>1733522.67</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7989847.89</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-401950.00</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>1156408.63</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-6183019.56</d:DEBT_LOADING>
+        <d:CREDIT_RATING>A-</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.25</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>83626711.79</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~38')</id>
+    <title type="text">Company_Valuation('.1~38')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~38')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~38</d:ID>
+        <d:ROW_ID>38</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>02</d:SIM_ROUND>
+        <d:SIM_STEP>18</d:SIM_STEP>
+        <d:SIM_DATE>02/18</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-02-07T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>8</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>38</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>572919.87</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>1738025.95</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7989847.89</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-401950.00</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>1236710.24</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-6080852.07</d:DEBT_LOADING>
+        <d:CREDIT_RATING>A-</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.25</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>85458744.92</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~39')</id>
+    <title type="text">Company_Valuation('.1~39')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~39')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~39</d:ID>
+        <d:ROW_ID>39</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>02</d:SIM_ROUND>
+        <d:SIM_STEP>19</d:SIM_STEP>
+        <d:SIM_DATE>02/19</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-02-08T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>8</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>39</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>583892.33</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>1756614.62</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7989847.89</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-346450.00</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>1301812.68</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-5995790.94</d:DEBT_LOADING>
+        <d:CREDIT_RATING>A</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.00</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>88233983.59</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~40')</id>
+    <title type="text">Company_Valuation('.1~40')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~40')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~40</d:ID>
+        <d:ROW_ID>40</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>02</d:SIM_ROUND>
+        <d:SIM_STEP>20</d:SIM_STEP>
+        <d:SIM_DATE>02/20</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-02-09T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>8</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>40</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>593965.85</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>1796719.65</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7989847.89</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-346450.00</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>1265221.24</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-5945612.39</d:DEBT_LOADING>
+        <d:CREDIT_RATING>A</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.00</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>84094395.33</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~41')</id>
+    <title type="text">Company_Valuation('.1~41')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~41')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~41</d:ID>
+        <d:ROW_ID>41</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>03</d:SIM_ROUND>
+        <d:SIM_STEP>01</d:SIM_STEP>
+        <d:SIM_DATE>03/01</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-02-10T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>9</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>41</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>760040.51</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>1774574.21</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7989847.89</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-346450.00</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>1373068.27</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-5801683.17</d:DEBT_LOADING>
+        <d:CREDIT_RATING>A</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.00</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>87202517.24</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://e04.sapucc.in.tum.de/odata/907/Company_Valuation('.1~42')</id>
+    <title type="text">Company_Valuation('.1~42')</title>
+    <updated>2023-12-05T15:09:21Z</updated>
+    <category term="ZCDS_ODATA_USER_SRV_01.Company_Valuation" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link href="Company_Valuation('.1~42')" rel="self" title="Company_Valuation"/>
+    <content type="application/xml">
+      <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+        <d:ID>.1~42</d:ID>
+        <d:ROW_ID>42</d:ROW_ID>
+        <d:COMPANY_CODE>A2</d:COMPANY_CODE>
+        <d:SIM_ROUND>03</d:SIM_ROUND>
+        <d:SIM_STEP>02</d:SIM_STEP>
+        <d:SIM_DATE>03/02</d:SIM_DATE>
+        <d:SIM_CALENDAR_DATE>2024-02-11T00:00:00</d:SIM_CALENDAR_DATE>
+        <d:SIM_PERIOD>9</d:SIM_PERIOD>
+        <d:SIM_ELAPSED_STEPS>42</d:SIM_ELAPSED_STEPS>
+        <d:BANK_CASH_ACCOUNT>859201.16</d:BANK_CASH_ACCOUNT>
+        <d:ACCOUNTS_RECEIVABLE>1854745.36</d:ACCOUNTS_RECEIVABLE>
+        <d:BANK_LOAN>-7989847.89</d:BANK_LOAN>
+        <d:ACCOUNTS_PAYABLE>-346450.00</d:ACCOUNTS_PAYABLE>
+        <d:PROFIT>1511472.29</d:PROFIT>
+        <d:SETUP_TIME_INVESTMENT>500000.00</d:SETUP_TIME_INVESTMENT>
+        <d:DEBT_LOADING>-5622351.37</d:DEBT_LOADING>
+        <d:CREDIT_RATING>A</d:CREDIT_RATING>
+        <d:COMPANY_RISK_RATE_PCT>5.00</d:COMPANY_RISK_RATE_PCT>
+        <d:MARKET_RISK_RATE_PCT>7.00</d:MARKET_RISK_RATE_PCT>
+        <d:COMPANY_VALUATION>91617728.10</d:COMPANY_VALUATION>
+        <d:DEBT_LOADING_UNADJUSTED>0.00</d:DEBT_LOADING_UNADJUSTED>
+        <d:CREDIT_RATING_UNADJUSTED/>
+        <d:COMPANY_RISK_RATE_UNADJUSTED>0.00</d:COMPANY_RISK_RATE_UNADJUSTED>
+        <d:COMPANY_VALUATION_UNADJUSTED>0.00</d:COMPANY_VALUATION_UNADJUSTED>
+        <d:CURRENCY>EUR</d:CURRENCY>
+      </m:properties>
+    </content>
+  </entry>
+</feed>

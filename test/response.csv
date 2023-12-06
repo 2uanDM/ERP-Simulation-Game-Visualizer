@@ -1,0 +1,1783 @@
+ID,ROW_ID,SIM_ROUND,SIM_STEP,SIM_DATE,SIM_PERIOD,SIM_ELAPSED_STEPS,STORAGE_LOCATION,MATERIAL_NUMBER,MATERIAL_DESCRIPTION,MATERIAL_TYPE,MATERIAL_CODE,MATERIAL_SIZE,MATERIAL_LABEL,INVENTORY_OPENING_BALANCE,UNIT
+.1~140,140,01,07,01/07,2,7,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,0,ST
+.1~1218,1218,03,16,03/16,12,56,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,25200,ST
+.1~30,30,01,02,01/02,1,2,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,0,ST
+.1~866,866,02,20,02/20,8,40,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,38802,ST
+.1~1196,1196,03,15,03/15,11,55,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,26628,ST
+.1~734,734,02,14,02/14,7,34,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,0,ST
+.1~624,624,02,09,02/09,6,29,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,0,ST
+.1~1702,1702,04,18,04/18,16,78,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,3823,ST
+.1~1108,1108,03,11,03/11,11,51,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,17233,ST
+.1~1328,1328,04,01,04/01,13,61,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,35558,ST
+.1~250,250,01,12,01/12,3,12,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,0,ST
+.1~360,360,01,17,01/17,4,17,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,25580,ST
+.1~404,404,01,19,01/19,4,19,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,16105,ST
+.1~756,756,02,15,02/15,7,35,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,0,ST
+.1~206,206,01,10,01/10,2,10,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,0,ST
+.1~272,272,01,13,01/13,3,13,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,0,ST
+.1~1372,1372,04,03,04/03,13,63,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,33550,ST
+.1~1768,1768,05,01,05/01,17,81,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,0,ST
+.1~1548,1548,04,11,04/11,15,71,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,17994,ST
+.1~118,118,01,06,01/06,2,6,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,0,ST
+.1~1152,1152,03,13,03/13,11,53,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,13747,ST
+.1~690,690,02,12,02/12,7,32,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,0,ST
+.1~382,382,01,18,01/18,4,18,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,21259,ST
+.1~470,470,02,02,02/02,5,22,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,6034,ST
+.1~294,294,01,14,01/14,3,14,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,0,ST
+.1~1680,1680,04,17,04/17,16,77,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,4675,ST
+.1~910,910,03,02,03/02,9,42,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,34520,ST
+.1~668,668,02,11,02/11,7,31,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,0,ST
+.1~888,888,03,01,03/01,9,41,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,37322,ST
+.1~1350,1350,04,02,04/02,13,62,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,34492,ST
+.1~1416,1416,04,05,04/05,13,65,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,29028,ST
+.1~712,712,02,13,02/13,7,33,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,0,ST
+.1~1174,1174,03,14,03/14,11,54,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,28297,ST
+.1~1130,1130,03,12,03/12,11,52,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,15363,ST
+.1~1592,1592,04,13,04/13,15,73,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,13384,ST
+.1~1438,1438,04,06,04/06,14,66,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,28342,ST
+.1~1658,1658,04,16,04/16,16,76,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,5304,ST
+.1~316,316,01,15,01/15,3,15,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,0,ST
+.1~96,96,01,05,01/05,1,5,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,0,ST
+.1~646,646,02,10,02/10,6,30,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,0,ST
+.1~976,976,03,05,03/05,9,45,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,26475,ST
+.1~228,228,01,11,01/11,3,11,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,0,ST
+.1~492,492,02,03,02/03,5,23,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,4644,ST
+.1~822,822,02,18,02/18,8,38,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,12000,ST
+.1~1570,1570,04,12,04/12,15,72,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,15616,ST
+.1~1240,1240,03,17,03/17,12,57,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,24894,ST
+.1~536,536,02,05,02/05,5,25,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,1325,ST
+.1~1064,1064,03,09,03/09,10,49,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,19427,ST
+.1~514,514,02,04,02/04,5,24,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,3504,ST
+.1~1460,1460,04,07,04/07,14,67,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,26505,ST
+.1~1526,1526,04,10,04/10,14,70,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,22069,ST
+.1~1746,1746,04,20,04/20,16,80,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,1260,ST
+.1~1724,1724,04,19,04/19,16,79,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,2315,ST
+.1~580,580,02,07,02/07,6,27,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,0,ST
+.1~1614,1614,04,14,04/14,15,74,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,10191,ST
+.1~558,558,02,06,02/06,6,26,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,503,ST
+.1~52,52,01,03,01/03,1,3,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,0,ST
+.1~844,844,02,19,02/19,8,39,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,31455,ST
+.1~1306,1306,03,20,03/20,12,60,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,21246,ST
+.1~426,426,01,20,01/20,4,20,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,12021,ST
+.1~800,800,02,17,02/17,8,37,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,0,ST
+.1~932,932,03,03,03/03,9,43,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,32757,ST
+.1~1482,1482,04,08,04/08,14,68,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,24750,ST
+.1~1262,1262,03,18,03/18,12,58,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,24037,ST
+.1~1042,1042,03,08,03/08,10,48,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,21208,ST
+.1~954,954,03,04,03/04,9,44,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,29990,ST
+.1~1086,1086,03,10,03/10,10,50,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,18052,ST
+.1~8,8,01,01,01/01,1,1,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,0,ST
+.1~1636,1636,04,15,04/15,15,75,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,8010,ST
+.1~74,74,01,04,01/04,1,4,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,0,ST
+.1~602,602,02,08,02/08,6,28,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,0,ST
+.1~998,998,03,06,03/06,10,46,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,24636,ST
+.1~1284,1284,03,19,03/19,12,59,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,21942,ST
+.1~1020,1020,03,07,03/07,10,47,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,23038,ST
+.1~1504,1504,04,09,04/09,14,69,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,23724,ST
+.1~338,338,01,16,01/16,4,16,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,6000,ST
+.1~448,448,02,01,02/01,5,21,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,9458,ST
+.1~184,184,01,09,01/09,2,9,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,0,ST
+.1~778,778,02,16,02/16,8,36,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,0,ST
+.1~162,162,01,08,01/08,2,8,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,0,ST
+.1~1394,1394,04,04,04/04,13,64,02,VV-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,30109,ST
+.1~1598,1598,04,13,04/13,15,73,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,0,ST
+.1~740,740,02,14,02/14,7,34,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,0,ST
+.1~674,674,02,11,02/11,7,31,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,0,ST
+.1~1114,1114,03,11,03/11,11,51,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,56000,ST
+.1~1554,1554,04,11,04/11,15,71,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,0,ST
+.1~1158,1158,03,13,03/13,11,53,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,32000,ST
+.1~212,212,01,10,01/10,2,10,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,90000,ST
+.1~718,718,02,13,02/13,7,33,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,0,ST
+.1~696,696,02,12,02/12,7,32,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,0,ST
+.1~234,234,01,11,01/11,3,11,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,68000,ST
+.1~1136,1136,03,12,03/12,11,52,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,48000,ST
+.1~1576,1576,04,12,04/12,15,72,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,0,ST
+.1~1290,1290,03,19,03/19,12,59,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,34000,ST
+.1~322,322,01,15,01/15,3,15,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,110000,ST
+.1~1730,1730,04,19,04/19,16,79,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,0,ST
+.1~520,520,02,04,02/04,5,24,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,48000,ST
+.1~1312,1312,03,20,03/20,12,60,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,16000,ST
+.1~344,344,01,16,01/16,4,16,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,90000,ST
+.1~1466,1466,04,07,04/07,14,67,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,0,ST
+.1~498,498,02,03,02/03,5,23,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,48000,ST
+.1~1334,1334,04,01,04/01,13,61,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,0,ST
+.1~366,366,01,17,01/17,4,17,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,66000,ST
+.1~476,476,02,02,02/02,5,22,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,62000,ST
+.1~1356,1356,04,02,04/02,13,62,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,0,ST
+.1~1444,1444,04,06,04/06,14,66,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,0,ST
+.1~454,454,02,01,02/01,5,21,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,34000,ST
+.1~388,388,01,18,01/18,4,18,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,66000,ST
+.1~1378,1378,04,03,04/03,13,63,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,0,ST
+.1~432,432,01,20,01/20,4,20,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,58000,ST
+.1~1422,1422,04,05,04/05,13,65,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,0,ST
+.1~1400,1400,04,04,04/04,13,64,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,0,ST
+.1~410,410,01,19,01/19,4,19,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,66000,ST
+.1~256,256,01,12,01/12,3,12,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,126000,ST
+.1~1180,1180,03,14,03/14,11,54,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,16000,ST
+.1~652,652,02,10,02/10,6,30,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,0,ST
+.1~1532,1532,04,10,04/10,14,70,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,0,ST
+.1~1202,1202,03,15,03/15,11,55,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,48000,ST
+.1~278,278,01,13,01/13,3,13,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,126000,ST
+.1~630,630,02,09,02/09,6,29,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,0,ST
+.1~1224,1224,03,16,03/16,12,56,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,48000,ST
+.1~608,608,02,08,02/08,6,28,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,16000,ST
+.1~1510,1510,04,09,04/09,14,69,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,0,ST
+.1~586,586,02,07,02/07,6,27,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,40000,ST
+.1~1246,1246,03,17,03/17,12,57,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,48000,ST
+.1~300,300,01,14,01/14,3,14,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,126000,ST
+.1~1752,1752,04,20,04/20,16,80,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,0,ST
+.1~58,58,01,03,01/03,1,3,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,90000,ST
+.1~564,564,02,06,02/06,6,26,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,48000,ST
+.1~1268,1268,03,18,03/18,12,58,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,48000,ST
+.1~36,36,01,02,01/02,1,2,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,0,ST
+.1~1488,1488,04,08,04/08,14,68,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,0,ST
+.1~542,542,02,05,02/05,5,25,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,48000,ST
+.1~190,190,01,09,01/09,2,9,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,112000,ST
+.1~1686,1686,04,17,04/17,16,77,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,0,ST
+.1~894,894,03,01,03/01,9,41,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,65000,ST
+.1~124,124,01,06,01/06,2,6,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,86000,ST
+.1~762,762,02,15,02/15,7,35,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,139000,ST
+.1~982,982,03,05,03/05,9,45,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,34000,ST
+.1~80,80,01,04,01/04,1,4,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,90000,ST
+.1~1620,1620,04,14,04/14,15,74,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,0,ST
+.1~872,872,02,20,02/20,8,40,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,85000,ST
+.1~1664,1664,04,16,04/16,16,76,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,0,ST
+.1~850,850,02,19,02/19,8,39,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,71000,ST
+.1~1004,1004,03,06,03/06,10,46,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,26000,ST
+.1~1774,1774,05,01,05/01,17,81,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,0,ST
+.1~146,146,01,07,01/07,2,7,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,122000,ST
+.1~1070,1070,03,09,03/09,10,49,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,100000,ST
+.1~828,828,02,18,02/18,8,38,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,95000,ST
+.1~784,784,02,16,02/16,8,36,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,139000,ST
+.1~1026,1026,03,07,03/07,10,47,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,128000,ST
+.1~1642,1642,04,15,04/15,15,75,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,0,ST
+.1~806,806,02,17,02/17,8,37,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,115000,ST
+.1~1048,1048,03,08,03/08,10,48,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,124000,ST
+.1~168,168,01,08,01/08,2,8,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,120000,ST
+.1~14,14,01,01,01/01,1,1,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,0,ST
+.1~1092,1092,03,10,03/10,10,50,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,80000,ST
+.1~102,102,01,05,01/05,1,5,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,90000,ST
+.1~1708,1708,04,18,04/18,16,78,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,0,ST
+.1~960,960,03,04,03/04,9,44,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,34000,ST
+.1~916,916,03,02,03/02,9,42,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,41000,ST
+.1~938,938,03,03,03/03,9,43,88,VV-P02,Large Bag (1kg),Raw materials,P02,1kg,Large Bag,34000,ST
+.1~585,585,02,07,02/07,6,27,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,40000,ST
+.1~1619,1619,04,14,04/14,15,74,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,0,ST
+.1~673,673,02,11,02/11,7,31,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,0,ST
+.1~299,299,01,14,01/14,3,14,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,126000,ST
+.1~1751,1751,04,20,04/20,16,80,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,0,ST
+.1~1179,1179,03,14,03/14,11,54,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,16000,ST
+.1~145,145,01,07,01/07,2,7,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,122000,ST
+.1~233,233,01,11,01/11,3,11,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,68000,ST
+.1~849,849,02,19,02/19,8,39,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,71000,ST
+.1~783,783,02,16,02/16,8,36,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,139000,ST
+.1~255,255,01,12,01/12,3,12,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,126000,ST
+.1~1553,1553,04,11,04/11,15,71,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,0,ST
+.1~563,563,02,06,02/06,6,26,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,48000,ST
+.1~1663,1663,04,16,04/16,16,76,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,0,ST
+.1~805,805,02,17,02/17,8,37,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,115000,ST
+.1~277,277,01,13,01/13,3,13,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,126000,ST
+.1~629,629,02,09,02/09,6,29,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,0,ST
+.1~1047,1047,03,08,03/08,10,48,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,124000,ST
+.1~1641,1641,04,15,04/15,15,75,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,0,ST
+.1~1223,1223,03,16,03/16,12,56,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,48000,ST
+.1~1157,1157,03,13,03/13,11,53,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,32000,ST
+.1~1773,1773,05,01,05/01,17,81,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,0,ST
+.1~1531,1531,04,10,04/10,14,70,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,0,ST
+.1~1201,1201,03,15,03/15,11,55,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,48000,ST
+.1~167,167,01,08,01/08,2,8,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,120000,ST
+.1~1069,1069,03,09,03/09,10,49,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,100000,ST
+.1~607,607,02,08,02/08,6,28,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,16000,ST
+.1~1509,1509,04,09,04/09,14,69,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,0,ST
+.1~695,695,02,12,02/12,7,32,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,0,ST
+.1~13,13,01,01,01/01,1,1,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,0,ST
+.1~1245,1245,03,17,03/17,12,57,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,48000,ST
+.1~651,651,02,10,02/10,6,30,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,0,ST
+.1~1025,1025,03,07,03/07,10,47,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,128000,ST
+.1~827,827,02,18,02/18,8,38,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,95000,ST
+.1~1399,1399,04,04,04/04,13,64,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,0,ST
+.1~123,123,01,06,01/06,2,6,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,86000,ST
+.1~497,497,02,03,02/03,5,23,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,48000,ST
+.1~893,893,03,01,03/01,9,41,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,65000,ST
+.1~1333,1333,04,01,04/01,13,61,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,0,ST
+.1~937,937,03,03,03/03,9,43,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,34000,ST
+.1~365,365,01,17,01/17,4,17,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,66000,ST
+.1~1685,1685,04,17,04/17,16,77,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,0,ST
+.1~211,211,01,10,01/10,2,10,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,90000,ST
+.1~475,475,02,02,02/02,5,22,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,62000,ST
+.1~1355,1355,04,02,04/02,13,62,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,0,ST
+.1~1421,1421,04,05,04/05,13,65,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,0,ST
+.1~431,431,01,20,01/20,4,20,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,58000,ST
+.1~959,959,03,04,03/04,9,44,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,34000,ST
+.1~1443,1443,04,06,04/06,14,66,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,0,ST
+.1~1113,1113,03,11,03/11,11,51,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,56000,ST
+.1~453,453,02,01,02/01,5,21,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,34000,ST
+.1~915,915,03,02,03/02,9,42,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,41000,ST
+.1~57,57,01,03,01/03,1,3,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,90000,ST
+.1~387,387,01,18,01/18,4,18,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,66000,ST
+.1~79,79,01,04,01/04,1,4,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,90000,ST
+.1~1377,1377,04,03,04/03,13,63,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,0,ST
+.1~1597,1597,04,13,04/13,15,73,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,0,ST
+.1~101,101,01,05,01/05,1,5,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,90000,ST
+.1~1267,1267,03,18,03/18,12,58,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,48000,ST
+.1~189,189,01,09,01/09,2,9,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,112000,ST
+.1~321,321,01,15,01/15,3,15,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,110000,ST
+.1~1729,1729,04,19,04/19,16,79,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,0,ST
+.1~1003,1003,03,06,03/06,10,46,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,26000,ST
+.1~35,35,01,02,01/02,1,2,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,0,ST
+.1~1575,1575,04,12,04/12,15,72,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,0,ST
+.1~1487,1487,04,08,04/08,14,68,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,0,ST
+.1~541,541,02,05,02/05,5,25,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,48000,ST
+.1~1289,1289,03,19,03/19,12,59,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,34000,ST
+.1~871,871,02,20,02/20,8,40,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,85000,ST
+.1~1707,1707,04,18,04/18,16,78,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,0,ST
+.1~761,761,02,15,02/15,7,35,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,139000,ST
+.1~409,409,01,19,01/19,4,19,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,66000,ST
+.1~343,343,01,16,01/16,4,16,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,90000,ST
+.1~739,739,02,14,02/14,7,34,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,0,ST
+.1~1135,1135,03,12,03/12,11,52,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,48000,ST
+.1~519,519,02,04,02/04,5,24,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,48000,ST
+.1~1311,1311,03,20,03/20,12,60,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,16000,ST
+.1~981,981,03,05,03/05,9,45,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,34000,ST
+.1~1091,1091,03,10,03/10,10,50,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,80000,ST
+.1~717,717,02,13,02/13,7,33,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,0,ST
+.1~1465,1465,04,07,04/07,14,67,88,VV-P01,Large Box (1kg),Raw materials,P01,1kg,Large Box,0,ST
+.1~919,919,03,02,03/02,9,42,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,11400.000,KG
+.1~435,435,01,20,01/20,4,20,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,11400.000,KG
+.1~1337,1337,04,01,04/01,13,61,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,0.000,KG
+.1~413,413,01,19,01/19,4,19,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,15600.000,KG
+.1~391,391,01,18,01/18,4,18,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,17600.000,KG
+.1~347,347,01,16,01/16,4,16,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,18600.000,KG
+.1~83,83,01,04,01/04,1,4,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,9900.000,KG
+.1~17,17,01,01,01/01,1,1,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,0.000,KG
+.1~1601,1601,04,13,04/13,15,73,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,0.000,KG
+.1~1711,1711,04,18,04/18,16,78,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,0.000,KG
+.1~941,941,03,03,03/03,9,43,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,7350.000,KG
+.1~1579,1579,04,12,04/12,15,72,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,0.000,KG
+.1~457,457,02,01,02/01,5,21,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,4200.000,KG
+.1~369,369,01,17,01/17,4,17,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,18600.000,KG
+.1~897,897,03,01,03/01,9,41,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,18600.000,KG
+.1~1689,1689,04,17,04/17,16,77,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,0.000,KG
+.1~1359,1359,04,02,04/02,13,62,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,0.000,KG
+.1~1095,1095,03,10,03/10,10,50,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,8800.000,KG
+.1~743,743,02,14,02/14,7,34,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,12900.000,KG
+.1~215,215,01,10,01/10,2,10,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,1500.000,KG
+.1~721,721,02,13,02/13,7,33,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,13400.000,KG
+.1~1403,1403,04,04,04/04,13,64,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,0.000,KG
+.1~1447,1447,04,06,04/06,14,66,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,0.000,KG
+.1~1117,1117,03,11,03/11,11,51,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,6400.000,KG
+.1~963,963,03,04,03/04,9,44,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,17300.000,KG
+.1~1381,1381,04,03,04/03,13,63,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,0.000,KG
+.1~479,479,02,02,02/02,5,22,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,1400.000,KG
+.1~1733,1733,04,19,04/19,16,79,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,0.000,KG
+.1~1425,1425,04,05,04/05,13,65,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,0.000,KG
+.1~193,193,01,09,01/09,2,9,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,1500.000,KG
+.1~105,105,01,05,01/05,1,5,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,9000.000,KG
+.1~1271,1271,03,18,03/18,12,58,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,5700.000,KG
+.1~1161,1161,03,13,03/13,11,53,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,5600.000,KG
+.1~1007,1007,03,06,03/06,10,46,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,13400.000,KG
+.1~127,127,01,06,01/06,2,6,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,7800.000,KG
+.1~567,567,02,06,02/06,6,26,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,0.000,KG
+.1~1557,1557,04,11,04/11,15,71,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,0.000,KG
+.1~303,303,01,14,01/14,3,14,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,18600.000,KG
+.1~831,831,02,18,02/18,8,38,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,12900.000,KG
+.1~677,677,02,11,02/11,7,31,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,2900.000,KG
+.1~1249,1249,03,17,03/17,12,57,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,7200.000,KG
+.1~787,787,02,16,02/16,8,36,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,12900.000,KG
+.1~589,589,02,07,02/07,6,27,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,10700.000,KG
+.1~1029,1029,03,07,03/07,10,47,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,10400.000,KG
+.1~149,149,01,07,01/07,2,7,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,2100.000,KG
+.1~1645,1645,04,15,04/15,15,75,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,0.000,KG
+.1~1513,1513,04,09,04/09,14,69,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,0.000,KG
+.1~655,655,02,10,02/10,6,30,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,6500.000,KG
+.1~1227,1227,03,16,03/16,12,56,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,7500.000,KG
+.1~171,171,01,08,01/08,2,8,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,1500.000,KG
+.1~611,611,02,08,02/08,6,28,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,10700.000,KG
+.1~281,281,01,13,01/13,3,13,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,18600.000,KG
+.1~1755,1755,04,20,04/20,16,80,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,0.000,KG
+.1~809,809,02,17,02/17,8,37,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,12900.000,KG
+.1~1183,1183,03,14,03/14,11,54,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,13700.000,KG
+.1~259,259,01,12,01/12,3,12,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,18600.000,KG
+.1~61,61,01,03,01/03,1,3,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,13500.000,KG
+.1~1205,1205,03,15,03/15,11,55,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,8700.000,KG
+.1~1051,1051,03,08,03/08,10,48,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,10400.000,KG
+.1~633,633,02,09,02/09,6,29,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,10100.000,KG
+.1~1535,1535,04,10,04/10,14,70,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,0.000,KG
+.1~985,985,03,05,03/05,9,45,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,16400.000,KG
+.1~699,699,02,12,02/12,7,32,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,14000.000,KG
+.1~523,523,02,04,02/04,5,24,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,0.000,KG
+.1~39,39,01,02,01/02,1,2,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,0.000,KG
+.1~765,765,02,15,02/15,7,35,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,12900.000,KG
+.1~1315,1315,03,20,03/20,12,60,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,0.000,KG
+.1~325,325,01,15,01/15,3,15,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,18600.000,KG
+.1~1777,1777,05,01,05/01,17,81,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,0.000,KG
+.1~1293,1293,03,19,03/19,12,59,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,600.000,KG
+.1~1623,1623,04,14,04/14,15,74,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,0.000,KG
+.1~1667,1667,04,16,04/16,16,76,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,0.000,KG
+.1~545,545,02,05,02/05,5,25,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,0.000,KG
+.1~237,237,01,11,01/11,3,11,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,1500.000,KG
+.1~1469,1469,04,07,04/07,14,67,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,0.000,KG
+.1~1139,1139,03,12,03/12,11,52,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,5600.000,KG
+.1~1491,1491,04,08,04/08,14,68,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,0.000,KG
+.1~875,875,02,20,02/20,8,40,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,22200.000,KG
+.1~1073,1073,03,09,03/09,10,49,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,10400.000,KG
+.1~853,853,02,19,02/19,8,39,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,12900.000,KG
+.1~501,501,02,03,02/03,5,23,88,VV-R01,Nuts,Raw materials,R01,"",Nuts,0.000,KG
+.1~1782,1782,05,01,05/01,17,81,88,VV-R06,Oats,Raw materials,R06,"",Oats,5.000,KG
+.1~1738,1738,04,19,04/19,16,79,88,VV-R06,Oats,Raw materials,R06,"",Oats,5.000,KG
+.1~1716,1716,04,18,04/18,16,78,88,VV-R06,Oats,Raw materials,R06,"",Oats,5.000,KG
+.1~1760,1760,04,20,04/20,16,80,88,VV-R06,Oats,Raw materials,R06,"",Oats,5.000,KG
+.1~44,44,01,02,01/02,1,2,88,VV-R06,Oats,Raw materials,R06,"",Oats,0.000,KG
+.1~22,22,01,01,01/01,1,1,88,VV-R06,Oats,Raw materials,R06,"",Oats,0.000,KG
+.1~66,66,01,03,01/03,1,3,88,VV-R06,Oats,Raw materials,R06,"",Oats,54000.000,KG
+.1~704,704,02,12,02/12,7,32,88,VV-R06,Oats,Raw materials,R06,"",Oats,56150.000,KG
+.1~1144,1144,03,12,03/12,11,52,88,VV-R06,Oats,Raw materials,R06,"",Oats,19905.000,KG
+.1~682,682,02,11,02/11,7,31,88,VV-R06,Oats,Raw materials,R06,"",Oats,8200.000,KG
+.1~1166,1166,03,13,03/13,11,53,88,VV-R06,Oats,Raw materials,R06,"",Oats,13605.000,KG
+.1~660,660,02,10,02/10,6,30,88,VV-R06,Oats,Raw materials,R06,"",Oats,12400.000,KG
+.1~1188,1188,03,14,03/14,11,54,88,VV-R06,Oats,Raw materials,R06,"",Oats,34505.000,KG
+.1~638,638,02,09,02/09,6,29,88,VV-R06,Oats,Raw materials,R06,"",Oats,16600.000,KG
+.1~1210,1210,03,15,03/15,11,55,88,VV-R06,Oats,Raw materials,R06,"",Oats,28305.000,KG
+.1~616,616,02,08,02/08,6,28,88,VV-R06,Oats,Raw materials,R06,"",Oats,22900.000,KG
+.1~1232,1232,03,16,03/16,12,56,88,VV-R06,Oats,Raw materials,R06,"",Oats,24705.000,KG
+.1~594,594,02,07,02/07,6,27,88,VV-R06,Oats,Raw materials,R06,"",Oats,31300.000,KG
+.1~1254,1254,03,17,03/17,12,57,88,VV-R06,Oats,Raw materials,R06,"",Oats,21355.000,KG
+.1~572,572,02,06,02/06,6,26,88,VV-R06,Oats,Raw materials,R06,"",Oats,18900.000,KG
+.1~1276,1276,03,18,03/18,12,58,88,VV-R06,Oats,Raw materials,R06,"",Oats,17855.000,KG
+.1~550,550,02,05,02/05,5,25,88,VV-R06,Oats,Raw materials,R06,"",Oats,23100.000,KG
+.1~1298,1298,03,19,03/19,12,59,88,VV-R06,Oats,Raw materials,R06,"",Oats,11905.000,KG
+.1~528,528,02,04,02/04,5,24,88,VV-R06,Oats,Raw materials,R06,"",Oats,26600.000,KG
+.1~506,506,02,03,02/03,5,23,88,VV-R06,Oats,Raw materials,R06,"",Oats,30100.000,KG
+.1~924,924,03,02,03/02,9,42,88,VV-R06,Oats,Raw materials,R06,"",Oats,29530.000,KG
+.1~946,946,03,03,03/03,9,43,88,VV-R06,Oats,Raw materials,R06,"",Oats,24805.000,KG
+.1~902,902,03,01,03/01,9,41,88,VV-R06,Oats,Raw materials,R06,"",Oats,37930.000,KG
+.1~968,968,03,04,03/04,9,44,88,VV-R06,Oats,Raw materials,R06,"",Oats,63305.000,KG
+.1~880,880,02,20,02/20,8,40,88,VV-R06,Oats,Raw materials,R06,"",Oats,44930.000,KG
+.1~990,990,03,05,03/05,9,45,88,VV-R06,Oats,Raw materials,R06,"",Oats,60255.000,KG
+.1~858,858,02,19,02/19,8,39,88,VV-R06,Oats,Raw materials,R06,"",Oats,24850.000,KG
+.1~1012,1012,03,06,03/06,10,46,88,VV-R06,Oats,Raw materials,R06,"",Oats,55655.000,KG
+.1~836,836,02,18,02/18,8,38,88,VV-R06,Oats,Raw materials,R06,"",Oats,33250.000,KG
+.1~1034,1034,03,07,03/07,10,47,88,VV-R06,Oats,Raw materials,R06,"",Oats,50405.000,KG
+.1~814,814,02,17,02/17,8,37,88,VV-R06,Oats,Raw materials,R06,"",Oats,40250.000,KG
+.1~1056,1056,03,08,03/08,10,48,88,VV-R06,Oats,Raw materials,R06,"",Oats,46205.000,KG
+.1~792,792,02,16,02/16,8,36,88,VV-R06,Oats,Raw materials,R06,"",Oats,48650.000,KG
+.1~770,770,02,15,02/15,7,35,88,VV-R06,Oats,Raw materials,R06,"",Oats,51450.000,KG
+.1~1078,1078,03,09,03/09,10,49,88,VV-R06,Oats,Raw materials,R06,"",Oats,37805.000,KG
+.1~748,748,02,14,02/14,7,34,88,VV-R06,Oats,Raw materials,R06,"",Oats,51450.000,KG
+.1~1100,1100,03,10,03/10,10,50,88,VV-R06,Oats,Raw materials,R06,"",Oats,31605.000,KG
+.1~726,726,02,13,02/13,7,33,88,VV-R06,Oats,Raw materials,R06,"",Oats,52950.000,KG
+.1~1122,1122,03,11,03/11,11,51,88,VV-R06,Oats,Raw materials,R06,"",Oats,24405.000,KG
+.1~286,286,01,13,01/13,3,13,88,VV-R06,Oats,Raw materials,R06,"",Oats,55850.000,KG
+.1~1540,1540,04,10,04/10,14,70,88,VV-R06,Oats,Raw materials,R06,"",Oats,2805.000,KG
+.1~264,264,01,12,01/12,3,12,88,VV-R06,Oats,Raw materials,R06,"",Oats,59350.000,KG
+.1~242,242,01,11,01/11,3,11,88,VV-R06,Oats,Raw materials,R06,"",Oats,40000.000,KG
+.1~1562,1562,04,11,04/11,15,71,88,VV-R06,Oats,Raw materials,R06,"",Oats,5.000,KG
+.1~220,220,01,10,01/10,2,10,88,VV-R06,Oats,Raw materials,R06,"",Oats,51000.000,KG
+.1~1584,1584,04,12,04/12,15,72,88,VV-R06,Oats,Raw materials,R06,"",Oats,5.000,KG
+.1~198,198,01,09,01/09,2,9,88,VV-R06,Oats,Raw materials,R06,"",Oats,58700.000,KG
+.1~1606,1606,04,13,04/13,15,73,88,VV-R06,Oats,Raw materials,R06,"",Oats,5.000,KG
+.1~176,176,01,08,01/08,2,8,88,VV-R06,Oats,Raw materials,R06,"",Oats,63600.000,KG
+.1~1628,1628,04,14,04/14,15,74,88,VV-R06,Oats,Raw materials,R06,"",Oats,5.000,KG
+.1~154,154,01,07,01/07,2,7,88,VV-R06,Oats,Raw materials,R06,"",Oats,67450.000,KG
+.1~1650,1650,04,15,04/15,15,75,88,VV-R06,Oats,Raw materials,R06,"",Oats,5.000,KG
+.1~132,132,01,06,01/06,2,6,88,VV-R06,Oats,Raw materials,R06,"",Oats,39850.000,KG
+.1~1672,1672,04,16,04/16,16,76,88,VV-R06,Oats,Raw materials,R06,"",Oats,2805.000,KG
+.1~110,110,01,05,01/05,1,5,88,VV-R06,Oats,Raw materials,R06,"",Oats,45250.000,KG
+.1~1694,1694,04,17,04/17,16,77,88,VV-R06,Oats,Raw materials,R06,"",Oats,5.000,KG
+.1~88,88,01,04,01/04,1,4,88,VV-R06,Oats,Raw materials,R06,"",Oats,49800.000,KG
+.1~1320,1320,03,20,03/20,12,60,88,VV-R06,Oats,Raw materials,R06,"",Oats,5605.000,KG
+.1~484,484,02,02,02/02,5,22,88,VV-R06,Oats,Raw materials,R06,"",Oats,4200.000,KG
+.1~1342,1342,04,01,04/01,13,61,88,VV-R06,Oats,Raw materials,R06,"",Oats,5.000,KG
+.1~462,462,02,01,02/01,5,21,88,VV-R06,Oats,Raw materials,R06,"",Oats,10400.000,KG
+.1~1364,1364,04,02,04/02,13,62,88,VV-R06,Oats,Raw materials,R06,"",Oats,5.000,KG
+.1~440,440,01,20,01/20,4,20,88,VV-R06,Oats,Raw materials,R06,"",Oats,18800.000,KG
+.1~1386,1386,04,03,04/03,13,63,88,VV-R06,Oats,Raw materials,R06,"",Oats,5.000,KG
+.1~418,418,01,19,01/19,4,19,88,VV-R06,Oats,Raw materials,R06,"",Oats,23700.000,KG
+.1~1408,1408,04,04,04/04,13,64,88,VV-R06,Oats,Raw materials,R06,"",Oats,5.000,KG
+.1~396,396,01,18,01/18,4,18,88,VV-R06,Oats,Raw materials,R06,"",Oats,26950.000,KG
+.1~1430,1430,04,05,04/05,13,65,88,VV-R06,Oats,Raw materials,R06,"",Oats,5.000,KG
+.1~374,374,01,17,01/17,4,17,88,VV-R06,Oats,Raw materials,R06,"",Oats,29950.000,KG
+.1~1452,1452,04,06,04/06,14,66,88,VV-R06,Oats,Raw materials,R06,"",Oats,5.000,KG
+.1~352,352,01,16,01/16,4,16,88,VV-R06,Oats,Raw materials,R06,"",Oats,38350.000,KG
+.1~1474,1474,04,07,04/07,14,67,88,VV-R06,Oats,Raw materials,R06,"",Oats,5.000,KG
+.1~330,330,01,15,01/15,3,15,88,VV-R06,Oats,Raw materials,R06,"",Oats,45350.000,KG
+.1~1496,1496,04,08,04/08,14,68,88,VV-R06,Oats,Raw materials,R06,"",Oats,5.000,KG
+.1~308,308,01,14,01/14,3,14,88,VV-R06,Oats,Raw materials,R06,"",Oats,51650.000,KG
+.1~1518,1518,04,09,04/09,14,69,88,VV-R06,Oats,Raw materials,R06,"",Oats,2805.000,KG
+.1~130,130,01,06,01/06,2,6,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~812,812,02,17,02/17,8,37,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,2400.000,KG
+.1~790,790,02,16,02/16,8,36,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,9600.000,KG
+.1~152,152,01,07,01/07,2,7,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,15000.000,KG
+.1~680,680,02,11,02/11,7,31,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,1100.000,KG
+.1~1054,1054,03,08,03/08,10,48,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,14000.000,KG
+.1~1010,1010,03,06,03/06,10,46,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,15200.000,KG
+.1~724,724,02,13,02/13,7,33,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,10100.000,KG
+.1~746,746,02,14,02/14,7,34,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,9600.000,KG
+.1~196,196,01,09,01/09,2,9,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,15000.000,KG
+.1~1604,1604,04,13,04/13,15,73,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~1714,1714,04,18,04/18,16,78,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~1120,1120,03,11,03/11,11,51,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,1600.000,KG
+.1~20,20,01,01,01/01,1,1,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~1098,1098,03,10,03/10,10,50,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,4000.000,KG
+.1~834,834,02,18,02/18,8,38,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~1648,1648,04,15,04/15,15,75,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~768,768,02,15,02/15,7,35,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,9600.000,KG
+.1~218,218,01,10,01/10,2,10,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,15000.000,KG
+.1~174,174,01,08,01/08,2,8,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,15000.000,KG
+.1~1582,1582,04,12,04/12,15,72,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~1032,1032,03,07,03/07,10,47,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,15200.000,KG
+.1~1076,1076,03,09,03/09,10,49,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,6800.000,KG
+.1~702,702,02,12,02/12,7,32,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,10700.000,KG
+.1~1626,1626,04,14,04/14,15,74,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~1142,1142,03,12,03/12,11,52,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,800.000,KG
+.1~1494,1494,04,08,04/08,14,68,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~1274,1274,03,18,03/18,12,58,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,4800.000,KG
+.1~548,548,02,05,02/05,5,25,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~1296,1296,03,19,03/19,12,59,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,4800.000,KG
+.1~966,966,03,04,03/04,9,44,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,16700.000,KG
+.1~328,328,01,15,01/15,3,15,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,8700.000,KG
+.1~526,526,02,04,02/04,5,24,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~1472,1472,04,07,04/07,14,67,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~1318,1318,03,20,03/20,12,60,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~900,900,03,01,03/01,9,41,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,6300.000,KG
+.1~504,504,02,03,02/03,5,23,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~350,350,01,16,01/16,4,16,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,4500.000,KG
+.1~1692,1692,04,17,04/17,16,77,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~1340,1340,04,01,04/01,13,61,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~42,42,01,02,01/02,1,2,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~482,482,02,02,02/02,5,22,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,1400.000,KG
+.1~1450,1450,04,06,04/06,14,66,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~1780,1780,05,01,05/01,17,81,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~460,460,02,01,02/01,5,21,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,3000.000,KG
+.1~1362,1362,04,02,04/02,13,62,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~944,944,03,03,03/03,9,43,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,6300.000,KG
+.1~372,372,01,17,01/17,4,17,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,4500.000,KG
+.1~438,438,01,20,01/20,4,20,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,3000.000,KG
+.1~86,86,01,04,01/04,1,4,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~1428,1428,04,05,04/05,13,65,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~1384,1384,04,03,04/03,13,63,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~416,416,01,19,01/19,4,19,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,3000.000,KG
+.1~394,394,01,18,01/18,4,18,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,3500.000,KG
+.1~1736,1736,04,19,04/19,16,79,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~1406,1406,04,04,04/04,13,64,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~922,922,03,02,03/02,9,42,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,6300.000,KG
+.1~240,240,01,11,01/11,3,11,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,15000.000,KG
+.1~64,64,01,03,01/03,1,3,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~1560,1560,04,11,04/11,15,71,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~1164,1164,03,13,03/13,11,53,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,800.000,KG
+.1~856,856,02,19,02/19,8,39,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~658,658,02,10,02/10,6,30,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,1100.000,KG
+.1~1186,1186,03,14,03/14,11,54,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,10100.000,KG
+.1~262,262,01,12,01/12,3,12,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,18000.000,KG
+.1~1670,1670,04,16,04/16,16,76,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~1758,1758,04,20,04/20,16,80,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~1538,1538,04,10,04/10,14,70,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~988,988,03,05,03/05,9,45,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,15800.000,KG
+.1~636,636,02,09,02/09,6,29,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,1100.000,KG
+.1~1208,1208,03,15,03/15,11,55,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,9900.000,KG
+.1~306,306,01,14,01/14,3,14,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,14100.000,KG
+.1~570,570,02,06,02/06,6,26,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~108,108,01,05,01/05,1,5,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~1252,1252,03,17,03/17,12,57,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,6300.000,KG
+.1~592,592,02,07,02/07,6,27,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,1100.000,KG
+.1~878,878,02,20,02/20,8,40,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,6300.000,KG
+.1~1230,1230,03,16,03/16,12,56,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,8700.000,KG
+.1~1516,1516,04,09,04/09,14,69,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,0.000,KG
+.1~614,614,02,08,02/08,6,28,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,1100.000,KG
+.1~284,284,01,13,01/13,3,13,88,VV-R04,Raisins,Raw materials,R04,"",Raisins,17700.000,KG
+.1~1292,1292,03,19,03/19,12,59,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,0,ST
+.1~1622,1622,04,14,04/14,15,74,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,16000,ST
+.1~1776,1776,05,01,05/01,17,81,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,0,ST
+.1~962,962,03,04,03/04,9,44,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,58000,ST
+.1~1666,1666,04,16,04/16,16,76,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,16000,ST
+.1~632,632,02,09,02/09,6,29,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,98000,ST
+.1~236,236,01,11,01/11,3,11,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,90000,ST
+.1~544,544,02,05,02/05,5,25,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,36000,ST
+.1~1446,1446,04,06,04/06,14,66,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,0,ST
+.1~1490,1490,04,08,04/08,14,68,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,0,ST
+.1~852,852,02,19,02/19,8,39,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,0,ST
+.1~214,214,01,10,01/10,2,10,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,90000,ST
+.1~1072,1072,03,09,03/09,10,49,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,32000,ST
+.1~742,742,02,14,02/14,7,34,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,0,ST
+.1~1358,1358,04,02,04/02,13,62,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,0,ST
+.1~1050,1050,03,08,03/08,10,48,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,32000,ST
+.1~1160,1160,03,13,03/13,11,53,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,16000,ST
+.1~1270,1270,03,18,03/18,12,58,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,6000,ST
+.1~896,896,03,01,03/01,9,41,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,91000,ST
+.1~1006,1006,03,06,03/06,10,46,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,26000,ST
+.1~368,368,01,17,01/17,4,17,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,52000,ST
+.1~1688,1688,04,17,04/17,16,77,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,0,ST
+.1~566,566,02,06,02/06,6,26,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,114000,ST
+.1~1138,1138,03,12,03/12,11,52,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,20000,ST
+.1~874,874,02,20,02/20,8,40,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,91000,ST
+.1~346,346,01,16,01/16,4,16,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,52000,ST
+.1~1468,1468,04,07,04/07,14,67,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,0,ST
+.1~1578,1578,04,12,04/12,15,72,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,0,ST
+.1~412,412,01,19,01/19,4,19,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,12000,ST
+.1~1314,1314,03,20,03/20,12,60,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,0,ST
+.1~764,764,02,15,02/15,7,35,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,16000,ST
+.1~1336,1336,04,01,04/01,13,61,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,0,ST
+.1~16,16,01,01,01/01,1,1,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,0,ST
+.1~984,984,03,05,03/05,9,45,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,38000,ST
+.1~1732,1732,04,19,04/19,16,79,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,0,ST
+.1~698,698,02,12,02/12,7,32,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,30000,ST
+.1~522,522,02,04,02/04,5,24,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,56000,ST
+.1~104,104,01,05,01/05,1,5,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,46000,ST
+.1~126,126,01,06,01/06,2,6,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,30000,ST
+.1~1534,1534,04,10,04/10,14,70,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,16000,ST
+.1~38,38,01,02,01/02,1,2,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,0,ST
+.1~170,170,01,08,01/08,2,8,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,102000,ST
+.1~478,478,02,02,02/02,5,22,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,76000,ST
+.1~324,324,01,15,01/15,3,15,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,52000,ST
+.1~500,500,02,03,02/03,5,23,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,76000,ST
+.1~720,720,02,13,02/13,7,33,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,10000,ST
+.1~1402,1402,04,04,04/04,13,64,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,0,ST
+.1~1600,1600,04,13,04/13,15,73,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,0,ST
+.1~786,786,02,16,02/16,8,36,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,0,ST
+.1~192,192,01,09,01/09,2,9,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,90000,ST
+.1~588,588,02,07,02/07,6,27,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,102000,ST
+.1~1028,1028,03,07,03/07,10,47,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,48000,ST
+.1~918,918,03,02,03/02,9,42,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,91000,ST
+.1~1116,1116,03,11,03/11,11,51,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,32000,ST
+.1~1512,1512,04,09,04/09,14,69,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,0,ST
+.1~82,82,01,04,01/04,1,4,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,66000,ST
+.1~258,258,01,12,01/12,3,12,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,100000,ST
+.1~1380,1380,04,03,04/03,13,63,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,0,ST
+.1~610,610,02,08,02/08,6,28,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,102000,ST
+.1~1754,1754,04,20,04/20,16,80,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,0,ST
+.1~1182,1182,03,14,03/14,11,54,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,16000,ST
+.1~390,390,01,18,01/18,4,18,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,32000,ST
+.1~434,434,01,20,01/20,4,20,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,0,ST
+.1~1424,1424,04,05,04/05,13,65,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,0,ST
+.1~1644,1644,04,15,04/15,15,75,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,16000,ST
+.1~1226,1226,03,16,03/16,12,56,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,46000,ST
+.1~456,456,02,01,02/01,5,21,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,0,ST
+.1~1556,1556,04,11,04/11,15,71,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,0,ST
+.1~1094,1094,03,10,03/10,10,50,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,32000,ST
+.1~808,808,02,17,02/17,8,37,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,0,ST
+.1~654,654,02,10,02/10,6,30,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,74000,ST
+.1~1204,1204,03,15,03/15,11,55,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,70000,ST
+.1~148,148,01,07,01/07,2,7,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,120000,ST
+.1~1710,1710,04,18,04/18,16,78,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,0,ST
+.1~302,302,01,14,01/14,3,14,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,56000,ST
+.1~280,280,01,13,01/13,3,13,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,80000,ST
+.1~830,830,02,18,02/18,8,38,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,0,ST
+.1~676,676,02,11,02/11,7,31,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,50000,ST
+.1~60,60,01,03,01/03,1,3,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,90000,ST
+.1~1248,1248,03,17,03/17,12,57,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,26000,ST
+.1~940,940,03,03,03/03,9,43,88,VV-P04,Small Bag (500g),Raw materials,P04,500g,Small Bag,78000,ST
+.1~587,587,02,07,02/07,6,27,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,102000,ST
+.1~1027,1027,03,07,03/07,10,47,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,48000,ST
+.1~939,939,03,03,03/03,9,43,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,78000,ST
+.1~433,433,01,20,01/20,4,20,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,0,ST
+.1~1423,1423,04,05,04/05,13,65,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,0,ST
+.1~1709,1709,04,18,04/18,16,78,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,0,ST
+.1~1247,1247,03,17,03/17,12,57,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,26000,ST
+.1~829,829,02,18,02/18,8,38,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,0,ST
+.1~301,301,01,14,01/14,3,14,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,56000,ST
+.1~147,147,01,07,01/07,2,7,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,120000,ST
+.1~1379,1379,04,03,04/03,13,63,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,0,ST
+.1~1775,1775,05,01,05/01,17,81,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,0,ST
+.1~1511,1511,04,09,04/09,14,69,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,0,ST
+.1~1753,1753,04,20,04/20,16,80,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,0,ST
+.1~59,59,01,03,01/03,1,3,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,90000,ST
+.1~1225,1225,03,16,03/16,12,56,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,46000,ST
+.1~1643,1643,04,15,04/15,15,75,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,16000,ST
+.1~609,609,02,08,02/08,6,28,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,102000,ST
+.1~631,631,02,09,02/09,6,29,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,98000,ST
+.1~279,279,01,13,01/13,3,13,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,80000,ST
+.1~807,807,02,17,02/17,8,37,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,0,ST
+.1~1401,1401,04,04,04/04,13,64,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,0,ST
+.1~81,81,01,04,01/04,1,4,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,66000,ST
+.1~1049,1049,03,08,03/08,10,48,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,32000,ST
+.1~1203,1203,03,15,03/15,11,55,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,70000,ST
+.1~1533,1533,04,10,04/10,14,70,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,16000,ST
+.1~411,411,01,19,01/19,4,19,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,12000,ST
+.1~367,367,01,17,01/17,4,17,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,52000,ST
+.1~477,477,02,02,02/02,5,22,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,76000,ST
+.1~1335,1335,04,01,04/01,13,61,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,0,ST
+.1~895,895,03,01,03/01,9,41,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,91000,ST
+.1~1687,1687,04,17,04/17,16,77,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,0,ST
+.1~1445,1445,04,06,04/06,14,66,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,0,ST
+.1~961,961,03,04,03/04,9,44,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,58000,ST
+.1~499,499,02,03,02/03,5,23,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,76000,ST
+.1~345,345,01,16,01/16,4,16,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,52000,ST
+.1~1467,1467,04,07,04/07,14,67,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,0,ST
+.1~1731,1731,04,19,04/19,16,79,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,0,ST
+.1~873,873,02,20,02/20,8,40,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,91000,ST
+.1~1313,1313,03,20,03/20,12,60,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,0,ST
+.1~1357,1357,04,02,04/02,13,62,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,0,ST
+.1~983,983,03,05,03/05,9,45,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,38000,ST
+.1~125,125,01,06,01/06,2,6,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,30000,ST
+.1~521,521,02,04,02/04,5,24,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,56000,ST
+.1~37,37,01,02,01/02,1,2,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,0,ST
+.1~455,455,02,01,02/01,5,21,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,0,ST
+.1~323,323,01,15,01/15,3,15,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,52000,ST
+.1~1291,1291,03,19,03/19,12,59,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,0,ST
+.1~103,103,01,05,01/05,1,5,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,46000,ST
+.1~1665,1665,04,16,04/16,16,76,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,16000,ST
+.1~543,543,02,05,02/05,5,25,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,36000,ST
+.1~1489,1489,04,08,04/08,14,68,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,0,ST
+.1~851,851,02,19,02/19,8,39,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,0,ST
+.1~917,917,03,02,03/02,9,42,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,91000,ST
+.1~389,389,01,18,01/18,4,18,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,32000,ST
+.1~1005,1005,03,06,03/06,10,46,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,26000,ST
+.1~1269,1269,03,18,03/18,12,58,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,6000,ST
+.1~565,565,02,06,02/06,6,26,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,114000,ST
+.1~1599,1599,04,13,04/13,15,73,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,0,ST
+.1~1181,1181,03,14,03/14,11,54,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,16000,ST
+.1~1115,1115,03,11,03/11,11,51,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,32000,ST
+.1~257,257,01,12,01/12,3,12,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,100000,ST
+.1~785,785,02,16,02/16,8,36,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,0,ST
+.1~15,15,01,01,01/01,1,1,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,0,ST
+.1~675,675,02,11,02/11,7,31,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,50000,ST
+.1~191,191,01,09,01/09,2,9,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,90000,ST
+.1~1071,1071,03,09,03/09,10,49,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,32000,ST
+.1~1555,1555,04,11,04/11,15,71,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,0,ST
+.1~1159,1159,03,13,03/13,11,53,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,16000,ST
+.1~213,213,01,10,01/10,2,10,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,90000,ST
+.1~235,235,01,11,01/11,3,11,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,90000,ST
+.1~719,719,02,13,02/13,7,33,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,10000,ST
+.1~1621,1621,04,14,04/14,15,74,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,16000,ST
+.1~697,697,02,12,02/12,7,32,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,30000,ST
+.1~1093,1093,03,10,03/10,10,50,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,32000,ST
+.1~763,763,02,15,02/15,7,35,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,16000,ST
+.1~1577,1577,04,12,04/12,15,72,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,0,ST
+.1~1137,1137,03,12,03/12,11,52,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,20000,ST
+.1~741,741,02,14,02/14,7,34,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,0,ST
+.1~653,653,02,10,02/10,6,30,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,74000,ST
+.1~169,169,01,08,01/08,2,8,88,VV-P03,Small Box (500g),Raw materials,P03,500g,Small Box,102000,ST
+.1~1273,1273,03,18,03/18,12,58,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,0.000,KG
+.1~569,569,02,06,02/06,6,26,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,16200.000,KG
+.1~833,833,02,18,02/18,8,38,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,4800.000,KG
+.1~1251,1251,03,17,03/17,12,57,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,0.000,KG
+.1~591,591,02,07,02/07,6,27,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,15500.000,KG
+.1~1119,1119,03,11,03/11,11,51,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,6400.000,KG
+.1~107,107,01,05,01/05,1,5,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,13500.000,KG
+.1~723,723,02,13,02/13,7,33,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,5300.000,KG
+.1~1515,1515,04,09,04/09,14,69,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,2400.000,KG
+.1~305,305,01,14,01/14,3,14,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,4500.000,KG
+.1~239,239,01,11,01/11,3,11,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,1500.000,KG
+.1~679,679,02,11,02/11,7,31,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,3500.000,KG
+.1~1559,1559,04,11,04/11,15,71,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,0.000,KG
+.1~1163,1163,03,13,03/13,11,53,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,800.000,KG
+.1~1009,1009,03,06,03/06,10,46,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,14300.000,KG
+.1~855,855,02,19,02/19,8,39,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,4800.000,KG
+.1~63,63,01,03,01/03,1,3,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,13500.000,KG
+.1~129,129,01,06,01/06,2,6,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,13500.000,KG
+.1~657,657,02,10,02/10,6,30,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,3500.000,KG
+.1~1185,1185,03,14,03/14,11,54,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,1700.000,KG
+.1~261,261,01,12,01/12,3,12,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,4500.000,KG
+.1~1141,1141,03,12,03/12,11,52,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,5600.000,KG
+.1~1669,1669,04,16,04/16,16,76,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,0.000,KG
+.1~701,701,02,12,02/12,7,32,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,7100.000,KG
+.1~1713,1713,04,18,04/18,16,78,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,0.000,KG
+.1~1537,1537,04,10,04/10,14,70,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,2400.000,KG
+.1~1757,1757,04,20,04/20,16,80,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,0.000,KG
+.1~1581,1581,04,12,04/12,15,72,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,0.000,KG
+.1~635,635,02,09,02/09,6,29,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,3500.000,KG
+.1~1207,1207,03,15,03/15,11,55,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,1500.000,KG
+.1~987,987,03,05,03/05,9,45,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,14900.000,KG
+.1~217,217,01,10,01/10,2,10,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,1500.000,KG
+.1~613,613,02,08,02/08,6,28,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,8300.000,KG
+.1~283,283,01,13,01/13,3,13,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,4500.000,KG
+.1~1229,1229,03,16,03/16,12,56,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,300.000,KG
+.1~877,877,02,20,02/20,8,40,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,7800.000,KG
+.1~41,41,01,02,01/02,1,2,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,0.000,KG
+.1~1691,1691,04,17,04/17,16,77,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,0.000,KG
+.1~349,349,01,16,01/16,4,16,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,4500.000,KG
+.1~85,85,01,04,01/04,1,4,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,13500.000,KG
+.1~1339,1339,04,01,04/01,13,61,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,0.000,KG
+.1~767,767,02,15,02/15,7,35,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,4800.000,KG
+.1~811,811,02,17,02/17,8,37,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,4800.000,KG
+.1~1647,1647,04,15,04/15,15,75,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,0.000,KG
+.1~481,481,02,02,02/02,5,22,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,1400.000,KG
+.1~1383,1383,04,03,04/03,13,63,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,0.000,KG
+.1~173,173,01,08,01/08,2,8,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,12300.000,KG
+.1~1449,1449,04,06,04/06,14,66,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,0.000,KG
+.1~1031,1031,03,07,03/07,10,47,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,12800.000,KG
+.1~1427,1427,04,05,04/05,13,65,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,0.000,KG
+.1~1361,1361,04,02,04/02,13,62,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,0.000,KG
+.1~1075,1075,03,09,03/09,10,49,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,10400.000,KG
+.1~371,371,01,17,01/17,4,17,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,4500.000,KG
+.1~1625,1625,04,14,04/14,15,74,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,0.000,KG
+.1~943,943,03,03,03/03,9,43,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,5400.000,KG
+.1~459,459,02,01,02/01,5,21,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,3000.000,KG
+.1~1735,1735,04,19,04/19,16,79,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,0.000,KG
+.1~437,437,01,20,01/20,4,20,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,3000.000,KG
+.1~789,789,02,16,02/16,8,36,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,4800.000,KG
+.1~1493,1493,04,08,04/08,14,68,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,0.000,KG
+.1~19,19,01,01,01/01,1,1,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,0.000,KG
+.1~1779,1779,05,01,05/01,17,81,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,0.000,KG
+.1~745,745,02,14,02/14,7,34,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,4800.000,KG
+.1~547,547,02,05,02/05,5,25,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,19800.000,KG
+.1~1295,1295,03,19,03/19,12,59,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,0.000,KG
+.1~151,151,01,07,01/07,2,7,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,15000.000,KG
+.1~1405,1405,04,04,04/04,13,64,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,0.000,KG
+.1~1603,1603,04,13,04/13,15,73,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,0.000,KG
+.1~965,965,03,04,03/04,9,44,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,15800.000,KG
+.1~327,327,01,15,01/15,3,15,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,4500.000,KG
+.1~921,921,03,02,03/02,9,42,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,5400.000,KG
+.1~503,503,02,03,02/03,5,23,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,21600.000,KG
+.1~1097,1097,03,10,03/10,10,50,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,8800.000,KG
+.1~415,415,01,19,01/19,4,19,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,3000.000,KG
+.1~899,899,03,01,03/01,9,41,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,5400.000,KG
+.1~195,195,01,09,01/09,2,9,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,8100.000,KG
+.1~393,393,01,18,01/18,4,18,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,3500.000,KG
+.1~1471,1471,04,07,04/07,14,67,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,0.000,KG
+.1~1317,1317,03,20,03/20,12,60,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,0.000,KG
+.1~525,525,02,04,02/04,5,24,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,21600.000,KG
+.1~1053,1053,03,08,03/08,10,48,88,VV-R03,Strawberries,Raw materials,R03,"",Strawberries,10400.000,KG
+.1~923,923,03,02,03/02,9,42,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,29530.000,KG
+.1~835,835,02,18,02/18,8,38,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,33250.000,KG
+.1~1011,1011,03,06,03/06,10,46,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,55655.000,KG
+.1~967,967,03,04,03/04,9,44,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,63305.000,KG
+.1~109,109,01,05,01/05,1,5,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,45250.000,KG
+.1~857,857,02,19,02/19,8,39,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,24850.000,KG
+.1~989,989,03,05,03/05,9,45,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,60255.000,KG
+.1~1693,1693,04,17,04/17,16,77,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,5.000,KG
+.1~131,131,01,06,01/06,2,6,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,39850.000,KG
+.1~813,813,02,17,02/17,8,37,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,40250.000,KG
+.1~1033,1033,03,07,03/07,10,47,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,50405.000,KG
+.1~87,87,01,04,01/04,1,4,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,49800.000,KG
+.1~879,879,02,20,02/20,8,40,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,44930.000,KG
+.1~945,945,03,03,03/03,9,43,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,24805.000,KG
+.1~1649,1649,04,15,04/15,15,75,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,5.000,KG
+.1~901,901,03,01,03/01,9,41,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,37930.000,KG
+.1~1781,1781,05,01,05/01,17,81,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,5.000,KG
+.1~1671,1671,04,16,04/16,16,76,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,2805.000,KG
+.1~1209,1209,03,15,03/15,11,55,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,28305.000,KG
+.1~615,615,02,08,02/08,6,28,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,22900.000,KG
+.1~285,285,01,13,01/13,3,13,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,55850.000,KG
+.1~1517,1517,04,09,04/09,14,69,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,2805.000,KG
+.1~1231,1231,03,16,03/16,12,56,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,24705.000,KG
+.1~593,593,02,07,02/07,6,27,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,31300.000,KG
+.1~1253,1253,03,17,03/17,12,57,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,21355.000,KG
+.1~571,571,02,06,02/06,6,26,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,18900.000,KG
+.1~307,307,01,14,01/14,3,14,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,51650.000,KG
+.1~1495,1495,04,08,04/08,14,68,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,5.000,KG
+.1~1275,1275,03,18,03/18,12,58,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,17855.000,KG
+.1~549,549,02,05,02/05,5,25,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,23100.000,KG
+.1~1297,1297,03,19,03/19,12,59,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,11905.000,KG
+.1~527,527,02,04,02/04,5,24,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,26600.000,KG
+.1~329,329,01,15,01/15,3,15,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,45350.000,KG
+.1~1473,1473,04,07,04/07,14,67,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,5.000,KG
+.1~1737,1737,04,19,04/19,16,79,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,5.000,KG
+.1~1407,1407,04,04,04/04,13,64,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,5.000,KG
+.1~395,395,01,18,01/18,4,18,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,26950.000,KG
+.1~417,417,01,19,01/19,4,19,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,23700.000,KG
+.1~1385,1385,04,03,04/03,13,63,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,5.000,KG
+.1~1429,1429,04,05,04/05,13,65,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,5.000,KG
+.1~439,439,01,20,01/20,4,20,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,18800.000,KG
+.1~373,373,01,17,01/17,4,17,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,29950.000,KG
+.1~1363,1363,04,02,04/02,13,62,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,5.000,KG
+.1~461,461,02,01,02/01,5,21,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,10400.000,KG
+.1~43,43,01,02,01/02,1,2,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,0.000,KG
+.1~1451,1451,04,06,04/06,14,66,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,5.000,KG
+.1~1341,1341,04,01,04/01,13,61,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,5.000,KG
+.1~351,351,01,16,01/16,4,16,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,38350.000,KG
+.1~483,483,02,02,02/02,5,22,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,4200.000,KG
+.1~505,505,02,03,02/03,5,23,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,30100.000,KG
+.1~1319,1319,03,20,03/20,12,60,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,5605.000,KG
+.1~153,153,01,07,01/07,2,7,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,67450.000,KG
+.1~1715,1715,04,18,04/18,16,78,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,5.000,KG
+.1~1055,1055,03,08,03/08,10,48,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,46205.000,KG
+.1~791,791,02,16,02/16,8,36,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,48650.000,KG
+.1~1627,1627,04,14,04/14,15,74,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,5.000,KG
+.1~1077,1077,03,09,03/09,10,49,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,37805.000,KG
+.1~769,769,02,15,02/15,7,35,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,51450.000,KG
+.1~175,175,01,08,01/08,2,8,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,63600.000,KG
+.1~747,747,02,14,02/14,7,34,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,51450.000,KG
+.1~1099,1099,03,10,03/10,10,50,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,31605.000,KG
+.1~1605,1605,04,13,04/13,15,73,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,5.000,KG
+.1~725,725,02,13,02/13,7,33,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,52950.000,KG
+.1~197,197,01,09,01/09,2,9,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,58700.000,KG
+.1~1121,1121,03,11,03/11,11,51,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,24405.000,KG
+.1~21,21,01,01,01/01,1,1,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,0.000,KG
+.1~1583,1583,04,12,04/12,15,72,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,5.000,KG
+.1~703,703,02,12,02/12,7,32,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,56150.000,KG
+.1~219,219,01,10,01/10,2,10,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,51000.000,KG
+.1~65,65,01,03,01/03,1,3,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,54000.000,KG
+.1~1143,1143,03,12,03/12,11,52,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,19905.000,KG
+.1~637,637,02,09,02/09,6,29,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,16600.000,KG
+.1~681,681,02,11,02/11,7,31,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,8200.000,KG
+.1~241,241,01,11,01/11,3,11,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,40000.000,KG
+.1~1561,1561,04,11,04/11,15,71,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,5.000,KG
+.1~1165,1165,03,13,03/13,11,53,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,13605.000,KG
+.1~1539,1539,04,10,04/10,14,70,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,2805.000,KG
+.1~1187,1187,03,14,03/14,11,54,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,34505.000,KG
+.1~1759,1759,04,20,04/20,16,80,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,5.000,KG
+.1~659,659,02,10,02/10,6,30,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,12400.000,KG
+.1~263,263,01,12,01/12,3,12,88,VV-R05,Wheat,Raw materials,R05,"",Wheat,59350.000,KG
+.1~958,958,03,04,03/04,9,44,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~936,936,03,03,03/03,9,43,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~1772,1772,05,01,05/01,17,81,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~1508,1508,04,09,04/09,14,69,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,92,ST
+.1~1662,1662,04,16,04/16,16,76,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~1178,1178,03,14,03/14,11,54,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,37720,ST
+.1~1200,1200,03,15,03/15,11,55,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,35798,ST
+.1~1640,1640,04,15,04/15,15,75,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~1222,1222,03,16,03/16,12,56,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,32356,ST
+.1~1398,1398,04,04,04/04,13,64,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,13098,ST
+.1~1552,1552,04,11,04/11,15,71,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,92,ST
+.1~1244,1244,03,17,03/17,12,57,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,29745,ST
+.1~1618,1618,04,14,04/14,15,74,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,92,ST
+.1~1266,1266,03,18,03/18,12,58,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,27274,ST
+.1~1376,1376,04,03,04/03,13,63,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,13813,ST
+.1~1288,1288,03,19,03/19,12,59,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,24144,ST
+.1~1596,1596,04,13,04/13,15,73,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,92,ST
+.1~1310,1310,03,20,03/20,12,60,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,20695,ST
+.1~1332,1332,04,01,04/01,13,61,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,17262,ST
+.1~1354,1354,04,02,04/02,13,62,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,15224,ST
+.1~1574,1574,04,12,04/12,15,72,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,92,ST
+.1~980,980,03,05,03/05,9,45,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~1486,1486,04,08,04/08,14,68,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,2924,ST
+.1~1750,1750,04,20,04/20,16,80,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~1002,1002,03,06,03/06,10,46,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~1024,1024,03,07,03/07,10,47,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~1728,1728,04,19,04/19,16,79,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~1046,1046,03,08,03/08,10,48,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~1464,1464,04,07,04/07,14,67,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,6931,ST
+.1~1530,1530,04,10,04/10,14,70,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,92,ST
+.1~1068,1068,03,09,03/09,10,49,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~1706,1706,04,18,04/18,16,78,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~1090,1090,03,10,03/10,10,50,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,16000,ST
+.1~1442,1442,04,06,04/06,14,66,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,8698,ST
+.1~1112,1112,03,11,03/11,11,51,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,37851,ST
+.1~1684,1684,04,17,04/17,16,77,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~1134,1134,03,12,03/12,11,52,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,44337,ST
+.1~1156,1156,03,13,03/13,11,53,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,41613,ST
+.1~1420,1420,04,05,04/05,13,65,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,10816,ST
+.1~78,78,01,04,01/04,1,4,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~474,474,02,02,02/02,5,22,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,16000,ST
+.1~628,628,02,09,02/09,6,29,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,3620,ST
+.1~210,210,01,10,01/10,2,10,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~364,364,01,17,01/17,4,17,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~12,12,01,01,01/01,1,1,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~826,826,02,18,02/18,8,38,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~892,892,03,01,03/01,9,41,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~496,496,02,03,02/03,5,23,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,26369,ST
+.1~298,298,01,14,01/14,3,14,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~122,122,01,06,01/06,2,6,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~34,34,01,02,01/02,1,2,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~606,606,02,08,02/08,6,28,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,7181,ST
+.1~694,694,02,12,02/12,7,32,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~716,716,02,13,02/13,7,33,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~518,518,02,04,02/04,5,24,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,23069,ST
+.1~342,342,01,16,01/16,4,16,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~760,760,02,15,02/15,7,35,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~584,584,02,07,02/07,6,27,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,11693,ST
+.1~870,870,02,20,02/20,8,40,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~540,540,02,05,02/05,5,25,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,20804,ST
+.1~848,848,02,19,02/19,8,39,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~232,232,01,11,01/11,3,11,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~562,562,02,06,02/06,6,26,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,17001,ST
+.1~320,320,01,15,01/15,3,15,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~144,144,01,07,01/07,2,7,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~188,188,01,09,01/09,2,9,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~650,650,02,10,02/10,6,30,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~100,100,01,05,01/05,1,5,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~804,804,02,17,02/17,8,37,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~672,672,02,11,02/11,7,31,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~386,386,01,18,01/18,4,18,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~430,430,01,20,01/20,4,20,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~276,276,01,13,01/13,3,13,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~254,254,01,12,01/12,3,12,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~166,166,01,08,01/08,2,8,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~782,782,02,16,02/16,8,36,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~452,452,02,01,02/01,5,21,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~56,56,01,03,01/03,1,3,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~914,914,03,02,03/02,9,42,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~738,738,02,14,02/14,7,34,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~408,408,01,19,01/19,4,19,02,VV-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,0,ST
+.1~1063,1063,03,09,03/09,10,49,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,43885,ST
+.1~1459,1459,04,07,04/07,14,67,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,30896,ST
+.1~1723,1723,04,19,04/19,16,79,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,0,ST
+.1~1239,1239,03,17,03/17,12,57,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,44299,ST
+.1~161,161,01,08,01/08,2,8,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,16350,ST
+.1~777,777,02,16,02/16,8,36,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,1081,ST
+.1~73,73,01,04,01/04,1,4,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,0,ST
+.1~579,579,02,07,02/07,6,27,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,22913,ST
+.1~425,425,01,20,01/20,4,20,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,8000,ST
+.1~1635,1635,04,15,04/15,15,75,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,5334,ST
+.1~799,799,02,17,02/17,8,37,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,0,ST
+.1~1393,1393,04,04,04/04,13,64,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,42051,ST
+.1~1261,1261,03,18,03/18,12,58,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,42360,ST
+.1~1041,1041,03,08,03/08,10,48,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,46144,ST
+.1~953,953,03,04,03/04,9,44,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,37317,ST
+.1~557,557,02,06,02/06,6,26,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,24215,ST
+.1~51,51,01,03,01/03,1,3,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,0,ST
+.1~821,821,02,18,02/18,8,38,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,0,ST
+.1~1569,1569,04,12,04/12,15,72,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,13954,ST
+.1~183,183,01,09,01/09,2,9,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,9547,ST
+.1~931,931,03,03,03/03,9,43,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,38942,ST
+.1~1283,1283,03,19,03/19,12,59,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,54771,ST
+.1~1547,1547,04,11,04/11,15,71,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,18010,ST
+.1~689,689,02,12,02/12,7,32,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,12009,ST
+.1~117,117,01,06,01/06,2,6,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,4000,ST
+.1~1151,1151,03,13,03/13,11,53,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,36425,ST
+.1~381,381,01,18,01/18,4,18,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,0,ST
+.1~1679,1679,04,17,04/17,16,77,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,0,ST
+.1~667,667,02,11,02/11,7,31,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,14214,ST
+.1~711,711,02,13,02/13,7,33,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,8774,ST
+.1~1503,1503,04,09,04/09,14,69,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,24639,ST
+.1~1173,1173,03,14,03/14,11,54,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,34117,ST
+.1~1129,1129,03,12,03/12,11,52,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,37563,ST
+.1~1437,1437,04,06,04/06,14,66,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,36829,ST
+.1~1657,1657,04,16,04/16,16,76,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,1736,ST
+.1~1415,1415,04,05,04/05,13,65,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,38754,ST
+.1~909,909,03,02,03/02,9,42,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,33749,ST
+.1~95,95,01,05,01/05,1,5,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,0,ST
+.1~645,645,02,10,02/10,6,30,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,18328,ST
+.1~733,733,02,14,02/14,7,34,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,5584,ST
+.1~139,139,01,07,01/07,2,7,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,24000,ST
+.1~403,403,01,19,01/19,4,19,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,0,ST
+.1~1195,1195,03,15,03/15,11,55,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,46733,ST
+.1~1107,1107,03,11,03/11,11,51,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,39967,ST
+.1~271,271,01,13,01/13,3,13,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,0,ST
+.1~1701,1701,04,18,04/18,16,78,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,0,ST
+.1~623,623,02,09,02/09,6,29,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,20041,ST
+.1~755,755,02,15,02/15,7,35,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,3541,ST
+.1~249,249,01,12,01/12,3,12,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,265,ST
+.1~1217,1217,03,16,03/16,12,56,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,44947,ST
+.1~1085,1085,03,10,03/10,10,50,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,41489,ST
+.1~359,359,01,17,01/17,4,17,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,0,ST
+.1~601,601,02,08,02/08,6,28,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,21800,ST
+.1~887,887,03,01,03/01,9,41,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,12000,ST
+.1~1613,1613,04,14,04/14,15,74,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,7611,ST
+.1~1327,1327,04,01,04/01,13,61,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,50461,ST
+.1~1349,1349,04,02,04/02,13,62,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,47851,ST
+.1~1745,1745,04,20,04/20,16,80,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,0,ST
+.1~293,293,01,14,01/14,3,14,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,0,ST
+.1~447,447,02,01,02/01,5,21,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,28430,ST
+.1~1481,1481,04,08,04/08,14,68,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,27104,ST
+.1~227,227,01,11,01/11,3,11,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,2424,ST
+.1~1591,1591,04,13,04/13,15,73,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,10741,ST
+.1~1305,1305,03,20,03/20,12,60,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,53871,ST
+.1~513,513,02,04,02/04,5,24,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,26383,ST
+.1~315,315,01,15,01/15,3,15,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,0,ST
+.1~843,843,02,19,02/19,8,39,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,0,ST
+.1~975,975,03,05,03/05,9,45,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,36078,ST
+.1~29,29,01,02,01/02,1,2,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,0,ST
+.1~491,491,02,03,02/03,5,23,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,28076,ST
+.1~7,7,01,01,01/01,1,1,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,0,ST
+.1~1767,1767,05,01,05/01,17,81,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,0,ST
+.1~865,865,02,20,02/20,8,40,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,0,ST
+.1~205,205,01,10,01/10,2,10,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,4694,ST
+.1~1019,1019,03,07,03/07,10,47,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,48671,ST
+.1~469,469,02,02,02/02,5,22,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,28585,ST
+.1~997,997,03,06,03/06,10,46,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,41114,ST
+.1~1371,1371,04,03,04/03,13,63,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,45386,ST
+.1~535,535,02,05,02/05,5,25,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,25291,ST
+.1~337,337,01,16,01/16,4,16,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,0,ST
+.1~1525,1525,04,10,04/10,14,70,02,VV-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,20031,ST
+.1~187,187,01,09,01/09,2,9,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~473,473,02,02,02/02,5,22,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,19178,ST
+.1~1353,1353,04,02,04/02,13,62,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~891,891,03,01,03/01,9,41,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~1573,1573,04,12,04/12,15,72,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~33,33,01,02,01/02,1,2,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~1749,1749,04,20,04/20,16,80,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~1485,1485,04,08,04/08,14,68,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~957,957,03,04,03/04,9,44,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~451,451,02,01,02/01,5,21,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,19469,ST
+.1~1595,1595,04,13,04/13,15,73,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~869,869,02,20,02/20,8,40,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~495,495,02,03,02/03,5,23,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,18814,ST
+.1~1001,1001,03,06,03/06,10,46,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~979,979,03,05,03/05,9,45,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~517,517,02,04,02/04,5,24,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,17831,ST
+.1~847,847,02,19,02/19,8,39,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~319,319,01,15,01/15,3,15,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,25172,ST
+.1~1309,1309,03,20,03/20,12,60,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~209,209,01,10,01/10,2,10,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~1331,1331,04,01,04/01,13,61,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~231,231,01,11,01/11,3,11,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,22000,ST
+.1~1507,1507,04,09,04/09,14,69,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~759,759,02,15,02/15,7,35,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,1443,ST
+.1~1639,1639,04,15,04/15,15,75,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~407,407,01,19,01/19,4,19,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,22419,ST
+.1~1705,1705,04,18,04/18,16,78,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~1089,1089,03,10,03/10,10,50,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~297,297,01,14,01/14,3,14,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,26934,ST
+.1~363,363,01,17,01/17,4,17,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,23789,ST
+.1~627,627,02,09,02/09,6,29,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,12404,ST
+.1~143,143,01,07,01/07,2,7,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~1199,1199,03,15,03/15,11,55,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~737,737,02,14,02/14,7,34,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,3788,ST
+.1~1441,1441,04,06,04/06,14,66,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~253,253,01,12,01/12,3,12,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,28977,ST
+.1~1111,1111,03,11,03/11,11,51,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~649,649,02,10,02/10,6,30,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,10338,ST
+.1~1551,1551,04,11,04/11,15,71,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~99,99,01,05,01/05,1,5,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~11,11,01,01,01/01,1,1,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~1177,1177,03,14,03/14,11,54,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~715,715,02,13,02/13,7,33,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,4074,ST
+.1~1661,1661,04,16,04/16,16,76,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~1683,1683,04,17,04/17,16,77,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~671,671,02,11,02/11,7,31,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,8947,ST
+.1~1419,1419,04,05,04/05,13,65,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~1133,1133,03,12,03/12,11,52,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~913,913,03,02,03/02,9,42,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~121,121,01,06,01/06,2,6,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~1155,1155,03,13,03/13,11,53,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~693,693,02,12,02/12,7,32,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,6766,ST
+.1~385,385,01,18,01/18,4,18,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,22787,ST
+.1~539,539,02,05,02/05,5,25,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,16868,ST
+.1~1287,1287,03,19,03/19,12,59,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~1023,1023,03,07,03/07,10,47,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~825,825,02,18,02/18,8,38,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~1375,1375,04,03,04/03,13,63,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~341,341,01,16,01/16,4,16,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,24502,ST
+.1~55,55,01,03,01/03,1,3,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~561,561,02,06,02/06,6,26,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,16212,ST
+.1~1727,1727,04,19,04/19,16,79,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~1617,1617,04,14,04/14,15,74,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~1265,1265,03,18,03/18,12,58,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~1045,1045,03,08,03/08,10,48,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~803,803,02,17,02/17,8,37,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~429,429,01,20,01/20,4,20,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,21098,ST
+.1~1529,1529,04,10,04/10,14,70,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~1221,1221,03,16,03/16,12,56,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~605,605,02,08,02/08,6,28,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,14466,ST
+.1~77,77,01,04,01/04,1,4,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~1771,1771,05,01,05/01,17,81,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~1397,1397,04,04,04/04,13,64,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~275,275,01,13,01/13,3,13,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,27613,ST
+.1~935,935,03,03,03/03,9,43,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~781,781,02,16,02/16,8,36,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,107,ST
+.1~1067,1067,03,09,03/09,10,49,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~1243,1243,03,17,03/17,12,57,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~583,583,02,07,02/07,6,27,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,15184,ST
+.1~1463,1463,04,07,04/07,14,67,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~165,165,01,08,01/08,2,8,02,VV-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,0,ST
+.1~1066,1066,03,09,03/09,10,49,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,33795,ST
+.1~1594,1594,04,13,04/13,15,73,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,4454,ST
+.1~1286,1286,03,19,03/19,12,59,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,19961,ST
+.1~1022,1022,03,07,03/07,10,47,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,9968,ST
+.1~1242,1242,03,17,03/17,12,57,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,25516,ST
+.1~780,780,02,16,02/16,8,36,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,0,ST
+.1~1374,1374,04,03,04/03,13,63,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,27924,ST
+.1~538,538,02,05,02/05,5,25,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,970,ST
+.1~1396,1396,04,04,04/04,13,64,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,25335,ST
+.1~1770,1770,05,01,05/01,17,81,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,0,ST
+.1~274,274,01,13,01/13,3,13,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,0,ST
+.1~1484,1484,04,08,04/08,14,68,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,17642,ST
+.1~1748,1748,04,20,04/20,16,80,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,0,ST
+.1~604,604,02,08,02/08,6,28,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,0,ST
+.1~76,76,01,04,01/04,1,4,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,0,ST
+.1~230,230,01,11,01/11,3,11,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,0,ST
+.1~1528,1528,04,10,04/10,14,70,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,11044,ST
+.1~1308,1308,03,20,03/20,12,60,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,33774,ST
+.1~54,54,01,03,01/03,1,3,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,0,ST
+.1~1264,1264,03,18,03/18,12,58,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,22538,ST
+.1~560,560,02,06,02/06,6,26,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,40,ST
+.1~1044,1044,03,08,03/08,10,48,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,12086,ST
+.1~296,296,01,14,01/14,3,14,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,0,ST
+.1~846,846,02,19,02/19,8,39,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,22354,ST
+.1~802,802,02,17,02/17,8,37,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,24000,ST
+.1~1616,1616,04,14,04/14,15,74,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,3482,ST
+.1~428,428,01,20,01/20,4,20,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,10117,ST
+.1~1572,1572,04,12,04/12,15,72,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,5343,ST
+.1~340,340,01,16,01/16,4,16,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,23058,ST
+.1~1726,1726,04,19,04/19,16,79,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,0,ST
+.1~516,516,02,04,02/04,5,24,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,2939,ST
+.1~582,582,02,07,02/07,6,27,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,0,ST
+.1~824,824,02,18,02/18,8,38,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,25682,ST
+.1~186,186,01,09,01/09,2,9,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,0,ST
+.1~1462,1462,04,07,04/07,14,67,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,18362,ST
+.1~164,164,01,08,01/08,2,8,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,0,ST
+.1~934,934,03,03,03/03,9,43,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,15799,ST
+.1~1000,1000,03,06,03/06,10,46,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,12216,ST
+.1~142,142,01,07,01/07,2,7,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,0,ST
+.1~10,10,01,01,01/01,1,1,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,0,ST
+.1~890,890,03,01,03/01,9,41,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,17568,ST
+.1~978,978,03,05,03/05,9,45,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,13239,ST
+.1~736,736,02,14,02/14,7,34,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,0,ST
+.1~1198,1198,03,15,03/15,11,55,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,28654,ST
+.1~252,252,01,12,01/12,3,12,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,0,ST
+.1~1440,1440,04,06,04/06,14,66,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,19435,ST
+.1~648,648,02,10,02/10,6,30,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,0,ST
+.1~472,472,02,02,02/02,5,22,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,7505,ST
+.1~1110,1110,03,11,03/11,11,51,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,34848,ST
+.1~208,208,01,10,01/10,2,10,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,0,ST
+.1~1132,1132,03,12,03/12,11,52,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,32951,ST
+.1~318,318,01,15,01/15,3,15,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,16000,ST
+.1~98,98,01,05,01/05,1,5,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,0,ST
+.1~1682,1682,04,17,04/17,16,77,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,0,ST
+.1~1176,1176,03,14,03/14,11,54,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,29573,ST
+.1~1506,1506,04,09,04/09,14,69,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,15058,ST
+.1~714,714,02,13,02/13,7,33,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,0,ST
+.1~1660,1660,04,16,04/16,16,76,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,659,ST
+.1~670,670,02,11,02/11,7,31,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,0,ST
+.1~1418,1418,04,05,04/05,13,65,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,22328,ST
+.1~956,956,03,04,03/04,9,44,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,14519,ST
+.1~1154,1154,03,13,03/13,11,53,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,31346,ST
+.1~32,32,01,02,01/02,1,2,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,0,ST
+.1~1638,1638,04,15,04/15,15,75,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,2361,ST
+.1~692,692,02,12,02/12,7,32,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,0,ST
+.1~1220,1220,03,16,03/16,12,56,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,26971,ST
+.1~1088,1088,03,10,03/10,10,50,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,36535,ST
+.1~1352,1352,04,02,04/02,13,62,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,29986,ST
+.1~758,758,02,15,02/15,7,35,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,0,ST
+.1~450,450,02,01,02/01,5,21,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,9128,ST
+.1~384,384,01,18,01/18,4,18,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,15404,ST
+.1~406,406,01,19,01/19,4,19,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,13247,ST
+.1~1704,1704,04,18,04/18,16,78,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,0,ST
+.1~912,912,03,02,03/02,9,42,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,16275,ST
+.1~868,868,02,20,02/20,8,40,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,20592,ST
+.1~120,120,01,06,01/06,2,6,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,0,ST
+.1~626,626,02,09,02/09,6,29,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,0,ST
+.1~362,362,01,17,01/17,4,17,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,20155,ST
+.1~1330,1330,04,01,04/01,13,61,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,31424,ST
+.1~494,494,02,03,02/03,5,23,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,5796,ST
+.1~1550,1550,04,11,04/11,15,71,02,VV-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,8428,ST
+.1~1021,1021,03,07,03/07,10,47,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,26470,ST
+.1~383,383,01,18,01/18,4,18,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,0,ST
+.1~339,339,01,16,01/16,4,16,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,0,ST
+.1~1527,1527,04,10,04/10,14,70,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,14372,ST
+.1~295,295,01,14,01/14,3,14,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,5713,ST
+.1~53,53,01,03,01/03,1,3,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,0,ST
+.1~911,911,03,02,03/02,9,42,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,35504,ST
+.1~1131,1131,03,12,03/12,11,52,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,20885,ST
+.1~1681,1681,04,17,04/17,16,77,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,2287,ST
+.1~823,823,02,18,02/18,8,38,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,25378,ST
+.1~889,889,03,01,03/01,9,41,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,37594,ST
+.1~691,691,02,12,02/12,7,32,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,39760,ST
+.1~1087,1087,03,10,03/10,10,50,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,21675,ST
+.1~757,757,02,15,02/15,7,35,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,34248,ST
+.1~1483,1483,04,08,04/08,14,68,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,18612,ST
+.1~75,75,01,04,01/04,1,4,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,0,ST
+.1~361,361,01,17,01/17,4,17,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,0,ST
+.1~1703,1703,04,18,04/18,16,78,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,780,ST
+.1~999,999,03,06,03/06,10,46,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,27510,ST
+.1~273,273,01,13,01/13,3,13,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,10533,ST
+.1~867,867,02,20,02/20,8,40,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,31556,ST
+.1~31,31,01,02,01/02,1,2,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,0,ST
+.1~779,779,02,16,02/16,8,36,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,30469,ST
+.1~1109,1109,03,11,03/11,11,51,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,21121,ST
+.1~735,735,02,14,02/14,7,34,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,35466,ST
+.1~1065,1065,03,09,03/09,10,49,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,23813,ST
+.1~955,955,03,04,03/04,9,44,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,31055,ST
+.1~977,977,03,05,03/05,9,45,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,28562,ST
+.1~1747,1747,04,20,04/20,16,80,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,0,ST
+.1~1461,1461,04,07,04/07,14,67,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,19386,ST
+.1~1439,1439,04,06,04/06,14,66,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,20037,ST
+.1~845,845,02,19,02/19,8,39,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,25135,ST
+.1~317,317,01,15,01/15,3,15,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,0,ST
+.1~97,97,01,05,01/05,1,5,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,0,ST
+.1~1725,1725,04,19,04/19,16,79,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,0,ST
+.1~1769,1769,05,01,05/01,17,81,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,0,ST
+.1~801,801,02,17,02/17,8,37,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,26912,ST
+.1~1043,1043,03,08,03/08,10,48,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,24902,ST
+.1~713,713,02,13,02/13,7,33,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,37811,ST
+.1~1307,1307,03,20,03/20,12,60,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,28109,ST
+.1~1175,1175,03,14,03/14,11,54,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,36345,ST
+.1~1593,1593,04,13,04/13,15,73,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,7882,ST
+.1~1659,1659,04,16,04/16,16,76,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,2936,ST
+.1~1263,1263,03,18,03/18,12,58,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,29626,ST
+.1~933,933,03,03,03/03,9,43,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,32853,ST
+.1~647,647,02,10,02/10,6,30,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,45213,ST
+.1~207,207,01,10,01/10,2,10,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,26108,ST
+.1~493,493,02,03,02/03,5,23,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,0,ST
+.1~427,427,01,20,01/20,4,20,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,0,ST
+.1~251,251,01,12,01/12,3,12,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,17246,ST
+.1~1197,1197,03,15,03/15,11,55,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,34585,ST
+.1~581,581,02,07,02/07,6,27,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,8000,ST
+.1~515,515,02,04,02/04,5,24,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,0,ST
+.1~141,141,01,07,01/07,2,7,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,0,ST
+.1~163,163,01,08,01/08,2,8,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,0,ST
+.1~1241,1241,03,17,03/17,12,57,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,31045,ST
+.1~625,625,02,09,02/09,6,29,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,46494,ST
+.1~405,405,01,19,01/19,4,19,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,0,ST
+.1~1329,1329,04,01,04/01,13,61,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,27113,ST
+.1~449,449,02,01,02/01,5,21,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,0,ST
+.1~9,9,01,01,01/01,1,1,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,0,ST
+.1~1395,1395,04,04,04/04,13,64,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,22077,ST
+.1~1219,1219,03,16,03/16,12,56,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,32844,ST
+.1~1505,1505,04,09,04/09,14,69,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,17212,ST
+.1~1637,1637,04,15,04/15,15,75,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,4023,ST
+.1~603,603,02,08,02/08,6,28,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,31004,ST
+.1~1615,1615,04,14,04/14,15,74,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,5461,ST
+.1~471,471,02,02,02/02,5,22,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,0,ST
+.1~1351,1351,04,02,04/02,13,62,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,25012,ST
+.1~1373,1373,04,03,04/03,13,63,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,22415,ST
+.1~1571,1571,04,12,04/12,15,72,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,10481,ST
+.1~559,559,02,06,02/06,6,26,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,0,ST
+.1~669,669,02,11,02/11,7,31,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,41952,ST
+.1~185,185,01,09,01/09,2,9,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,8000,ST
+.1~1153,1153,03,13,03/13,11,53,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,36623,ST
+.1~119,119,01,06,01/06,2,6,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,0,ST
+.1~1417,1417,04,05,04/05,13,65,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,21439,ST
+.1~1549,1549,04,11,04/11,15,71,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,11193,ST
+.1~537,537,02,05,02/05,5,25,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,0,ST
+.1~1285,1285,03,19,03/19,12,59,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,28466,ST
+.1~229,229,01,11,01/11,3,11,02,VV-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,20633,ST
+.1~1586,1586,04,13,04/13,15,73,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,0,ST
+.1~1344,1344,04,02,04/02,13,62,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,21736,ST
+.1~24,24,01,02,01/02,1,2,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,0,ST
+.1~486,486,02,03,02/03,5,23,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,0,ST
+.1~1322,1322,04,01,04/01,13,61,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,24338,ST
+.1~882,882,03,01,03/01,9,41,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,19738,ST
+.1~200,200,01,10,01/10,2,10,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,0,ST
+.1~508,508,02,04,02/04,5,24,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,20000,ST
+.1~1608,1608,04,14,04/14,15,74,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,0,ST
+.1~1300,1300,03,20,03/20,12,60,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,26191,ST
+.1~992,992,03,06,03/06,10,46,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,32115,ST
+.1~530,530,02,05,02/05,5,25,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,26830,ST
+.1~1278,1278,03,19,03/19,12,59,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,29344,ST
+.1~552,552,02,06,02/06,6,26,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,24400,ST
+.1~178,178,01,09,01/09,2,9,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,0,ST
+.1~860,860,02,20,02/20,8,40,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,21726,ST
+.1~1630,1630,04,15,04/15,15,75,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,0,ST
+.1~772,772,02,16,02/16,8,36,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,26462,ST
+.1~574,574,02,07,02/07,6,27,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,23676,ST
+.1~1256,1256,03,18,03/18,12,58,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,30535,ST
+.1~794,794,02,17,02/17,8,37,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,24630,ST
+.1~596,596,02,08,02/08,6,28,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,22006,ST
+.1~156,156,01,08,01/08,2,8,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,0,ST
+.1~1014,1014,03,07,03/07,10,47,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,30163,ST
+.1~1234,1234,03,17,03/17,12,57,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,32965,ST
+.1~618,618,02,09,02/09,6,29,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,20319,ST
+.1~838,838,02,19,02/19,8,39,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,22005,ST
+.1~1652,1652,04,16,04/16,16,76,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,0,ST
+.1~1212,1212,03,16,03/16,12,56,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,35172,ST
+.1~2,2,01,01,01/01,1,1,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,0,ST
+.1~310,310,01,15,01/15,3,15,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,17959,ST
+.1~1498,1498,04,09,04/09,14,69,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,0,ST
+.1~288,288,01,14,01/14,3,14,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,22003,ST
+.1~1520,1520,04,10,04/10,14,70,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,0,ST
+.1~332,332,01,16,01/16,4,16,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,10798,ST
+.1~1476,1476,04,08,04/08,14,68,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,0,ST
+.1~926,926,03,03,03/03,9,43,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,16756,ST
+.1~1058,1058,03,09,03/09,10,49,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,28124,ST
+.1~354,354,01,17,01/17,4,17,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,4606,ST
+.1~1454,1454,04,07,04/07,14,67,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,1334,ST
+.1~948,948,03,04,03/04,9,44,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,32843,ST
+.1~266,266,01,13,01/13,3,13,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,25733,ST
+.1~1542,1542,04,11,04/11,15,71,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,0,ST
+.1~376,376,01,18,01/18,4,18,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,466,ST
+.1~1432,1432,04,06,04/06,14,66,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,5309,ST
+.1~398,398,01,19,01/19,4,19,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,0,ST
+.1~1410,1410,04,05,04/05,13,65,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,9727,ST
+.1~904,904,03,02,03/02,9,42,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,18486,ST
+.1~244,244,01,12,01/12,3,12,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,12000,ST
+.1~68,68,01,04,01/04,1,4,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,0,ST
+.1~420,420,01,20,01/20,4,20,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,0,ST
+.1~970,970,03,05,03/05,9,45,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,33542,ST
+.1~1564,1564,04,12,04/12,15,72,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,0,ST
+.1~1388,1388,04,04,04/04,13,64,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,13246,ST
+.1~442,442,02,01,02/01,5,21,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,0,ST
+.1~1366,1366,04,03,04/03,13,63,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,18018,ST
+.1~222,222,01,11,01/11,3,11,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,0,ST
+.1~1762,1762,05,01,05/01,17,81,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,5302,ST
+.1~464,464,02,02,02/02,5,22,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,0,ST
+.1~684,684,02,12,02/12,7,32,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,16452,ST
+.1~1102,1102,03,11,03/11,11,51,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,25305,ST
+.1~1718,1718,04,19,04/19,16,79,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,15591,ST
+.1~1168,1168,03,14,03/14,11,54,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,38147,ST
+.1~90,90,01,05,01/05,1,5,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,0,ST
+.1~112,112,01,06,01/06,2,6,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,0,ST
+.1~1146,1146,03,13,03/13,11,53,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,39612,ST
+.1~1674,1674,04,17,04/17,16,77,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,16000,ST
+.1~750,750,02,15,02/15,7,35,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,12383,ST
+.1~662,662,02,11,02/11,7,31,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,17911,ST
+.1~816,816,02,18,02/18,8,38,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,23468,ST
+.1~46,46,01,03,01/03,1,3,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,0,ST
+.1~706,706,02,13,02/13,7,33,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,15834,ST
+.1~1190,1190,03,15,03/15,11,55,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,36767,ST
+.1~1080,1080,03,10,03/10,10,50,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,26634,ST
+.1~1696,1696,04,18,04/18,16,78,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,15767,ST
+.1~640,640,02,10,02/10,6,30,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,19019,ST
+.1~728,728,02,14,02/14,7,34,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,14972,ST
+.1~1124,1124,03,12,03/12,11,52,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,35809,ST
+.1~1036,1036,03,08,03/08,10,48,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,29168,ST
+.1~134,134,01,07,01/07,2,7,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,0,ST
+.1~1740,1740,04,20,04/20,16,80,02,VV-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,13507,ST
+.1~1304,1304,03,20,03/20,12,60,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,37491,ST
+.1~578,578,02,07,02/07,6,27,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,6257,ST
+.1~1326,1326,04,01,04/01,13,61,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,35219,ST
+.1~512,512,02,04,02/04,5,24,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,10007,ST
+.1~468,468,02,02,02/02,5,22,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,13596,ST
+.1~1634,1634,04,15,04/15,15,75,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~182,182,01,09,01/09,2,9,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~930,930,03,03,03/03,9,43,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,8679,ST
+.1~490,490,02,03,02/03,5,23,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,11493,ST
+.1~1282,1282,03,19,03/19,12,59,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,39786,ST
+.1~1348,1348,04,02,04/02,13,62,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,32963,ST
+.1~6,6,01,01,01/01,1,1,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~1590,1590,04,13,04/13,15,73,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~1612,1612,04,14,04/14,15,74,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~1260,1260,03,18,03/18,12,58,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,41958,ST
+.1~556,556,02,06,02/06,6,26,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,7044,ST
+.1~204,204,01,10,01/10,2,10,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~534,534,02,05,02/05,5,25,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,8482,ST
+.1~94,94,01,05,01/05,1,5,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~732,732,02,14,02/14,7,34,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,19863,ST
+.1~1106,1106,03,11,03/11,11,51,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,25504,ST
+.1~1700,1700,04,18,04/18,16,78,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~754,754,02,15,02/15,7,35,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,18307,ST
+.1~1084,1084,03,10,03/10,10,50,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,28611,ST
+.1~72,72,01,04,01/04,1,4,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~776,776,02,16,02/16,8,36,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,17013,ST
+.1~1062,1062,03,09,03/09,10,49,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,30382,ST
+.1~28,28,01,02,01/02,1,2,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~1722,1722,04,19,04/19,16,79,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~798,798,02,17,02/17,8,37,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,15252,ST
+.1~1040,1040,03,08,03/08,10,48,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,31721,ST
+.1~820,820,02,18,02/18,8,38,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,14330,ST
+.1~50,50,01,03,01/03,1,3,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~1018,1018,03,07,03/07,10,47,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,32701,ST
+.1~974,974,03,05,03/05,9,45,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,23682,ST
+.1~1744,1744,04,20,04/20,16,80,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~842,842,02,19,02/19,8,39,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,13069,ST
+.1~996,996,03,06,03/06,10,46,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,33576,ST
+.1~864,864,02,20,02/20,8,40,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,11826,ST
+.1~908,908,03,02,03/02,9,42,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,9840,ST
+.1~1238,1238,03,17,03/17,12,57,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,44728,ST
+.1~160,160,01,08,01/08,2,8,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~600,600,02,08,02/08,6,28,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,4947,ST
+.1~1216,1216,03,16,03/16,12,56,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,43289,ST
+.1~952,952,03,04,03/04,9,44,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,6731,ST
+.1~622,622,02,09,02/09,6,29,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,3688,ST
+.1~1656,1656,04,16,04/16,16,76,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~1194,1194,03,15,03/15,11,55,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,21371,ST
+.1~138,138,01,07,01/07,2,7,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~644,644,02,10,02/10,6,30,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,1375,ST
+.1~1766,1766,05,01,05/01,17,81,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~666,666,02,11,02/11,7,31,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~1172,1172,03,14,03/14,11,54,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,19550,ST
+.1~116,116,01,06,01/06,2,6,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~688,688,02,12,02/12,7,32,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~1150,1150,03,13,03/13,11,53,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,21743,ST
+.1~886,886,03,01,03/01,9,41,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,11007,ST
+.1~1678,1678,04,17,04/17,16,77,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~710,710,02,13,02/13,7,33,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,12000,ST
+.1~1128,1128,03,12,03/12,11,52,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,24004,ST
+.1~424,424,01,20,01/20,4,20,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,22673,ST
+.1~402,402,01,19,01/19,4,19,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,25815,ST
+.1~270,270,01,13,01/13,3,13,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~1370,1370,04,03,04/03,13,63,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,30944,ST
+.1~1502,1502,04,09,04/09,14,69,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,1012,ST
+.1~446,446,02,01,02/01,5,21,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,16971,ST
+.1~1458,1458,04,07,04/07,14,67,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,12165,ST
+.1~1480,1480,04,08,04/08,14,68,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,7183,ST
+.1~314,314,01,15,01/15,3,15,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~1414,1414,04,05,04/05,13,65,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,22664,ST
+.1~1436,1436,04,06,04/06,14,66,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,17616,ST
+.1~226,226,01,11,01/11,3,11,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~248,248,01,12,01/12,3,12,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~358,358,01,17,01/17,4,17,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~380,380,01,18,01/18,4,18,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,20000,ST
+.1~336,336,01,16,01/16,4,16,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~1546,1546,04,11,04/11,15,71,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~1568,1568,04,12,04/12,15,72,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~1392,1392,04,04,04/04,13,64,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,28425,ST
+.1~1524,1524,04,10,04/10,14,70,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~292,292,01,14,01/14,3,14,02,VV-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,ST
+.1~177,177,01,09,01/09,2,9,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,11168,ST
+.1~1277,1277,03,19,03/19,12,59,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,14079,ST
+.1~1629,1629,04,15,04/15,15,75,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,0,ST
+.1~573,573,02,07,02/07,6,27,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,5770,ST
+.1~1255,1255,03,18,03/18,12,58,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,10000,ST
+.1~595,595,02,08,02/08,6,28,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,4484,ST
+.1~155,155,01,08,01/08,2,8,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,13268,ST
+.1~1233,1233,03,17,03/17,12,57,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,0,ST
+.1~617,617,02,09,02/09,6,29,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,6788,ST
+.1~1651,1651,04,16,04/16,16,76,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,0,ST
+.1~1211,1211,03,16,03/16,12,56,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,0,ST
+.1~639,639,02,10,02/10,6,30,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,28620,ST
+.1~133,133,01,07,01/07,2,7,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,16653,ST
+.1~1189,1189,03,15,03/15,11,55,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,0,ST
+.1~661,661,02,11,02/11,7,31,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,51139,ST
+.1~1673,1673,04,17,04/17,16,77,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,0,ST
+.1~1167,1167,03,14,03/14,11,54,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,1782,ST
+.1~683,683,02,12,02/12,7,32,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,61029,ST
+.1~111,111,01,06,01/06,2,6,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,21345,ST
+.1~1145,1145,03,13,03/13,11,53,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,5125,ST
+.1~705,705,02,13,02/13,7,33,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,59281,ST
+.1~1695,1695,04,18,04/18,16,78,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,0,ST
+.1~1123,1123,03,12,03/12,11,52,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,8892,ST
+.1~727,727,02,14,02/14,7,34,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,57988,ST
+.1~89,89,01,05,01/05,1,5,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,24964,ST
+.1~1101,1101,03,11,03/11,11,51,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,14719,ST
+.1~749,749,02,15,02/15,7,35,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,56104,ST
+.1~1717,1717,04,19,04/19,16,79,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,0,ST
+.1~1079,1079,03,10,03/10,10,50,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,18352,ST
+.1~771,771,02,16,02/16,8,36,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,54564,ST
+.1~67,67,01,04,01/04,1,4,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,24000,ST
+.1~1519,1519,04,10,04/10,14,70,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,0,ST
+.1~309,309,01,15,01/15,3,15,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,0,ST
+.1~1497,1497,04,09,04/09,14,69,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,0,ST
+.1~287,287,01,14,01/14,3,14,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,0,ST
+.1~331,331,01,16,01/16,4,16,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,0,ST
+.1~1475,1475,04,08,04/08,14,68,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,0,ST
+.1~353,353,01,17,01/17,4,17,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,0,ST
+.1~1453,1453,04,07,04/07,14,67,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,0,ST
+.1~375,375,01,18,01/18,4,18,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,0,ST
+.1~265,265,01,13,01/13,3,13,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,2249,ST
+.1~1541,1541,04,11,04/11,15,71,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,0,ST
+.1~1431,1431,04,06,04/06,14,66,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,0,ST
+.1~397,397,01,19,01/19,4,19,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,10000,ST
+.1~1409,1409,04,05,04/05,13,65,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,0,ST
+.1~419,419,01,20,01/20,4,20,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,20440,ST
+.1~243,243,01,12,01/12,3,12,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,3436,ST
+.1~1563,1563,04,12,04/12,15,72,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,0,ST
+.1~1387,1387,04,04,04/04,13,64,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,26,ST
+.1~441,441,02,01,02/01,5,21,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,19512,ST
+.1~1365,1365,04,03,04/03,13,63,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,26,ST
+.1~463,463,02,02,02/02,5,22,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,17558,ST
+.1~221,221,01,11,01/11,3,11,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,7233,ST
+.1~1585,1585,04,13,04/13,15,73,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,0,ST
+.1~1343,1343,04,02,04/02,13,62,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,4182,ST
+.1~485,485,02,03,02/03,5,23,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,15460,ST
+.1~1321,1321,04,01,04/01,13,61,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,7663,ST
+.1~507,507,02,04,02/04,5,24,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,13055,ST
+.1~199,199,01,10,01/10,2,10,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,10356,ST
+.1~1607,1607,04,14,04/14,15,74,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,0,ST
+.1~1299,1299,03,20,03/20,12,60,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,10461,ST
+.1~529,529,02,05,02/05,5,25,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,10040,ST
+.1~551,551,02,06,02/06,6,26,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,7993,ST
+.1~1,1,01,01,01/01,1,1,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,0,ST
+.1~925,925,03,03,03/03,9,43,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,41204,ST
+.1~947,947,03,04,03/04,9,44,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,40408,ST
+.1~903,903,03,02,03/02,9,42,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,34404,ST
+.1~969,969,03,05,03/05,9,45,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,36045,ST
+.1~23,23,01,02,01/02,1,2,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,0,ST
+.1~881,881,03,01,03/01,9,41,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,38191,ST
+.1~991,991,03,06,03/06,10,46,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,32526,ST
+.1~1761,1761,05,01,05/01,17,81,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,0,ST
+.1~859,859,02,20,02/20,8,40,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,41222,ST
+.1~1013,1013,03,07,03/07,10,47,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,29573,ST
+.1~837,837,02,19,02/19,8,39,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,43486,ST
+.1~45,45,01,03,01/03,1,3,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,0,ST
+.1~1035,1035,03,08,03/08,10,48,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,25715,ST
+.1~815,815,02,18,02/18,8,38,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,48329,ST
+.1~1739,1739,04,20,04/20,16,80,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,0,ST
+.1~1057,1057,03,09,03/09,10,49,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,21896,ST
+.1~793,793,02,17,02/17,8,37,02,VV-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,51016,ST
+.1~1765,1765,05,01,05/01,17,81,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,0,ST
+.1~665,665,02,11,02/11,7,31,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,22439,ST
+.1~1281,1281,03,19,03/19,12,59,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,19042,ST
+.1~1171,1171,03,14,03/14,11,54,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,21199,ST
+.1~1677,1677,04,17,04/17,16,77,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,0,ST
+.1~115,115,01,06,01/06,2,6,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,29062,ST
+.1~687,687,02,12,02/12,7,32,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,22439,ST
+.1~1435,1435,04,06,04/06,14,66,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,15574,ST
+.1~533,533,02,05,02/05,5,25,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,22439,ST
+.1~1149,1149,03,13,03/13,11,53,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,21199,ST
+.1~1611,1611,04,14,04/14,15,74,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,0,ST
+.1~709,709,02,13,02/13,7,33,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,22439,ST
+.1~379,379,01,18,01/18,4,18,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,24710,ST
+.1~5,5,01,01,01/01,1,1,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,0,ST
+.1~1545,1545,04,11,04/11,15,71,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,0,ST
+.1~885,885,03,01,03/01,9,41,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,21554,ST
+.1~313,313,01,15,01/15,3,15,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,25922,ST
+.1~1303,1303,03,20,03/20,12,60,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,19042,ST
+.1~1127,1127,03,12,03/12,11,52,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,21199,ST
+.1~445,445,02,01,02/01,5,21,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,22686,ST
+.1~93,93,01,05,01/05,1,5,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,14000,ST
+.1~423,423,01,20,01/20,4,20,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,23439,ST
+.1~1567,1567,04,12,04/12,15,72,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,0,ST
+.1~577,577,02,07,02/07,6,27,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,22439,ST
+.1~1501,1501,04,09,04/09,14,69,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,8224,ST
+.1~1237,1237,03,17,03/17,12,57,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,19717,ST
+.1~159,159,01,08,01/08,2,8,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,28383,ST
+.1~907,907,03,02,03/02,9,42,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,21554,ST
+.1~599,599,02,08,02/08,6,28,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,22439,ST
+.1~247,247,01,12,01/12,3,12,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,25922,ST
+.1~1633,1633,04,15,04/15,15,75,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,0,ST
+.1~951,951,03,04,03/04,9,44,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,21554,ST
+.1~1215,1215,03,16,03/16,12,56,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,20604,ST
+.1~1413,1413,04,05,04/05,13,65,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,16692,ST
+.1~1259,1259,03,18,03/18,12,58,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,19413,ST
+.1~1655,1655,04,16,04/16,16,76,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,0,ST
+.1~621,621,02,09,02/09,6,29,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,22439,ST
+.1~1391,1391,04,04,04/04,13,64,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,17072,ST
+.1~555,555,02,06,02/06,6,26,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,22439,ST
+.1~401,401,01,19,01/19,4,19,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,24310,ST
+.1~137,137,01,07,01/07,2,7,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,28770,ST
+.1~643,643,02,10,02/10,6,30,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,22439,ST
+.1~1193,1193,03,15,03/15,11,55,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,20858,ST
+.1~181,181,01,09,01/09,2,9,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,27761,ST
+.1~27,27,01,02,01/02,1,2,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,0,ST
+.1~1721,1721,04,19,04/19,16,79,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,0,ST
+.1~1369,1369,04,03,04/03,13,63,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,18712,ST
+.1~797,797,02,17,02/17,8,37,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,22150,ST
+.1~489,489,02,03,02/03,5,23,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,22686,ST
+.1~1039,1039,03,08,03/08,10,48,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,21199,ST
+.1~819,819,02,18,02/18,8,38,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,21829,ST
+.1~1589,1589,04,13,04/13,15,73,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,0,ST
+.1~225,225,01,11,01/11,3,11,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,26771,ST
+.1~1347,1347,04,02,04/02,13,62,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,19042,ST
+.1~1017,1017,03,07,03/07,10,47,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,21199,ST
+.1~49,49,01,03,01/03,1,3,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,0,ST
+.1~335,335,01,16,01/16,4,16,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,25922,ST
+.1~973,973,03,05,03/05,9,45,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,21554,ST
+.1~1743,1743,04,20,04/20,16,80,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,0,ST
+.1~1523,1523,04,10,04/10,14,70,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,4049,ST
+.1~291,291,01,14,01/14,3,14,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,25922,ST
+.1~1479,1479,04,08,04/08,14,68,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,9969,ST
+.1~841,841,02,19,02/19,8,39,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,21829,ST
+.1~929,929,03,03,03/03,9,43,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,21554,ST
+.1~467,467,02,02,02/02,5,22,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,22686,ST
+.1~995,995,03,06,03/06,10,46,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,21554,ST
+.1~731,731,02,14,02/14,7,34,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,22439,ST
+.1~269,269,01,13,01/13,3,13,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,25922,ST
+.1~1105,1105,03,11,03/11,11,51,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,21199,ST
+.1~1699,1699,04,18,04/18,16,78,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,0,ST
+.1~511,511,02,04,02/04,5,24,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,22439,ST
+.1~753,753,02,15,02/15,7,35,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,22439,ST
+.1~863,863,02,20,02/20,8,40,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,21554,ST
+.1~203,203,01,10,01/10,2,10,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,27035,ST
+.1~1083,1083,03,10,03/10,10,50,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,21199,ST
+.1~357,357,01,17,01/17,4,17,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,25527,ST
+.1~71,71,01,04,01/04,1,4,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,0,ST
+.1~1061,1061,03,09,03/09,10,49,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,21199,ST
+.1~775,775,02,16,02/16,8,36,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,22439,ST
+.1~1325,1325,04,01,04/01,13,61,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,19042,ST
+.1~1457,1457,04,07,04/07,14,67,02,VV-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,13343,ST
+.1~378,378,01,18,01/18,4,18,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,21430,ST
+.1~796,796,02,17,02/17,8,37,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~1500,1500,04,09,04/09,14,69,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,10903,ST
+.1~1104,1104,03,11,03/11,11,51,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~334,334,01,16,01/16,4,16,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,25394,ST
+.1~928,928,03,03,03/03,9,43,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~1082,1082,03,10,03/10,10,50,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~752,752,02,15,02/15,7,35,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~1038,1038,03,08,03/08,10,48,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~730,730,02,14,02/14,7,34,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~950,950,03,04,03/04,9,44,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~356,356,01,17,01/17,4,17,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,23075,ST
+.1~1456,1456,04,07,04/07,14,67,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,14370,ST
+.1~312,312,01,15,01/15,3,15,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,26843,ST
+.1~1478,1478,04,08,04/08,14,68,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,13577,ST
+.1~1016,1016,03,07,03/07,10,47,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~510,510,02,04,02/04,5,24,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,8847,ST
+.1~774,774,02,16,02/16,8,36,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~1302,1302,03,20,03/20,12,60,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,21808,ST
+.1~1170,1170,03,14,03/14,11,54,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~664,664,02,11,02/11,7,31,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~532,532,02,05,02/05,5,25,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,7432,ST
+.1~1280,1280,03,19,03/19,12,59,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,22401,ST
+.1~862,862,02,20,02/20,8,40,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~554,554,02,06,02/06,6,26,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,5949,ST
+.1~1258,1258,03,18,03/18,12,58,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,22959,ST
+.1~576,576,02,07,02/07,6,27,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,5620,ST
+.1~994,994,03,06,03/06,10,46,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~1236,1236,03,17,03/17,12,57,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,14000,ST
+.1~598,598,02,08,02/08,6,28,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,2738,ST
+.1~1192,1192,03,15,03/15,11,55,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~840,840,02,19,02/19,8,39,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~642,642,02,10,02/10,6,30,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,48,ST
+.1~620,620,02,09,02/09,6,29,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,1173,ST
+.1~1214,1214,03,16,03/16,12,56,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~1434,1434,04,06,04/06,14,66,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,14370,ST
+.1~906,906,03,02,03/02,9,42,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~400,400,01,19,01/19,4,19,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,17370,ST
+.1~1412,1412,04,05,04/05,13,65,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,16508,ST
+.1~1126,1126,03,12,03/12,11,52,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~708,708,02,13,02/13,7,33,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~422,422,01,20,01/20,4,20,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,15233,ST
+.1~1390,1390,04,04,04/04,13,64,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,18148,ST
+.1~972,972,03,05,03/05,9,45,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~444,444,02,01,02/01,5,21,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,13744,ST
+.1~1368,1368,04,03,04/03,13,63,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,19028,ST
+.1~884,884,03,01,03/01,9,41,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~818,818,02,18,02/18,8,38,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~466,466,02,02,02/02,5,22,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,12933,ST
+.1~1346,1346,04,02,04/02,13,62,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,20226,ST
+.1~1148,1148,03,13,03/13,11,53,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~686,686,02,12,02/12,7,32,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~488,488,02,03,02/03,5,23,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,10537,ST
+.1~1324,1324,04,01,04/01,13,61,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,21469,ST
+.1~1060,1060,03,09,03/09,10,49,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~1522,1522,04,10,04/10,14,70,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,9092,ST
+.1~1742,1742,04,20,04/20,16,80,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~48,48,01,03,01/03,1,3,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~1720,1720,04,19,04/19,16,79,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~70,70,01,04,01/04,1,4,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~92,92,01,05,01/05,1,5,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~1698,1698,04,18,04/18,16,78,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~268,268,01,13,01/13,3,13,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,2000,ST
+.1~1544,1544,04,11,04/11,15,71,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,6869,ST
+.1~114,114,01,06,01/06,2,6,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~1676,1676,04,17,04/17,16,77,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~136,136,01,07,01/07,2,7,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~1654,1654,04,16,04/16,16,76,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~158,158,01,08,01/08,2,8,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~246,246,01,12,01/12,3,12,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~1566,1566,04,12,04/12,15,72,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,5138,ST
+.1~1632,1632,04,15,04/15,15,75,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,384,ST
+.1~180,180,01,09,01/09,2,9,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~1610,1610,04,14,04/14,15,74,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,1279,ST
+.1~202,202,01,10,01/10,2,10,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~224,224,01,11,01/11,3,11,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~1588,1588,04,13,04/13,15,73,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,3263,ST
+.1~1764,1764,05,01,05/01,17,81,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~26,26,01,02,01/02,1,2,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~4,4,01,01,01/01,1,1,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,ST
+.1~290,290,01,14,01/14,3,14,02,VV-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,24766,ST
+.1~1433,1433,04,06,04/06,14,66,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,0,ST
+.1~1147,1147,03,13,03/13,11,53,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,29413,ST
+.1~1455,1455,04,07,04/07,14,67,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,0,ST
+.1~465,465,02,02,02/02,5,22,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,0,ST
+.1~69,69,01,04,01/04,1,4,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,0,ST
+.1~399,399,01,19,01/19,4,19,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,0,ST
+.1~1587,1587,04,13,04/13,15,73,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,4681,ST
+.1~1345,1345,04,02,04/02,13,62,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,3766,ST
+.1~113,113,01,06,01/06,2,6,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,0,ST
+.1~883,883,03,01,03/01,9,41,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,24831,ST
+.1~355,355,01,17,01/17,4,17,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,0,ST
+.1~25,25,01,02,01/02,1,2,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,0,ST
+.1~487,487,02,03,02/03,5,23,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,0,ST
+.1~905,905,03,02,03/02,9,42,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,23318,ST
+.1~377,377,01,18,01/18,4,18,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,0,ST
+.1~1103,1103,03,11,03/11,11,51,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,33150,ST
+.1~1323,1323,04,01,04/01,13,61,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,7122,ST
+.1~685,685,02,12,02/12,7,32,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,38503,ST
+.1~1719,1719,04,19,04/19,16,79,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,0,ST
+.1~707,707,02,13,02/13,7,33,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,42944,ST
+.1~1697,1697,04,18,04/18,16,78,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,0,ST
+.1~1565,1565,04,12,04/12,15,72,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,9197,ST
+.1~421,421,01,20,01/20,4,20,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,0,ST
+.1~949,949,03,04,03/04,9,44,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,20751,ST
+.1~245,245,01,12,01/12,3,12,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,8431,ST
+.1~1389,1389,04,04,04/04,13,64,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,253,ST
+.1~729,729,02,14,02/14,7,34,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,39643,ST
+.1~1125,1125,03,12,03/12,11,52,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,31932,ST
+.1~971,971,03,05,03/05,9,45,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,19504,ST
+.1~267,267,01,13,01/13,3,13,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,6032,ST
+.1~1411,1411,04,05,04/05,13,65,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,0,ST
+.1~443,443,02,01,02/01,5,21,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,0,ST
+.1~1059,1059,03,09,03/09,10,49,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,35753,ST
+.1~1367,1367,04,03,04/03,13,63,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,2374,ST
+.1~1543,1543,04,11,04/11,15,71,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,16000,ST
+.1~817,817,02,18,02/18,8,38,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,32486,ST
+.1~91,91,01,05,01/05,1,5,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,0,ST
+.1~1763,1763,05,01,05/01,17,81,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,0,ST
+.1~223,223,01,11,01/11,3,11,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,14619,ST
+.1~553,553,02,06,02/06,6,26,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,33383,ST
+.1~773,773,02,16,02/16,8,36,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,36024,ST
+.1~289,289,01,14,01/14,3,14,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,3193,ST
+.1~663,663,02,11,02/11,7,31,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,33146,ST
+.1~1631,1631,04,15,04/15,15,75,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,86,ST
+.1~1257,1257,03,18,03/18,12,58,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,15063,ST
+.1~47,47,01,03,01/03,1,3,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,0,ST
+.1~575,575,02,07,02/07,6,27,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,40993,ST
+.1~3,3,01,01,01/01,1,1,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,0,ST
+.1~751,751,02,15,02/15,7,35,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,37044,ST
+.1~1191,1191,03,15,03/15,11,55,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,24432,ST
+.1~597,597,02,08,02/08,6,28,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,37879,ST
+.1~311,311,01,15,01/15,3,15,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,0,ST
+.1~157,157,01,08,01/08,2,8,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,18000,ST
+.1~135,135,01,07,01/07,2,7,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,0,ST
+.1~1235,1235,03,17,03/17,12,57,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,17343,ST
+.1~839,839,02,19,02/19,8,39,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,30939,ST
+.1~1499,1499,04,09,04/09,14,69,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,0,ST
+.1~641,641,02,10,02/10,6,30,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,35239,ST
+.1~1653,1653,04,16,04/16,16,76,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,0,ST
+.1~619,619,02,09,02/09,6,29,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,35945,ST
+.1~1213,1213,03,16,03/16,12,56,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,21267,ST
+.1~1741,1741,04,20,04/20,16,80,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,0,ST
+.1~795,795,02,17,02/17,8,37,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,34305,ST
+.1~201,201,01,10,01/10,2,10,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,19678,ST
+.1~1081,1081,03,10,03/10,10,50,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,34030,ST
+.1~1477,1477,04,08,04/08,14,68,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,0,ST
+.1~509,509,02,04,02/04,5,24,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,0,ST
+.1~333,333,01,16,01/16,4,16,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,0,ST
+.1~1609,1609,04,14,04/14,15,74,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,1415,ST
+.1~1037,1037,03,08,03/08,10,48,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,38195,ST
+.1~1301,1301,03,20,03/20,12,60,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,10018,ST
+.1~1169,1169,03,14,03/14,11,54,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,27445,ST
+.1~927,927,03,03,03/03,9,43,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,22570,ST
+.1~993,993,03,06,03/06,10,46,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,17004,ST
+.1~861,861,02,20,02/20,8,40,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,27853,ST
+.1~1015,1015,03,07,03/07,10,47,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,24783,ST
+.1~179,179,01,09,01/09,2,9,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,24897,ST
+.1~531,531,02,05,02/05,5,25,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,12000,ST
+.1~1521,1521,04,10,04/10,14,70,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,0,ST
+.1~1279,1279,03,19,03/19,12,59,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,12448,ST
+.1~1675,1675,04,17,04/17,16,77,02,VV-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,0,ST
+.1~1536,1536,04,10,04/10,14,70,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,0.000,KG
+.1~1602,1602,04,13,04/13,15,73,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,0.000,KG
+.1~84,84,01,04,01/04,1,4,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,0.000,KG
+.1~348,348,01,16,01/16,4,16,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,11700.000,KG
+.1~282,282,01,13,01/13,3,13,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,13500.000,KG
+.1~150,150,01,07,01/07,2,7,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,15000.000,KG
+.1~392,392,01,18,01/18,4,18,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,3500.000,KG
+.1~1580,1580,04,12,04/12,15,72,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,0.000,KG
+.1~1470,1470,04,07,04/07,14,67,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,0.000,KG
+.1~106,106,01,05,01/05,1,5,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,0.000,KG
+.1~260,260,01,12,01/12,3,12,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,16200.000,KG
+.1~62,62,01,03,01/03,1,3,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,0.000,KG
+.1~1492,1492,04,08,04/08,14,68,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,0.000,KG
+.1~238,238,01,11,01/11,3,11,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,15000.000,KG
+.1~128,128,01,06,01/06,2,6,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,0.000,KG
+.1~370,370,01,17,01/17,4,17,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,4500.000,KG
+.1~1734,1734,04,19,04/19,16,79,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,0.000,KG
+.1~1558,1558,04,11,04/11,15,71,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,0.000,KG
+.1~304,304,01,14,01/14,3,14,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,13500.000,KG
+.1~1690,1690,04,17,04/17,16,77,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,0.000,KG
+.1~326,326,01,15,01/15,3,15,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,13500.000,KG
+.1~1448,1448,04,06,04/06,14,66,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,0.000,KG
+.1~1624,1624,04,14,04/14,15,74,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,0.000,KG
+.1~1668,1668,04,16,04/16,16,76,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,2400.000,KG
+.1~1646,1646,04,15,04/15,15,75,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,0.000,KG
+.1~1712,1712,04,18,04/18,16,78,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,0.000,KG
+.1~216,216,01,10,01/10,2,10,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,15000.000,KG
+.1~1426,1426,04,05,04/05,13,65,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,0.000,KG
+.1~1514,1514,04,09,04/09,14,69,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,0.000,KG
+.1~194,194,01,09,01/09,2,9,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,15000.000,KG
+.1~172,172,01,08,01/08,2,8,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,15000.000,KG
+.1~832,832,02,18,02/18,8,38,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,10800.000,KG
+.1~1118,1118,03,11,03/11,11,51,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,8800.000,KG
+.1~1140,1140,03,12,03/12,11,52,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,6200.000,KG
+.1~788,788,02,16,02/16,8,36,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,14400.000,KG
+.1~1074,1074,03,09,03/09,10,49,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,12800.000,KG
+.1~964,964,03,04,03/04,9,44,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,14600.000,KG
+.1~1360,1360,04,02,04/02,13,62,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,0.000,KG
+.1~1250,1250,03,17,03/17,12,57,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,4800.000,KG
+.1~590,590,02,07,02/07,6,27,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,1100.000,KG
+.1~524,524,02,04,02/04,5,24,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,1200.000,KG
+.1~480,480,02,02,02/02,5,22,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,1400.000,KG
+.1~634,634,02,09,02/09,6,29,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,1100.000,KG
+.1~1206,1206,03,15,03/15,11,55,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,6300.000,KG
+.1~1316,1316,03,20,03/20,12,60,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,4800.000,KG
+.1~1756,1756,04,20,04/20,16,80,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,0.000,KG
+.1~986,986,03,05,03/05,9,45,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,13400.000,KG
+.1~898,898,03,01,03/01,9,41,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,4350.000,KG
+.1~766,766,02,15,02/15,7,35,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,16800.000,KG
+.1~18,18,01,01,01/01,1,1,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,0.000,KG
+.1~1096,1096,03,10,03/10,10,50,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,11200.000,KG
+.1~876,876,02,20,02/20,8,40,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,4350.000,KG
+.1~1338,1338,04,01,04/01,13,61,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,0.000,KG
+.1~612,612,02,08,02/08,6,28,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,1100.000,KG
+.1~1228,1228,03,16,03/16,12,56,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,5100.000,KG
+.1~502,502,02,03,02/03,5,23,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,4200.000,KG
+.1~722,722,02,13,02/13,7,33,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,17300.000,KG
+.1~40,40,01,02,01/02,1,2,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,0.000,KG
+.1~1030,1030,03,07,03/07,10,47,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,12800.000,KG
+.1~678,678,02,11,02/11,7,31,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,1100.000,KG
+.1~810,810,02,17,02/17,8,37,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,14400.000,KG
+.1~1008,1008,03,06,03/06,10,46,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,12800.000,KG
+.1~1404,1404,04,04,04/04,13,64,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,0.000,KG
+.1~414,414,01,19,01/19,4,19,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,3000.000,KG
+.1~1052,1052,03,08,03/08,10,48,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,12800.000,KG
+.1~1778,1778,05,01,05/01,17,81,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,0.000,KG
+.1~854,854,02,19,02/19,8,39,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,3600.000,KG
+.1~1162,1162,03,13,03/13,11,53,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,5600.000,KG
+.1~1272,1272,03,18,03/18,12,58,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,4800.000,KG
+.1~920,920,03,02,03/02,9,42,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,4350.000,KG
+.1~942,942,03,03,03/03,9,43,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,4350.000,KG
+.1~436,436,01,20,01/20,4,20,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,3000.000,KG
+.1~458,458,02,01,02/01,5,21,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,3000.000,KG
+.1~1184,1184,03,14,03/14,11,54,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,6500.000,KG
+.1~1382,1382,04,03,04/03,13,63,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,0.000,KG
+.1~656,656,02,10,02/10,6,30,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,1100.000,KG
+.1~1294,1294,03,19,03/19,12,59,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,4800.000,KG
+.1~546,546,02,05,02/05,5,25,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,0.000,KG
+.1~700,700,02,12,02/12,7,32,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,17900.000,KG
+.1~568,568,02,06,02/06,6,26,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,0.000,KG
+.1~744,744,02,14,02/14,7,34,88,VV-R02,Blueberries,Raw materials,R02,"",Blueberries,16800.000,KG
