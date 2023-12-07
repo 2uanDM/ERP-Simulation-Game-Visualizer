@@ -9,8 +9,6 @@ st.set_page_config(
     page_icon=":shark:",
 )
 
-st.session_state['simulation_started'] = True
-
 
 class HomePage():
     def __init__(self):
@@ -95,10 +93,13 @@ class HomePage():
         )
 
     def start_simulation(self):
-        st.toast("Simulation Started!")
+        st.toast("Simulation Started! Good luck", icon='🚀')
 
         # Open a new console and run the simulation
-        os.startfile("fetcher.exe")
+        command = 'call .venv/Scripts/activate.bat && python fetcher.py'
+
+        # Run the command
+        subprocess.call(command, shell=True)
 
 
 if __name__ == '__main__':

@@ -50,7 +50,7 @@ class Market():
                     <li><a style="text-decoration: none;" href="#market-revenue">Market Revenue</a></li>
                     <li><a style="text-decoration: none;" href="#market-unit-sold">Market Unit Sold</a></li>
                     <li><a style="text-decoration: none;" href="#market-average-price">Market Average Price</a></li>
-                    <li><a style="text-decoration: none;" href="#market-bar-chart-quantity-sold">Market Bar Chart Quantity Sold</a></li>
+                    <li><a style="text-decoration: none;" href="#market-bar-chart">Market Bar Chart</a></li>
                 </ul>
             </div>
             """,
@@ -160,7 +160,7 @@ class Market():
 
         return result.fetchall()
 
-    def _query_quantity_sold_by_product(self, weeks: list, distribution_channels: list, area: list):
+    def _query_quantity_sold_by_product(self, weeks: list, distribution_channels: list, area: list, sales_organization):
         result = self.conn.execute(f"""
             SELECT 
                 p.CODE as code,
@@ -170,13 +170,14 @@ class Market():
             WHERE m.SIM_PERIOD in ({", ".join([str(i) for i in weeks])})
             AND m.AREA in ({", ".join([f"'{i}'" for i in area])})
             AND m.DISTRIBUTION_CHANNEL in ({", ".join([str(i) for i in distribution_channels])})
+            AND m.SALES_ORGANIZATION = '{sales_organization}'
             GROUP BY p.CODE
             ORDER BY quantity ASC;
         """)
 
         return result.fetchall()
 
-    def _query_net_value_by_product(self, weeks: list, distribution_channels: list, area: list):
+    def _query_net_value_by_product(self, weeks: list, distribution_channels: list, area: list, sales_organization):
         result = self.conn.execute(f"""
             SELECT 
                 p.CODE as code,
@@ -186,6 +187,7 @@ class Market():
             WHERE m.SIM_PERIOD in ({", ".join([str(i) for i in weeks])})
             AND m.AREA in ({", ".join([f"'{i}'" for i in area])})
             AND m.DISTRIBUTION_CHANNEL in ({", ".join([str(i) for i in distribution_channels])})
+            AND m.SALES_ORGANIZATION = '{sales_organization}'
             GROUP BY p.CODE
             ORDER BY net_value ASC;
         """)
@@ -282,14 +284,25 @@ class Market():
 
         st.markdown(f"### Market Bar Chart")
 
-        type = st.selectbox(
-            label="Type",
-            options=['Quantity Sold', 'Net Value'],
-            index=0,
-            key=f'market_bar_chart_choose_type'
-        )
+        col3, col4 = st.columns(2)
 
-        type = 'quantity_sold' if type == 'Quantity Sold' else 'net_value'
+        with col3:
+            type = st.selectbox(
+                label="Type",
+                options=['Quantity Sold', 'Net Value'],
+                index=0,
+                key=f'market_bar_chart_choose_type'
+            )
+
+            type = 'quantity_sold' if type == 'Quantity Sold' else 'net_value'
+
+        with col4:
+            sales_organization = st.selectbox(
+                label="Sales Organization",
+                options=['Company', 'Market'],
+                index=0,
+                key=f'market_bar_chart_choose_sales_organization'
+            )
 
         # Create the filter for the week
 
@@ -318,7 +331,7 @@ class Market():
             key=f'market_bar_chart_{type}_weeks',
         )
 
-        args = (choose_weeks, choose_distribution_channels, choose_area)
+        args = (choose_weeks, choose_distribution_channels, choose_area, sales_organization)
 
         if type == 'quantity_sold':
             data = self._query_quantity_sold_by_product(*args)
@@ -335,8 +348,15 @@ class Market():
         st.markdown('Result:')
 
         # Draw the column chart (Sorted by Quantity)
+        if sales_organization == 'Company':
+            chart_element = alt.Chart(df.sort_values(
+                by=[type_to_column[type]], ascending=True)).mark_bar()  # Light Blue
+        else:
+            chart_element = alt.Chart(df.sort_values(
+                by=[type_to_column[type]], ascending=True)).mark_bar(color='#1ED760')
+
         st.write(
-            alt.Chart(df.sort_values(by=[type_to_column[type]], ascending=True)).mark_bar().encode(
+            chart_element.encode(
                 x=alt.X('Code', title='Product Code', sort=None, axis=alt.Axis(labelAngle=0)),
                 y=alt.Y(type_to_column[type], title=type_to_column[type], axis=alt.Axis(format='s')),
                 tooltip=['Code', type_to_column[type]],
