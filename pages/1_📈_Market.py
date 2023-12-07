@@ -176,6 +176,22 @@ class Market():
 
         return result.fetchall()
 
+    def _query_net_value_by_product(self, weeks: list, distribution_channels: list, area: list):
+        result = self.conn.execute(f"""
+            SELECT 
+                p.CODE as code,
+                SUM(m.NET_VALUE) as net_value
+            FROM Market as m
+            JOIN Product as p ON m.MATERIAL_DESCRIPTION = p.NAME
+            WHERE m.SIM_PERIOD in ({", ".join([str(i) for i in weeks])})
+            AND m.AREA in ({", ".join([f"'{i}'" for i in area])})
+            AND m.DISTRIBUTION_CHANNEL in ({", ".join([str(i) for i in distribution_channels])})
+            GROUP BY p.CODE
+            ORDER BY net_value ASC;
+        """)
+
+        return result.fetchall()
+
     """-----------------------------UI Elements-----------------------------"""
 
     def market_revenue(self):
@@ -262,8 +278,18 @@ class Market():
 
         st.dataframe(df, use_container_width=True, hide_index=True)
 
-    def market_bar_chart_quantity_sold(self):
-        st.markdown("### Market Bar Chart Quantity Sold")
+    def market_bar_chart(self):
+
+        st.markdown(f"### Market Bar Chart")
+
+        type = st.selectbox(
+            label="Type",
+            options=['Quantity Sold', 'Net Value'],
+            index=0,
+            key=f'market_bar_chart_choose_type'
+        )
+
+        type = 'quantity_sold' if type == 'Quantity Sold' else 'net_value'
 
         # Create the filter for the week
 
@@ -274,7 +300,7 @@ class Market():
                 label="Area",
                 options=['North', 'South', 'West'],
                 default=['North', 'South', 'West'],
-                key='market_bar_chart_quantity_sold_area',
+                key=f'market_bar_chart_{type}_area',
             )
 
         with col2:
@@ -282,33 +308,39 @@ class Market():
                 label="Distribution Channel",
                 options=[10, 12, 14],
                 default=[10, 12, 14],
-                key='market_bar_chart_quantity_sold_distribution_channels'
+                key=f'market_bar_chart_{type}_distribution_channels'
             )
 
         choose_weeks: list = st.multiselect(
             label="Week",
             options=[i for i in range(1, self.max_week + 1)],
             default=[i for i in range(1, self.max_week + 1)],
-            key='market_bar_chart_quantity_sold_weeks',
+            key=f'market_bar_chart_{type}_weeks',
         )
 
-        data = self._query_quantity_sold_by_product(
-            weeks=choose_weeks,
-            distribution_channels=choose_distribution_channels,
-            area=choose_area
-        )
+        args = (choose_weeks, choose_distribution_channels, choose_area)
 
-        df = pd.DataFrame(data, columns=['Code', 'Quantity'])
+        if type == 'quantity_sold':
+            data = self._query_quantity_sold_by_product(*args)
+        elif type == 'net_value':
+            data = self._query_net_value_by_product(*args)
+
+        type_to_column = {
+            'quantity_sold': 'Quantity',
+            'net_value': 'Net Value'
+        }
+
+        df = pd.DataFrame(data, columns=['Code', type_to_column[type]])
 
         st.markdown('Result:')
 
         # Draw the column chart (Sorted by Quantity)
         st.write(
-            alt.Chart(df.sort_values(by=['Quantity'], ascending=True)).mark_bar().encode(
+            alt.Chart(df.sort_values(by=[type_to_column[type]], ascending=True)).mark_bar().encode(
                 x=alt.X('Code', title='Product Code', sort=None, axis=alt.Axis(labelAngle=0)),
-                y=alt.Y('Quantity', title='Quantity', axis=alt.Axis(format='s')),
-                tooltip=['Code', 'Quantity'],
-                text=alt.Text('Quantity', format='.0f'),  # Add this line to show data label
+                y=alt.Y(type_to_column[type], title=type_to_column[type], axis=alt.Axis(format='s')),
+                tooltip=['Code', type_to_column[type]],
+                text=alt.Text(type_to_column[type], format='.0f'),  # Add this line to show data label
             ).properties(
                 width=700,
                 height=450
@@ -320,6 +352,7 @@ class Market():
                 titleFontSize=14
             )
         )
+
     """-----------------------------Refresh UI-----------------------------"""
 
     def refresh_ui(self):
@@ -331,7 +364,7 @@ class Market():
             st.write('---')
             self.market_average_price()
             st.write('---')
-            self.market_bar_chart_quantity_sold()
+            self.market_bar_chart()
         except ZeroDivisionError:
             st.error("Data is being loaded, please wait a few seconds and refresh the page again!")
 
