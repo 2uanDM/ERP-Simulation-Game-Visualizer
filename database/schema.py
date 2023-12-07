@@ -36,5 +36,5 @@ class Inventory(BaseModel):
     MATERIAL_CODE: str
     MATERIAL_SIZE: str
     MATERIAL_LABEL: str
-    INVENTORY_OPENING_BALANCE: int
+    INVENTORY_OPENING_BALANCE: float
     UNIT: str
