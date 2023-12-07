@@ -98,7 +98,7 @@ class HomePage():
         st.toast("Simulation Started!")
 
         # Open a new console and run the simulation
-        os.startfile("process_xml.exe")
+        os.startfile("fetcher.exe")
 
 
 if __name__ == '__main__':

@@ -152,6 +152,7 @@ cython_debug/
 #.idea/
 
 *.exe
-fetcher.exe
-release
-Home_Page.exe
+
+# Remove all the files in the temp folder except the .placeholder file
+.temp/*
+!.temp/.placeholder
