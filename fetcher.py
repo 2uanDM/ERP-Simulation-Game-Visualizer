@@ -16,7 +16,7 @@ from typing import List
 from pydantic import BaseModel
 from datetime import datetime
 
-from database.schema import Market
+from database.schema import Market, Inventory
 from database.init_db import init_db
 
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -26,8 +26,9 @@ with open('configs/games.json', 'r') as f:
     CONFIG = json.load(f)
 
 
-table_to_model = {
-    'Market': Market
+table_to_model: dict = {
+    'Market': Market,
+    'Inventory': Inventory
 }
 
 
@@ -93,7 +94,7 @@ class DataRefresher():
 
         return model_data
 
-    def _xml_to_csv(self, table_name: str) -> str:
+    def _xml_to_df(self, table_name: str) -> pd.DataFrame:
         """
             Convert the xml file to the csv
         Args:
@@ -102,6 +103,7 @@ class DataRefresher():
         Returns:
             Path to the csv file
         """
+
         lines = []
 
         with open(f".temp/{table_name}.xml", "r") as f:
@@ -121,9 +123,7 @@ class DataRefresher():
 
         df = pl.DataFrame(lines).to_pandas()
 
-        df.to_csv(f"csv/{table_name}.csv")
-
-        return f"csv/{table_name}.csv"
+        return df
 
     def _build_insert_query(self, table_name: str, model: List[BaseModel]):
         columns = list(model[0].model_dump().keys())
@@ -167,6 +167,18 @@ class DataRefresher():
 
         return table
 
+    def _insert_db(self, table_name: str, conn: sqlite3.Connection):
+        print(f'=> Pushing data of table: "{table_name}"...')
+
+        model = table_to_model[table_name]
+        model_data = self._xml_to_model(table_name=table_name, model=model)
+        if model_data == []:
+            print('=> No data to push!')
+        else:
+            query = self._build_insert_query(table_name=table_name, model=model_data)
+            conn.executescript(query)
+            conn.commit()
+
     def run(self):
         while True:
             # Connect to the database
@@ -192,15 +204,8 @@ class DataRefresher():
             print('===> Pushing data to the database...')
 
             # for table in done_tables:
-            for table in ['Market']:
-                print(f'=> Pushing data of table: "{table}"...')
-                model = table_to_model[table]
-                model_data = self._xml_to_model(table_name=table, model=model)
-                if model_data == []:
-                    print('=> No data to push!')
-                else:
-                    query = self._build_insert_query(table_name=table, model=model_data)
-                    self.conn.executescript(query)
+            for table in list(table_to_model.keys()):
+                self._insert_db(table_name=table, conn=self.conn)
 
             print('===> Done pushing to database!')
             print('===> Closing the connection...')
@@ -228,3 +233,11 @@ if __name__ == '__main__':
     data_refresher = DataRefresher(main_url=main_url, tables=tables)
 
     data_refresher.run()
+
+    # conn = sqlite3.connect('erp.db')
+
+    # for table in ['Inventory']:
+    #     data_refresher._insert_db(table_name=table, conn=conn)
+    #     print(f"=> Done pushing data of table: {table}")
+
+    # conn.close()
