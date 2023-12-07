@@ -6,22 +6,29 @@ sys.path.append(os.getcwd())  # NOQA
 import json
 import httpx
 import sqlite3
-import polars as pl
 
 from lxml import etree
 from bs4 import BeautifulSoup as bs
 from typing import List
 from pydantic import BaseModel
+from datetime import datetime
 
 from database.schema import Market
 from database.init_db import init_db
+
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 
 with open('configs/games.json', 'r') as f:
     CONFIG = json.load(f)
 
 
-class ProcessXML():
+table_to_model = {
+    'Market': Market
+}
+
+
+class DataRefresher():
     def __init__(self, main_url: str, tables: list) -> None:
         """
         Tables: 
@@ -37,9 +44,6 @@ class ProcessXML():
 
         self.tables = tables
         self.urls = [f"{main_url}/{table}" if main_url[-1] != "/" else f"{main_url}{table}" for table in tables]
-
-        # Connect to the database
-        self.conn = sqlite3.connect('erp.db')
 
     def _fetch_xml(self, url: str, table_name: str = None):
         try:
@@ -107,42 +111,81 @@ class ProcessXML():
 
         return query + ";"
 
+    def _fetch_data(self, url: str):
+        """
+            Reload the data from the server
+        Args:
+            url (str): The url to the server
+        """
 
-if __name__ == '__main__':
-    main_url = "https://kosovo.cob.csuchico.edu:8025/odata/305"
-    tables = ['Company_Valuation', 'Market', 'Inventory']
-
-    while True:
-        print('==>> Fetching data...')
+        table = url.split('/')[-1]
+        print(f'Fetching data of table: "{table}"...')
 
         # Remove the old xml file
-        if os.path.exists('.temp/Market.xml'):
-            os.remove('.temp/Market.xml')
-
-        # Init the DB
-        init_db()
+        if os.path.exists(f'.temp/{table}.xml'):
+            os.remove(f'.temp/{table}.xml')
 
         # Fetch the data
-        worker = ProcessXML(main_url, tables)
-        worker._fetch_xml(
-            url="https://kosovo.cob.csuchico.edu:8025/odata/305/Market",
-            table_name="Market")
+        self._fetch_xml(url=url, table_name=table)
 
-        # Convert the xml file to the pydantic model
-        market_model = worker._xml_to_model("Market", model=Market)
+        print(f'Table "{table}" is updated successfully!')
 
-        # Insert the data to the database
-        conn = sqlite3.connect('erp.db')
+        return table
 
-        query = worker._build_insert_query(
-            table_name="Market",
-            model=market_model
-        )
+    def run(self):
+        while True:
+            # Connect to the database
+            self.conn = sqlite3.connect('erp.db')
 
-        conn.execute(query)
-        conn.commit()
-        conn.close()
+            datetime_now = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+            print(f"========>> [{datetime_now}] - Refreshing data...")
 
-        for i in range(30):
-            print(f"==>> {30 - i} seconds left", end='\r')
-            time.sleep(1)
+            print('===> Recreating the database...')
+            init_db(self.tables)
+
+            print('===> Fetching data')
+
+            done_tables = []
+
+            with ThreadPoolExecutor(max_workers=5) as executor:
+                futures = [executor.submit(self._fetch_data, url) for url in self.urls]
+
+                for future in as_completed(futures):
+                    table: str = future.result()
+                    done_tables.append(table)
+
+            print('===> Pushing data to the database...')
+
+            for table in done_tables:
+                print(f'=> Pushing data of table: "{table}"...')
+                model = table_to_model[table]
+                model_data = self._xml_to_model(table_name=table, model=model)
+                query = self._build_insert_query(table_name=table, model=model_data)
+
+                self.conn.executescript(query)
+
+            print('===> Done pushing to database!')
+            print('===> Closing the connection...')
+
+            # Close the connection
+            self.conn.close()
+
+            with open('configs/games.json', 'r') as f:
+                CONFIG = json.load(f)
+
+            print(f"===> Next run: {CONFIG['auto_refresh']} seconds")
+
+            for i in range(CONFIG['auto_refresh']):
+                print(f"===> {CONFIG['auto_refresh'] - i} seconds left", end='\r')
+                time.sleep(1)
+
+            print('\n\n')
+
+
+if __name__ == '__main__':
+    main_url = CONFIG['data_source_link']
+    tables = ['Market']
+
+    data_refresher = DataRefresher(main_url=main_url, tables=tables)
+
+    data_refresher.run()

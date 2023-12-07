@@ -30,20 +30,25 @@ def _create_market_table(conn):
     print("==>> Created the Market table")
 
 
-def init_db():
+def init_db(list_tables: list = []):
+    """
+        Drop all tables and create them again
+
+    Args:
+        list_tables (list, optional): Defaults to []
+    """
+
     db_path = os.path.join(os.getcwd(), 'erp.db')
 
     # Create the database file and connect to it
     conn = sqlite3.connect(db_path)
 
-    # If the table exists, drop it
-    list_tables = ['Market']
-
     for table in list_tables:
         conn.execute(f"DROP TABLE IF EXISTS {table};")
 
     # Create the tables
-    _create_market_table(conn)
+    if 'Market' in list_tables:
+        _create_market_table(conn)
 
 
 if __name__ == '__main__':
