@@ -30,6 +30,36 @@ def _create_market_table(conn):
     print("==>> Created the Market table")
 
 
+def _create_inventory_table(conn):
+    conn.execute("""
+        CREATE TABLE IF NOT EXISTS Inventory (
+            ID TEXT,
+            ROW_ID INTEGER PRIMARY KEY,
+            PLANT TEXT,
+            SIM_ROUND TEXT,
+            SIM_STEP TEXT,
+            SIM_DATE TEXT,
+            SIM_CALENDAR_DATE TEXT,
+            SIM_PERIOD INTEGER,
+            SIM_ELAPSED_STEPS INTEGER,
+            STORAGE_LOCATION TEXT,
+            MATERIAL_NUMBER TEXT,
+            MATERIAL_DESCRIPTION TEXT,
+            MATERIAL_TYPE TEXT,
+            MATERIAL_CODE TEXT,
+            MATERIAL_SIZE TEXT,
+            MATERIAL_LABEL TEXT,
+            INVENTORY_OPENING_BALANCE INTEGER,
+            UNIT TEXT
+        );
+    """)
+
+    # Save (commit) the changes
+    conn.commit()
+
+    print("==>> Created the Inventory table")
+
+
 def init_db(list_tables: list = []):
     """
         Drop all tables and create them again
@@ -49,6 +79,8 @@ def init_db(list_tables: list = []):
     # Create the tables
     if 'Market' in list_tables:
         _create_market_table(conn)
+    if 'Inventory' in list_tables:
+        _create_inventory_table(conn)
 
 
 if __name__ == '__main__':
