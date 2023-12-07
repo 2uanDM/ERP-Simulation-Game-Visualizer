@@ -1,6 +1,6 @@
 {
     "data_source_link": "https://kosovo.cob.csuchico.edu:8025/odata/305",
     "username": "D_4",
-    "password": "123456",
-    "auto_refresh": 30
+    "password": "1234abcd",
+    "auto_refresh": 60
 }

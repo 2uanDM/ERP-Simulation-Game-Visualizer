@@ -1,10 +1,13 @@
 import os
+import shutil
 import sys
 import time
 sys.path.append(os.getcwd())  # NOQA
 
 import json
 import httpx
+import pandas as pd
+import polars as pl
 import sqlite3
 
 from lxml import etree
@@ -90,6 +93,38 @@ class DataRefresher():
 
         return model_data
 
+    def _xml_to_csv(self, table_name: str) -> str:
+        """
+            Convert the xml file to the csv
+        Args:
+            table_name (str): _description_
+
+        Returns:
+            Path to the csv file
+        """
+        lines = []
+
+        with open(f".temp/{table_name}.xml", "r") as f:
+            contents = f.read()
+
+        soup = bs(contents, 'xml')
+        rows = soup.find_all('content')
+
+        for row in rows:
+            line = {}
+            columns = row.find('properties').find_all()
+
+            for column in columns:
+                line[column.name] = column.text.strip()
+
+            lines.append(line)
+
+        df = pl.DataFrame(lines).to_pandas()
+
+        df.to_csv(f"csv/{table_name}.csv")
+
+        return f"csv/{table_name}.csv"
+
     def _build_insert_query(self, table_name: str, model: List[BaseModel]):
         columns = list(model[0].model_dump().keys())
 
@@ -128,7 +163,7 @@ class DataRefresher():
         # Fetch the data
         self._fetch_xml(url=url, table_name=table)
 
-        print(f'Table "{table}" is updated successfully!')
+        print(f'Table "{table}" is fetched successfully!')
 
         return table
 
@@ -147,7 +182,7 @@ class DataRefresher():
 
             done_tables = []
 
-            with ThreadPoolExecutor(max_workers=5) as executor:
+            with ThreadPoolExecutor(max_workers=10) as executor:
                 futures = [executor.submit(self._fetch_data, url) for url in self.urls]
 
                 for future in as_completed(futures):
@@ -156,13 +191,16 @@ class DataRefresher():
 
             print('===> Pushing data to the database...')
 
-            for table in done_tables:
+            # for table in done_tables:
+            for table in ['Market']:
                 print(f'=> Pushing data of table: "{table}"...')
                 model = table_to_model[table]
                 model_data = self._xml_to_model(table_name=table, model=model)
-                query = self._build_insert_query(table_name=table, model=model_data)
-
-                self.conn.executescript(query)
+                if model_data == []:
+                    print('=> No data to push!')
+                else:
+                    query = self._build_insert_query(table_name=table, model=model_data)
+                    self.conn.executescript(query)
 
             print('===> Done pushing to database!')
             print('===> Closing the connection...')
@@ -184,7 +222,8 @@ class DataRefresher():
 
 if __name__ == '__main__':
     main_url = CONFIG['data_source_link']
-    tables = ['Market']
+    tables = ['Market', 'Company_Valuation', 'Financial_Postings', 'Goods_Movements', 'Independent_Requirements', 'Purchase_Orders', 'Production_Orders', 'Inventory',
+              'Current_Inventory', 'Current_Inventory_KPI', 'Current_Suppliers_Prices', 'Marketing_Expenses', 'Pricing_Conditions', 'Production', 'Sales', 'Suppliers_Prices']
 
     data_refresher = DataRefresher(main_url=main_url, tables=tables)
 

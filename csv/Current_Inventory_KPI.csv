@@ -1,0 +1,13 @@
+,ID,ROW_ID,PLANT,STORAGE_LOCATION,MATERIAL_NUMBER,MATERIAL_DESCRIPTION,MATERIAL_TYPE,MATERIAL_CODE,MATERIAL_SIZE,MATERIAL_LABEL,CURRENT_INVENTORY,QUANTITY_SOLD,UNIT,NB_STEPS_AVAILABLE,SIM_ELAPSED_STEPS
+0,.1~1,1,D3,02,DD-F01,500g Nut Muesli,Finished Product,F01,500g,Nut Muesli,0,74000,ST,43,80
+1,.1~10,10,D3,02,DD-F14,1kg Raisin Muesli,Finished Product,F14,1kg,Raisin Muesli,0,213000,ST,38,80
+2,.1~7,7,D3,02,DD-F11,1kg Nut Muesli,Finished Product,F11,1kg,Nut Muesli,1118,217882,ST,34,80
+3,.1~5,5,D3,02,DD-F05,500g Original Muesli,Finished Product,F05,500g,Original Muesli,0,24000,ST,39,80
+4,.1~12,12,D3,02,DD-F16,1kg Mixed Fruit Muesli,Finished Product,F16,1kg,Mixed Fruit Muesli,45,292955,ST,33,80
+5,.1~3,3,D3,02,DD-F03,500g Strawberry Muesli,Finished Product,F03,500g,Strawberry Muesli,0,85000,ST,18,80
+6,.1~6,6,D3,02,DD-F06,500g Mixed Fruit Muesli,Finished Product,F06,500g,Mixed Fruit Muesli,0,115000,ST,44,80
+7,.1~11,11,D3,02,DD-F15,1kg Original Muesli,Finished Product,F15,1kg,Original Muesli,163,23837,ST,40,80
+8,.1~8,8,D3,02,DD-F12,1kg Blueberry Muesli,Finished Product,F12,1kg,Blueberry Muesli,11601,211399,ST,47,80
+9,.1~9,9,D3,02,DD-F13,1kg Strawberry Muesli,Finished Product,F13,1kg,Strawberry Muesli,13037,247963,ST,44,80
+10,.1~4,4,D3,02,DD-F04,500g Raisin Muesli,Finished Product,F04,500g,Raisin Muesli,0,113000,ST,42,80
+11,.1~2,2,D3,02,DD-F02,500g Blueberry Muesli,Finished Product,F02,500g,Blueberry Muesli,0,121000,ST,42,80

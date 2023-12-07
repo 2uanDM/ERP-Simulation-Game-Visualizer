@@ -1,0 +1,954 @@
+,ID,ROW_ID,COMPANY_CODE,SIM_ROUND,SIM_STEP,SIM_DATE,SIM_CALENDAR_DATE,SIM_PERIOD,SIM_ELAPSED_STEPS,GL_ACCOUNT_NUMBER,GL_ACCOUNT_NAME,FS_LEVEL_1,FS_LEVEL_2,FS_LEVEL_3,FS_LEVEL_4,DEBIT_CREDIT_INDICATOR,AMOUNT_ABS,AMOUNT,AMOUNT_INV,AMOUNT_BS,AMOUNT_IS,CURRENCY
+0,.1~1,1,D3,01,01,01/01,2024-01-01T00:00:00,1,1,1000,Land,Balance Sheet,Assets,Long-Term Assets,,Debit,500000.00,500000.00,-500000.00,500000.00,0.00,EUR
+1,.1~2,2,D3,01,01,01/01,2024-01-01T00:00:00,1,1,2000,Buildings,Balance Sheet,Assets,Long-Term Assets,,Debit,1500000.00,1500000.00,-1500000.00,1500000.00,0.00,EUR
+2,.1~3,3,D3,01,01,01/01,2024-01-01T00:00:00,1,1,11000,Machinery and equipment,Balance Sheet,Assets,Long-Term Assets,,Debit,25000000.00,25000000.00,-25000000.00,25000000.00,0.00,EUR
+3,.1~4,4,D3,01,01,01/01,2024-01-01T00:00:00,1,1,70000,Common stock,Balance Sheet,Liabilities and Owners' Equity,Equity,Shareholders Equity,Credit,20000000.00,-20000000.00,20000000.00,-20000000.00,0.00,EUR
+4,.1~5,5,D3,01,01,01/01,2024-01-01T00:00:00,1,1,113101,Bank Loan,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,8000000.00,-8000000.00,8000000.00,-8000000.00,0.00,EUR
+5,.1~6,6,D3,01,01,01/01,2024-01-01T00:00:00,1,1,113101,Bank Loan,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Debit,500000.00,500000.00,-500000.00,500000.00,0.00,EUR
+6,.1~7,7,D3,01,01,01/01,2024-01-01T00:00:00,1,1,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Credit,28000000.00,-28000000.00,28000000.00,-28000000.00,0.00,EUR
+7,.1~8,8,D3,01,01,01/01,2024-01-01T00:00:00,1,1,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,28000000.00,28000000.00,-28000000.00,28000000.00,0.00,EUR
+8,.1~9,9,D3,01,01,01/01,2024-01-01T00:00:00,1,1,478000,Lean Manufacturing Program Expenses,Income Statement,"Sales, General, and Administrative Expenses",Production Improvement Expenses,,Debit,500000.00,500000.00,-500000.00,0.00,-500000.00,EUR
+9,.1~10,10,D3,01,02,01/02,2024-01-02T00:00:00,1,2,160000,Accounts payable-domestic,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,355607.00,-355607.00,355607.00,-355607.00,0.00,EUR
+10,.1~11,11,D3,01,02,01/02,2024-01-02T00:00:00,1,2,191100,GR/IR Clearing - External procurement,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,355607.00,-355607.00,355607.00,-355607.00,0.00,EUR
+11,.1~12,12,D3,01,02,01/02,2024-01-02T00:00:00,1,2,191100,GR/IR Clearing - External procurement,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Debit,355607.00,355607.00,-355607.00,355607.00,0.00,EUR
+12,.1~13,13,D3,01,02,01/02,2024-01-02T00:00:00,1,2,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Debit,355607.00,355607.00,-355607.00,355607.00,0.00,EUR
+13,.1~14,14,D3,01,03,01/03,2024-01-03T00:00:00,1,3,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,40362.50,-40362.50,40362.50,-40362.50,0.00,EUR
+14,.1~15,15,D3,01,03,01/03,2024-01-03T00:00:00,1,3,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,40362.50,40362.50,-40362.50,0.00,-40362.50,EUR
+15,.1~16,16,D3,01,03,01/03,2024-01-03T00:00:00,1,3,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,40500.00,40500.00,-40500.00,40500.00,0.00,EUR
+16,.1~17,17,D3,01,03,01/03,2024-01-03T00:00:00,1,3,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,40500.00,-40500.00,40500.00,0.00,40500.00,EUR
+17,.1~18,18,D3,01,04,01/04,2024-01-04T00:00:00,1,4,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,37605.32,-37605.32,37605.32,-37605.32,0.00,EUR
+18,.1~19,19,D3,01,04,01/04,2024-01-04T00:00:00,1,4,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,37605.32,37605.32,-37605.32,0.00,-37605.32,EUR
+19,.1~20,20,D3,01,04,01/04,2024-01-04T00:00:00,1,4,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,37724.31,37724.31,-37724.31,37724.31,0.00,EUR
+20,.1~21,21,D3,01,04,01/04,2024-01-04T00:00:00,1,4,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,37724.31,-37724.31,37724.31,0.00,37724.31,EUR
+21,.1~22,22,D3,01,05,01/05,2024-01-05T00:00:00,1,5,2010,Accumulated Depreciation - Buildings,Balance Sheet,Assets,Long-Term Assets,,Credit,1250.00,-1250.00,1250.00,-1250.00,0.00,EUR
+22,.1~23,23,D3,01,05,01/05,2024-01-05T00:00:00,1,5,11010,Accumulated depreciation - machinery and equipment,Balance Sheet,Assets,Long-Term Assets,,Credit,52083.33,-52083.33,52083.33,-52083.33,0.00,EUR
+23,.1~24,24,D3,01,05,01/05,2024-01-05T00:00:00,1,5,113101,Bank Loan,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,13117.95,-13117.95,13117.95,-13117.95,0.00,EUR
+24,.1~25,25,D3,01,05,01/05,2024-01-05T00:00:00,1,5,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Credit,88117.95,-88117.95,88117.95,-88117.95,0.00,EUR
+25,.1~26,26,D3,01,05,01/05,2024-01-05T00:00:00,1,5,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,13117.95,13117.95,-13117.95,13117.95,0.00,EUR
+26,.1~27,27,D3,01,05,01/05,2024-01-05T00:00:00,1,5,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,43640.28,43640.28,-43640.28,43640.28,0.00,EUR
+27,.1~28,28,D3,01,05,01/05,2024-01-05T00:00:00,1,5,160000,Accounts payable-domestic,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,196303.50,-196303.50,196303.50,-196303.50,0.00,EUR
+28,.1~29,29,D3,01,05,01/05,2024-01-05T00:00:00,1,5,191100,GR/IR Clearing - External procurement,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,196303.50,-196303.50,196303.50,-196303.50,0.00,EUR
+29,.1~30,30,D3,01,05,01/05,2024-01-05T00:00:00,1,5,191100,GR/IR Clearing - External procurement,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Debit,196303.50,196303.50,-196303.50,196303.50,0.00,EUR
+30,.1~31,31,D3,01,05,01/05,2024-01-05T00:00:00,1,5,211120,Depreciation-buildings,Income Statement,Operating Expenses,,,Debit,1250.00,1250.00,-1250.00,0.00,-1250.00,EUR
+31,.1~32,32,D3,01,05,01/05,2024-01-05T00:00:00,1,5,211130,Depreciation - machinery and equipment,Income Statement,Operating Expenses,,,Debit,52083.33,52083.33,-52083.33,0.00,-52083.33,EUR
+32,.1~33,33,D3,01,05,01/05,2024-01-05T00:00:00,1,5,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,51600.00,-51600.00,51600.00,-51600.00,0.00,EUR
+33,.1~34,34,D3,01,05,01/05,2024-01-05T00:00:00,1,5,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Debit,196303.50,196303.50,-196303.50,196303.50,0.00,EUR
+34,.1~35,35,D3,01,05,01/05,2024-01-05T00:00:00,1,5,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,51600.00,51600.00,-51600.00,0.00,-51600.00,EUR
+35,.1~36,36,D3,01,05,01/05,2024-01-05T00:00:00,1,5,476900,Interest expenses,Income Statement,"Sales, General, and Administrative Expenses",Interest Expenses,,Debit,13117.95,13117.95,-13117.95,0.00,-13117.95,EUR
+36,.1~37,37,D3,01,05,01/05,2024-01-05T00:00:00,1,5,500000,Direct labor costs,Income Statement,Operating Expenses,,,Debit,20000.00,20000.00,-20000.00,0.00,-20000.00,EUR
+37,.1~38,38,D3,01,05,01/05,2024-01-05T00:00:00,1,5,510000,Factory Overhead Expenses,Income Statement,Operating Expenses,,,Debit,15000.00,15000.00,-15000.00,0.00,-15000.00,EUR
+38,.1~39,39,D3,01,05,01/05,2024-01-05T00:00:00,1,5,520000,"Sales, General and Administrative Expenses",Income Statement,"Sales, General, and Administrative Expenses",SG&A,,Debit,40000.00,40000.00,-40000.00,0.00,-40000.00,EUR
+39,.1~40,40,D3,01,05,01/05,2024-01-05T00:00:00,1,5,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,8979.66,-8979.66,8979.66,-8979.66,0.00,EUR
+40,.1~41,41,D3,01,05,01/05,2024-01-05T00:00:00,1,5,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,51750.00,51750.00,-51750.00,51750.00,0.00,EUR
+41,.1~42,42,D3,01,05,01/05,2024-01-05T00:00:00,1,5,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,43640.28,-43640.28,43640.28,0.00,43640.28,EUR
+42,.1~43,43,D3,01,05,01/05,2024-01-05T00:00:00,1,5,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,8979.66,8979.66,-8979.66,0.00,-8979.66,EUR
+43,.1~44,44,D3,01,05,01/05,2024-01-05T00:00:00,1,5,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,51750.00,-51750.00,51750.00,0.00,51750.00,EUR
+44,.1~45,45,D3,01,06,01/06,2024-01-06T00:00:00,2,6,113101,Bank Loan,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,75000.00,-75000.00,75000.00,-75000.00,0.00,EUR
+45,.1~46,46,D3,01,06,01/06,2024-01-06T00:00:00,2,6,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,75000.00,75000.00,-75000.00,75000.00,0.00,EUR
+46,.1~47,47,D3,01,06,01/06,2024-01-06T00:00:00,2,6,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,319145.73,319145.73,-319145.73,319145.73,0.00,EUR
+47,.1~48,48,D3,01,06,01/06,2024-01-06T00:00:00,2,6,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,31083.59,-31083.59,31083.59,-31083.59,0.00,EUR
+48,.1~49,49,D3,01,06,01/06,2024-01-06T00:00:00,2,6,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,31083.59,31083.59,-31083.59,0.00,-31083.59,EUR
+49,.1~50,50,D3,01,06,01/06,2024-01-06T00:00:00,2,6,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,63404.46,-63404.46,63404.46,-63404.46,0.00,EUR
+50,.1~51,51,D3,01,06,01/06,2024-01-06T00:00:00,2,6,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,31111.43,31111.43,-31111.43,31111.43,0.00,EUR
+51,.1~52,52,D3,01,06,01/06,2024-01-06T00:00:00,2,6,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,319145.73,-319145.73,319145.73,0.00,319145.73,EUR
+52,.1~53,53,D3,01,06,01/06,2024-01-06T00:00:00,2,6,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,63404.46,63404.46,-63404.46,0.00,-63404.46,EUR
+53,.1~54,54,D3,01,06,01/06,2024-01-06T00:00:00,2,6,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,31111.43,-31111.43,31111.43,0.00,31111.43,EUR
+54,.1~55,55,D3,01,07,01/07,2024-01-07T00:00:00,2,7,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,109606.05,109606.05,-109606.05,109606.05,0.00,EUR
+55,.1~56,56,D3,01,07,01/07,2024-01-07T00:00:00,2,7,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,30274.06,-30274.06,30274.06,-30274.06,0.00,EUR
+56,.1~57,57,D3,01,07,01/07,2024-01-07T00:00:00,2,7,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,30274.06,30274.06,-30274.06,0.00,-30274.06,EUR
+57,.1~58,58,D3,01,07,01/07,2024-01-07T00:00:00,2,7,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,22349.95,-22349.95,22349.95,-22349.95,0.00,EUR
+58,.1~59,59,D3,01,07,01/07,2024-01-07T00:00:00,2,7,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,30291.98,30291.98,-30291.98,30291.98,0.00,EUR
+59,.1~60,60,D3,01,07,01/07,2024-01-07T00:00:00,2,7,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,109606.05,-109606.05,109606.05,0.00,109606.05,EUR
+60,.1~61,61,D3,01,07,01/07,2024-01-07T00:00:00,2,7,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,22349.95,22349.95,-22349.95,0.00,-22349.95,EUR
+61,.1~62,62,D3,01,07,01/07,2024-01-07T00:00:00,2,7,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,30291.98,-30291.98,30291.98,0.00,30291.98,EUR
+62,.1~63,63,D3,01,08,01/08,2024-01-08T00:00:00,2,8,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,321167.52,321167.52,-321167.52,321167.52,0.00,EUR
+63,.1~64,64,D3,01,08,01/08,2024-01-08T00:00:00,2,8,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,56862.50,-56862.50,56862.50,-56862.50,0.00,EUR
+64,.1~65,65,D3,01,08,01/08,2024-01-08T00:00:00,2,8,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,56862.50,56862.50,-56862.50,0.00,-56862.50,EUR
+65,.1~66,66,D3,01,08,01/08,2024-01-08T00:00:00,2,8,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,58289.67,-58289.67,58289.67,-58289.67,0.00,EUR
+66,.1~67,67,D3,01,08,01/08,2024-01-08T00:00:00,2,8,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,57000.00,57000.00,-57000.00,57000.00,0.00,EUR
+67,.1~68,68,D3,01,08,01/08,2024-01-08T00:00:00,2,8,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,321167.52,-321167.52,321167.52,0.00,321167.52,EUR
+68,.1~69,69,D3,01,08,01/08,2024-01-08T00:00:00,2,8,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,58289.67,58289.67,-58289.67,0.00,-58289.67,EUR
+69,.1~70,70,D3,01,08,01/08,2024-01-08T00:00:00,2,8,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,57000.00,-57000.00,57000.00,0.00,57000.00,EUR
+70,.1~71,71,D3,01,09,01/09,2024-01-09T00:00:00,2,9,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,49544.37,49544.37,-49544.37,49544.37,0.00,EUR
+71,.1~72,72,D3,01,09,01/09,2024-01-09T00:00:00,2,9,160000,Accounts payable-domestic,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,486032.00,-486032.00,486032.00,-486032.00,0.00,EUR
+72,.1~73,73,D3,01,09,01/09,2024-01-09T00:00:00,2,9,191100,GR/IR Clearing - External procurement,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,486032.00,-486032.00,486032.00,-486032.00,0.00,EUR
+73,.1~74,74,D3,01,09,01/09,2024-01-09T00:00:00,2,9,191100,GR/IR Clearing - External procurement,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Debit,486032.00,486032.00,-486032.00,486032.00,0.00,EUR
+74,.1~75,75,D3,01,09,01/09,2024-01-09T00:00:00,2,9,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,47322.67,-47322.67,47322.67,-47322.67,0.00,EUR
+75,.1~76,76,D3,01,09,01/09,2024-01-09T00:00:00,2,9,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Debit,486032.00,486032.00,-486032.00,486032.00,0.00,EUR
+76,.1~77,77,D3,01,09,01/09,2024-01-09T00:00:00,2,9,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,47322.67,47322.67,-47322.67,0.00,-47322.67,EUR
+77,.1~78,78,D3,01,09,01/09,2024-01-09T00:00:00,2,9,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,9703.78,-9703.78,9703.78,-9703.78,0.00,EUR
+78,.1~79,79,D3,01,09,01/09,2024-01-09T00:00:00,2,9,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,47395.92,47395.92,-47395.92,47395.92,0.00,EUR
+79,.1~80,80,D3,01,09,01/09,2024-01-09T00:00:00,2,9,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,49544.37,-49544.37,49544.37,0.00,49544.37,EUR
+80,.1~81,81,D3,01,09,01/09,2024-01-09T00:00:00,2,9,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,9703.78,9703.78,-9703.78,0.00,-9703.78,EUR
+81,.1~82,82,D3,01,09,01/09,2024-01-09T00:00:00,2,9,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,47395.92,-47395.92,47395.92,0.00,47395.92,EUR
+82,.1~83,83,D3,01,10,01/10,2024-01-10T00:00:00,2,10,2010,Accumulated Depreciation - Buildings,Balance Sheet,Assets,Long-Term Assets,,Credit,1250.00,-1250.00,1250.00,-1250.00,0.00,EUR
+83,.1~84,84,D3,01,10,01/10,2024-01-10T00:00:00,2,10,11010,Accumulated depreciation - machinery and equipment,Balance Sheet,Assets,Long-Term Assets,,Credit,52083.33,-52083.33,52083.33,-52083.33,0.00,EUR
+84,.1~85,85,D3,01,10,01/10,2024-01-10T00:00:00,2,10,113101,Bank Loan,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,13317.83,-13317.83,13317.83,-13317.83,0.00,EUR
+85,.1~86,86,D3,01,10,01/10,2024-01-10T00:00:00,2,10,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Credit,91717.83,-91717.83,91717.83,-91717.83,0.00,EUR
+86,.1~87,87,D3,01,10,01/10,2024-01-10T00:00:00,2,10,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,13317.83,13317.83,-13317.83,13317.83,0.00,EUR
+87,.1~88,88,D3,01,10,01/10,2024-01-10T00:00:00,2,10,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,115251.86,115251.86,-115251.86,115251.86,0.00,EUR
+88,.1~89,89,D3,01,10,01/10,2024-01-10T00:00:00,2,10,211120,Depreciation-buildings,Income Statement,Operating Expenses,,,Debit,1250.00,1250.00,-1250.00,0.00,-1250.00,EUR
+89,.1~90,90,D3,01,10,01/10,2024-01-10T00:00:00,2,10,211130,Depreciation - machinery and equipment,Income Statement,Operating Expenses,,,Debit,52083.33,52083.33,-52083.33,0.00,-52083.33,EUR
+90,.1~91,91,D3,01,10,01/10,2024-01-10T00:00:00,2,10,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,55638.11,-55638.11,55638.11,-55638.11,0.00,EUR
+91,.1~92,92,D3,01,10,01/10,2024-01-10T00:00:00,2,10,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,55638.11,55638.11,-55638.11,0.00,-55638.11,EUR
+92,.1~93,93,D3,01,10,01/10,2024-01-10T00:00:00,2,10,476900,Interest expenses,Income Statement,"Sales, General, and Administrative Expenses",Interest Expenses,,Debit,13317.83,13317.83,-13317.83,0.00,-13317.83,EUR
+93,.1~94,94,D3,01,10,01/10,2024-01-10T00:00:00,2,10,478100,Warehousing Costs,Income Statement,Operating Expenses,,,Debit,3400.00,3400.00,-3400.00,0.00,-3400.00,EUR
+94,.1~95,95,D3,01,10,01/10,2024-01-10T00:00:00,2,10,500000,Direct labor costs,Income Statement,Operating Expenses,,,Debit,20000.00,20000.00,-20000.00,0.00,-20000.00,EUR
+95,.1~96,96,D3,01,10,01/10,2024-01-10T00:00:00,2,10,510000,Factory Overhead Expenses,Income Statement,Operating Expenses,,,Debit,15000.00,15000.00,-15000.00,0.00,-15000.00,EUR
+96,.1~97,97,D3,01,10,01/10,2024-01-10T00:00:00,2,10,520000,"Sales, General and Administrative Expenses",Income Statement,"Sales, General, and Administrative Expenses",SG&A,,Debit,40000.00,40000.00,-40000.00,0.00,-40000.00,EUR
+97,.1~98,98,D3,01,10,01/10,2024-01-10T00:00:00,2,10,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,24244.29,-24244.29,24244.29,-24244.29,0.00,EUR
+98,.1~99,99,D3,01,10,01/10,2024-01-10T00:00:00,2,10,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,56750.00,56750.00,-56750.00,56750.00,0.00,EUR
+99,.1~100,100,D3,01,10,01/10,2024-01-10T00:00:00,2,10,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,115251.86,-115251.86,115251.86,0.00,115251.86,EUR
+100,.1~101,101,D3,01,10,01/10,2024-01-10T00:00:00,2,10,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,24244.29,24244.29,-24244.29,0.00,-24244.29,EUR
+101,.1~102,102,D3,01,10,01/10,2024-01-10T00:00:00,2,10,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,56750.00,-56750.00,56750.00,0.00,56750.00,EUR
+102,.1~103,103,D3,01,11,01/11,2024-01-11T00:00:00,3,11,113101,Bank Loan,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,78400.00,-78400.00,78400.00,-78400.00,0.00,EUR
+103,.1~104,104,D3,01,11,01/11,2024-01-11T00:00:00,3,11,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,78400.00,78400.00,-78400.00,78400.00,0.00,EUR
+104,.1~105,105,D3,01,11,01/11,2024-01-11T00:00:00,3,11,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,119737.10,119737.10,-119737.10,119737.10,0.00,EUR
+105,.1~106,106,D3,01,11,01/11,2024-01-11T00:00:00,3,11,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,20655.00,-20655.00,20655.00,-20655.00,0.00,EUR
+106,.1~107,107,D3,01,11,01/11,2024-01-11T00:00:00,3,11,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,20655.00,20655.00,-20655.00,0.00,-20655.00,EUR
+107,.1~108,108,D3,01,11,01/11,2024-01-11T00:00:00,3,11,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,27189.70,-27189.70,27189.70,-27189.70,0.00,EUR
+108,.1~109,109,D3,01,11,01/11,2024-01-11T00:00:00,3,11,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,21034.86,21034.86,-21034.86,21034.86,0.00,EUR
+109,.1~110,110,D3,01,11,01/11,2024-01-11T00:00:00,3,11,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,119737.10,-119737.10,119737.10,0.00,119737.10,EUR
+110,.1~111,111,D3,01,11,01/11,2024-01-11T00:00:00,3,11,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,27189.70,27189.70,-27189.70,0.00,-27189.70,EUR
+111,.1~112,112,D3,01,11,01/11,2024-01-11T00:00:00,3,11,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,21034.86,-21034.86,21034.86,0.00,21034.86,EUR
+112,.1~113,113,D3,01,12,01/12,2024-01-12T00:00:00,3,12,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,112063.45,112063.45,-112063.45,112063.45,0.00,EUR
+113,.1~114,114,D3,01,12,01/12,2024-01-12T00:00:00,3,12,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,18139.86,-18139.86,18139.86,-18139.86,0.00,EUR
+114,.1~115,115,D3,01,12,01/12,2024-01-12T00:00:00,3,12,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,18139.86,18139.86,-18139.86,0.00,-18139.86,EUR
+115,.1~116,116,D3,01,12,01/12,2024-01-12T00:00:00,3,12,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,29114.76,-29114.76,29114.76,-29114.76,0.00,EUR
+116,.1~117,117,D3,01,12,01/12,2024-01-12T00:00:00,3,12,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,18419.92,18419.92,-18419.92,18419.92,0.00,EUR
+117,.1~118,118,D3,01,12,01/12,2024-01-12T00:00:00,3,12,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,112063.45,-112063.45,112063.45,0.00,112063.45,EUR
+118,.1~119,119,D3,01,12,01/12,2024-01-12T00:00:00,3,12,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,29114.76,29114.76,-29114.76,0.00,-29114.76,EUR
+119,.1~120,120,D3,01,12,01/12,2024-01-12T00:00:00,3,12,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,18419.92,-18419.92,18419.92,0.00,18419.92,EUR
+120,.1~121,121,D3,01,13,01/13,2024-01-13T00:00:00,3,13,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,318908.49,318908.49,-318908.49,318908.49,0.00,EUR
+121,.1~122,122,D3,01,13,01/13,2024-01-13T00:00:00,3,13,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,19786.63,-19786.63,19786.63,-19786.63,0.00,EUR
+122,.1~123,123,D3,01,13,01/13,2024-01-13T00:00:00,3,13,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,19786.63,19786.63,-19786.63,0.00,-19786.63,EUR
+123,.1~124,124,D3,01,13,01/13,2024-01-13T00:00:00,3,13,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,74540.44,-74540.44,74540.44,-74540.44,0.00,EUR
+124,.1~125,125,D3,01,13,01/13,2024-01-13T00:00:00,3,13,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,19750.00,19750.00,-19750.00,19750.00,0.00,EUR
+125,.1~126,126,D3,01,13,01/13,2024-01-13T00:00:00,3,13,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,318908.49,-318908.49,318908.49,0.00,318908.49,EUR
+126,.1~127,127,D3,01,13,01/13,2024-01-13T00:00:00,3,13,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,74540.44,74540.44,-74540.44,0.00,-74540.44,EUR
+127,.1~128,128,D3,01,13,01/13,2024-01-13T00:00:00,3,13,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,19750.00,-19750.00,19750.00,0.00,19750.00,EUR
+128,.1~129,129,D3,01,14,01/14,2024-01-14T00:00:00,3,14,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,21802.37,-21802.37,21802.37,-21802.37,0.00,EUR
+129,.1~130,130,D3,01,14,01/14,2024-01-14T00:00:00,3,14,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,21802.37,21802.37,-21802.37,0.00,-21802.37,EUR
+130,.1~131,131,D3,01,14,01/14,2024-01-14T00:00:00,3,14,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,21663.71,21663.71,-21663.71,21663.71,0.00,EUR
+131,.1~132,132,D3,01,14,01/14,2024-01-14T00:00:00,3,14,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,21663.71,-21663.71,21663.71,0.00,21663.71,EUR
+132,.1~133,133,D3,01,15,01/15,2024-01-15T00:00:00,3,15,2010,Accumulated Depreciation - Buildings,Balance Sheet,Assets,Long-Term Assets,,Credit,1250.00,-1250.00,1250.00,-1250.00,0.00,EUR
+133,.1~134,134,D3,01,15,01/15,2024-01-15T00:00:00,3,15,11010,Accumulated depreciation - machinery and equipment,Balance Sheet,Assets,Long-Term Assets,,Credit,52083.33,-52083.33,52083.33,-52083.33,0.00,EUR
+134,.1~135,135,D3,01,15,01/15,2024-01-15T00:00:00,3,15,113101,Bank Loan,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,13405.07,-13405.07,13405.07,-13405.07,0.00,EUR
+135,.1~136,136,D3,01,15,01/15,2024-01-15T00:00:00,3,15,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Credit,100205.07,-100205.07,100205.07,-100205.07,0.00,EUR
+136,.1~137,137,D3,01,15,01/15,2024-01-15T00:00:00,3,15,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,13405.07,13405.07,-13405.07,13405.07,0.00,EUR
+137,.1~138,138,D3,01,15,01/15,2024-01-15T00:00:00,3,15,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,93342.00,93342.00,-93342.00,93342.00,0.00,EUR
+138,.1~139,139,D3,01,15,01/15,2024-01-15T00:00:00,3,15,211120,Depreciation-buildings,Income Statement,Operating Expenses,,,Debit,1250.00,1250.00,-1250.00,0.00,-1250.00,EUR
+139,.1~140,140,D3,01,15,01/15,2024-01-15T00:00:00,3,15,211130,Depreciation - machinery and equipment,Income Statement,Operating Expenses,,,Debit,52083.33,52083.33,-52083.33,0.00,-52083.33,EUR
+140,.1~141,141,D3,01,15,01/15,2024-01-15T00:00:00,3,15,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,31015.09,-31015.09,31015.09,-31015.09,0.00,EUR
+141,.1~142,142,D3,01,15,01/15,2024-01-15T00:00:00,3,15,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,31015.09,31015.09,-31015.09,0.00,-31015.09,EUR
+142,.1~143,143,D3,01,15,01/15,2024-01-15T00:00:00,3,15,476900,Interest expenses,Income Statement,"Sales, General, and Administrative Expenses",Interest Expenses,,Debit,13405.07,13405.07,-13405.07,0.00,-13405.07,EUR
+143,.1~144,144,D3,01,15,01/15,2024-01-15T00:00:00,3,15,478100,Warehousing Costs,Income Statement,Operating Expenses,,,Debit,11800.00,11800.00,-11800.00,0.00,-11800.00,EUR
+144,.1~145,145,D3,01,15,01/15,2024-01-15T00:00:00,3,15,500000,Direct labor costs,Income Statement,Operating Expenses,,,Debit,20000.00,20000.00,-20000.00,0.00,-20000.00,EUR
+145,.1~146,146,D3,01,15,01/15,2024-01-15T00:00:00,3,15,510000,Factory Overhead Expenses,Income Statement,Operating Expenses,,,Debit,15000.00,15000.00,-15000.00,0.00,-15000.00,EUR
+146,.1~147,147,D3,01,15,01/15,2024-01-15T00:00:00,3,15,520000,"Sales, General and Administrative Expenses",Income Statement,"Sales, General, and Administrative Expenses",SG&A,,Debit,40000.00,40000.00,-40000.00,0.00,-40000.00,EUR
+147,.1~148,148,D3,01,15,01/15,2024-01-15T00:00:00,3,15,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,23348.82,-23348.82,23348.82,-23348.82,0.00,EUR
+148,.1~149,149,D3,01,15,01/15,2024-01-15T00:00:00,3,15,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,30750.00,30750.00,-30750.00,30750.00,0.00,EUR
+149,.1~150,150,D3,01,15,01/15,2024-01-15T00:00:00,3,15,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,93342.00,-93342.00,93342.00,0.00,93342.00,EUR
+150,.1~151,151,D3,01,15,01/15,2024-01-15T00:00:00,3,15,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,23348.82,23348.82,-23348.82,0.00,-23348.82,EUR
+151,.1~152,152,D3,01,15,01/15,2024-01-15T00:00:00,3,15,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,30750.00,-30750.00,30750.00,0.00,30750.00,EUR
+152,.1~153,153,D3,01,16,01/16,2024-01-16T00:00:00,4,16,113101,Bank Loan,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,86800.00,-86800.00,86800.00,-86800.00,0.00,EUR
+153,.1~154,154,D3,01,16,01/16,2024-01-16T00:00:00,4,16,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,86800.00,86800.00,-86800.00,86800.00,0.00,EUR
+154,.1~155,155,D3,01,16,01/16,2024-01-16T00:00:00,4,16,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,86962.30,86962.30,-86962.30,86962.30,0.00,EUR
+155,.1~156,156,D3,01,16,01/16,2024-01-16T00:00:00,4,16,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,25270.18,-25270.18,25270.18,-25270.18,0.00,EUR
+156,.1~157,157,D3,01,16,01/16,2024-01-16T00:00:00,4,16,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,25270.18,25270.18,-25270.18,0.00,-25270.18,EUR
+157,.1~158,158,D3,01,16,01/16,2024-01-16T00:00:00,4,16,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,18701.63,-18701.63,18701.63,-18701.63,0.00,EUR
+158,.1~159,159,D3,01,16,01/16,2024-01-16T00:00:00,4,16,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,25624.59,25624.59,-25624.59,25624.59,0.00,EUR
+159,.1~160,160,D3,01,16,01/16,2024-01-16T00:00:00,4,16,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,86962.30,-86962.30,86962.30,0.00,86962.30,EUR
+160,.1~161,161,D3,01,16,01/16,2024-01-16T00:00:00,4,16,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,18701.63,18701.63,-18701.63,0.00,-18701.63,EUR
+161,.1~162,162,D3,01,16,01/16,2024-01-16T00:00:00,4,16,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,25624.59,-25624.59,25624.59,0.00,25624.59,EUR
+162,.1~163,163,D3,01,17,01/17,2024-01-17T00:00:00,4,17,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,24868.50,-24868.50,24868.50,-24868.50,0.00,EUR
+163,.1~164,164,D3,01,17,01/17,2024-01-17T00:00:00,4,17,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,24868.50,24868.50,-24868.50,0.00,-24868.50,EUR
+164,.1~165,165,D3,01,17,01/17,2024-01-17T00:00:00,4,17,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,25174.89,25174.89,-25174.89,25174.89,0.00,EUR
+165,.1~166,166,D3,01,17,01/17,2024-01-17T00:00:00,4,17,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,25174.89,-25174.89,25174.89,0.00,25174.89,EUR
+166,.1~167,167,D3,01,18,01/18,2024-01-18T00:00:00,4,18,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,108477.08,108477.08,-108477.08,108477.08,0.00,EUR
+167,.1~168,168,D3,01,18,01/18,2024-01-18T00:00:00,4,18,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,108477.08,-108477.08,108477.08,-108477.08,0.00,EUR
+168,.1~169,169,D3,01,18,01/18,2024-01-18T00:00:00,4,18,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,28112.16,-28112.16,28112.16,-28112.16,0.00,EUR
+169,.1~170,170,D3,01,18,01/18,2024-01-18T00:00:00,4,18,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,28112.16,28112.16,-28112.16,0.00,-28112.16,EUR
+170,.1~171,171,D3,01,18,01/18,2024-01-18T00:00:00,4,18,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,28250.00,28250.00,-28250.00,28250.00,0.00,EUR
+171,.1~172,172,D3,01,18,01/18,2024-01-18T00:00:00,4,18,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,28250.00,-28250.00,28250.00,0.00,28250.00,EUR
+172,.1~173,173,D3,01,19,01/19,2024-01-19T00:00:00,4,19,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,48756.00,48756.00,-48756.00,48756.00,0.00,EUR
+173,.1~174,174,D3,01,19,01/19,2024-01-19T00:00:00,4,19,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,48756.00,-48756.00,48756.00,-48756.00,0.00,EUR
+174,.1~175,175,D3,01,19,01/19,2024-01-19T00:00:00,4,19,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,180516.97,180516.97,-180516.97,180516.97,0.00,EUR
+175,.1~176,176,D3,01,19,01/19,2024-01-19T00:00:00,4,19,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,35749.84,-35749.84,35749.84,-35749.84,0.00,EUR
+176,.1~177,177,D3,01,19,01/19,2024-01-19T00:00:00,4,19,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,35749.84,35749.84,-35749.84,0.00,-35749.84,EUR
+177,.1~178,178,D3,01,19,01/19,2024-01-19T00:00:00,4,19,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,35002.78,-35002.78,35002.78,-35002.78,0.00,EUR
+178,.1~179,179,D3,01,19,01/19,2024-01-19T00:00:00,4,19,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,36071.49,36071.49,-36071.49,36071.49,0.00,EUR
+179,.1~180,180,D3,01,19,01/19,2024-01-19T00:00:00,4,19,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,180516.97,-180516.97,180516.97,0.00,180516.97,EUR
+180,.1~181,181,D3,01,19,01/19,2024-01-19T00:00:00,4,19,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,35002.78,35002.78,-35002.78,0.00,-35002.78,EUR
+181,.1~182,182,D3,01,19,01/19,2024-01-19T00:00:00,4,19,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,36071.49,-36071.49,36071.49,0.00,36071.49,EUR
+182,.1~183,183,D3,01,20,01/20,2024-01-20T00:00:00,4,20,2010,Accumulated Depreciation - Buildings,Balance Sheet,Assets,Long-Term Assets,,Credit,1250.00,-1250.00,1250.00,-1250.00,0.00,EUR
+183,.1~184,184,D3,01,20,01/20,2024-01-20T00:00:00,4,20,11010,Accumulated depreciation - machinery and equipment,Balance Sheet,Assets,Long-Term Assets,,Credit,52083.33,-52083.33,52083.33,-52083.33,0.00,EUR
+184,.1~185,185,D3,01,20,01/20,2024-01-20T00:00:00,4,20,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Credit,92427.75,-92427.75,92427.75,-92427.75,0.00,EUR
+185,.1~186,186,D3,01,20,01/20,2024-01-20T00:00:00,4,20,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,125494.66,125494.66,-125494.66,125494.66,0.00,EUR
+186,.1~187,187,D3,01,20,01/20,2024-01-20T00:00:00,4,20,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,125494.66,-125494.66,125494.66,-125494.66,0.00,EUR
+187,.1~188,188,D3,01,20,01/20,2024-01-20T00:00:00,4,20,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,293903.16,293903.16,-293903.16,293903.16,0.00,EUR
+188,.1~189,189,D3,01,20,01/20,2024-01-20T00:00:00,4,20,211120,Depreciation-buildings,Income Statement,Operating Expenses,,,Debit,1250.00,1250.00,-1250.00,0.00,-1250.00,EUR
+189,.1~190,190,D3,01,20,01/20,2024-01-20T00:00:00,4,20,211130,Depreciation - machinery and equipment,Income Statement,Operating Expenses,,,Debit,52083.33,52083.33,-52083.33,0.00,-52083.33,EUR
+190,.1~191,191,D3,01,20,01/20,2024-01-20T00:00:00,4,20,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,51224.34,-51224.34,51224.34,-51224.34,0.00,EUR
+191,.1~192,192,D3,01,20,01/20,2024-01-20T00:00:00,4,20,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,51224.34,51224.34,-51224.34,0.00,-51224.34,EUR
+192,.1~193,193,D3,01,20,01/20,2024-01-20T00:00:00,4,20,476900,Interest expenses,Income Statement,"Sales, General, and Administrative Expenses",Interest Expenses,,Debit,13427.75,13427.75,-13427.75,0.00,-13427.75,EUR
+193,.1~194,194,D3,01,20,01/20,2024-01-20T00:00:00,4,20,478100,Warehousing Costs,Income Statement,Operating Expenses,,,Debit,4000.00,4000.00,-4000.00,0.00,-4000.00,EUR
+194,.1~195,195,D3,01,20,01/20,2024-01-20T00:00:00,4,20,500000,Direct labor costs,Income Statement,Operating Expenses,,,Debit,20000.00,20000.00,-20000.00,0.00,-20000.00,EUR
+195,.1~196,196,D3,01,20,01/20,2024-01-20T00:00:00,4,20,510000,Factory Overhead Expenses,Income Statement,Operating Expenses,,,Debit,15000.00,15000.00,-15000.00,0.00,-15000.00,EUR
+196,.1~197,197,D3,01,20,01/20,2024-01-20T00:00:00,4,20,520000,"Sales, General and Administrative Expenses",Income Statement,"Sales, General, and Administrative Expenses",SG&A,,Debit,40000.00,40000.00,-40000.00,0.00,-40000.00,EUR
+197,.1~198,198,D3,01,20,01/20,2024-01-20T00:00:00,4,20,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,57406.14,-57406.14,57406.14,-57406.14,0.00,EUR
+198,.1~199,199,D3,01,20,01/20,2024-01-20T00:00:00,4,20,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,51750.00,51750.00,-51750.00,51750.00,0.00,EUR
+199,.1~200,200,D3,01,20,01/20,2024-01-20T00:00:00,4,20,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,293903.16,-293903.16,293903.16,0.00,293903.16,EUR
+200,.1~201,201,D3,01,20,01/20,2024-01-20T00:00:00,4,20,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,57406.14,57406.14,-57406.14,0.00,-57406.14,EUR
+201,.1~202,202,D3,01,20,01/20,2024-01-20T00:00:00,4,20,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,51750.00,-51750.00,51750.00,0.00,51750.00,EUR
+202,.1~203,203,D3,02,01,02/01,2024-01-21T00:00:00,5,21,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,320284.10,320284.10,-320284.10,320284.10,0.00,EUR
+203,.1~204,204,D3,02,01,02/01,2024-01-21T00:00:00,5,21,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,51224.33,-51224.33,51224.33,-51224.33,0.00,EUR
+204,.1~205,205,D3,02,01,02/01,2024-01-21T00:00:00,5,21,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,51224.33,51224.33,-51224.33,0.00,-51224.33,EUR
+205,.1~206,206,D3,02,01,02/01,2024-01-21T00:00:00,5,21,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,70687.20,-70687.20,70687.20,-70687.20,0.00,EUR
+206,.1~207,207,D3,02,01,02/01,2024-01-21T00:00:00,5,21,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,51750.00,51750.00,-51750.00,51750.00,0.00,EUR
+207,.1~208,208,D3,02,01,02/01,2024-01-21T00:00:00,5,21,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,320284.10,-320284.10,320284.10,0.00,320284.10,EUR
+208,.1~209,209,D3,02,01,02/01,2024-01-21T00:00:00,5,21,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,70687.20,70687.20,-70687.20,0.00,-70687.20,EUR
+209,.1~210,210,D3,02,01,02/01,2024-01-21T00:00:00,5,21,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,51750.00,-51750.00,51750.00,0.00,51750.00,EUR
+210,.1~211,211,D3,02,02,02/02,2024-01-22T00:00:00,5,22,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Credit,355607.00,-355607.00,355607.00,-355607.00,0.00,EUR
+211,.1~212,212,D3,02,02,02/02,2024-01-22T00:00:00,5,22,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,63838.43,63838.43,-63838.43,63838.43,0.00,EUR
+212,.1~213,213,D3,02,02,02/02,2024-01-22T00:00:00,5,22,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,63838.43,-63838.43,63838.43,-63838.43,0.00,EUR
+213,.1~214,214,D3,02,02,02/02,2024-01-22T00:00:00,5,22,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,169871.69,169871.69,-169871.69,169871.69,0.00,EUR
+214,.1~215,215,D3,02,02,02/02,2024-01-22T00:00:00,5,22,160000,Accounts payable-domestic,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Debit,355607.00,355607.00,-355607.00,355607.00,0.00,EUR
+215,.1~216,216,D3,02,02,02/02,2024-01-22T00:00:00,5,22,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,47368.81,-47368.81,47368.81,-47368.81,0.00,EUR
+216,.1~217,217,D3,02,02,02/02,2024-01-22T00:00:00,5,22,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,47368.81,47368.81,-47368.81,0.00,-47368.81,EUR
+217,.1~218,218,D3,02,02,02/02,2024-01-22T00:00:00,5,22,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,38394.53,-38394.53,38394.53,-38394.53,0.00,EUR
+218,.1~219,219,D3,02,02,02/02,2024-01-22T00:00:00,5,22,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,47358.54,47358.54,-47358.54,47358.54,0.00,EUR
+219,.1~220,220,D3,02,02,02/02,2024-01-22T00:00:00,5,22,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,169871.69,-169871.69,169871.69,0.00,169871.69,EUR
+220,.1~221,221,D3,02,02,02/02,2024-01-22T00:00:00,5,22,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,38394.53,38394.53,-38394.53,0.00,-38394.53,EUR
+221,.1~222,222,D3,02,02,02/02,2024-01-22T00:00:00,5,22,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,47358.54,-47358.54,47358.54,0.00,47358.54,EUR
+222,.1~223,223,D3,02,03,02/03,2024-01-23T00:00:00,5,23,113101,Bank Loan,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,101468.58,-101468.58,101468.58,-101468.58,0.00,EUR
+223,.1~224,224,D3,02,03,02/03,2024-01-23T00:00:00,5,23,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,257753.37,257753.37,-257753.37,257753.37,0.00,EUR
+224,.1~225,225,D3,02,03,02/03,2024-01-23T00:00:00,5,23,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,156284.79,-156284.79,156284.79,-156284.79,0.00,EUR
+225,.1~226,226,D3,02,03,02/03,2024-01-23T00:00:00,5,23,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,267559.08,267559.08,-267559.08,267559.08,0.00,EUR
+226,.1~227,227,D3,02,03,02/03,2024-01-23T00:00:00,5,23,160000,Accounts payable-domestic,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,150294.80,-150294.80,150294.80,-150294.80,0.00,EUR
+227,.1~228,228,D3,02,03,02/03,2024-01-23T00:00:00,5,23,191100,GR/IR Clearing - External procurement,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,150294.80,-150294.80,150294.80,-150294.80,0.00,EUR
+228,.1~229,229,D3,02,03,02/03,2024-01-23T00:00:00,5,23,191100,GR/IR Clearing - External procurement,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Debit,150294.80,150294.80,-150294.80,150294.80,0.00,EUR
+229,.1~230,230,D3,02,03,02/03,2024-01-23T00:00:00,5,23,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,57030.19,-57030.19,57030.19,-57030.19,0.00,EUR
+230,.1~231,231,D3,02,03,02/03,2024-01-23T00:00:00,5,23,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Debit,150294.80,150294.80,-150294.80,150294.80,0.00,EUR
+231,.1~232,232,D3,02,03,02/03,2024-01-23T00:00:00,5,23,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,57030.19,57030.19,-57030.19,0.00,-57030.19,EUR
+232,.1~233,233,D3,02,03,02/03,2024-01-23T00:00:00,5,23,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,64833.40,-64833.40,64833.40,-64833.40,0.00,EUR
+233,.1~234,234,D3,02,03,02/03,2024-01-23T00:00:00,5,23,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,57000.00,57000.00,-57000.00,57000.00,0.00,EUR
+234,.1~235,235,D3,02,03,02/03,2024-01-23T00:00:00,5,23,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,267559.08,-267559.08,267559.08,0.00,267559.08,EUR
+235,.1~236,236,D3,02,03,02/03,2024-01-23T00:00:00,5,23,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,64833.40,64833.40,-64833.40,0.00,-64833.40,EUR
+236,.1~237,237,D3,02,03,02/03,2024-01-23T00:00:00,5,23,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,57000.00,-57000.00,57000.00,0.00,57000.00,EUR
+237,.1~238,238,D3,02,04,02/04,2024-01-24T00:00:00,5,24,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,122462.76,122462.76,-122462.76,122462.76,0.00,EUR
+238,.1~239,239,D3,02,04,02/04,2024-01-24T00:00:00,5,24,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,122462.76,-122462.76,122462.76,-122462.76,0.00,EUR
+239,.1~240,240,D3,02,04,02/04,2024-01-24T00:00:00,5,24,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,101372.31,101372.31,-101372.31,101372.31,0.00,EUR
+240,.1~241,241,D3,02,04,02/04,2024-01-24T00:00:00,5,24,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,34635.29,-34635.29,34635.29,-34635.29,0.00,EUR
+241,.1~242,242,D3,02,04,02/04,2024-01-24T00:00:00,5,24,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,34635.29,34635.29,-34635.29,0.00,-34635.29,EUR
+242,.1~243,243,D3,02,04,02/04,2024-01-24T00:00:00,5,24,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,23498.67,-23498.67,23498.67,-23498.67,0.00,EUR
+243,.1~244,244,D3,02,04,02/04,2024-01-24T00:00:00,5,24,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,35621.88,35621.88,-35621.88,35621.88,0.00,EUR
+244,.1~245,245,D3,02,04,02/04,2024-01-24T00:00:00,5,24,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,101372.31,-101372.31,101372.31,0.00,101372.31,EUR
+245,.1~246,246,D3,02,04,02/04,2024-01-24T00:00:00,5,24,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,23498.67,23498.67,-23498.67,0.00,-23498.67,EUR
+246,.1~247,247,D3,02,04,02/04,2024-01-24T00:00:00,5,24,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,35621.88,-35621.88,35621.88,0.00,35621.88,EUR
+247,.1~248,248,D3,02,05,02/05,2024-01-25T00:00:00,5,25,2010,Accumulated Depreciation - Buildings,Balance Sheet,Assets,Long-Term Assets,,Credit,1250.00,-1250.00,1250.00,-1250.00,0.00,EUR
+248,.1~249,249,D3,02,05,02/05,2024-01-25T00:00:00,5,25,11010,Accumulated depreciation - machinery and equipment,Balance Sheet,Assets,Long-Term Assets,,Credit,52083.33,-52083.33,52083.33,-52083.33,0.00,EUR
+249,.1~250,250,D3,02,05,02/05,2024-01-25T00:00:00,5,25,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Credit,284230.13,-284230.13,284230.13,-284230.13,0.00,EUR
+250,.1~251,251,D3,02,05,02/05,2024-01-25T00:00:00,5,25,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,169552.48,169552.48,-169552.48,169552.48,0.00,EUR
+251,.1~252,252,D3,02,05,02/05,2024-01-25T00:00:00,5,25,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,169552.48,-169552.48,169552.48,-169552.48,0.00,EUR
+252,.1~253,253,D3,02,05,02/05,2024-01-25T00:00:00,5,25,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,141158.90,141158.90,-141158.90,141158.90,0.00,EUR
+253,.1~254,254,D3,02,05,02/05,2024-01-25T00:00:00,5,25,160000,Accounts payable-domestic,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,58800.00,-58800.00,58800.00,-58800.00,0.00,EUR
+254,.1~255,255,D3,02,05,02/05,2024-01-25T00:00:00,5,25,160000,Accounts payable-domestic,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Debit,196303.50,196303.50,-196303.50,196303.50,0.00,EUR
+255,.1~256,256,D3,02,05,02/05,2024-01-25T00:00:00,5,25,191100,GR/IR Clearing - External procurement,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,58800.00,-58800.00,58800.00,-58800.00,0.00,EUR
+256,.1~257,257,D3,02,05,02/05,2024-01-25T00:00:00,5,25,191100,GR/IR Clearing - External procurement,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Debit,58800.00,58800.00,-58800.00,58800.00,0.00,EUR
+257,.1~258,258,D3,02,05,02/05,2024-01-25T00:00:00,5,25,211120,Depreciation-buildings,Income Statement,Operating Expenses,,,Debit,1250.00,1250.00,-1250.00,0.00,-1250.00,EUR
+258,.1~259,259,D3,02,05,02/05,2024-01-25T00:00:00,5,25,211130,Depreciation - machinery and equipment,Income Statement,Operating Expenses,,,Debit,52083.33,52083.33,-52083.33,0.00,-52083.33,EUR
+259,.1~260,260,D3,02,05,02/05,2024-01-25T00:00:00,5,25,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,38980.57,-38980.57,38980.57,-38980.57,0.00,EUR
+260,.1~261,261,D3,02,05,02/05,2024-01-25T00:00:00,5,25,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Debit,58800.00,58800.00,-58800.00,58800.00,0.00,EUR
+261,.1~262,262,D3,02,05,02/05,2024-01-25T00:00:00,5,25,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,38980.57,38980.57,-38980.57,0.00,-38980.57,EUR
+262,.1~263,263,D3,02,05,02/05,2024-01-25T00:00:00,5,25,476900,Interest expenses,Income Statement,"Sales, General, and Administrative Expenses",Interest Expenses,,Debit,12926.63,12926.63,-12926.63,0.00,-12926.63,EUR
+263,.1~264,264,D3,02,05,02/05,2024-01-25T00:00:00,5,25,500000,Direct labor costs,Income Statement,Operating Expenses,,,Debit,20000.00,20000.00,-20000.00,0.00,-20000.00,EUR
+264,.1~265,265,D3,02,05,02/05,2024-01-25T00:00:00,5,25,510000,Factory Overhead Expenses,Income Statement,Operating Expenses,,,Debit,15000.00,15000.00,-15000.00,0.00,-15000.00,EUR
+265,.1~266,266,D3,02,05,02/05,2024-01-25T00:00:00,5,25,520000,"Sales, General and Administrative Expenses",Income Statement,"Sales, General, and Administrative Expenses",SG&A,,Debit,40000.00,40000.00,-40000.00,0.00,-40000.00,EUR
+266,.1~267,267,D3,02,05,02/05,2024-01-25T00:00:00,5,25,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,32088.45,-32088.45,32088.45,-32088.45,0.00,EUR
+267,.1~268,268,D3,02,05,02/05,2024-01-25T00:00:00,5,25,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,40500.00,40500.00,-40500.00,40500.00,0.00,EUR
+268,.1~269,269,D3,02,05,02/05,2024-01-25T00:00:00,5,25,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,141158.90,-141158.90,141158.90,0.00,141158.90,EUR
+269,.1~270,270,D3,02,05,02/05,2024-01-25T00:00:00,5,25,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,32088.45,32088.45,-32088.45,0.00,-32088.45,EUR
+270,.1~271,271,D3,02,05,02/05,2024-01-25T00:00:00,5,25,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,40500.00,-40500.00,40500.00,0.00,40500.00,EUR
+271,.1~272,272,D3,02,06,02/06,2024-01-26T00:00:00,6,26,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,75904.53,75904.53,-75904.53,75904.53,0.00,EUR
+272,.1~273,273,D3,02,06,02/06,2024-01-26T00:00:00,6,26,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,75904.53,-75904.53,75904.53,-75904.53,0.00,EUR
+273,.1~274,274,D3,02,06,02/06,2024-01-26T00:00:00,6,26,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,110365.98,110365.98,-110365.98,110365.98,0.00,EUR
+274,.1~275,275,D3,02,06,02/06,2024-01-26T00:00:00,6,26,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,42951.84,-42951.84,42951.84,-42951.84,0.00,EUR
+275,.1~276,276,D3,02,06,02/06,2024-01-26T00:00:00,6,26,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,42951.84,42951.84,-42951.84,0.00,-42951.84,EUR
+276,.1~277,277,D3,02,06,02/06,2024-01-26T00:00:00,6,26,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,21846.00,-21846.00,21846.00,-21846.00,0.00,EUR
+277,.1~278,278,D3,02,06,02/06,2024-01-26T00:00:00,6,26,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,44038.31,44038.31,-44038.31,44038.31,0.00,EUR
+278,.1~279,279,D3,02,06,02/06,2024-01-26T00:00:00,6,26,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,110365.98,-110365.98,110365.98,0.00,110365.98,EUR
+279,.1~280,280,D3,02,06,02/06,2024-01-26T00:00:00,6,26,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,21846.00,21846.00,-21846.00,0.00,-21846.00,EUR
+280,.1~281,281,D3,02,06,02/06,2024-01-26T00:00:00,6,26,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,44038.31,-44038.31,44038.31,0.00,44038.31,EUR
+281,.1~282,282,D3,02,07,02/07,2024-01-27T00:00:00,6,27,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,93937.62,93937.62,-93937.62,93937.62,0.00,EUR
+282,.1~283,283,D3,02,07,02/07,2024-01-27T00:00:00,6,27,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,93937.62,-93937.62,93937.62,-93937.62,0.00,EUR
+283,.1~284,284,D3,02,07,02/07,2024-01-27T00:00:00,6,27,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,256921.05,256921.05,-256921.05,256921.05,0.00,EUR
+284,.1~285,285,D3,02,07,02/07,2024-01-27T00:00:00,6,27,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,55514.39,-55514.39,55514.39,-55514.39,0.00,EUR
+285,.1~286,286,D3,02,07,02/07,2024-01-27T00:00:00,6,27,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,55514.39,55514.39,-55514.39,0.00,-55514.39,EUR
+286,.1~287,287,D3,02,07,02/07,2024-01-27T00:00:00,6,27,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,59385.80,-59385.80,59385.80,-59385.80,0.00,EUR
+287,.1~288,288,D3,02,07,02/07,2024-01-27T00:00:00,6,27,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,56750.00,56750.00,-56750.00,56750.00,0.00,EUR
+288,.1~289,289,D3,02,07,02/07,2024-01-27T00:00:00,6,27,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,256921.05,-256921.05,256921.05,0.00,256921.05,EUR
+289,.1~290,290,D3,02,07,02/07,2024-01-27T00:00:00,6,27,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,59385.80,59385.80,-59385.80,0.00,-59385.80,EUR
+290,.1~291,291,D3,02,07,02/07,2024-01-27T00:00:00,6,27,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,56750.00,-56750.00,56750.00,0.00,56750.00,EUR
+291,.1~292,292,D3,02,08,02/08,2024-01-28T00:00:00,6,28,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,111477.32,111477.32,-111477.32,111477.32,0.00,EUR
+292,.1~293,293,D3,02,08,02/08,2024-01-28T00:00:00,6,28,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,111477.32,-111477.32,111477.32,-111477.32,0.00,EUR
+293,.1~294,294,D3,02,08,02/08,2024-01-28T00:00:00,6,28,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,159838.42,159838.42,-159838.42,159838.42,0.00,EUR
+294,.1~295,295,D3,02,08,02/08,2024-01-28T00:00:00,6,28,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,34942.63,-34942.63,34942.63,-34942.63,0.00,EUR
+295,.1~296,296,D3,02,08,02/08,2024-01-28T00:00:00,6,28,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,34942.63,34942.63,-34942.63,0.00,-34942.63,EUR
+296,.1~297,297,D3,02,08,02/08,2024-01-28T00:00:00,6,28,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,40443.97,-40443.97,40443.97,-40443.97,0.00,EUR
+297,.1~298,298,D3,02,08,02/08,2024-01-28T00:00:00,6,28,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,35268.35,35268.35,-35268.35,35268.35,0.00,EUR
+298,.1~299,299,D3,02,08,02/08,2024-01-28T00:00:00,6,28,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,159838.42,-159838.42,159838.42,0.00,159838.42,EUR
+299,.1~300,300,D3,02,08,02/08,2024-01-28T00:00:00,6,28,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,40443.97,40443.97,-40443.97,0.00,-40443.97,EUR
+300,.1~301,301,D3,02,08,02/08,2024-01-28T00:00:00,6,28,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,35268.35,-35268.35,35268.35,0.00,35268.35,EUR
+301,.1~302,302,D3,02,09,02/09,2024-01-29T00:00:00,6,29,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Credit,486032.00,-486032.00,486032.00,-486032.00,0.00,EUR
+302,.1~303,303,D3,02,09,02/09,2024-01-29T00:00:00,6,29,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,120045.23,120045.23,-120045.23,120045.23,0.00,EUR
+303,.1~304,304,D3,02,09,02/09,2024-01-29T00:00:00,6,29,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,120045.23,-120045.23,120045.23,-120045.23,0.00,EUR
+304,.1~305,305,D3,02,09,02/09,2024-01-29T00:00:00,6,29,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,284189.12,284189.12,-284189.12,284189.12,0.00,EUR
+305,.1~306,306,D3,02,09,02/09,2024-01-29T00:00:00,6,29,160000,Accounts payable-domestic,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,45432.00,-45432.00,45432.00,-45432.00,0.00,EUR
+306,.1~307,307,D3,02,09,02/09,2024-01-29T00:00:00,6,29,160000,Accounts payable-domestic,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Debit,486032.00,486032.00,-486032.00,486032.00,0.00,EUR
+307,.1~308,308,D3,02,09,02/09,2024-01-29T00:00:00,6,29,191100,GR/IR Clearing - External procurement,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,45432.00,-45432.00,45432.00,-45432.00,0.00,EUR
+308,.1~309,309,D3,02,09,02/09,2024-01-29T00:00:00,6,29,191100,GR/IR Clearing - External procurement,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Debit,45432.00,45432.00,-45432.00,45432.00,0.00,EUR
+309,.1~310,310,D3,02,09,02/09,2024-01-29T00:00:00,6,29,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,34367.55,-34367.55,34367.55,-34367.55,0.00,EUR
+310,.1~311,311,D3,02,09,02/09,2024-01-29T00:00:00,6,29,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Debit,45432.00,45432.00,-45432.00,45432.00,0.00,EUR
+311,.1~312,312,D3,02,09,02/09,2024-01-29T00:00:00,6,29,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,34367.55,34367.55,-34367.55,0.00,-34367.55,EUR
+312,.1~313,313,D3,02,09,02/09,2024-01-29T00:00:00,6,29,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,69479.58,-69479.58,69479.58,-69479.58,0.00,EUR
+313,.1~314,314,D3,02,09,02/09,2024-01-29T00:00:00,6,29,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,34750.00,34750.00,-34750.00,34750.00,0.00,EUR
+314,.1~315,315,D3,02,09,02/09,2024-01-29T00:00:00,6,29,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,284189.12,-284189.12,284189.12,0.00,284189.12,EUR
+315,.1~316,316,D3,02,09,02/09,2024-01-29T00:00:00,6,29,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,69479.58,69479.58,-69479.58,0.00,-69479.58,EUR
+316,.1~317,317,D3,02,09,02/09,2024-01-29T00:00:00,6,29,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,34750.00,-34750.00,34750.00,0.00,34750.00,EUR
+317,.1~318,318,D3,02,10,02/10,2024-01-30T00:00:00,6,30,2010,Accumulated Depreciation - Buildings,Balance Sheet,Assets,Long-Term Assets,,Credit,1250.00,-1250.00,1250.00,-1250.00,0.00,EUR
+318,.1~319,319,D3,02,10,02/10,2024-01-30T00:00:00,6,30,11010,Accumulated depreciation - machinery and equipment,Balance Sheet,Assets,Long-Term Assets,,Credit,52083.33,-52083.33,52083.33,-52083.33,0.00,EUR
+319,.1~320,320,D3,02,10,02/10,2024-01-30T00:00:00,6,30,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Credit,87723.05,-87723.05,87723.05,-87723.05,0.00,EUR
+320,.1~321,321,D3,02,10,02/10,2024-01-30T00:00:00,6,30,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,188881.55,188881.55,-188881.55,188881.55,0.00,EUR
+321,.1~322,322,D3,02,10,02/10,2024-01-30T00:00:00,6,30,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,188881.55,-188881.55,188881.55,-188881.55,0.00,EUR
+322,.1~323,323,D3,02,10,02/10,2024-01-30T00:00:00,6,30,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,326855.70,326855.70,-326855.70,326855.70,0.00,EUR
+323,.1~324,324,D3,02,10,02/10,2024-01-30T00:00:00,6,30,211120,Depreciation-buildings,Income Statement,Operating Expenses,,,Debit,1250.00,1250.00,-1250.00,0.00,-1250.00,EUR
+324,.1~325,325,D3,02,10,02/10,2024-01-30T00:00:00,6,30,211130,Depreciation - machinery and equipment,Income Statement,Operating Expenses,,,Debit,52083.33,52083.33,-52083.33,0.00,-52083.33,EUR
+325,.1~326,326,D3,02,10,02/10,2024-01-30T00:00:00,6,30,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,22848.09,-22848.09,22848.09,-22848.09,0.00,EUR
+326,.1~327,327,D3,02,10,02/10,2024-01-30T00:00:00,6,30,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,22848.09,22848.09,-22848.09,0.00,-22848.09,EUR
+327,.1~328,328,D3,02,10,02/10,2024-01-30T00:00:00,6,30,476900,Interest expenses,Income Statement,"Sales, General, and Administrative Expenses",Interest Expenses,,Debit,12723.05,12723.05,-12723.05,0.00,-12723.05,EUR
+328,.1~329,329,D3,02,10,02/10,2024-01-30T00:00:00,6,30,500000,Direct labor costs,Income Statement,Operating Expenses,,,Debit,20000.00,20000.00,-20000.00,0.00,-20000.00,EUR
+329,.1~330,330,D3,02,10,02/10,2024-01-30T00:00:00,6,30,510000,Factory Overhead Expenses,Income Statement,Operating Expenses,,,Debit,15000.00,15000.00,-15000.00,0.00,-15000.00,EUR
+330,.1~331,331,D3,02,10,02/10,2024-01-30T00:00:00,6,30,520000,"Sales, General and Administrative Expenses",Income Statement,"Sales, General, and Administrative Expenses",SG&A,,Debit,40000.00,40000.00,-40000.00,0.00,-40000.00,EUR
+331,.1~332,332,D3,02,10,02/10,2024-01-30T00:00:00,6,30,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,71885.21,-71885.21,71885.21,-71885.21,0.00,EUR
+332,.1~333,333,D3,02,10,02/10,2024-01-30T00:00:00,6,30,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,23325.32,23325.32,-23325.32,23325.32,0.00,EUR
+333,.1~334,334,D3,02,10,02/10,2024-01-30T00:00:00,6,30,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,326855.70,-326855.70,326855.70,0.00,326855.70,EUR
+334,.1~335,335,D3,02,10,02/10,2024-01-30T00:00:00,6,30,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,71885.21,71885.21,-71885.21,0.00,-71885.21,EUR
+335,.1~336,336,D3,02,10,02/10,2024-01-30T00:00:00,6,30,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,23325.32,-23325.32,23325.32,0.00,23325.32,EUR
+336,.1~337,337,D3,02,11,02/11,2024-01-31T00:00:00,7,31,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,227448.96,227448.96,-227448.96,227448.96,0.00,EUR
+337,.1~338,338,D3,02,11,02/11,2024-01-31T00:00:00,7,31,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,227448.96,-227448.96,227448.96,-227448.96,0.00,EUR
+338,.1~339,339,D3,02,11,02/11,2024-01-31T00:00:00,7,31,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,21772.80,-21772.80,21772.80,-21772.80,0.00,EUR
+339,.1~340,340,D3,02,11,02/11,2024-01-31T00:00:00,7,31,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,21772.80,21772.80,-21772.80,0.00,-21772.80,EUR
+340,.1~341,341,D3,02,11,02/11,2024-01-31T00:00:00,7,31,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,22500.00,22500.00,-22500.00,22500.00,0.00,EUR
+341,.1~342,342,D3,02,11,02/11,2024-01-31T00:00:00,7,31,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,22500.00,-22500.00,22500.00,0.00,22500.00,EUR
+342,.1~343,343,D3,02,12,02/12,2024-02-01T00:00:00,7,32,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,337605.01,337605.01,-337605.01,337605.01,0.00,EUR
+343,.1~344,344,D3,02,12,02/12,2024-02-01T00:00:00,7,32,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,337605.01,-337605.01,337605.01,-337605.01,0.00,EUR
+344,.1~345,345,D3,02,12,02/12,2024-02-01T00:00:00,7,32,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,72614.80,72614.80,-72614.80,72614.80,0.00,EUR
+345,.1~346,346,D3,02,12,02/12,2024-02-01T00:00:00,7,32,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,25853.61,-25853.61,25853.61,-25853.61,0.00,EUR
+346,.1~347,347,D3,02,12,02/12,2024-02-01T00:00:00,7,32,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,25853.61,25853.61,-25853.61,0.00,-25853.61,EUR
+347,.1~348,348,D3,02,12,02/12,2024-02-01T00:00:00,7,32,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,20111.60,-20111.60,20111.60,-20111.60,0.00,EUR
+348,.1~349,349,D3,02,12,02/12,2024-02-01T00:00:00,7,32,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,25457.94,25457.94,-25457.94,25457.94,0.00,EUR
+349,.1~350,350,D3,02,12,02/12,2024-02-01T00:00:00,7,32,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,72614.80,-72614.80,72614.80,0.00,72614.80,EUR
+350,.1~351,351,D3,02,12,02/12,2024-02-01T00:00:00,7,32,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,20111.60,20111.60,-20111.60,0.00,-20111.60,EUR
+351,.1~352,352,D3,02,12,02/12,2024-02-01T00:00:00,7,32,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,25457.94,-25457.94,25457.94,0.00,25457.94,EUR
+352,.1~353,353,D3,02,13,02/13,2024-02-02T00:00:00,7,33,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,342259.34,342259.34,-342259.34,342259.34,0.00,EUR
+353,.1~354,354,D3,02,13,02/13,2024-02-02T00:00:00,7,33,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,342259.34,-342259.34,342259.34,-342259.34,0.00,EUR
+354,.1~355,355,D3,02,13,02/13,2024-02-02T00:00:00,7,33,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,31254.67,-31254.67,31254.67,-31254.67,0.00,EUR
+355,.1~356,356,D3,02,13,02/13,2024-02-02T00:00:00,7,33,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,31254.67,31254.67,-31254.67,0.00,-31254.67,EUR
+356,.1~357,357,D3,02,13,02/13,2024-02-02T00:00:00,7,33,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,30750.00,30750.00,-30750.00,30750.00,0.00,EUR
+357,.1~358,358,D3,02,13,02/13,2024-02-02T00:00:00,7,33,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,30750.00,-30750.00,30750.00,0.00,30750.00,EUR
+358,.1~359,359,D3,02,14,02/14,2024-02-03T00:00:00,7,34,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,93098.27,93098.27,-93098.27,93098.27,0.00,EUR
+359,.1~360,360,D3,02,14,02/14,2024-02-03T00:00:00,7,34,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,25162.55,-25162.55,25162.55,-25162.55,0.00,EUR
+360,.1~361,361,D3,02,14,02/14,2024-02-03T00:00:00,7,34,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,25162.55,25162.55,-25162.55,0.00,-25162.55,EUR
+361,.1~362,362,D3,02,14,02/14,2024-02-03T00:00:00,7,34,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,20075.76,-20075.76,20075.76,-20075.76,0.00,EUR
+362,.1~363,363,D3,02,14,02/14,2024-02-03T00:00:00,7,34,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,25624.59,25624.59,-25624.59,25624.59,0.00,EUR
+363,.1~364,364,D3,02,14,02/14,2024-02-03T00:00:00,7,34,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,93098.27,-93098.27,93098.27,0.00,93098.27,EUR
+364,.1~365,365,D3,02,14,02/14,2024-02-03T00:00:00,7,34,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,20075.76,20075.76,-20075.76,0.00,-20075.76,EUR
+365,.1~366,366,D3,02,14,02/14,2024-02-03T00:00:00,7,34,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,25624.59,-25624.59,25624.59,0.00,25624.59,EUR
+366,.1~367,367,D3,02,15,02/15,2024-02-04T00:00:00,7,35,2010,Accumulated Depreciation - Buildings,Balance Sheet,Assets,Long-Term Assets,,Credit,1250.00,-1250.00,1250.00,-1250.00,0.00,EUR
+367,.1~368,368,D3,02,15,02/15,2024-02-04T00:00:00,7,35,11010,Accumulated depreciation - machinery and equipment,Balance Sheet,Assets,Long-Term Assets,,Credit,52083.33,-52083.33,52083.33,-52083.33,0.00,EUR
+368,.1~369,369,D3,02,15,02/15,2024-02-04T00:00:00,7,35,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Credit,87418.31,-87418.31,87418.31,-87418.31,0.00,EUR
+369,.1~370,370,D3,02,15,02/15,2024-02-04T00:00:00,7,35,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,67472.91,67472.91,-67472.91,67472.91,0.00,EUR
+370,.1~371,371,D3,02,15,02/15,2024-02-04T00:00:00,7,35,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,67472.91,-67472.91,67472.91,-67472.91,0.00,EUR
+371,.1~372,372,D3,02,15,02/15,2024-02-04T00:00:00,7,35,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,52888.70,52888.70,-52888.70,52888.70,0.00,EUR
+372,.1~373,373,D3,02,15,02/15,2024-02-04T00:00:00,7,35,160000,Accounts payable-domestic,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,559872.00,-559872.00,559872.00,-559872.00,0.00,EUR
+373,.1~374,374,D3,02,15,02/15,2024-02-04T00:00:00,7,35,191100,GR/IR Clearing - External procurement,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,559872.00,-559872.00,559872.00,-559872.00,0.00,EUR
+374,.1~375,375,D3,02,15,02/15,2024-02-04T00:00:00,7,35,191100,GR/IR Clearing - External procurement,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Debit,559872.00,559872.00,-559872.00,559872.00,0.00,EUR
+375,.1~376,376,D3,02,15,02/15,2024-02-04T00:00:00,7,35,211120,Depreciation-buildings,Income Statement,Operating Expenses,,,Debit,1250.00,1250.00,-1250.00,0.00,-1250.00,EUR
+376,.1~377,377,D3,02,15,02/15,2024-02-04T00:00:00,7,35,211130,Depreciation - machinery and equipment,Income Statement,Operating Expenses,,,Debit,52083.33,52083.33,-52083.33,0.00,-52083.33,EUR
+377,.1~378,378,D3,02,15,02/15,2024-02-04T00:00:00,7,35,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,24231.38,-24231.38,24231.38,-24231.38,0.00,EUR
+378,.1~379,379,D3,02,15,02/15,2024-02-04T00:00:00,7,35,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Debit,559872.00,559872.00,-559872.00,559872.00,0.00,EUR
+379,.1~380,380,D3,02,15,02/15,2024-02-04T00:00:00,7,35,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,24231.38,24231.38,-24231.38,0.00,-24231.38,EUR
+380,.1~381,381,D3,02,15,02/15,2024-02-04T00:00:00,7,35,476900,Interest expenses,Income Statement,"Sales, General, and Administrative Expenses",Interest Expenses,,Debit,12418.31,12418.31,-12418.31,0.00,-12418.31,EUR
+381,.1~382,382,D3,02,15,02/15,2024-02-04T00:00:00,7,35,500000,Direct labor costs,Income Statement,Operating Expenses,,,Debit,20000.00,20000.00,-20000.00,0.00,-20000.00,EUR
+382,.1~383,383,D3,02,15,02/15,2024-02-04T00:00:00,7,35,510000,Factory Overhead Expenses,Income Statement,Operating Expenses,,,Debit,15000.00,15000.00,-15000.00,0.00,-15000.00,EUR
+383,.1~384,384,D3,02,15,02/15,2024-02-04T00:00:00,7,35,520000,"Sales, General and Administrative Expenses",Income Statement,"Sales, General, and Administrative Expenses",SG&A,,Debit,40000.00,40000.00,-40000.00,0.00,-40000.00,EUR
+384,.1~385,385,D3,02,15,02/15,2024-02-04T00:00:00,7,35,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,12274.17,-12274.17,12274.17,-12274.17,0.00,EUR
+385,.1~386,386,D3,02,15,02/15,2024-02-04T00:00:00,7,35,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,24747.23,24747.23,-24747.23,24747.23,0.00,EUR
+386,.1~387,387,D3,02,15,02/15,2024-02-04T00:00:00,7,35,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,52888.70,-52888.70,52888.70,0.00,52888.70,EUR
+387,.1~388,388,D3,02,15,02/15,2024-02-04T00:00:00,7,35,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,12274.17,12274.17,-12274.17,0.00,-12274.17,EUR
+388,.1~389,389,D3,02,15,02/15,2024-02-04T00:00:00,7,35,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,24747.23,-24747.23,24747.23,0.00,24747.23,EUR
+389,.1~390,390,D3,02,16,02/16,2024-02-05T00:00:00,8,36,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,88388.04,88388.04,-88388.04,88388.04,0.00,EUR
+390,.1~391,391,D3,02,16,02/16,2024-02-05T00:00:00,8,36,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,88388.04,-88388.04,88388.04,-88388.04,0.00,EUR
+391,.1~392,392,D3,02,16,02/16,2024-02-05T00:00:00,8,36,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,48521.50,48521.50,-48521.50,48521.50,0.00,EUR
+392,.1~393,393,D3,02,16,02/16,2024-02-05T00:00:00,8,36,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,19993.30,-19993.30,19993.30,-19993.30,0.00,EUR
+393,.1~394,394,D3,02,16,02/16,2024-02-05T00:00:00,8,36,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,19993.30,19993.30,-19993.30,0.00,-19993.30,EUR
+394,.1~395,395,D3,02,16,02/16,2024-02-05T00:00:00,8,36,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,11260.65,-11260.65,11260.65,-11260.65,0.00,EUR
+395,.1~396,396,D3,02,16,02/16,2024-02-05T00:00:00,8,36,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,19750.00,19750.00,-19750.00,19750.00,0.00,EUR
+396,.1~397,397,D3,02,16,02/16,2024-02-05T00:00:00,8,36,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,48521.50,-48521.50,48521.50,0.00,48521.50,EUR
+397,.1~398,398,D3,02,16,02/16,2024-02-05T00:00:00,8,36,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,11260.65,11260.65,-11260.65,0.00,-11260.65,EUR
+398,.1~399,399,D3,02,16,02/16,2024-02-05T00:00:00,8,36,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,19750.00,-19750.00,19750.00,0.00,19750.00,EUR
+399,.1~400,400,D3,02,17,02/17,2024-02-06T00:00:00,8,37,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,193267.23,193267.23,-193267.23,193267.23,0.00,EUR
+400,.1~401,401,D3,02,17,02/17,2024-02-06T00:00:00,8,37,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,193267.23,-193267.23,193267.23,-193267.23,0.00,EUR
+401,.1~402,402,D3,02,17,02/17,2024-02-06T00:00:00,8,37,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,20320.78,-20320.78,20320.78,-20320.78,0.00,EUR
+402,.1~403,403,D3,02,17,02/17,2024-02-06T00:00:00,8,37,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,20320.78,20320.78,-20320.78,0.00,-20320.78,EUR
+403,.1~404,404,D3,02,17,02/17,2024-02-06T00:00:00,8,37,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,20139.25,20139.25,-20139.25,20139.25,0.00,EUR
+404,.1~405,405,D3,02,17,02/17,2024-02-06T00:00:00,8,37,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,20139.25,-20139.25,20139.25,0.00,20139.25,EUR
+405,.1~406,406,D3,02,18,02/18,2024-02-07T00:00:00,8,38,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,33287.40,33287.40,-33287.40,33287.40,0.00,EUR
+406,.1~407,407,D3,02,18,02/18,2024-02-07T00:00:00,8,38,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,33287.40,-33287.40,33287.40,-33287.40,0.00,EUR
+407,.1~408,408,D3,02,18,02/18,2024-02-07T00:00:00,8,38,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,174609.70,174609.70,-174609.70,174609.70,0.00,EUR
+408,.1~409,409,D3,02,18,02/18,2024-02-07T00:00:00,8,38,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,28444.32,-28444.32,28444.32,-28444.32,0.00,EUR
+409,.1~410,410,D3,02,18,02/18,2024-02-07T00:00:00,8,38,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,28444.32,28444.32,-28444.32,0.00,-28444.32,EUR
+410,.1~411,411,D3,02,18,02/18,2024-02-07T00:00:00,8,38,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,34238.32,-34238.32,34238.32,-34238.32,0.00,EUR
+411,.1~412,412,D3,02,18,02/18,2024-02-07T00:00:00,8,38,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,28250.00,28250.00,-28250.00,28250.00,0.00,EUR
+412,.1~413,413,D3,02,18,02/18,2024-02-07T00:00:00,8,38,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,174609.70,-174609.70,174609.70,0.00,174609.70,EUR
+413,.1~414,414,D3,02,18,02/18,2024-02-07T00:00:00,8,38,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,34238.32,34238.32,-34238.32,0.00,-34238.32,EUR
+414,.1~415,415,D3,02,18,02/18,2024-02-07T00:00:00,8,38,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,28250.00,-28250.00,28250.00,0.00,28250.00,EUR
+415,.1~416,416,D3,02,19,02/19,2024-02-08T00:00:00,8,39,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,77912.01,77912.01,-77912.01,77912.01,0.00,EUR
+416,.1~417,417,D3,02,19,02/19,2024-02-08T00:00:00,8,39,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,77912.01,-77912.01,77912.01,-77912.01,0.00,EUR
+417,.1~418,418,D3,02,19,02/19,2024-02-08T00:00:00,8,39,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,230501.40,230501.40,-230501.40,230501.40,0.00,EUR
+418,.1~419,419,D3,02,19,02/19,2024-02-08T00:00:00,8,39,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,14876.21,-14876.21,14876.21,-14876.21,0.00,EUR
+419,.1~420,420,D3,02,19,02/19,2024-02-08T00:00:00,8,39,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,14876.21,14876.21,-14876.21,0.00,-14876.21,EUR
+420,.1~421,421,D3,02,19,02/19,2024-02-08T00:00:00,8,39,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,50106.17,-50106.17,50106.17,-50106.17,0.00,EUR
+421,.1~422,422,D3,02,19,02/19,2024-02-08T00:00:00,8,39,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,16660.29,16660.29,-16660.29,16660.29,0.00,EUR
+422,.1~423,423,D3,02,19,02/19,2024-02-08T00:00:00,8,39,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,230501.40,-230501.40,230501.40,0.00,230501.40,EUR
+423,.1~424,424,D3,02,19,02/19,2024-02-08T00:00:00,8,39,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,50106.17,50106.17,-50106.17,0.00,-50106.17,EUR
+424,.1~425,425,D3,02,19,02/19,2024-02-08T00:00:00,8,39,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,16660.29,-16660.29,16660.29,0.00,16660.29,EUR
+425,.1~426,426,D3,02,20,02/20,2024-02-09T00:00:00,8,40,2010,Accumulated Depreciation - Buildings,Balance Sheet,Assets,Long-Term Assets,,Credit,1250.00,-1250.00,1250.00,-1250.00,0.00,EUR
+426,.1~427,427,D3,02,20,02/20,2024-02-09T00:00:00,8,40,11010,Accumulated depreciation - machinery and equipment,Balance Sheet,Assets,Long-Term Assets,,Credit,52083.33,-52083.33,52083.33,-52083.33,0.00,EUR
+427,.1~428,428,D3,02,20,02/20,2024-02-09T00:00:00,8,40,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Credit,99067.00,-99067.00,99067.00,-99067.00,0.00,EUR
+428,.1~429,429,D3,02,20,02/20,2024-02-09T00:00:00,8,40,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,91339.09,91339.09,-91339.09,91339.09,0.00,EUR
+429,.1~430,430,D3,02,20,02/20,2024-02-09T00:00:00,8,40,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,91339.09,-91339.09,91339.09,-91339.09,0.00,EUR
+430,.1~431,431,D3,02,20,02/20,2024-02-09T00:00:00,8,40,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,31735.20,31735.20,-31735.20,31735.20,0.00,EUR
+431,.1~432,432,D3,02,20,02/20,2024-02-09T00:00:00,8,40,211120,Depreciation-buildings,Income Statement,Operating Expenses,,,Debit,1250.00,1250.00,-1250.00,0.00,-1250.00,EUR
+432,.1~433,433,D3,02,20,02/20,2024-02-09T00:00:00,8,40,211130,Depreciation - machinery and equipment,Income Statement,Operating Expenses,,,Debit,52083.33,52083.33,-52083.33,0.00,-52083.33,EUR
+433,.1~434,434,D3,02,20,02/20,2024-02-09T00:00:00,8,40,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,22933.84,-22933.84,22933.84,-22933.84,0.00,EUR
+434,.1~435,435,D3,02,20,02/20,2024-02-09T00:00:00,8,40,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,22933.84,22933.84,-22933.84,0.00,-22933.84,EUR
+435,.1~436,436,D3,02,20,02/20,2024-02-09T00:00:00,8,40,476900,Interest expenses,Income Statement,"Sales, General, and Administrative Expenses",Interest Expenses,,Debit,12647.00,12647.00,-12647.00,0.00,-12647.00,EUR
+436,.1~437,437,D3,02,20,02/20,2024-02-09T00:00:00,8,40,477001,Advertising North-01,Income Statement,"Sales, General, and Administrative Expenses",Marketing Expenses,Product 01,Debit,40.00,40.00,-40.00,0.00,-40.00,EUR
+437,.1~438,438,D3,02,20,02/20,2024-02-09T00:00:00,8,40,477002,Advertising South-01,Income Statement,"Sales, General, and Administrative Expenses",Marketing Expenses,Product 01,Debit,40.00,40.00,-40.00,0.00,-40.00,EUR
+438,.1~439,439,D3,02,20,02/20,2024-02-09T00:00:00,8,40,477003,Advertising West-01,Income Statement,"Sales, General, and Administrative Expenses",Marketing Expenses,Product 01,Debit,40.00,40.00,-40.00,0.00,-40.00,EUR
+439,.1~440,440,D3,02,20,02/20,2024-02-09T00:00:00,8,40,478100,Warehousing Costs,Income Statement,Operating Expenses,,,Debit,11300.00,11300.00,-11300.00,0.00,-11300.00,EUR
+440,.1~441,441,D3,02,20,02/20,2024-02-09T00:00:00,8,40,500000,Direct labor costs,Income Statement,Operating Expenses,,,Debit,20000.00,20000.00,-20000.00,0.00,-20000.00,EUR
+441,.1~442,442,D3,02,20,02/20,2024-02-09T00:00:00,8,40,510000,Factory Overhead Expenses,Income Statement,Operating Expenses,,,Debit,15000.00,15000.00,-15000.00,0.00,-15000.00,EUR
+442,.1~443,443,D3,02,20,02/20,2024-02-09T00:00:00,8,40,520000,"Sales, General and Administrative Expenses",Income Statement,"Sales, General, and Administrative Expenses",SG&A,,Debit,40000.00,40000.00,-40000.00,0.00,-40000.00,EUR
+443,.1~444,444,D3,02,20,02/20,2024-02-09T00:00:00,8,40,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,6392.61,-6392.61,6392.61,-6392.61,0.00,EUR
+444,.1~445,445,D3,02,20,02/20,2024-02-09T00:00:00,8,40,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,25815.68,25815.68,-25815.68,25815.68,0.00,EUR
+445,.1~446,446,D3,02,20,02/20,2024-02-09T00:00:00,8,40,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,31735.20,-31735.20,31735.20,0.00,31735.20,EUR
+446,.1~447,447,D3,02,20,02/20,2024-02-09T00:00:00,8,40,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,6392.61,6392.61,-6392.61,0.00,-6392.61,EUR
+447,.1~448,448,D3,02,20,02/20,2024-02-09T00:00:00,8,40,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,25815.68,-25815.68,25815.68,0.00,25815.68,EUR
+448,.1~449,449,D3,03,01,03/01,2024-02-10T00:00:00,9,41,113101,Bank Loan,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Debit,800000.00,800000.00,-800000.00,800000.00,0.00,EUR
+449,.1~450,450,D3,03,01,03/01,2024-02-10T00:00:00,9,41,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Credit,800000.00,-800000.00,800000.00,-800000.00,0.00,EUR
+450,.1~451,451,D3,03,01,03/01,2024-02-10T00:00:00,9,41,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,161060.81,161060.81,-161060.81,161060.81,0.00,EUR
+451,.1~452,452,D3,03,01,03/01,2024-02-10T00:00:00,9,41,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,161060.81,-161060.81,161060.81,-161060.81,0.00,EUR
+452,.1~453,453,D3,03,01,03/01,2024-02-10T00:00:00,9,41,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,86222.10,86222.10,-86222.10,86222.10,0.00,EUR
+453,.1~454,454,D3,03,01,03/01,2024-02-10T00:00:00,9,41,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,36736.72,-36736.72,36736.72,-36736.72,0.00,EUR
+454,.1~455,455,D3,03,01,03/01,2024-02-10T00:00:00,9,41,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,36736.72,36736.72,-36736.72,0.00,-36736.72,EUR
+455,.1~456,456,D3,03,01,03/01,2024-02-10T00:00:00,9,41,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,18462.56,-18462.56,18462.56,-18462.56,0.00,EUR
+456,.1~457,457,D3,03,01,03/01,2024-02-10T00:00:00,9,41,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,37794.34,37794.34,-37794.34,37794.34,0.00,EUR
+457,.1~458,458,D3,03,01,03/01,2024-02-10T00:00:00,9,41,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,86222.10,-86222.10,86222.10,0.00,86222.10,EUR
+458,.1~459,459,D3,03,01,03/01,2024-02-10T00:00:00,9,41,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,18462.56,18462.56,-18462.56,0.00,-18462.56,EUR
+459,.1~460,460,D3,03,01,03/01,2024-02-10T00:00:00,9,41,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,37794.34,-37794.34,37794.34,0.00,37794.34,EUR
+460,.1~461,461,D3,03,02,03/02,2024-02-11T00:00:00,9,42,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,332017.77,332017.77,-332017.77,332017.77,0.00,EUR
+461,.1~462,462,D3,03,02,03/02,2024-02-11T00:00:00,9,42,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,332017.77,-332017.77,332017.77,-332017.77,0.00,EUR
+462,.1~463,463,D3,03,02,03/02,2024-02-11T00:00:00,9,42,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,233350.15,233350.15,-233350.15,233350.15,0.00,EUR
+463,.1~464,464,D3,03,02,03/02,2024-02-11T00:00:00,9,42,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,51888.62,-51888.62,51888.62,-51888.62,0.00,EUR
+464,.1~465,465,D3,03,02,03/02,2024-02-11T00:00:00,9,42,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,51888.62,51888.62,-51888.62,0.00,-51888.62,EUR
+465,.1~466,466,D3,03,02,03/02,2024-02-11T00:00:00,9,42,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,50892.03,-50892.03,50892.03,-50892.03,0.00,EUR
+466,.1~467,467,D3,03,02,03/02,2024-02-11T00:00:00,9,42,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,51750.00,51750.00,-51750.00,51750.00,0.00,EUR
+467,.1~468,468,D3,03,02,03/02,2024-02-11T00:00:00,9,42,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,233350.15,-233350.15,233350.15,0.00,233350.15,EUR
+468,.1~469,469,D3,03,02,03/02,2024-02-11T00:00:00,9,42,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,50892.03,50892.03,-50892.03,0.00,-50892.03,EUR
+469,.1~470,470,D3,03,02,03/02,2024-02-11T00:00:00,9,42,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,51750.00,-51750.00,51750.00,0.00,51750.00,EUR
+470,.1~471,471,D3,03,03,03/03,2024-02-12T00:00:00,9,43,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Credit,150294.80,-150294.80,150294.80,-150294.80,0.00,EUR
+471,.1~472,472,D3,03,03,03/03,2024-02-12T00:00:00,9,43,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,190427.91,190427.91,-190427.91,190427.91,0.00,EUR
+472,.1~473,473,D3,03,03,03/03,2024-02-12T00:00:00,9,43,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,190427.91,-190427.91,190427.91,-190427.91,0.00,EUR
+473,.1~474,474,D3,03,03,03/03,2024-02-12T00:00:00,9,43,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,104822.00,104822.00,-104822.00,104822.00,0.00,EUR
+474,.1~475,475,D3,03,03,03/03,2024-02-12T00:00:00,9,43,160000,Accounts payable-domestic,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Debit,150294.80,150294.80,-150294.80,150294.80,0.00,EUR
+475,.1~476,476,D3,03,03,03/03,2024-02-12T00:00:00,9,43,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,51888.63,-51888.63,51888.63,-51888.63,0.00,EUR
+476,.1~477,477,D3,03,03,03/03,2024-02-12T00:00:00,9,43,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,51888.63,51888.63,-51888.63,0.00,-51888.63,EUR
+477,.1~478,478,D3,03,03,03/03,2024-02-12T00:00:00,9,43,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,24720.32,-24720.32,24720.32,-24720.32,0.00,EUR
+478,.1~479,479,D3,03,03,03/03,2024-02-12T00:00:00,9,43,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,51750.00,51750.00,-51750.00,51750.00,0.00,EUR
+479,.1~480,480,D3,03,03,03/03,2024-02-12T00:00:00,9,43,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,104822.00,-104822.00,104822.00,0.00,104822.00,EUR
+480,.1~481,481,D3,03,03,03/03,2024-02-12T00:00:00,9,43,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,24720.32,24720.32,-24720.32,0.00,-24720.32,EUR
+481,.1~482,482,D3,03,03,03/03,2024-02-12T00:00:00,9,43,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,51750.00,-51750.00,51750.00,0.00,51750.00,EUR
+482,.1~483,483,D3,03,04,03/04,2024-02-13T00:00:00,9,44,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,94184.82,94184.82,-94184.82,94184.82,0.00,EUR
+483,.1~484,484,D3,03,04,03/04,2024-02-13T00:00:00,9,44,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,94184.82,-94184.82,94184.82,-94184.82,0.00,EUR
+484,.1~485,485,D3,03,04,03/04,2024-02-13T00:00:00,9,44,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,260866.60,260866.60,-260866.60,260866.60,0.00,EUR
+485,.1~486,486,D3,03,04,03/04,2024-02-13T00:00:00,9,44,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,46097.56,-46097.56,46097.56,-46097.56,0.00,EUR
+486,.1~487,487,D3,03,04,03/04,2024-02-13T00:00:00,9,44,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,46097.56,46097.56,-46097.56,0.00,-46097.56,EUR
+487,.1~488,488,D3,03,04,03/04,2024-02-13T00:00:00,9,44,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,66581.41,-66581.41,66581.41,-66581.41,0.00,EUR
+488,.1~489,489,D3,03,04,03/04,2024-02-13T00:00:00,9,44,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,47156.11,47156.11,-47156.11,47156.11,0.00,EUR
+489,.1~490,490,D3,03,04,03/04,2024-02-13T00:00:00,9,44,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,260866.60,-260866.60,260866.60,0.00,260866.60,EUR
+490,.1~491,491,D3,03,04,03/04,2024-02-13T00:00:00,9,44,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,66581.41,66581.41,-66581.41,0.00,-66581.41,EUR
+491,.1~492,492,D3,03,04,03/04,2024-02-13T00:00:00,9,44,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,47156.11,-47156.11,47156.11,0.00,47156.11,EUR
+492,.1~493,493,D3,03,05,03/05,2024-02-14T00:00:00,9,45,2010,Accumulated Depreciation - Buildings,Balance Sheet,Assets,Long-Term Assets,,Credit,1250.00,-1250.00,1250.00,-1250.00,0.00,EUR
+493,.1~494,494,D3,03,05,03/05,2024-02-14T00:00:00,9,45,11010,Accumulated depreciation - machinery and equipment,Balance Sheet,Assets,Long-Term Assets,,Credit,52083.33,-52083.33,52083.33,-52083.33,0.00,EUR
+494,.1~495,495,D3,03,05,03/05,2024-02-14T00:00:00,9,45,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Credit,147069.34,-147069.34,147069.34,-147069.34,0.00,EUR
+495,.1~496,496,D3,03,05,03/05,2024-02-14T00:00:00,9,45,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,160758.77,160758.77,-160758.77,160758.77,0.00,EUR
+496,.1~497,497,D3,03,05,03/05,2024-02-14T00:00:00,9,45,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,160758.77,-160758.77,160758.77,-160758.77,0.00,EUR
+497,.1~498,498,D3,03,05,03/05,2024-02-14T00:00:00,9,45,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,243151.10,243151.10,-243151.10,243151.10,0.00,EUR
+498,.1~499,499,D3,03,05,03/05,2024-02-14T00:00:00,9,45,160000,Accounts payable-domestic,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Debit,58800.00,58800.00,-58800.00,58800.00,0.00,EUR
+499,.1~500,500,D3,03,05,03/05,2024-02-14T00:00:00,9,45,211120,Depreciation-buildings,Income Statement,Operating Expenses,,,Debit,1250.00,1250.00,-1250.00,0.00,-1250.00,EUR
+500,.1~501,501,D3,03,05,03/05,2024-02-14T00:00:00,9,45,211130,Depreciation - machinery and equipment,Income Statement,Operating Expenses,,,Debit,52083.33,52083.33,-52083.33,0.00,-52083.33,EUR
+501,.1~502,502,D3,03,05,03/05,2024-02-14T00:00:00,9,45,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,55432.62,-55432.62,55432.62,-55432.62,0.00,EUR
+502,.1~503,503,D3,03,05,03/05,2024-02-14T00:00:00,9,45,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,55432.62,55432.62,-55432.62,0.00,-55432.62,EUR
+503,.1~504,504,D3,03,05,03/05,2024-02-14T00:00:00,9,45,476900,Interest expenses,Income Statement,"Sales, General, and Administrative Expenses",Interest Expenses,,Debit,11089.34,11089.34,-11089.34,0.00,-11089.34,EUR
+504,.1~505,505,D3,03,05,03/05,2024-02-14T00:00:00,9,45,477001,Advertising North-01,Income Statement,"Sales, General, and Administrative Expenses",Marketing Expenses,Product 01,Debit,60.00,60.00,-60.00,0.00,-60.00,EUR
+505,.1~506,506,D3,03,05,03/05,2024-02-14T00:00:00,9,45,477002,Advertising South-01,Income Statement,"Sales, General, and Administrative Expenses",Marketing Expenses,Product 01,Debit,60.00,60.00,-60.00,0.00,-60.00,EUR
+506,.1~507,507,D3,03,05,03/05,2024-02-14T00:00:00,9,45,477003,Advertising West-01,Income Statement,"Sales, General, and Administrative Expenses",Marketing Expenses,Product 01,Debit,60.00,60.00,-60.00,0.00,-60.00,EUR
+507,.1~508,508,D3,03,05,03/05,2024-02-14T00:00:00,9,45,478100,Warehousing Costs,Income Statement,Operating Expenses,,,Debit,2000.00,2000.00,-2000.00,0.00,-2000.00,EUR
+508,.1~509,509,D3,03,05,03/05,2024-02-14T00:00:00,9,45,500000,Direct labor costs,Income Statement,Operating Expenses,,,Debit,20000.00,20000.00,-20000.00,0.00,-20000.00,EUR
+509,.1~510,510,D3,03,05,03/05,2024-02-14T00:00:00,9,45,510000,Factory Overhead Expenses,Income Statement,Operating Expenses,,,Debit,15000.00,15000.00,-15000.00,0.00,-15000.00,EUR
+510,.1~511,511,D3,03,05,03/05,2024-02-14T00:00:00,9,45,520000,"Sales, General and Administrative Expenses",Income Statement,"Sales, General, and Administrative Expenses",SG&A,,Debit,40000.00,40000.00,-40000.00,0.00,-40000.00,EUR
+511,.1~512,512,D3,03,05,03/05,2024-02-14T00:00:00,9,45,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,63116.35,-63116.35,63116.35,-63116.35,0.00,EUR
+512,.1~513,513,D3,03,05,03/05,2024-02-14T00:00:00,9,45,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,56750.00,56750.00,-56750.00,56750.00,0.00,EUR
+513,.1~514,514,D3,03,05,03/05,2024-02-14T00:00:00,9,45,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,243151.10,-243151.10,243151.10,0.00,243151.10,EUR
+514,.1~515,515,D3,03,05,03/05,2024-02-14T00:00:00,9,45,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,63116.35,63116.35,-63116.35,0.00,-63116.35,EUR
+515,.1~516,516,D3,03,05,03/05,2024-02-14T00:00:00,9,45,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,56750.00,-56750.00,56750.00,0.00,56750.00,EUR
+516,.1~517,517,D3,03,06,03/06,2024-02-15T00:00:00,10,46,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,264078.40,264078.40,-264078.40,264078.40,0.00,EUR
+517,.1~518,518,D3,03,06,03/06,2024-02-15T00:00:00,10,46,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,264078.40,-264078.40,264078.40,-264078.40,0.00,EUR
+518,.1~519,519,D3,03,06,03/06,2024-02-15T00:00:00,10,46,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,201190.58,201190.58,-201190.58,201190.58,0.00,EUR
+519,.1~520,520,D3,03,06,03/06,2024-02-15T00:00:00,10,46,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,46345.48,-46345.48,46345.48,-46345.48,0.00,EUR
+520,.1~521,521,D3,03,06,03/06,2024-02-15T00:00:00,10,46,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,46345.48,46345.48,-46345.48,0.00,-46345.48,EUR
+521,.1~522,522,D3,03,06,03/06,2024-02-15T00:00:00,10,46,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,49593.12,-49593.12,49593.12,-49593.12,0.00,EUR
+522,.1~523,523,D3,03,06,03/06,2024-02-15T00:00:00,10,46,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,47310.83,47310.83,-47310.83,47310.83,0.00,EUR
+523,.1~524,524,D3,03,06,03/06,2024-02-15T00:00:00,10,46,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,201190.58,-201190.58,201190.58,0.00,201190.58,EUR
+524,.1~525,525,D3,03,06,03/06,2024-02-15T00:00:00,10,46,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,49593.12,49593.12,-49593.12,0.00,-49593.12,EUR
+525,.1~526,526,D3,03,06,03/06,2024-02-15T00:00:00,10,46,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,47310.83,-47310.83,47310.83,0.00,47310.83,EUR
+526,.1~527,527,D3,03,07,03/07,2024-02-16T00:00:00,10,47,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,134321.86,134321.86,-134321.86,134321.86,0.00,EUR
+527,.1~528,528,D3,03,07,03/07,2024-02-16T00:00:00,10,47,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,134321.86,-134321.86,134321.86,-134321.86,0.00,EUR
+528,.1~529,529,D3,03,07,03/07,2024-02-16T00:00:00,10,47,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,116746.73,116746.73,-116746.73,116746.73,0.00,EUR
+529,.1~530,530,D3,03,07,03/07,2024-02-16T00:00:00,10,47,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,57345.02,-57345.02,57345.02,-57345.02,0.00,EUR
+530,.1~531,531,D3,03,07,03/07,2024-02-16T00:00:00,10,47,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,57345.02,57345.02,-57345.02,0.00,-57345.02,EUR
+531,.1~532,532,D3,03,07,03/07,2024-02-16T00:00:00,10,47,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,26381.39,-26381.39,26381.39,-26381.39,0.00,EUR
+532,.1~533,533,D3,03,07,03/07,2024-02-16T00:00:00,10,47,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,57000.00,57000.00,-57000.00,57000.00,0.00,EUR
+533,.1~534,534,D3,03,07,03/07,2024-02-16T00:00:00,10,47,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,116746.73,-116746.73,116746.73,0.00,116746.73,EUR
+534,.1~535,535,D3,03,07,03/07,2024-02-16T00:00:00,10,47,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,26381.39,26381.39,-26381.39,0.00,-26381.39,EUR
+535,.1~536,536,D3,03,07,03/07,2024-02-16T00:00:00,10,47,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,57000.00,-57000.00,57000.00,0.00,57000.00,EUR
+536,.1~537,537,D3,03,08,03/08,2024-02-17T00:00:00,10,48,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,176014.00,176014.00,-176014.00,176014.00,0.00,EUR
+537,.1~538,538,D3,03,08,03/08,2024-02-17T00:00:00,10,48,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,176014.00,-176014.00,176014.00,-176014.00,0.00,EUR
+538,.1~539,539,D3,03,08,03/08,2024-02-17T00:00:00,10,48,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,184164.05,184164.05,-184164.05,184164.05,0.00,EUR
+539,.1~540,540,D3,03,08,03/08,2024-02-17T00:00:00,10,48,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,57345.02,-57345.02,57345.02,-57345.02,0.00,EUR
+540,.1~541,541,D3,03,08,03/08,2024-02-17T00:00:00,10,48,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,57345.02,57345.02,-57345.02,0.00,-57345.02,EUR
+541,.1~542,542,D3,03,08,03/08,2024-02-17T00:00:00,10,48,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,48178.63,-48178.63,48178.63,-48178.63,0.00,EUR
+542,.1~543,543,D3,03,08,03/08,2024-02-17T00:00:00,10,48,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,57000.00,57000.00,-57000.00,57000.00,0.00,EUR
+543,.1~544,544,D3,03,08,03/08,2024-02-17T00:00:00,10,48,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,184164.05,-184164.05,184164.05,0.00,184164.05,EUR
+544,.1~545,545,D3,03,08,03/08,2024-02-17T00:00:00,10,48,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,48178.63,48178.63,-48178.63,0.00,-48178.63,EUR
+545,.1~546,546,D3,03,08,03/08,2024-02-17T00:00:00,10,48,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,57000.00,-57000.00,57000.00,0.00,57000.00,EUR
+546,.1~547,547,D3,03,09,03/09,2024-02-18T00:00:00,10,49,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Credit,45432.00,-45432.00,45432.00,-45432.00,0.00,EUR
+547,.1~548,548,D3,03,09,03/09,2024-02-18T00:00:00,10,49,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,236790.52,236790.52,-236790.52,236790.52,0.00,EUR
+548,.1~549,549,D3,03,09,03/09,2024-02-18T00:00:00,10,49,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,236790.52,-236790.52,236790.52,-236790.52,0.00,EUR
+549,.1~550,550,D3,03,09,03/09,2024-02-18T00:00:00,10,49,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,169376.45,169376.45,-169376.45,169376.45,0.00,EUR
+550,.1~551,551,D3,03,09,03/09,2024-02-18T00:00:00,10,49,160000,Accounts payable-domestic,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Debit,45432.00,45432.00,-45432.00,45432.00,0.00,EUR
+551,.1~552,552,D3,03,09,03/09,2024-02-18T00:00:00,10,49,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,40865.21,-40865.21,40865.21,-40865.21,0.00,EUR
+552,.1~553,553,D3,03,09,03/09,2024-02-18T00:00:00,10,49,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,40865.21,40865.21,-40865.21,0.00,-40865.21,EUR
+553,.1~554,554,D3,03,09,03/09,2024-02-18T00:00:00,10,49,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,44029.54,-44029.54,44029.54,-44029.54,0.00,EUR
+554,.1~555,555,D3,03,09,03/09,2024-02-18T00:00:00,10,49,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,41674.74,41674.74,-41674.74,41674.74,0.00,EUR
+555,.1~556,556,D3,03,09,03/09,2024-02-18T00:00:00,10,49,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,169376.45,-169376.45,169376.45,0.00,169376.45,EUR
+556,.1~557,557,D3,03,09,03/09,2024-02-18T00:00:00,10,49,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,44029.54,44029.54,-44029.54,0.00,-44029.54,EUR
+557,.1~558,558,D3,03,09,03/09,2024-02-18T00:00:00,10,49,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,41674.74,-41674.74,41674.74,0.00,41674.74,EUR
+558,.1~559,559,D3,03,10,03/10,2024-02-19T00:00:00,10,50,2010,Accumulated Depreciation - Buildings,Balance Sheet,Assets,Long-Term Assets,,Credit,1250.00,-1250.00,1250.00,-1250.00,0.00,EUR
+559,.1~560,560,D3,03,10,03/10,2024-02-19T00:00:00,10,50,11010,Accumulated depreciation - machinery and equipment,Balance Sheet,Assets,Long-Term Assets,,Credit,52083.33,-52083.33,52083.33,-52083.33,0.00,EUR
+560,.1~561,561,D3,03,10,03/10,2024-02-19T00:00:00,10,50,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Credit,85608.50,-85608.50,85608.50,-85608.50,0.00,EUR
+561,.1~562,562,D3,03,10,03/10,2024-02-19T00:00:00,10,50,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,85973.30,85973.30,-85973.30,85973.30,0.00,EUR
+562,.1~563,563,D3,03,10,03/10,2024-02-19T00:00:00,10,50,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,85973.30,-85973.30,85973.30,-85973.30,0.00,EUR
+563,.1~564,564,D3,03,10,03/10,2024-02-19T00:00:00,10,50,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,203046.80,203046.80,-203046.80,203046.80,0.00,EUR
+564,.1~565,565,D3,03,10,03/10,2024-02-19T00:00:00,10,50,160000,Accounts payable-domestic,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,93713.00,-93713.00,93713.00,-93713.00,0.00,EUR
+565,.1~566,566,D3,03,10,03/10,2024-02-19T00:00:00,10,50,191100,GR/IR Clearing - External procurement,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,93713.00,-93713.00,93713.00,-93713.00,0.00,EUR
+566,.1~567,567,D3,03,10,03/10,2024-02-19T00:00:00,10,50,191100,GR/IR Clearing - External procurement,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Debit,93713.00,93713.00,-93713.00,93713.00,0.00,EUR
+567,.1~568,568,D3,03,10,03/10,2024-02-19T00:00:00,10,50,211120,Depreciation-buildings,Income Statement,Operating Expenses,,,Debit,1250.00,1250.00,-1250.00,0.00,-1250.00,EUR
+568,.1~569,569,D3,03,10,03/10,2024-02-19T00:00:00,10,50,211130,Depreciation - machinery and equipment,Income Statement,Operating Expenses,,,Debit,52083.33,52083.33,-52083.33,0.00,-52083.33,EUR
+569,.1~570,570,D3,03,10,03/10,2024-02-19T00:00:00,10,50,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,37093.85,-37093.85,37093.85,-37093.85,0.00,EUR
+570,.1~571,571,D3,03,10,03/10,2024-02-19T00:00:00,10,50,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Debit,93713.00,93713.00,-93713.00,93713.00,0.00,EUR
+571,.1~572,572,D3,03,10,03/10,2024-02-19T00:00:00,10,50,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,37093.85,37093.85,-37093.85,0.00,-37093.85,EUR
+572,.1~573,573,D3,03,10,03/10,2024-02-19T00:00:00,10,50,476900,Interest expenses,Income Statement,"Sales, General, and Administrative Expenses",Interest Expenses,,Debit,10608.50,10608.50,-10608.50,0.00,-10608.50,EUR
+573,.1~574,574,D3,03,10,03/10,2024-02-19T00:00:00,10,50,500000,Direct labor costs,Income Statement,Operating Expenses,,,Debit,20000.00,20000.00,-20000.00,0.00,-20000.00,EUR
+574,.1~575,575,D3,03,10,03/10,2024-02-19T00:00:00,10,50,510000,Factory Overhead Expenses,Income Statement,Operating Expenses,,,Debit,15000.00,15000.00,-15000.00,0.00,-15000.00,EUR
+575,.1~576,576,D3,03,10,03/10,2024-02-19T00:00:00,10,50,520000,"Sales, General and Administrative Expenses",Income Statement,"Sales, General, and Administrative Expenses",SG&A,,Debit,40000.00,40000.00,-40000.00,0.00,-40000.00,EUR
+576,.1~577,577,D3,03,10,03/10,2024-02-19T00:00:00,10,50,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,54335.46,-54335.46,54335.46,-54335.46,0.00,EUR
+577,.1~578,578,D3,03,10,03/10,2024-02-19T00:00:00,10,50,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,40500.00,40500.00,-40500.00,40500.00,0.00,EUR
+578,.1~579,579,D3,03,10,03/10,2024-02-19T00:00:00,10,50,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,203046.80,-203046.80,203046.80,0.00,203046.80,EUR
+579,.1~580,580,D3,03,10,03/10,2024-02-19T00:00:00,10,50,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,54335.46,54335.46,-54335.46,0.00,-54335.46,EUR
+580,.1~581,581,D3,03,10,03/10,2024-02-19T00:00:00,10,50,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,40500.00,-40500.00,40500.00,0.00,40500.00,EUR
+581,.1~582,582,D3,03,11,03/11,2024-02-20T00:00:00,11,51,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,16066.00,16066.00,-16066.00,16066.00,0.00,EUR
+582,.1~583,583,D3,03,11,03/11,2024-02-20T00:00:00,11,51,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,16066.00,-16066.00,16066.00,-16066.00,0.00,EUR
+583,.1~584,584,D3,03,11,03/11,2024-02-20T00:00:00,11,51,160000,Accounts payable-domestic,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,38100.00,-38100.00,38100.00,-38100.00,0.00,EUR
+584,.1~585,585,D3,03,11,03/11,2024-02-20T00:00:00,11,51,191100,GR/IR Clearing - External procurement,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,38100.00,-38100.00,38100.00,-38100.00,0.00,EUR
+585,.1~586,586,D3,03,11,03/11,2024-02-20T00:00:00,11,51,191100,GR/IR Clearing - External procurement,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Debit,38100.00,38100.00,-38100.00,38100.00,0.00,EUR
+586,.1~587,587,D3,03,11,03/11,2024-02-20T00:00:00,11,51,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,30218.96,-30218.96,30218.96,-30218.96,0.00,EUR
+587,.1~588,588,D3,03,11,03/11,2024-02-20T00:00:00,11,51,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Debit,38100.00,38100.00,-38100.00,38100.00,0.00,EUR
+588,.1~589,589,D3,03,11,03/11,2024-02-20T00:00:00,11,51,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,30218.96,30218.96,-30218.96,0.00,-30218.96,EUR
+589,.1~590,590,D3,03,11,03/11,2024-02-20T00:00:00,11,51,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,32218.12,32218.12,-32218.12,32218.12,0.00,EUR
+590,.1~591,591,D3,03,11,03/11,2024-02-20T00:00:00,11,51,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,32218.12,-32218.12,32218.12,0.00,32218.12,EUR
+591,.1~592,592,D3,03,12,03/12,2024-02-21T00:00:00,11,52,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,35069.88,35069.88,-35069.88,35069.88,0.00,EUR
+592,.1~593,593,D3,03,12,03/12,2024-02-21T00:00:00,11,52,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,35069.88,-35069.88,35069.88,-35069.88,0.00,EUR
+593,.1~594,594,D3,03,12,03/12,2024-02-21T00:00:00,11,52,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,271203.60,271203.60,-271203.60,271203.60,0.00,EUR
+594,.1~595,595,D3,03,12,03/12,2024-02-21T00:00:00,11,52,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,34495.15,-34495.15,34495.15,-34495.15,0.00,EUR
+595,.1~596,596,D3,03,12,03/12,2024-02-21T00:00:00,11,52,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,34495.15,34495.15,-34495.15,0.00,-34495.15,EUR
+596,.1~597,597,D3,03,12,03/12,2024-02-21T00:00:00,11,52,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,67519.24,-67519.24,67519.24,-67519.24,0.00,EUR
+597,.1~598,598,D3,03,12,03/12,2024-02-21T00:00:00,11,52,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,34750.00,34750.00,-34750.00,34750.00,0.00,EUR
+598,.1~599,599,D3,03,12,03/12,2024-02-21T00:00:00,11,52,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,271203.60,-271203.60,271203.60,0.00,271203.60,EUR
+599,.1~600,600,D3,03,12,03/12,2024-02-21T00:00:00,11,52,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,67519.24,67519.24,-67519.24,0.00,-67519.24,EUR
+600,.1~601,601,D3,03,12,03/12,2024-02-21T00:00:00,11,52,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,34750.00,-34750.00,34750.00,0.00,34750.00,EUR
+601,.1~602,602,D3,03,13,03/13,2024-02-22T00:00:00,11,53,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,158684.00,158684.00,-158684.00,158684.00,0.00,EUR
+602,.1~603,603,D3,03,13,03/13,2024-02-22T00:00:00,11,53,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,158684.00,-158684.00,158684.00,-158684.00,0.00,EUR
+603,.1~604,604,D3,03,13,03/13,2024-02-22T00:00:00,11,53,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,327179.75,327179.75,-327179.75,327179.75,0.00,EUR
+604,.1~605,605,D3,03,13,03/13,2024-02-22T00:00:00,11,53,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,27915.00,-27915.00,27915.00,-27915.00,0.00,EUR
+605,.1~606,606,D3,03,13,03/13,2024-02-22T00:00:00,11,53,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,27915.00,27915.00,-27915.00,0.00,-27915.00,EUR
+606,.1~607,607,D3,03,13,03/13,2024-02-22T00:00:00,11,53,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,70616.86,-70616.86,70616.86,-70616.86,0.00,EUR
+607,.1~608,608,D3,03,13,03/13,2024-02-22T00:00:00,11,53,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,28239.31,28239.31,-28239.31,28239.31,0.00,EUR
+608,.1~609,609,D3,03,13,03/13,2024-02-22T00:00:00,11,53,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,327179.75,-327179.75,327179.75,0.00,327179.75,EUR
+609,.1~610,610,D3,03,13,03/13,2024-02-22T00:00:00,11,53,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,70616.86,70616.86,-70616.86,0.00,-70616.86,EUR
+610,.1~611,611,D3,03,13,03/13,2024-02-22T00:00:00,11,53,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,28239.31,-28239.31,28239.31,0.00,28239.31,EUR
+611,.1~612,612,D3,03,14,03/14,2024-02-23T00:00:00,11,54,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,15394.50,15394.50,-15394.50,15394.50,0.00,EUR
+612,.1~613,613,D3,03,14,03/14,2024-02-23T00:00:00,11,54,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,15394.50,-15394.50,15394.50,-15394.50,0.00,EUR
+613,.1~614,614,D3,03,14,03/14,2024-02-23T00:00:00,11,54,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,316834.90,316834.90,-316834.90,316834.90,0.00,EUR
+614,.1~615,615,D3,03,14,03/14,2024-02-23T00:00:00,11,54,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,29872.04,-29872.04,29872.04,-29872.04,0.00,EUR
+615,.1~616,616,D3,03,14,03/14,2024-02-23T00:00:00,11,54,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,29872.04,29872.04,-29872.04,0.00,-29872.04,EUR
+616,.1~617,617,D3,03,14,03/14,2024-02-23T00:00:00,11,54,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,74876.27,-74876.27,74876.27,-74876.27,0.00,EUR
+617,.1~618,618,D3,03,14,03/14,2024-02-23T00:00:00,11,54,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,30750.00,30750.00,-30750.00,30750.00,0.00,EUR
+618,.1~619,619,D3,03,14,03/14,2024-02-23T00:00:00,11,54,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,316834.90,-316834.90,316834.90,0.00,316834.90,EUR
+619,.1~620,620,D3,03,14,03/14,2024-02-23T00:00:00,11,54,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,74876.27,74876.27,-74876.27,0.00,-74876.27,EUR
+620,.1~621,621,D3,03,14,03/14,2024-02-23T00:00:00,11,54,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,30750.00,-30750.00,30750.00,0.00,30750.00,EUR
+621,.1~622,622,D3,03,15,03/15,2024-02-24T00:00:00,11,55,2010,Accumulated Depreciation - Buildings,Balance Sheet,Assets,Long-Term Assets,,Credit,1250.00,-1250.00,1250.00,-1250.00,0.00,EUR
+622,.1~623,623,D3,03,15,03/15,2024-02-24T00:00:00,11,55,11010,Accumulated depreciation - machinery and equipment,Balance Sheet,Assets,Long-Term Assets,,Credit,52083.33,-52083.33,52083.33,-52083.33,0.00,EUR
+623,.1~624,624,D3,03,15,03/15,2024-02-24T00:00:00,11,55,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Credit,645187.68,-645187.68,645187.68,-645187.68,0.00,EUR
+624,.1~625,625,D3,03,15,03/15,2024-02-24T00:00:00,11,55,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,19095.90,19095.90,-19095.90,19095.90,0.00,EUR
+625,.1~626,626,D3,03,15,03/15,2024-02-24T00:00:00,11,55,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,19095.90,-19095.90,19095.90,-19095.90,0.00,EUR
+626,.1~627,627,D3,03,15,03/15,2024-02-24T00:00:00,11,55,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,246321.15,246321.15,-246321.15,246321.15,0.00,EUR
+627,.1~628,628,D3,03,15,03/15,2024-02-24T00:00:00,11,55,160000,Accounts payable-domestic,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Debit,559872.00,559872.00,-559872.00,559872.00,0.00,EUR
+628,.1~629,629,D3,03,15,03/15,2024-02-24T00:00:00,11,55,211120,Depreciation-buildings,Income Statement,Operating Expenses,,,Debit,1250.00,1250.00,-1250.00,0.00,-1250.00,EUR
+629,.1~630,630,D3,03,15,03/15,2024-02-24T00:00:00,11,55,211130,Depreciation - machinery and equipment,Income Statement,Operating Expenses,,,Debit,52083.33,52083.33,-52083.33,0.00,-52083.33,EUR
+630,.1~631,631,D3,03,15,03/15,2024-02-24T00:00:00,11,55,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,24715.36,-24715.36,24715.36,-24715.36,0.00,EUR
+631,.1~632,632,D3,03,15,03/15,2024-02-24T00:00:00,11,55,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,24715.36,24715.36,-24715.36,0.00,-24715.36,EUR
+632,.1~633,633,D3,03,15,03/15,2024-02-24T00:00:00,11,55,476900,Interest expenses,Income Statement,"Sales, General, and Administrative Expenses",Interest Expenses,,Debit,10195.68,10195.68,-10195.68,0.00,-10195.68,EUR
+633,.1~634,634,D3,03,15,03/15,2024-02-24T00:00:00,11,55,477013,Advertising North-05,Income Statement,"Sales, General, and Administrative Expenses",Marketing Expenses,Product 05,Debit,40.00,40.00,-40.00,0.00,-40.00,EUR
+634,.1~635,635,D3,03,15,03/15,2024-02-24T00:00:00,11,55,477014,Advertising South-05,Income Statement,"Sales, General, and Administrative Expenses",Marketing Expenses,Product 05,Debit,40.00,40.00,-40.00,0.00,-40.00,EUR
+635,.1~636,636,D3,03,15,03/15,2024-02-24T00:00:00,11,55,477015,Advertising West-05,Income Statement,"Sales, General, and Administrative Expenses",Marketing Expenses,Product 05,Debit,40.00,40.00,-40.00,0.00,-40.00,EUR
+636,.1~637,637,D3,03,15,03/15,2024-02-24T00:00:00,11,55,500000,Direct labor costs,Income Statement,Operating Expenses,,,Debit,20000.00,20000.00,-20000.00,0.00,-20000.00,EUR
+637,.1~638,638,D3,03,15,03/15,2024-02-24T00:00:00,11,55,510000,Factory Overhead Expenses,Income Statement,Operating Expenses,,,Debit,15000.00,15000.00,-15000.00,0.00,-15000.00,EUR
+638,.1~639,639,D3,03,15,03/15,2024-02-24T00:00:00,11,55,520000,"Sales, General and Administrative Expenses",Income Statement,"Sales, General, and Administrative Expenses",SG&A,,Debit,40000.00,40000.00,-40000.00,0.00,-40000.00,EUR
+639,.1~640,640,D3,03,15,03/15,2024-02-24T00:00:00,11,55,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,56044.13,-56044.13,56044.13,-56044.13,0.00,EUR
+640,.1~641,641,D3,03,15,03/15,2024-02-24T00:00:00,11,55,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,25292.19,25292.19,-25292.19,25292.19,0.00,EUR
+641,.1~642,642,D3,03,15,03/15,2024-02-24T00:00:00,11,55,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,246321.15,-246321.15,246321.15,0.00,246321.15,EUR
+642,.1~643,643,D3,03,15,03/15,2024-02-24T00:00:00,11,55,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,56044.13,56044.13,-56044.13,0.00,-56044.13,EUR
+643,.1~644,644,D3,03,15,03/15,2024-02-24T00:00:00,11,55,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,25292.19,-25292.19,25292.19,0.00,25292.19,EUR
+644,.1~645,645,D3,03,16,03/16,2024-02-25T00:00:00,12,56,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,124457.80,124457.80,-124457.80,124457.80,0.00,EUR
+645,.1~646,646,D3,03,16,03/16,2024-02-25T00:00:00,12,56,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,124457.80,-124457.80,124457.80,-124457.80,0.00,EUR
+646,.1~647,647,D3,03,16,03/16,2024-02-25T00:00:00,12,56,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,197441.00,197441.00,-197441.00,197441.00,0.00,EUR
+647,.1~648,648,D3,03,16,03/16,2024-02-25T00:00:00,12,56,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,28536.30,-28536.30,28536.30,-28536.30,0.00,EUR
+648,.1~649,649,D3,03,16,03/16,2024-02-25T00:00:00,12,56,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,28536.30,28536.30,-28536.30,0.00,-28536.30,EUR
+649,.1~650,650,D3,03,16,03/16,2024-02-25T00:00:00,12,56,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,49806.41,-49806.41,49806.41,-49806.41,0.00,EUR
+650,.1~651,651,D3,03,16,03/16,2024-02-25T00:00:00,12,56,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,28250.00,28250.00,-28250.00,28250.00,0.00,EUR
+651,.1~652,652,D3,03,16,03/16,2024-02-25T00:00:00,12,56,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,197441.00,-197441.00,197441.00,0.00,197441.00,EUR
+652,.1~653,653,D3,03,16,03/16,2024-02-25T00:00:00,12,56,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,49806.41,49806.41,-49806.41,0.00,-49806.41,EUR
+653,.1~654,654,D3,03,16,03/16,2024-02-25T00:00:00,12,56,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,28250.00,-28250.00,28250.00,0.00,28250.00,EUR
+654,.1~655,655,D3,03,17,03/17,2024-02-26T00:00:00,12,57,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,83240.80,83240.80,-83240.80,83240.80,0.00,EUR
+655,.1~656,656,D3,03,17,03/17,2024-02-26T00:00:00,12,57,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,83240.80,-83240.80,83240.80,-83240.80,0.00,EUR
+656,.1~657,657,D3,03,17,03/17,2024-02-26T00:00:00,12,57,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,83410.04,83410.04,-83410.04,83410.04,0.00,EUR
+657,.1~658,658,D3,03,17,03/17,2024-02-26T00:00:00,12,57,160000,Accounts payable-domestic,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,444240.00,-444240.00,444240.00,-444240.00,0.00,EUR
+658,.1~659,659,D3,03,17,03/17,2024-02-26T00:00:00,12,57,191100,GR/IR Clearing - External procurement,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,444240.00,-444240.00,444240.00,-444240.00,0.00,EUR
+659,.1~660,660,D3,03,17,03/17,2024-02-26T00:00:00,12,57,191100,GR/IR Clearing - External procurement,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Debit,444240.00,444240.00,-444240.00,444240.00,0.00,EUR
+660,.1~661,661,D3,03,17,03/17,2024-02-26T00:00:00,12,57,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,20773.41,-20773.41,20773.41,-20773.41,0.00,EUR
+661,.1~662,662,D3,03,17,03/17,2024-02-26T00:00:00,12,57,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Debit,444240.00,444240.00,-444240.00,444240.00,0.00,EUR
+662,.1~663,663,D3,03,17,03/17,2024-02-26T00:00:00,12,57,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,20773.41,20773.41,-20773.41,0.00,-20773.41,EUR
+663,.1~664,664,D3,03,17,03/17,2024-02-26T00:00:00,12,57,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,21404.72,-21404.72,21404.72,-21404.72,0.00,EUR
+664,.1~665,665,D3,03,17,03/17,2024-02-26T00:00:00,12,57,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,20767.91,20767.91,-20767.91,20767.91,0.00,EUR
+665,.1~666,666,D3,03,17,03/17,2024-02-26T00:00:00,12,57,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,83410.04,-83410.04,83410.04,0.00,83410.04,EUR
+666,.1~667,667,D3,03,17,03/17,2024-02-26T00:00:00,12,57,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,21404.72,21404.72,-21404.72,0.00,-21404.72,EUR
+667,.1~668,668,D3,03,17,03/17,2024-02-26T00:00:00,12,57,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,20767.91,-20767.91,20767.91,0.00,20767.91,EUR
+668,.1~669,669,D3,03,18,03/18,2024-02-27T00:00:00,12,58,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,227183.00,227183.00,-227183.00,227183.00,0.00,EUR
+669,.1~670,670,D3,03,18,03/18,2024-02-27T00:00:00,12,58,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,227183.00,-227183.00,227183.00,-227183.00,0.00,EUR
+670,.1~671,671,D3,03,18,03/18,2024-02-27T00:00:00,12,58,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,19349.98,-19349.98,19349.98,-19349.98,0.00,EUR
+671,.1~672,672,D3,03,18,03/18,2024-02-27T00:00:00,12,58,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,19349.98,19349.98,-19349.98,0.00,-19349.98,EUR
+672,.1~673,673,D3,03,18,03/18,2024-02-27T00:00:00,12,58,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,19750.00,19750.00,-19750.00,19750.00,0.00,EUR
+673,.1~674,674,D3,03,18,03/18,2024-02-27T00:00:00,12,58,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,19750.00,-19750.00,19750.00,0.00,19750.00,EUR
+674,.1~675,675,D3,03,19,03/19,2024-02-28T00:00:00,12,59,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,284722.85,284722.85,-284722.85,284722.85,0.00,EUR
+675,.1~676,676,D3,03,19,03/19,2024-02-28T00:00:00,12,59,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,284722.85,-284722.85,284722.85,-284722.85,0.00,EUR
+676,.1~677,677,D3,03,19,03/19,2024-02-28T00:00:00,12,59,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,49110.00,49110.00,-49110.00,49110.00,0.00,EUR
+677,.1~678,678,D3,03,19,03/19,2024-02-28T00:00:00,12,59,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,35723.58,-35723.58,35723.58,-35723.58,0.00,EUR
+678,.1~679,679,D3,03,19,03/19,2024-02-28T00:00:00,12,59,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,35723.58,35723.58,-35723.58,0.00,-35723.58,EUR
+679,.1~680,680,D3,03,19,03/19,2024-02-28T00:00:00,12,59,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,11098.86,-11098.86,11098.86,-11098.86,0.00,EUR
+680,.1~681,681,D3,03,19,03/19,2024-02-28T00:00:00,12,59,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,35645.27,35645.27,-35645.27,35645.27,0.00,EUR
+681,.1~682,682,D3,03,19,03/19,2024-02-28T00:00:00,12,59,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,49110.00,-49110.00,49110.00,0.00,49110.00,EUR
+682,.1~683,683,D3,03,19,03/19,2024-02-28T00:00:00,12,59,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,11098.86,11098.86,-11098.86,0.00,-11098.86,EUR
+683,.1~684,684,D3,03,19,03/19,2024-02-28T00:00:00,12,59,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,35645.27,-35645.27,35645.27,0.00,35645.27,EUR
+684,.1~685,685,D3,03,20,03/20,2024-02-29T00:00:00,12,60,2010,Accumulated Depreciation - Buildings,Balance Sheet,Assets,Long-Term Assets,,Credit,1250.00,-1250.00,1250.00,-1250.00,0.00,EUR
+685,.1~686,686,D3,03,20,03/20,2024-02-29T00:00:00,12,60,11010,Accumulated depreciation - machinery and equipment,Balance Sheet,Assets,Long-Term Assets,,Credit,52083.33,-52083.33,52083.33,-52083.33,0.00,EUR
+686,.1~687,687,D3,03,20,03/20,2024-02-29T00:00:00,12,60,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Credit,85228.80,-85228.80,85228.80,-85228.80,0.00,EUR
+687,.1~688,688,D3,03,20,03/20,2024-02-29T00:00:00,12,60,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,238000.20,238000.20,-238000.20,238000.20,0.00,EUR
+688,.1~689,689,D3,03,20,03/20,2024-02-29T00:00:00,12,60,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,238000.20,-238000.20,238000.20,-238000.20,0.00,EUR
+689,.1~690,690,D3,03,20,03/20,2024-02-29T00:00:00,12,60,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,252647.40,252647.40,-252647.40,252647.40,0.00,EUR
+690,.1~691,691,D3,03,20,03/20,2024-02-29T00:00:00,12,60,211120,Depreciation-buildings,Income Statement,Operating Expenses,,,Debit,1250.00,1250.00,-1250.00,0.00,-1250.00,EUR
+691,.1~692,692,D3,03,20,03/20,2024-02-29T00:00:00,12,60,211130,Depreciation - machinery and equipment,Income Statement,Operating Expenses,,,Debit,52083.33,52083.33,-52083.33,0.00,-52083.33,EUR
+692,.1~693,693,D3,03,20,03/20,2024-02-29T00:00:00,12,60,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,52036.51,-52036.51,52036.51,-52036.51,0.00,EUR
+693,.1~694,694,D3,03,20,03/20,2024-02-29T00:00:00,12,60,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,52036.51,52036.51,-52036.51,0.00,-52036.51,EUR
+694,.1~695,695,D3,03,20,03/20,2024-02-29T00:00:00,12,60,476900,Interest expenses,Income Statement,"Sales, General, and Administrative Expenses",Interest Expenses,,Debit,9988.80,9988.80,-9988.80,0.00,-9988.80,EUR
+695,.1~696,696,D3,03,20,03/20,2024-02-29T00:00:00,12,60,477013,Advertising North-05,Income Statement,"Sales, General, and Administrative Expenses",Marketing Expenses,Product 05,Debit,80.00,80.00,-80.00,0.00,-80.00,EUR
+696,.1~697,697,D3,03,20,03/20,2024-02-29T00:00:00,12,60,477014,Advertising South-05,Income Statement,"Sales, General, and Administrative Expenses",Marketing Expenses,Product 05,Debit,80.00,80.00,-80.00,0.00,-80.00,EUR
+697,.1~698,698,D3,03,20,03/20,2024-02-29T00:00:00,12,60,477015,Advertising West-05,Income Statement,"Sales, General, and Administrative Expenses",Marketing Expenses,Product 05,Debit,80.00,80.00,-80.00,0.00,-80.00,EUR
+698,.1~699,699,D3,03,20,03/20,2024-02-29T00:00:00,12,60,500000,Direct labor costs,Income Statement,Operating Expenses,,,Debit,20000.00,20000.00,-20000.00,0.00,-20000.00,EUR
+699,.1~700,700,D3,03,20,03/20,2024-02-29T00:00:00,12,60,510000,Factory Overhead Expenses,Income Statement,Operating Expenses,,,Debit,15000.00,15000.00,-15000.00,0.00,-15000.00,EUR
+700,.1~701,701,D3,03,20,03/20,2024-02-29T00:00:00,12,60,520000,"Sales, General and Administrative Expenses",Income Statement,"Sales, General, and Administrative Expenses",SG&A,,Debit,40000.00,40000.00,-40000.00,0.00,-40000.00,EUR
+701,.1~702,702,D3,03,20,03/20,2024-02-29T00:00:00,12,60,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,58842.27,-58842.27,58842.27,-58842.27,0.00,EUR
+702,.1~703,703,D3,03,20,03/20,2024-02-29T00:00:00,12,60,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,51750.00,51750.00,-51750.00,51750.00,0.00,EUR
+703,.1~704,704,D3,03,20,03/20,2024-02-29T00:00:00,12,60,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,252647.40,-252647.40,252647.40,0.00,252647.40,EUR
+704,.1~705,705,D3,03,20,03/20,2024-02-29T00:00:00,12,60,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,58842.27,58842.27,-58842.27,0.00,-58842.27,EUR
+705,.1~706,706,D3,03,20,03/20,2024-02-29T00:00:00,12,60,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,51750.00,-51750.00,51750.00,0.00,51750.00,EUR
+706,.1~707,707,D3,04,01,04/01,2024-03-01T00:00:00,13,61,113101,Bank Loan,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Debit,1000000.00,1000000.00,-1000000.00,1000000.00,0.00,EUR
+707,.1~708,708,D3,04,01,04/01,2024-03-01T00:00:00,13,61,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Credit,1000000.00,-1000000.00,1000000.00,-1000000.00,0.00,EUR
+708,.1~709,709,D3,04,01,04/01,2024-03-01T00:00:00,13,61,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,113554.55,113554.55,-113554.55,113554.55,0.00,EUR
+709,.1~710,710,D3,04,01,04/01,2024-03-01T00:00:00,13,61,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,113554.55,-113554.55,113554.55,-113554.55,0.00,EUR
+710,.1~711,711,D3,04,01,04/01,2024-03-01T00:00:00,13,61,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,161685.60,161685.60,-161685.60,161685.60,0.00,EUR
+711,.1~712,712,D3,04,01,04/01,2024-03-01T00:00:00,13,61,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,49975.86,-49975.86,49975.86,-49975.86,0.00,EUR
+712,.1~713,713,D3,04,01,04/01,2024-03-01T00:00:00,13,61,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,49975.86,49975.86,-49975.86,0.00,-49975.86,EUR
+713,.1~714,714,D3,04,01,04/01,2024-03-01T00:00:00,13,61,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,37267.90,-37267.90,37267.90,-37267.90,0.00,EUR
+714,.1~715,715,D3,04,01,04/01,2024-03-01T00:00:00,13,61,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,49700.70,49700.70,-49700.70,49700.70,0.00,EUR
+715,.1~716,716,D3,04,01,04/01,2024-03-01T00:00:00,13,61,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,161685.60,-161685.60,161685.60,0.00,161685.60,EUR
+716,.1~717,717,D3,04,01,04/01,2024-03-01T00:00:00,13,61,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,37267.90,37267.90,-37267.90,0.00,-37267.90,EUR
+717,.1~718,718,D3,04,01,04/01,2024-03-01T00:00:00,13,61,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,49700.70,-49700.70,49700.70,0.00,49700.70,EUR
+718,.1~719,719,D3,04,02,04/02,2024-03-02T00:00:00,13,62,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,73886.36,73886.36,-73886.36,73886.36,0.00,EUR
+719,.1~720,720,D3,04,02,04/02,2024-03-02T00:00:00,13,62,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,73886.36,-73886.36,73886.36,-73886.36,0.00,EUR
+720,.1~721,721,D3,04,02,04/02,2024-03-02T00:00:00,13,62,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,17325.00,17325.00,-17325.00,17325.00,0.00,EUR
+721,.1~722,722,D3,04,02,04/02,2024-03-02T00:00:00,13,62,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,30851.79,-30851.79,30851.79,-30851.79,0.00,EUR
+722,.1~723,723,D3,04,02,04/02,2024-03-02T00:00:00,13,62,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,30851.79,30851.79,-30851.79,0.00,-30851.79,EUR
+723,.1~724,724,D3,04,02,04/02,2024-03-02T00:00:00,13,62,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,2737.35,-2737.35,2737.35,-2737.35,0.00,EUR
+724,.1~725,725,D3,04,02,04/02,2024-03-02T00:00:00,13,62,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,35353.26,35353.26,-35353.26,35353.26,0.00,EUR
+725,.1~726,726,D3,04,02,04/02,2024-03-02T00:00:00,13,62,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,17325.00,-17325.00,17325.00,0.00,17325.00,EUR
+726,.1~727,727,D3,04,02,04/02,2024-03-02T00:00:00,13,62,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,2737.35,2737.35,-2737.35,0.00,-2737.35,EUR
+727,.1~728,728,D3,04,02,04/02,2024-03-02T00:00:00,13,62,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,35353.26,-35353.26,35353.26,0.00,35353.26,EUR
+728,.1~729,729,D3,04,03,04/03,2024-03-03T00:00:00,13,63,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,185092.30,185092.30,-185092.30,185092.30,0.00,EUR
+729,.1~730,730,D3,04,03,04/03,2024-03-03T00:00:00,13,63,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,185092.30,-185092.30,185092.30,-185092.30,0.00,EUR
+730,.1~731,731,D3,04,03,04/03,2024-03-03T00:00:00,13,63,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,313514.45,313514.45,-313514.45,313514.45,0.00,EUR
+731,.1~732,732,D3,04,03,04/03,2024-03-03T00:00:00,13,63,160000,Accounts payable-domestic,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,102400.00,-102400.00,102400.00,-102400.00,0.00,EUR
+732,.1~733,733,D3,04,03,04/03,2024-03-03T00:00:00,13,63,191100,GR/IR Clearing - External procurement,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,102400.00,-102400.00,102400.00,-102400.00,0.00,EUR
+733,.1~734,734,D3,04,03,04/03,2024-03-03T00:00:00,13,63,191100,GR/IR Clearing - External procurement,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Debit,102400.00,102400.00,-102400.00,102400.00,0.00,EUR
+734,.1~735,735,D3,04,03,04/03,2024-03-03T00:00:00,13,63,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,35343.20,-35343.20,35343.20,-35343.20,0.00,EUR
+735,.1~736,736,D3,04,03,04/03,2024-03-03T00:00:00,13,63,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Debit,102400.00,102400.00,-102400.00,102400.00,0.00,EUR
+736,.1~737,737,D3,04,03,04/03,2024-03-03T00:00:00,13,63,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,35343.20,35343.20,-35343.20,0.00,-35343.20,EUR
+737,.1~738,738,D3,04,03,04/03,2024-03-03T00:00:00,13,63,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,73076.92,-73076.92,73076.92,-73076.92,0.00,EUR
+738,.1~739,739,D3,04,03,04/03,2024-03-03T00:00:00,13,63,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,40500.00,40500.00,-40500.00,40500.00,0.00,EUR
+739,.1~740,740,D3,04,03,04/03,2024-03-03T00:00:00,13,63,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,313514.45,-313514.45,313514.45,0.00,313514.45,EUR
+740,.1~741,741,D3,04,03,04/03,2024-03-03T00:00:00,13,63,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,73076.92,73076.92,-73076.92,0.00,-73076.92,EUR
+741,.1~742,742,D3,04,03,04/03,2024-03-03T00:00:00,13,63,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,40500.00,-40500.00,40500.00,0.00,40500.00,EUR
+742,.1~743,743,D3,04,04,04/04,2024-03-04T00:00:00,13,64,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,287365.55,287365.55,-287365.55,287365.55,0.00,EUR
+743,.1~744,744,D3,04,04,04/04,2024-03-04T00:00:00,13,64,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,287365.55,-287365.55,287365.55,-287365.55,0.00,EUR
+744,.1~745,745,D3,04,04,04/04,2024-03-04T00:00:00,13,64,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,314671.00,314671.00,-314671.00,314671.00,0.00,EUR
+745,.1~746,746,D3,04,04,04/04,2024-03-04T00:00:00,13,64,160000,Accounts payable-domestic,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,381868.00,-381868.00,381868.00,-381868.00,0.00,EUR
+746,.1~747,747,D3,04,04,04/04,2024-03-04T00:00:00,13,64,191100,GR/IR Clearing - External procurement,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Credit,381868.00,-381868.00,381868.00,-381868.00,0.00,EUR
+747,.1~748,748,D3,04,04,04/04,2024-03-04T00:00:00,13,64,191100,GR/IR Clearing - External procurement,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Debit,381868.00,381868.00,-381868.00,381868.00,0.00,EUR
+748,.1~749,749,D3,04,04,04/04,2024-03-04T00:00:00,13,64,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,50181.48,-50181.48,50181.48,-50181.48,0.00,EUR
+749,.1~750,750,D3,04,04,04/04,2024-03-04T00:00:00,13,64,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Debit,381868.00,381868.00,-381868.00,381868.00,0.00,EUR
+750,.1~751,751,D3,04,04,04/04,2024-03-04T00:00:00,13,64,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,50181.48,50181.48,-50181.48,0.00,-50181.48,EUR
+751,.1~752,752,D3,04,04,04/04,2024-03-04T00:00:00,13,64,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,78283.80,-78283.80,78283.80,-78283.80,0.00,EUR
+752,.1~753,753,D3,04,04,04/04,2024-03-04T00:00:00,13,64,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,46722.42,46722.42,-46722.42,46722.42,0.00,EUR
+753,.1~754,754,D3,04,04,04/04,2024-03-04T00:00:00,13,64,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,314671.00,-314671.00,314671.00,0.00,314671.00,EUR
+754,.1~755,755,D3,04,04,04/04,2024-03-04T00:00:00,13,64,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,78283.80,78283.80,-78283.80,0.00,-78283.80,EUR
+755,.1~756,756,D3,04,04,04/04,2024-03-04T00:00:00,13,64,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,46722.42,-46722.42,46722.42,0.00,46722.42,EUR
+756,.1~757,757,D3,04,05,04/05,2024-03-05T00:00:00,13,65,2010,Accumulated Depreciation - Buildings,Balance Sheet,Assets,Long-Term Assets,,Credit,1250.00,-1250.00,1250.00,-1250.00,0.00,EUR
+757,.1~758,758,D3,04,05,04/05,2024-03-05T00:00:00,13,65,11010,Accumulated depreciation - machinery and equipment,Balance Sheet,Assets,Long-Term Assets,,Credit,52083.33,-52083.33,52083.33,-52083.33,0.00,EUR
+758,.1~759,759,D3,04,05,04/05,2024-03-05T00:00:00,13,65,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Credit,85860.36,-85860.36,85860.36,-85860.36,0.00,EUR
+759,.1~760,760,D3,04,05,04/05,2024-03-05T00:00:00,13,65,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,271577.50,271577.50,-271577.50,271577.50,0.00,EUR
+760,.1~761,761,D3,04,05,04/05,2024-03-05T00:00:00,13,65,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,271577.50,-271577.50,271577.50,-271577.50,0.00,EUR
+761,.1~762,762,D3,04,05,04/05,2024-03-05T00:00:00,13,65,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,56944.80,56944.80,-56944.80,56944.80,0.00,EUR
+762,.1~763,763,D3,04,05,04/05,2024-03-05T00:00:00,13,65,211120,Depreciation-buildings,Income Statement,Operating Expenses,,,Debit,1250.00,1250.00,-1250.00,0.00,-1250.00,EUR
+763,.1~764,764,D3,04,05,04/05,2024-03-05T00:00:00,13,65,211130,Depreciation - machinery and equipment,Income Statement,Operating Expenses,,,Debit,52083.33,52083.33,-52083.33,0.00,-52083.33,EUR
+764,.1~765,765,D3,04,05,04/05,2024-03-05T00:00:00,13,65,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,61684.67,-61684.67,61684.67,-61684.67,0.00,EUR
+765,.1~766,766,D3,04,05,04/05,2024-03-05T00:00:00,13,65,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,61684.67,61684.67,-61684.67,0.00,-61684.67,EUR
+766,.1~767,767,D3,04,05,04/05,2024-03-05T00:00:00,13,65,476900,Interest expenses,Income Statement,"Sales, General, and Administrative Expenses",Interest Expenses,,Debit,8860.36,8860.36,-8860.36,0.00,-8860.36,EUR
+767,.1~768,768,D3,04,05,04/05,2024-03-05T00:00:00,13,65,478100,Warehousing Costs,Income Statement,Operating Expenses,,,Debit,2000.00,2000.00,-2000.00,0.00,-2000.00,EUR
+768,.1~769,769,D3,04,05,04/05,2024-03-05T00:00:00,13,65,500000,Direct labor costs,Income Statement,Operating Expenses,,,Debit,20000.00,20000.00,-20000.00,0.00,-20000.00,EUR
+769,.1~770,770,D3,04,05,04/05,2024-03-05T00:00:00,13,65,510000,Factory Overhead Expenses,Income Statement,Operating Expenses,,,Debit,15000.00,15000.00,-15000.00,0.00,-15000.00,EUR
+770,.1~771,771,D3,04,05,04/05,2024-03-05T00:00:00,13,65,520000,"Sales, General and Administrative Expenses",Income Statement,"Sales, General, and Administrative Expenses",SG&A,,Debit,40000.00,40000.00,-40000.00,0.00,-40000.00,EUR
+771,.1~772,772,D3,04,05,04/05,2024-03-05T00:00:00,13,65,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,17644.23,-17644.23,17644.23,-17644.23,0.00,EUR
+772,.1~773,773,D3,04,05,04/05,2024-03-05T00:00:00,13,65,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,57000.00,57000.00,-57000.00,57000.00,0.00,EUR
+773,.1~774,774,D3,04,05,04/05,2024-03-05T00:00:00,13,65,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,56944.80,-56944.80,56944.80,0.00,56944.80,EUR
+774,.1~775,775,D3,04,05,04/05,2024-03-05T00:00:00,13,65,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,17644.23,17644.23,-17644.23,0.00,-17644.23,EUR
+775,.1~776,776,D3,04,05,04/05,2024-03-05T00:00:00,13,65,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,57000.00,-57000.00,57000.00,0.00,57000.00,EUR
+776,.1~777,777,D3,04,06,04/06,2024-03-06T00:00:00,14,66,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,281204.32,281204.32,-281204.32,281204.32,0.00,EUR
+777,.1~778,778,D3,04,06,04/06,2024-03-06T00:00:00,14,66,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,281204.32,-281204.32,281204.32,-281204.32,0.00,EUR
+778,.1~779,779,D3,04,06,04/06,2024-03-06T00:00:00,14,66,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,226406.65,226406.65,-226406.65,226406.65,0.00,EUR
+779,.1~780,780,D3,04,06,04/06,2024-03-06T00:00:00,14,66,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,46297.55,-46297.55,46297.55,-46297.55,0.00,EUR
+780,.1~781,781,D3,04,06,04/06,2024-03-06T00:00:00,14,66,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,46297.55,46297.55,-46297.55,0.00,-46297.55,EUR
+781,.1~782,782,D3,04,06,04/06,2024-03-06T00:00:00,14,66,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,60684.68,-60684.68,60684.68,-60684.68,0.00,EUR
+782,.1~783,783,D3,04,06,04/06,2024-03-06T00:00:00,14,66,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,47324.35,47324.35,-47324.35,47324.35,0.00,EUR
+783,.1~784,784,D3,04,06,04/06,2024-03-06T00:00:00,14,66,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,226406.65,-226406.65,226406.65,0.00,226406.65,EUR
+784,.1~785,785,D3,04,06,04/06,2024-03-06T00:00:00,14,66,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,60684.68,60684.68,-60684.68,0.00,-60684.68,EUR
+785,.1~786,786,D3,04,06,04/06,2024-03-06T00:00:00,14,66,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,47324.35,-47324.35,47324.35,0.00,47324.35,EUR
+786,.1~787,787,D3,04,07,04/07,2024-03-07T00:00:00,14,67,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,17235.00,17235.00,-17235.00,17235.00,0.00,EUR
+787,.1~788,788,D3,04,07,04/07,2024-03-07T00:00:00,14,67,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,17235.00,-17235.00,17235.00,-17235.00,0.00,EUR
+788,.1~789,789,D3,04,07,04/07,2024-03-07T00:00:00,14,67,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,66826.20,66826.20,-66826.20,66826.20,0.00,EUR
+789,.1~790,790,D3,04,07,04/07,2024-03-07T00:00:00,14,67,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,54386.46,-54386.46,54386.46,-54386.46,0.00,EUR
+790,.1~791,791,D3,04,07,04/07,2024-03-07T00:00:00,14,67,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,54386.46,54386.46,-54386.46,0.00,-54386.46,EUR
+791,.1~792,792,D3,04,07,04/07,2024-03-07T00:00:00,14,67,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,17583.42,-17583.42,17583.42,-17583.42,0.00,EUR
+792,.1~793,793,D3,04,07,04/07,2024-03-07T00:00:00,14,67,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,56750.00,56750.00,-56750.00,56750.00,0.00,EUR
+793,.1~794,794,D3,04,07,04/07,2024-03-07T00:00:00,14,67,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,66826.20,-66826.20,66826.20,0.00,66826.20,EUR
+794,.1~795,795,D3,04,07,04/07,2024-03-07T00:00:00,14,67,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,17583.42,17583.42,-17583.42,0.00,-17583.42,EUR
+795,.1~796,796,D3,04,07,04/07,2024-03-07T00:00:00,14,67,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,56750.00,-56750.00,56750.00,0.00,56750.00,EUR
+796,.1~797,797,D3,04,08,04/08,2024-03-08T00:00:00,14,68,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,164372.70,164372.70,-164372.70,164372.70,0.00,EUR
+797,.1~798,798,D3,04,08,04/08,2024-03-08T00:00:00,14,68,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,164372.70,-164372.70,164372.70,-164372.70,0.00,EUR
+798,.1~799,799,D3,04,08,04/08,2024-03-08T00:00:00,14,68,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,246131.71,246131.71,-246131.71,246131.71,0.00,EUR
+799,.1~800,800,D3,04,08,04/08,2024-03-08T00:00:00,14,68,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,31763.41,-31763.41,31763.41,-31763.41,0.00,EUR
+800,.1~801,801,D3,04,08,04/08,2024-03-08T00:00:00,14,68,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,31763.41,31763.41,-31763.41,0.00,-31763.41,EUR
+801,.1~802,802,D3,04,08,04/08,2024-03-08T00:00:00,14,68,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,75793.57,-75793.57,75793.57,-75793.57,0.00,EUR
+802,.1~803,803,D3,04,08,04/08,2024-03-08T00:00:00,14,68,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,33807.55,33807.55,-33807.55,33807.55,0.00,EUR
+803,.1~804,804,D3,04,08,04/08,2024-03-08T00:00:00,14,68,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,246131.71,-246131.71,246131.71,0.00,246131.71,EUR
+804,.1~805,805,D3,04,08,04/08,2024-03-08T00:00:00,14,68,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,75793.57,75793.57,-75793.57,0.00,-75793.57,EUR
+805,.1~806,806,D3,04,08,04/08,2024-03-08T00:00:00,14,68,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,33807.55,-33807.55,33807.55,0.00,33807.55,EUR
+806,.1~807,807,D3,04,09,04/09,2024-03-09T00:00:00,14,69,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,127250.30,127250.30,-127250.30,127250.30,0.00,EUR
+807,.1~808,808,D3,04,09,04/09,2024-03-09T00:00:00,14,69,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,127250.30,-127250.30,127250.30,-127250.30,0.00,EUR
+808,.1~809,809,D3,04,09,04/09,2024-03-09T00:00:00,14,69,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,137774.70,137774.70,-137774.70,137774.70,0.00,EUR
+809,.1~810,810,D3,04,09,04/09,2024-03-09T00:00:00,14,69,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,32264.81,-32264.81,32264.81,-32264.81,0.00,EUR
+810,.1~811,811,D3,04,09,04/09,2024-03-09T00:00:00,14,69,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,32264.81,32264.81,-32264.81,0.00,-32264.81,EUR
+811,.1~812,812,D3,04,09,04/09,2024-03-09T00:00:00,14,69,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,36665.93,-36665.93,36665.93,-36665.93,0.00,EUR
+812,.1~813,813,D3,04,09,04/09,2024-03-09T00:00:00,14,69,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,34750.00,34750.00,-34750.00,34750.00,0.00,EUR
+813,.1~814,814,D3,04,09,04/09,2024-03-09T00:00:00,14,69,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,137774.70,-137774.70,137774.70,0.00,137774.70,EUR
+814,.1~815,815,D3,04,09,04/09,2024-03-09T00:00:00,14,69,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,36665.93,36665.93,-36665.93,0.00,-36665.93,EUR
+815,.1~816,816,D3,04,09,04/09,2024-03-09T00:00:00,14,69,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,34750.00,-34750.00,34750.00,0.00,34750.00,EUR
+816,.1~817,817,D3,04,10,04/10,2024-03-10T00:00:00,14,70,2010,Accumulated Depreciation - Buildings,Balance Sheet,Assets,Long-Term Assets,,Credit,1250.00,-1250.00,1250.00,-1250.00,0.00,EUR
+817,.1~818,818,D3,04,10,04/10,2024-03-10T00:00:00,14,70,11010,Accumulated depreciation - machinery and equipment,Balance Sheet,Assets,Long-Term Assets,,Credit,52083.33,-52083.33,52083.33,-52083.33,0.00,EUR
+818,.1~819,819,D3,04,10,04/10,2024-03-10T00:00:00,14,70,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Credit,182815.85,-182815.85,182815.85,-182815.85,0.00,EUR
+819,.1~820,820,D3,04,10,04/10,2024-03-10T00:00:00,14,70,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,430471.04,430471.04,-430471.04,430471.04,0.00,EUR
+820,.1~821,821,D3,04,10,04/10,2024-03-10T00:00:00,14,70,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,430471.04,-430471.04,430471.04,-430471.04,0.00,EUR
+821,.1~822,822,D3,04,10,04/10,2024-03-10T00:00:00,14,70,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,231005.60,231005.60,-231005.60,231005.60,0.00,EUR
+822,.1~823,823,D3,04,10,04/10,2024-03-10T00:00:00,14,70,160000,Accounts payable-domestic,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Debit,93713.00,93713.00,-93713.00,93713.00,0.00,EUR
+823,.1~824,824,D3,04,10,04/10,2024-03-10T00:00:00,14,70,211120,Depreciation-buildings,Income Statement,Operating Expenses,,,Debit,1250.00,1250.00,-1250.00,0.00,-1250.00,EUR
+824,.1~825,825,D3,04,10,04/10,2024-03-10T00:00:00,14,70,211130,Depreciation - machinery and equipment,Income Statement,Operating Expenses,,,Debit,52083.33,52083.33,-52083.33,0.00,-52083.33,EUR
+825,.1~826,826,D3,04,10,04/10,2024-03-10T00:00:00,14,70,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,32264.80,-32264.80,32264.80,-32264.80,0.00,EUR
+826,.1~827,827,D3,04,10,04/10,2024-03-10T00:00:00,14,70,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,32264.80,32264.80,-32264.80,0.00,-32264.80,EUR
+827,.1~828,828,D3,04,10,04/10,2024-03-10T00:00:00,14,70,476900,Interest expenses,Income Statement,"Sales, General, and Administrative Expenses",Interest Expenses,,Debit,8102.85,8102.85,-8102.85,0.00,-8102.85,EUR
+828,.1~829,829,D3,04,10,04/10,2024-03-10T00:00:00,14,70,478100,Warehousing Costs,Income Statement,Operating Expenses,,,Debit,6000.00,6000.00,-6000.00,0.00,-6000.00,EUR
+829,.1~830,830,D3,04,10,04/10,2024-03-10T00:00:00,14,70,500000,Direct labor costs,Income Statement,Operating Expenses,,,Debit,20000.00,20000.00,-20000.00,0.00,-20000.00,EUR
+830,.1~831,831,D3,04,10,04/10,2024-03-10T00:00:00,14,70,510000,Factory Overhead Expenses,Income Statement,Operating Expenses,,,Debit,15000.00,15000.00,-15000.00,0.00,-15000.00,EUR
+831,.1~832,832,D3,04,10,04/10,2024-03-10T00:00:00,14,70,520000,"Sales, General and Administrative Expenses",Income Statement,"Sales, General, and Administrative Expenses",SG&A,,Debit,40000.00,40000.00,-40000.00,0.00,-40000.00,EUR
+832,.1~833,833,D3,04,10,04/10,2024-03-10T00:00:00,14,70,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,58769.14,-58769.14,58769.14,-58769.14,0.00,EUR
+833,.1~834,834,D3,04,10,04/10,2024-03-10T00:00:00,14,70,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,34750.00,34750.00,-34750.00,34750.00,0.00,EUR
+834,.1~835,835,D3,04,10,04/10,2024-03-10T00:00:00,14,70,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,231005.60,-231005.60,231005.60,0.00,231005.60,EUR
+835,.1~836,836,D3,04,10,04/10,2024-03-10T00:00:00,14,70,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,58769.14,58769.14,-58769.14,0.00,-58769.14,EUR
+836,.1~837,837,D3,04,10,04/10,2024-03-10T00:00:00,14,70,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,34750.00,-34750.00,34750.00,0.00,34750.00,EUR
+837,.1~838,838,D3,04,11,04/11,2024-03-11T00:00:00,15,71,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Credit,38100.00,-38100.00,38100.00,-38100.00,0.00,EUR
+838,.1~839,839,D3,04,11,04/11,2024-03-11T00:00:00,15,71,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,178132.20,178132.20,-178132.20,178132.20,0.00,EUR
+839,.1~840,840,D3,04,11,04/11,2024-03-11T00:00:00,15,71,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,178132.20,-178132.20,178132.20,-178132.20,0.00,EUR
+840,.1~841,841,D3,04,11,04/11,2024-03-11T00:00:00,15,71,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,147101.80,147101.80,-147101.80,147101.80,0.00,EUR
+841,.1~842,842,D3,04,11,04/11,2024-03-11T00:00:00,15,71,160000,Accounts payable-domestic,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Debit,38100.00,38100.00,-38100.00,38100.00,0.00,EUR
+842,.1~843,843,D3,04,11,04/11,2024-03-11T00:00:00,15,71,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,31748.30,-31748.30,31748.30,-31748.30,0.00,EUR
+843,.1~844,844,D3,04,11,04/11,2024-03-11T00:00:00,15,71,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,31748.30,31748.30,-31748.30,0.00,-31748.30,EUR
+844,.1~845,845,D3,04,11,04/11,2024-03-11T00:00:00,15,71,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,38425.23,-38425.23,38425.23,-38425.23,0.00,EUR
+845,.1~846,846,D3,04,11,04/11,2024-03-11T00:00:00,15,71,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,33143.27,33143.27,-33143.27,33143.27,0.00,EUR
+846,.1~847,847,D3,04,11,04/11,2024-03-11T00:00:00,15,71,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,147101.80,-147101.80,147101.80,0.00,147101.80,EUR
+847,.1~848,848,D3,04,11,04/11,2024-03-11T00:00:00,15,71,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,38425.23,38425.23,-38425.23,0.00,-38425.23,EUR
+848,.1~849,849,D3,04,11,04/11,2024-03-11T00:00:00,15,71,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,33143.27,-33143.27,33143.27,0.00,33143.27,EUR
+849,.1~850,850,D3,04,12,04/12,2024-03-12T00:00:00,15,72,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,95832.20,95832.20,-95832.20,95832.20,0.00,EUR
+850,.1~851,851,D3,04,12,04/12,2024-03-12T00:00:00,15,72,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,52010.58,-52010.58,52010.58,-52010.58,0.00,EUR
+851,.1~852,852,D3,04,12,04/12,2024-03-12T00:00:00,15,72,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,52010.58,52010.58,-52010.58,0.00,-52010.58,EUR
+852,.1~853,853,D3,04,12,04/12,2024-03-12T00:00:00,15,72,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,20161.26,-20161.26,20161.26,-20161.26,0.00,EUR
+853,.1~854,854,D3,04,12,04/12,2024-03-12T00:00:00,15,72,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,51750.00,51750.00,-51750.00,51750.00,0.00,EUR
+854,.1~855,855,D3,04,12,04/12,2024-03-12T00:00:00,15,72,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,95832.20,-95832.20,95832.20,0.00,95832.20,EUR
+855,.1~856,856,D3,04,12,04/12,2024-03-12T00:00:00,15,72,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,20161.26,20161.26,-20161.26,0.00,-20161.26,EUR
+856,.1~857,857,D3,04,12,04/12,2024-03-12T00:00:00,15,72,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,51750.00,-51750.00,51750.00,0.00,51750.00,EUR
+857,.1~858,858,D3,04,13,04/13,2024-03-13T00:00:00,15,73,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,220120.00,220120.00,-220120.00,220120.00,0.00,EUR
+858,.1~859,859,D3,04,13,04/13,2024-03-13T00:00:00,15,73,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,220120.00,-220120.00,220120.00,-220120.00,0.00,EUR
+859,.1~860,860,D3,04,13,04/13,2024-03-13T00:00:00,15,73,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,127122.60,127122.60,-127122.60,127122.60,0.00,EUR
+860,.1~861,861,D3,04,13,04/13,2024-03-13T00:00:00,15,73,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,52010.58,-52010.58,52010.58,-52010.58,0.00,EUR
+861,.1~862,862,D3,04,13,04/13,2024-03-13T00:00:00,15,73,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,52010.58,52010.58,-52010.58,0.00,-52010.58,EUR
+862,.1~863,863,D3,04,13,04/13,2024-03-13T00:00:00,15,73,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,30688.70,-30688.70,30688.70,-30688.70,0.00,EUR
+863,.1~864,864,D3,04,13,04/13,2024-03-13T00:00:00,15,73,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,51750.00,51750.00,-51750.00,51750.00,0.00,EUR
+864,.1~865,865,D3,04,13,04/13,2024-03-13T00:00:00,15,73,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,127122.60,-127122.60,127122.60,0.00,127122.60,EUR
+865,.1~866,866,D3,04,13,04/13,2024-03-13T00:00:00,15,73,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,30688.70,30688.70,-30688.70,0.00,-30688.70,EUR
+866,.1~867,867,D3,04,13,04/13,2024-03-13T00:00:00,15,73,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,51750.00,-51750.00,51750.00,0.00,51750.00,EUR
+867,.1~868,868,D3,04,14,04/14,2024-03-14T00:00:00,15,74,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,357077.00,357077.00,-357077.00,357077.00,0.00,EUR
+868,.1~869,869,D3,04,14,04/14,2024-03-14T00:00:00,15,74,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,357077.00,-357077.00,357077.00,-357077.00,0.00,EUR
+869,.1~870,870,D3,04,14,04/14,2024-03-14T00:00:00,15,74,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,244580.20,244580.20,-244580.20,244580.20,0.00,EUR
+870,.1~871,871,D3,04,14,04/14,2024-03-14T00:00:00,15,74,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,48367.34,-48367.34,48367.34,-48367.34,0.00,EUR
+871,.1~872,872,D3,04,14,04/14,2024-03-14T00:00:00,15,74,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,48367.34,48367.34,-48367.34,0.00,-48367.34,EUR
+872,.1~873,873,D3,04,14,04/14,2024-03-14T00:00:00,15,74,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,65235.04,-65235.04,65235.04,-65235.04,0.00,EUR
+873,.1~874,874,D3,04,14,04/14,2024-03-14T00:00:00,15,74,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,45851.79,45851.79,-45851.79,45851.79,0.00,EUR
+874,.1~875,875,D3,04,14,04/14,2024-03-14T00:00:00,15,74,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,244580.20,-244580.20,244580.20,0.00,244580.20,EUR
+875,.1~876,876,D3,04,14,04/14,2024-03-14T00:00:00,15,74,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,65235.04,65235.04,-65235.04,0.00,-65235.04,EUR
+876,.1~877,877,D3,04,14,04/14,2024-03-14T00:00:00,15,74,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,45851.79,-45851.79,45851.79,0.00,45851.79,EUR
+877,.1~878,878,D3,04,15,04/15,2024-03-15T00:00:00,15,75,2010,Accumulated Depreciation - Buildings,Balance Sheet,Assets,Long-Term Assets,,Credit,1250.00,-1250.00,1250.00,-1250.00,0.00,EUR
+878,.1~879,879,D3,04,15,04/15,2024-03-15T00:00:00,15,75,11010,Accumulated depreciation - machinery and equipment,Balance Sheet,Assets,Long-Term Assets,,Credit,52083.33,-52083.33,52083.33,-52083.33,0.00,EUR
+879,.1~880,880,D3,04,15,04/15,2024-03-15T00:00:00,15,75,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Credit,82745.22,-82745.22,82745.22,-82745.22,0.00,EUR
+880,.1~881,881,D3,04,15,04/15,2024-03-15T00:00:00,15,75,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,90721.40,90721.40,-90721.40,90721.40,0.00,EUR
+881,.1~882,882,D3,04,15,04/15,2024-03-15T00:00:00,15,75,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,90721.40,-90721.40,90721.40,-90721.40,0.00,EUR
+882,.1~883,883,D3,04,15,04/15,2024-03-15T00:00:00,15,75,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,266286.15,266286.15,-266286.15,266286.15,0.00,EUR
+883,.1~884,884,D3,04,15,04/15,2024-03-15T00:00:00,15,75,211120,Depreciation-buildings,Income Statement,Operating Expenses,,,Debit,1250.00,1250.00,-1250.00,0.00,-1250.00,EUR
+884,.1~885,885,D3,04,15,04/15,2024-03-15T00:00:00,15,75,211130,Depreciation - machinery and equipment,Income Statement,Operating Expenses,,,Debit,52083.33,52083.33,-52083.33,0.00,-52083.33,EUR
+885,.1~886,886,D3,04,15,04/15,2024-03-15T00:00:00,15,75,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,61684.67,-61684.67,61684.67,-61684.67,0.00,EUR
+886,.1~887,887,D3,04,15,04/15,2024-03-15T00:00:00,15,75,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,61684.67,61684.67,-61684.67,0.00,-61684.67,EUR
+887,.1~888,888,D3,04,15,04/15,2024-03-15T00:00:00,15,75,476900,Interest expenses,Income Statement,"Sales, General, and Administrative Expenses",Interest Expenses,,Debit,7745.22,7745.22,-7745.22,0.00,-7745.22,EUR
+888,.1~889,889,D3,04,15,04/15,2024-03-15T00:00:00,15,75,500000,Direct labor costs,Income Statement,Operating Expenses,,,Debit,20000.00,20000.00,-20000.00,0.00,-20000.00,EUR
+889,.1~890,890,D3,04,15,04/15,2024-03-15T00:00:00,15,75,510000,Factory Overhead Expenses,Income Statement,Operating Expenses,,,Debit,15000.00,15000.00,-15000.00,0.00,-15000.00,EUR
+890,.1~891,891,D3,04,15,04/15,2024-03-15T00:00:00,15,75,520000,"Sales, General and Administrative Expenses",Income Statement,"Sales, General, and Administrative Expenses",SG&A,,Debit,40000.00,40000.00,-40000.00,0.00,-40000.00,EUR
+891,.1~892,892,D3,04,15,04/15,2024-03-15T00:00:00,15,75,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,79218.42,-79218.42,79218.42,-79218.42,0.00,EUR
+892,.1~893,893,D3,04,15,04/15,2024-03-15T00:00:00,15,75,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,57000.00,57000.00,-57000.00,57000.00,0.00,EUR
+893,.1~894,894,D3,04,15,04/15,2024-03-15T00:00:00,15,75,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,266286.15,-266286.15,266286.15,0.00,266286.15,EUR
+894,.1~895,895,D3,04,15,04/15,2024-03-15T00:00:00,15,75,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,79218.42,79218.42,-79218.42,0.00,-79218.42,EUR
+895,.1~896,896,D3,04,15,04/15,2024-03-15T00:00:00,15,75,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,57000.00,-57000.00,57000.00,0.00,57000.00,EUR
+896,.1~897,897,D3,04,16,04/16,2024-03-16T00:00:00,16,76,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,94572.30,94572.30,-94572.30,94572.30,0.00,EUR
+897,.1~898,898,D3,04,16,04/16,2024-03-16T00:00:00,16,76,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,94572.30,-94572.30,94572.30,-94572.30,0.00,EUR
+898,.1~899,899,D3,04,16,04/16,2024-03-16T00:00:00,16,76,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,160963.65,160963.65,-160963.65,160963.65,0.00,EUR
+899,.1~900,900,D3,04,16,04/16,2024-03-16T00:00:00,16,76,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,61684.68,-61684.68,61684.68,-61684.68,0.00,EUR
+900,.1~901,901,D3,04,16,04/16,2024-03-16T00:00:00,16,76,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,61684.68,61684.68,-61684.68,0.00,-61684.68,EUR
+901,.1~902,902,D3,04,16,04/16,2024-03-16T00:00:00,16,76,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,36478.90,-36478.90,36478.90,-36478.90,0.00,EUR
+902,.1~903,903,D3,04,16,04/16,2024-03-16T00:00:00,16,76,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,57000.00,57000.00,-57000.00,57000.00,0.00,EUR
+903,.1~904,904,D3,04,16,04/16,2024-03-16T00:00:00,16,76,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,160963.65,-160963.65,160963.65,0.00,160963.65,EUR
+904,.1~905,905,D3,04,16,04/16,2024-03-16T00:00:00,16,76,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,36478.90,36478.90,-36478.90,0.00,-36478.90,EUR
+905,.1~906,906,D3,04,16,04/16,2024-03-16T00:00:00,16,76,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,57000.00,-57000.00,57000.00,0.00,57000.00,EUR
+906,.1~907,907,D3,04,17,04/17,2024-03-17T00:00:00,16,77,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Credit,444240.00,-444240.00,444240.00,-444240.00,0.00,EUR
+907,.1~908,908,D3,04,17,04/17,2024-03-17T00:00:00,16,77,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,65340.80,65340.80,-65340.80,65340.80,0.00,EUR
+908,.1~909,909,D3,04,17,04/17,2024-03-17T00:00:00,16,77,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,65340.80,-65340.80,65340.80,-65340.80,0.00,EUR
+909,.1~910,910,D3,04,17,04/17,2024-03-17T00:00:00,16,77,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,89529.00,89529.00,-89529.00,89529.00,0.00,EUR
+910,.1~911,911,D3,04,17,04/17,2024-03-17T00:00:00,16,77,160000,Accounts payable-domestic,Balance Sheet,Liabilities and Owners' Equity,Liabilities,Current Liabilities,Debit,444240.00,444240.00,-444240.00,444240.00,0.00,EUR
+911,.1~912,912,D3,04,17,04/17,2024-03-17T00:00:00,16,77,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,30831.16,-30831.16,30831.16,-30831.16,0.00,EUR
+912,.1~913,913,D3,04,17,04/17,2024-03-17T00:00:00,16,77,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,30831.16,30831.16,-30831.16,0.00,-30831.16,EUR
+913,.1~914,914,D3,04,17,04/17,2024-03-17T00:00:00,16,77,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,24964.20,-24964.20,24964.20,-24964.20,0.00,EUR
+914,.1~915,915,D3,04,17,04/17,2024-03-17T00:00:00,16,77,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,34417.38,34417.38,-34417.38,34417.38,0.00,EUR
+915,.1~916,916,D3,04,17,04/17,2024-03-17T00:00:00,16,77,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,89529.00,-89529.00,89529.00,0.00,89529.00,EUR
+916,.1~917,917,D3,04,17,04/17,2024-03-17T00:00:00,16,77,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,24964.20,24964.20,-24964.20,0.00,-24964.20,EUR
+917,.1~918,918,D3,04,17,04/17,2024-03-17T00:00:00,16,77,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,34417.38,-34417.38,34417.38,0.00,34417.38,EUR
+918,.1~919,919,D3,04,18,04/18,2024-03-18T00:00:00,16,78,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,16180.90,16180.90,-16180.90,16180.90,0.00,EUR
+919,.1~920,920,D3,04,18,04/18,2024-03-18T00:00:00,16,78,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,16180.90,-16180.90,16180.90,-16180.90,0.00,EUR
+920,.1~921,921,D3,04,18,04/18,2024-03-18T00:00:00,16,78,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,267480.95,267480.95,-267480.95,267480.95,0.00,EUR
+921,.1~922,922,D3,04,18,04/18,2024-03-18T00:00:00,16,78,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,31760.61,-31760.61,31760.61,-31760.61,0.00,EUR
+922,.1~923,923,D3,04,18,04/18,2024-03-18T00:00:00,16,78,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,31760.61,31760.61,-31760.61,0.00,-31760.61,EUR
+923,.1~924,924,D3,04,18,04/18,2024-03-18T00:00:00,16,78,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,62514.10,-62514.10,62514.10,-62514.10,0.00,EUR
+924,.1~925,925,D3,04,18,04/18,2024-03-18T00:00:00,16,78,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,35474.56,35474.56,-35474.56,35474.56,0.00,EUR
+925,.1~926,926,D3,04,18,04/18,2024-03-18T00:00:00,16,78,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,267480.95,-267480.95,267480.95,0.00,267480.95,EUR
+926,.1~927,927,D3,04,18,04/18,2024-03-18T00:00:00,16,78,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,62514.10,62514.10,-62514.10,0.00,-62514.10,EUR
+927,.1~928,928,D3,04,18,04/18,2024-03-18T00:00:00,16,78,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,35474.56,-35474.56,35474.56,0.00,35474.56,EUR
+928,.1~929,929,D3,04,19,04/19,2024-03-19T00:00:00,16,79,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,89867.25,89867.25,-89867.25,89867.25,0.00,EUR
+929,.1~930,930,D3,04,19,04/19,2024-03-19T00:00:00,16,79,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,89867.25,-89867.25,89867.25,-89867.25,0.00,EUR
+930,.1~931,931,D3,04,19,04/19,2024-03-19T00:00:00,16,79,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,135550.30,135550.30,-135550.30,135550.30,0.00,EUR
+931,.1~932,932,D3,04,19,04/19,2024-03-19T00:00:00,16,79,300000,Raw materials,Balance Sheet,Assets,Current Assets,,Credit,50788.24,-50788.24,50788.24,-50788.24,0.00,EUR
+932,.1~933,933,D3,04,19,04/19,2024-03-19T00:00:00,16,79,400000,Consumption Raw Materials,Income Statement,Inventory Change,,,Debit,50788.24,50788.24,-50788.24,0.00,-50788.24,EUR
+933,.1~934,934,D3,04,19,04/19,2024-03-19T00:00:00,16,79,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,31687.62,-31687.62,31687.62,-31687.62,0.00,EUR
+934,.1~935,935,D3,04,19,04/19,2024-03-19T00:00:00,16,79,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Debit,52995.42,52995.42,-52995.42,52995.42,0.00,EUR
+935,.1~936,936,D3,04,19,04/19,2024-03-19T00:00:00,16,79,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,135550.30,-135550.30,135550.30,0.00,135550.30,EUR
+936,.1~937,937,D3,04,19,04/19,2024-03-19T00:00:00,16,79,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,31687.62,31687.62,-31687.62,0.00,-31687.62,EUR
+937,.1~938,938,D3,04,19,04/19,2024-03-19T00:00:00,16,79,895000,Total Finished Products Produced,Income Statement,Inventory Change,,,Credit,52995.42,-52995.42,52995.42,0.00,52995.42,EUR
+938,.1~939,939,D3,04,20,04/20,2024-03-20T00:00:00,16,80,2010,Accumulated Depreciation - Buildings,Balance Sheet,Assets,Long-Term Assets,,Credit,1250.00,-1250.00,1250.00,-1250.00,0.00,EUR
+939,.1~940,940,D3,04,20,04/20,2024-03-20T00:00:00,16,80,11010,Accumulated depreciation - machinery and equipment,Balance Sheet,Assets,Long-Term Assets,,Credit,52083.33,-52083.33,52083.33,-52083.33,0.00,EUR
+940,.1~941,941,D3,04,20,04/20,2024-03-20T00:00:00,16,80,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Credit,82387.05,-82387.05,82387.05,-82387.05,0.00,EUR
+941,.1~942,942,D3,04,20,04/20,2024-03-20T00:00:00,16,80,113300,Bank Cash Account,Balance Sheet,Assets,Current Assets,,Debit,66670.80,66670.80,-66670.80,66670.80,0.00,EUR
+942,.1~943,943,D3,04,20,04/20,2024-03-20T00:00:00,16,80,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Credit,66670.80,-66670.80,66670.80,-66670.80,0.00,EUR
+943,.1~944,944,D3,04,20,04/20,2024-03-20T00:00:00,16,80,140000,Customers - Domestic Receivables,Balance Sheet,Assets,Current Assets,,Debit,328519.25,328519.25,-328519.25,328519.25,0.00,EUR
+944,.1~945,945,D3,04,20,04/20,2024-03-20T00:00:00,16,80,211120,Depreciation-buildings,Income Statement,Operating Expenses,,,Debit,1250.00,1250.00,-1250.00,0.00,-1250.00,EUR
+945,.1~946,946,D3,04,20,04/20,2024-03-20T00:00:00,16,80,211130,Depreciation - machinery and equipment,Income Statement,Operating Expenses,,,Debit,52083.33,52083.33,-52083.33,0.00,-52083.33,EUR
+946,.1~947,947,D3,04,20,04/20,2024-03-20T00:00:00,16,80,476900,Interest expenses,Income Statement,"Sales, General, and Administrative Expenses",Interest Expenses,,Debit,7387.05,7387.05,-7387.05,0.00,-7387.05,EUR
+947,.1~948,948,D3,04,20,04/20,2024-03-20T00:00:00,16,80,500000,Direct labor costs,Income Statement,Operating Expenses,,,Debit,20000.00,20000.00,-20000.00,0.00,-20000.00,EUR
+948,.1~949,949,D3,04,20,04/20,2024-03-20T00:00:00,16,80,510000,Factory Overhead Expenses,Income Statement,Operating Expenses,,,Debit,15000.00,15000.00,-15000.00,0.00,-15000.00,EUR
+949,.1~950,950,D3,04,20,04/20,2024-03-20T00:00:00,16,80,520000,"Sales, General and Administrative Expenses",Income Statement,"Sales, General, and Administrative Expenses",SG&A,,Debit,40000.00,40000.00,-40000.00,0.00,-40000.00,EUR
+950,.1~951,951,D3,04,20,04/20,2024-03-20T00:00:00,16,80,792000,Finished goods,Balance Sheet,Assets,Current Assets,,Credit,87367.23,-87367.23,87367.23,-87367.23,0.00,EUR
+951,.1~952,952,D3,04,20,04/20,2024-03-20T00:00:00,16,80,800000,Sales revenues - domestic,Income Statement,Revenues,,,Credit,328519.25,-328519.25,328519.25,0.00,328519.25,EUR
+952,.1~953,953,D3,04,20,04/20,2024-03-20T00:00:00,16,80,893010,Total fin.prod. sold,Income Statement,Cost of Goods Sold,,,Debit,87367.23,87367.23,-87367.23,0.00,-87367.23,EUR
