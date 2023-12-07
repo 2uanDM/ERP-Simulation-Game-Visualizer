@@ -25,11 +25,6 @@ def main():
     # Refresh button
     refresh_button = st.sidebar.button('Refresh (Press R)', use_container_width=True)
 
-    # Get the Inventory table
-    if not os.path.exists(".temp/Inventory.xml"):
-        st.error("The Inventory table does not exist! Wait for the data to be fetched!")
-        return
-
     with st.spinner("Loading Inventory table..."):
         conn = sqlite3.connect('erp.db')
 
