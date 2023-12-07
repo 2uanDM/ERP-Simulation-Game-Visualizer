@@ -1,16 +1,20 @@
 import os
 import sys
+import time
 import pandas as pd
 sys.path.append(os.getcwd())  # NOQA
 
 import streamlit as st
 import json
 import sqlite3
+from pynput.keyboard import Controller
 
 st.set_page_config(
     page_title="Market 📈",
     page_icon="📈",
 )
+
+keyboard = Controller()
 
 
 class Market():
