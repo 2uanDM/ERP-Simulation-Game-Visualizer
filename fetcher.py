@@ -16,7 +16,7 @@ from typing import List
 from pydantic import BaseModel
 from datetime import datetime
 
-from database.schema import Market, Inventory
+from database.schema import Market, Inventory, Current_Inventory
 from database.init_db import init_db
 
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -28,7 +28,9 @@ with open('configs/games.json', 'r') as f:
 
 table_to_model: dict = {
     'Market': Market,
-    'Inventory': Inventory
+    'Inventory': Inventory,
+    'Current_Inventory': Current_Inventory
+
 }
 
 
@@ -227,10 +229,8 @@ class DataRefresher():
 
 if __name__ == '__main__':
     main_url = CONFIG['data_source_link']
-    # tables = ['Market', 'Inventory']
 
-    tables = ['Market', 'Company_Valuation', 'Financial_Postings', 'Goods_Movements', 'Independent_Requirements', 'Purchase_Orders', 'Production_Orders', 'Inventory',
-              'Current_Inventory', 'Current_Inventory_KPI', 'Current_Suppliers_Prices', 'Marketing_Expenses', 'Pricing_Conditions', 'Production', 'Sales', 'Suppliers_Prices']
+    tables = ['Market', 'Inventory', 'Current_Inventory']
 
     data_refresher = DataRefresher(main_url=main_url, tables=tables)
 

@@ -28,19 +28,57 @@ def main():
     with st.spinner("Loading Inventory table..."):
         conn = sqlite3.connect('erp.db')
 
-        data = conn.execute("""
-            SELECT * FROM Inventory
+        remove_col = [
+            'ID',
+            'ROW_ID',
+            'PLANT',
+            'SIM_DATE',
+            'SIM_CALENDAR_DATE',
+            'SIM_ELAPSED_STEPS',
+            'MATERIAL_LABEL',
+            'MATERIAL_SIZE'
+        ]
+
+        select_col = list(Inventory.__annotations__.keys())
+        select_col = [x for x in select_col if x not in remove_col]
+
+        max_day = conn.execute("""
+            SELECT MAX(SIM_STEP) FROM Inventory
+            """)
+
+        max_day = int(max_day.fetchone()[0])
+
+        day = st.sidebar.multiselect(
+            'Day',
+            list(range(1, max_day+1)),
+            key='inventory_day_filter',
+            default=list(range(1, max_day + 1))
+        )
+
+        data = conn.execute(f"""
+            SELECT
+                SIM_ROUND,
+                SIM_STEP,
+                SIM_PERIOD,
+                STORAGE_LOCATION,
+                MATERIAL_NUMBER,
+                MATERIAL_DESCRIPTION,
+                MATERIAL_TYPE,
+                MATERIAL_CODE,
+                INVENTORY_OPENING_BALANCE,
+                UNIT
+            FROM Inventory
+            WHERE SIM_STEP in ({', '.join([str(x) for x in day])})
             """).fetchall()
 
         if data == []:
             st.error("The Inventory table does not exist! Wait for the data to be fetched!")
         else:
             inventory_df = pl.DataFrame(data).to_pandas()
-            inventory_df.columns = Inventory.__annotations__.keys()
+            inventory_df.columns = select_col
+            st.dataframe(inventory_df, hide_index=True)
 
         conn.close()
-
-        st.dataframe(inventory_df)
 
 
 if __name__ == '__main__':

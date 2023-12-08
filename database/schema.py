@@ -38,3 +38,15 @@ class Inventory(BaseModel):
     MATERIAL_LABEL: str
     INVENTORY_OPENING_BALANCE: float
     UNIT: str
+
+
+class Current_Inventory(BaseModel):
+    ID: Optional[str]
+    ROW_ID: int
+    PLANT: str
+    MATERIAL_NUMBER: str
+    MATERIAL_DESCRIPTION: str
+    STORAGE_LOCATION: str
+    STOCK: float
+    RESTRICTED: float
+    UNIT: str

@@ -60,6 +60,27 @@ def _create_inventory_table(conn):
     print("==>> Created the Inventory table")
 
 
+def _create_current_inventory_table(conn):
+    conn.execute("""
+        CREATE TABLE IF NOT EXISTS Current_Inventory (
+            ID TEXT,
+            ROW_ID INTEGER PRIMARY KEY,
+            PLANT TEXT,
+            MATERIAL_NUMBER TEXT,
+            MATERIAL_DESCRIPTION TEXT,
+            STORAGE_LOCATION TEXT,
+            STOCK REAL,
+            RESTRICTED REAL,
+            UNIT TEXT
+        );
+    """)
+
+    # Save (commit) the changes
+    conn.commit()
+
+    print("==>> Created the Current_Inventory table")
+
+
 def init_db(list_tables: list = []):
     """
         Drop all tables and create them again
@@ -81,6 +102,8 @@ def init_db(list_tables: list = []):
         _create_market_table(conn)
     if 'Inventory' in list_tables:
         _create_inventory_table(conn)
+    if 'Current_Inventory' in list_tables:
+        _create_current_inventory_table(conn)
 
 
 if __name__ == '__main__':

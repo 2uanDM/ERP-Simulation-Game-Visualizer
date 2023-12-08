@@ -296,7 +296,7 @@ class Market():
             sales_organization = st.selectbox(
                 label="Sales Organization",
                 options=['Company', 'Market'],
-                index=0,
+                index=1,
                 key=f'market_bar_chart_choose_sales_organization'
             )
 
