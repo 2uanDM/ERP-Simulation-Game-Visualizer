@@ -227,10 +227,10 @@ class DataRefresher():
 
 if __name__ == '__main__':
     main_url = CONFIG['data_source_link']
-    tables = ['Market', 'Inventory']
+    # tables = ['Market', 'Inventory']
 
-    # tables = ['Market', 'Company_Valuation', 'Financial_Postings', 'Goods_Movements', 'Independent_Requirements', 'Purchase_Orders', 'Production_Orders', 'Inventory',
-    #           'Current_Inventory', 'Current_Inventory_KPI', 'Current_Suppliers_Prices', 'Marketing_Expenses', 'Pricing_Conditions', 'Production', 'Sales', 'Suppliers_Prices']
+    tables = ['Market', 'Company_Valuation', 'Financial_Postings', 'Goods_Movements', 'Independent_Requirements', 'Purchase_Orders', 'Production_Orders', 'Inventory',
+              'Current_Inventory', 'Current_Inventory_KPI', 'Current_Suppliers_Prices', 'Marketing_Expenses', 'Pricing_Conditions', 'Production', 'Sales', 'Suppliers_Prices']
 
     data_refresher = DataRefresher(main_url=main_url, tables=tables)
 
