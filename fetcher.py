@@ -54,7 +54,8 @@ class DataRefresher():
     def _fetch_xml(self, url: str, table_name: str = None):
         try:
             with httpx.Client() as client:
-                response = client.get(url, follow_redirects=True, auth=(CONFIG['username'], CONFIG['password']))
+                response = client.get(url, follow_redirects=True, auth=(
+                    CONFIG['username'], CONFIG['password']), timeout=60)
                 response.raise_for_status()
 
                 root = etree.fromstring(response.text)
@@ -203,20 +204,20 @@ class DataRefresher():
                     table: str = future.result()
                     done_tables.append(table)
 
-            print('===> Pushing data to the database...')
+            # print('===> Pushing data to the database...')
 
-            # for table in done_tables:
-            for table in list(table_to_model.keys()):
-                self._insert_db(table_name=table, conn=self.conn)
+            # # for table in done_tables:
+            # for table in list(table_to_model.keys()):
+            #     self._insert_db(table_name=table, conn=self.conn)
 
-            print('===> Done pushing to database!')
-            print('===> Closing the connection...')
+            # print('===> Done pushing to database!')
+            # print('===> Closing the connection...')
 
-            # Close the connection
-            self.conn.close()
+            # # Close the connection
+            # self.conn.close()
 
-            with open('configs/games.json', 'r') as f:
-                CONFIG = json.load(f)
+            # with open('configs/games.json', 'r') as f:
+            #     CONFIG = json.load(f)
 
             print(f"===> Next run: {CONFIG['auto_refresh']} seconds")
 
@@ -230,16 +231,14 @@ class DataRefresher():
 if __name__ == '__main__':
     main_url = CONFIG['data_source_link']
 
-    tables = ['Market', 'Inventory', 'Current_Inventory']
+    tables = ['Market', 'Inventory', 'Current_Inventory',  'Company_Valuation',
+              'Financial_Postings', 'Purchase_Orders', 'Production_Orders',
+              'Marketing_Expenses', 'Sales', 'NPS_Surveys']
 
     data_refresher = DataRefresher(main_url=main_url, tables=tables)
 
-    data_refresher.run()
+    # data_refresher.run()
 
-    # conn = sqlite3.connect('erp.db')
-
-    # for table in ['Inventory']:
-    #     data_refresher._insert_db(table_name=table, conn=conn)
-    #     print(f"=> Done pushing data of table: {table}")
-
-    # conn.close()
+    for table in tables:
+        df = data_refresher._xml_to_df(table_name=table)
+        df.to_csv(f'.temp/csv/{table}.csv', index=False)
