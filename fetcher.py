@@ -237,8 +237,4 @@ if __name__ == '__main__':
 
     data_refresher = DataRefresher(main_url=main_url, tables=tables)
 
-    # data_refresher.run()
-
-    for table in tables:
-        df = data_refresher._xml_to_df(table_name=table)
-        df.to_csv(f'.temp/csv/{table}.csv', index=False)
+    data_refresher.run()
