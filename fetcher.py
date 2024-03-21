@@ -282,6 +282,6 @@ if __name__ == "__main__":
 
     data_refresher = DataRefresher(main_url=main_url, tables=tables)
 
-    data_refresher.run()
+    # data_refresher.run()
 
-    # data_refresher.run_save_csv()
+    data_refresher.run_save_csv()

@@ -342,346 +342,756 @@
 340,.1~682,682,C2,Company,02,8,500g Strawberry Muesli,14,North,4854,ST,7.48,36307.92,EUR
 341,.1~684,684,C2,Company,02,8,500g Strawberry Muesli,14,South,1755,ST,7.48,13127.40,EUR
 342,.1~686,686,C2,Company,02,8,500g Strawberry Muesli,14,West,2381,ST,7.48,17809.88,EUR
-343,.1~1,1,C2,Market,01,1,500g Nut Muesli,12,North,7473,ST,5.90,44090.70,EUR
-344,.1~3,3,C2,Market,01,1,500g Nut Muesli,12,South,2130,ST,5.90,12567.00,EUR
-345,.1~5,5,C2,Market,01,1,500g Nut Muesli,12,West,5247,ST,5.90,30957.30,EUR
-346,.1~7,7,C2,Market,01,1,500g Nut Muesli,14,North,4218,ST,6.49,27097.52,EUR
-347,.1~9,9,C2,Market,01,1,500g Nut Muesli,14,South,3789,ST,6.37,24031.88,EUR
-348,.1~11,11,C2,Market,01,1,500g Nut Muesli,14,West,3348,ST,5.90,19753.20,EUR
-349,.1~13,13,C2,Market,01,2,1kg Nut Muesli,10,North,1985,ST,6.61,13120.85,EUR
-350,.1~15,15,C2,Market,01,2,1kg Raisin Muesli,10,North,5176,ST,6.06,31366.56,EUR
-351,.1~17,17,C2,Market,01,2,1kg Raisin Muesli,10,South,8488,ST,6.06,51437.28,EUR
-352,.1~19,19,C2,Market,01,2,1kg Raisin Muesli,10,West,6967,ST,6.06,42220.02,EUR
-353,.1~21,21,C2,Market,01,2,1kg Strawberry Muesli,10,South,1026,ST,6.91,7089.66,EUR
-354,.1~23,23,C2,Market,01,2,1kg Strawberry Muesli,10,West,686,ST,6.91,4740.26,EUR
-355,.1~25,25,C2,Market,01,2,1kg Nut Muesli,12,South,6062,ST,6.61,40069.82,EUR
-356,.1~27,27,C2,Market,01,2,1kg Nut Muesli,12,West,1919,ST,6.61,12684.59,EUR
-357,.1~29,29,C2,Market,01,2,1kg Raisin Muesli,12,North,8943,ST,6.38,57056.34,EUR
-358,.1~31,31,C2,Market,01,2,1kg Raisin Muesli,12,South,12871,ST,6.38,82116.98,EUR
-359,.1~33,33,C2,Market,01,2,1kg Raisin Muesli,12,West,12650,ST,6.38,80707.00,EUR
-360,.1~35,35,C2,Market,01,2,1kg Strawberry Muesli,12,North,5428,ST,7.27,39461.56,EUR
-361,.1~37,37,C2,Market,01,2,1kg Strawberry Muesli,12,West,1858,ST,7.27,13507.66,EUR
-362,.1~39,39,C2,Market,01,2,500g Blueberry Muesli,12,North,8036,ST,6.23,50064.28,EUR
-363,.1~41,41,C2,Market,01,2,500g Blueberry Muesli,12,South,8853,ST,6.23,55154.19,EUR
-364,.1~43,43,C2,Market,01,2,500g Blueberry Muesli,12,West,1132,ST,6.23,7052.36,EUR
-365,.1~45,45,C2,Market,01,2,500g Mixed Fruit Muesli,12,North,1012,ST,6.13,6203.56,EUR
-366,.1~47,47,C2,Market,01,2,500g Mixed Fruit Muesli,12,South,1962,ST,6.13,12027.06,EUR
-367,.1~49,49,C2,Market,01,2,500g Mixed Fruit Muesli,12,West,4189,ST,6.13,25678.57,EUR
-368,.1~51,51,C2,Market,01,2,500g Nut Muesli,12,North,10956,ST,5.90,64640.40,EUR
-369,.1~53,53,C2,Market,01,2,500g Nut Muesli,12,South,5207,ST,5.90,30721.30,EUR
-370,.1~55,55,C2,Market,01,2,500g Nut Muesli,12,West,6583,ST,5.90,38839.70,EUR
-371,.1~57,57,C2,Market,01,2,500g Strawberry Muesli,12,North,6014,ST,6.23,37467.22,EUR
-372,.1~59,59,C2,Market,01,2,500g Strawberry Muesli,12,South,8536,ST,6.23,53179.28,EUR
-373,.1~61,61,C2,Market,01,2,500g Strawberry Muesli,12,West,4946,ST,6.23,30813.58,EUR
-374,.1~63,63,C2,Market,01,2,500g Blueberry Muesli,14,North,7278,ST,6.23,45341.94,EUR
-375,.1~65,65,C2,Market,01,2,500g Blueberry Muesli,14,South,6463,ST,6.23,40264.49,EUR
-376,.1~67,67,C2,Market,01,2,500g Blueberry Muesli,14,West,5238,ST,6.23,32632.74,EUR
-377,.1~69,69,C2,Market,01,2,500g Mixed Fruit Muesli,14,North,5142,ST,6.13,31520.46,EUR
-378,.1~71,71,C2,Market,01,2,500g Mixed Fruit Muesli,14,South,5063,ST,6.13,31036.19,EUR
-379,.1~73,73,C2,Market,01,2,500g Mixed Fruit Muesli,14,West,4751,ST,6.13,29123.63,EUR
-380,.1~75,75,C2,Market,01,2,500g Nut Muesli,14,North,6854,ST,6.03,41183.18,EUR
-381,.1~77,77,C2,Market,01,2,500g Nut Muesli,14,South,3031,ST,6.19,18585.00,EUR
-382,.1~79,79,C2,Market,01,2,500g Nut Muesli,14,West,5000,ST,6.06,30176.14,EUR
-383,.1~81,81,C2,Market,01,2,500g Strawberry Muesli,14,North,1923,ST,7.48,14384.04,EUR
-384,.1~83,83,C2,Market,01,2,500g Strawberry Muesli,14,South,2332,ST,7.48,17443.36,EUR
-385,.1~85,85,C2,Market,01,2,500g Strawberry Muesli,14,West,4566,ST,7.48,34153.68,EUR
-386,.1~87,87,C2,Market,01,3,1kg Mixed Fruit Muesli,10,North,4585,ST,6.71,30765.35,EUR
-387,.1~89,89,C2,Market,01,3,1kg Mixed Fruit Muesli,10,South,2710,ST,6.71,18184.10,EUR
-388,.1~91,91,C2,Market,01,3,1kg Mixed Fruit Muesli,10,West,3793,ST,6.71,25451.03,EUR
-389,.1~93,93,C2,Market,01,3,1kg Nut Muesli,10,South,3066,ST,6.61,20266.26,EUR
-390,.1~95,95,C2,Market,01,3,1kg Nut Muesli,10,West,2003,ST,6.61,13239.83,EUR
-391,.1~97,97,C2,Market,01,3,1kg Raisin Muesli,10,North,607,ST,6.06,3678.42,EUR
-392,.1~99,99,C2,Market,01,3,1kg Strawberry Muesli,10,North,8294,ST,6.91,57311.54,EUR
-393,.1~101,101,C2,Market,01,3,1kg Strawberry Muesli,10,South,7788,ST,6.91,53815.08,EUR
-394,.1~103,103,C2,Market,01,3,1kg Strawberry Muesli,10,West,7380,ST,6.91,50995.80,EUR
-395,.1~105,105,C2,Market,01,3,1kg Mixed Fruit Muesli,12,North,7818,ST,7.06,55195.08,EUR
-396,.1~107,107,C2,Market,01,3,1kg Mixed Fruit Muesli,12,South,14521,ST,7.06,102518.26,EUR
-397,.1~109,109,C2,Market,01,3,1kg Mixed Fruit Muesli,12,West,17535,ST,7.06,123797.10,EUR
-398,.1~111,111,C2,Market,01,3,1kg Nut Muesli,12,North,4596,ST,6.61,30379.56,EUR
-399,.1~113,113,C2,Market,01,3,1kg Nut Muesli,12,South,11817,ST,6.61,78110.37,EUR
-400,.1~115,115,C2,Market,01,3,1kg Nut Muesli,12,West,5552,ST,6.61,36698.72,EUR
-401,.1~117,117,C2,Market,01,3,1kg Raisin Muesli,12,North,2083,ST,6.38,13289.54,EUR
-402,.1~119,119,C2,Market,01,3,1kg Raisin Muesli,12,South,6215,ST,6.38,39651.70,EUR
-403,.1~121,121,C2,Market,01,3,1kg Strawberry Muesli,12,North,13199,ST,7.27,95956.73,EUR
-404,.1~123,123,C2,Market,01,3,1kg Strawberry Muesli,12,South,6777,ST,7.27,49268.79,EUR
-405,.1~125,125,C2,Market,01,3,1kg Strawberry Muesli,12,West,11564,ST,7.27,84070.28,EUR
-406,.1~127,127,C2,Market,01,3,500g Blueberry Muesli,12,North,958,ST,6.23,5968.34,EUR
-407,.1~129,129,C2,Market,01,3,500g Blueberry Muesli,12,West,925,ST,6.23,5762.75,EUR
-408,.1~131,131,C2,Market,01,3,500g Mixed Fruit Muesli,12,South,4049,ST,6.13,24820.37,EUR
-409,.1~133,133,C2,Market,01,3,500g Mixed Fruit Muesli,12,West,975,ST,6.13,5976.75,EUR
-410,.1~135,135,C2,Market,01,3,500g Nut Muesli,12,North,8365,ST,5.90,49353.50,EUR
-411,.1~137,137,C2,Market,01,3,500g Nut Muesli,12,South,1189,ST,5.90,7015.10,EUR
-412,.1~139,139,C2,Market,01,3,500g Nut Muesli,12,West,2991,ST,5.90,17646.90,EUR
-413,.1~141,141,C2,Market,01,3,500g Raisin Muesli,12,North,1081,ST,5.79,6258.99,EUR
-414,.1~143,143,C2,Market,01,3,500g Raisin Muesli,12,West,1135,ST,5.79,6571.65,EUR
-415,.1~145,145,C2,Market,01,3,500g Strawberry Muesli,12,North,6849,ST,6.23,42669.27,EUR
-416,.1~147,147,C2,Market,01,3,500g Strawberry Muesli,12,South,2306,ST,6.23,14366.38,EUR
-417,.1~149,149,C2,Market,01,3,500g Strawberry Muesli,12,West,5117,ST,6.23,31878.91,EUR
-418,.1~151,151,C2,Market,01,3,500g Blueberry Muesli,14,South,447,ST,7.48,3343.56,EUR
-419,.1~153,153,C2,Market,01,3,500g Mixed Fruit Muesli,14,North,2266,ST,6.13,13890.58,EUR
-420,.1~155,155,C2,Market,01,3,500g Mixed Fruit Muesli,14,South,4734,ST,6.13,29019.42,EUR
-421,.1~157,157,C2,Market,01,3,500g Mixed Fruit Muesli,14,West,2857,ST,6.13,17513.41,EUR
-422,.1~159,159,C2,Market,01,3,500g Nut Muesli,14,North,3802,ST,7.08,26918.16,EUR
-423,.1~161,161,C2,Market,01,3,500g Nut Muesli,14,South,1169,ST,7.08,8276.52,EUR
-424,.1~163,163,C2,Market,01,3,500g Nut Muesli,14,West,2041,ST,7.08,14450.28,EUR
-425,.1~165,165,C2,Market,01,3,500g Original Muesli,14,North,861,ST,5.77,4967.97,EUR
-426,.1~167,167,C2,Market,01,3,500g Original Muesli,14,West,1606,ST,5.77,9266.62,EUR
-427,.1~169,169,C2,Market,01,3,500g Raisin Muesli,14,North,4544,ST,5.79,26309.76,EUR
-428,.1~171,171,C2,Market,01,3,500g Raisin Muesli,14,South,5425,ST,5.79,31410.75,EUR
-429,.1~173,173,C2,Market,01,3,500g Raisin Muesli,14,West,5067,ST,5.79,29337.93,EUR
-430,.1~175,175,C2,Market,01,3,500g Strawberry Muesli,14,North,7955,ST,6.68,52730.90,EUR
-431,.1~177,177,C2,Market,01,3,500g Strawberry Muesli,14,South,2875,ST,6.54,18715.00,EUR
-432,.1~179,179,C2,Market,01,3,500g Strawberry Muesli,14,West,5193,ST,7.01,36286.14,EUR
-433,.1~181,181,C2,Market,01,4,1kg Blueberry Muesli,10,North,5175,ST,7.26,37570.50,EUR
-434,.1~183,183,C2,Market,01,4,1kg Blueberry Muesli,10,South,6462,ST,7.26,46914.12,EUR
-435,.1~185,185,C2,Market,01,4,1kg Blueberry Muesli,10,West,2812,ST,7.26,20415.12,EUR
-436,.1~187,187,C2,Market,01,4,1kg Mixed Fruit Muesli,10,North,1922,ST,7.06,13569.32,EUR
-437,.1~189,189,C2,Market,01,4,1kg Mixed Fruit Muesli,10,South,5311,ST,7.06,37495.66,EUR
-438,.1~191,191,C2,Market,01,4,1kg Mixed Fruit Muesli,10,West,5458,ST,6.88,37558.03,EUR
-439,.1~193,193,C2,Market,01,4,1kg Original Muesli,10,North,4126,ST,6.35,26200.10,EUR
-440,.1~195,195,C2,Market,01,4,1kg Original Muesli,10,South,909,ST,6.35,5772.15,EUR
-441,.1~197,197,C2,Market,01,4,1kg Blueberry Muesli,12,North,5094,ST,7.26,36982.44,EUR
-442,.1~199,199,C2,Market,01,4,1kg Blueberry Muesli,12,South,12262,ST,7.26,89022.12,EUR
-443,.1~201,201,C2,Market,01,4,1kg Blueberry Muesli,12,West,5195,ST,7.26,37715.70,EUR
-444,.1~203,203,C2,Market,01,4,1kg Mixed Fruit Muesli,12,North,6667,ST,7.06,47069.02,EUR
-445,.1~205,205,C2,Market,01,4,1kg Mixed Fruit Muesli,12,South,6820,ST,7.06,48149.20,EUR
-446,.1~207,207,C2,Market,01,4,1kg Mixed Fruit Muesli,12,West,8300,ST,7.06,58598.00,EUR
-447,.1~209,209,C2,Market,01,4,1kg Original Muesli,12,South,4966,ST,6.35,31534.10,EUR
-448,.1~211,211,C2,Market,01,4,1kg Original Muesli,12,West,4696,ST,6.35,29819.60,EUR
-449,.1~213,213,C2,Market,01,4,500g Blueberry Muesli,12,North,14264,ST,6.23,88864.72,EUR
-450,.1~215,215,C2,Market,01,4,500g Blueberry Muesli,12,South,9056,ST,6.23,56418.88,EUR
-451,.1~217,217,C2,Market,01,4,500g Blueberry Muesli,12,West,6192,ST,6.23,38576.16,EUR
-452,.1~219,219,C2,Market,01,4,500g Nut Muesli,12,North,1607,ST,5.90,9481.30,EUR
-453,.1~221,221,C2,Market,01,4,500g Original Muesli,12,North,2321,ST,5.77,13392.17,EUR
-454,.1~223,223,C2,Market,01,4,500g Raisin Muesli,12,North,4357,ST,5.79,25227.03,EUR
-455,.1~225,225,C2,Market,01,4,500g Raisin Muesli,12,South,2287,ST,5.79,13241.73,EUR
-456,.1~227,227,C2,Market,01,4,500g Raisin Muesli,12,West,4623,ST,5.79,26767.17,EUR
-457,.1~229,229,C2,Market,01,4,500g Strawberry Muesli,12,North,3932,ST,6.23,24496.36,EUR
-458,.1~231,231,C2,Market,01,4,500g Strawberry Muesli,12,South,3045,ST,6.23,18970.35,EUR
-459,.1~233,233,C2,Market,01,4,500g Strawberry Muesli,12,West,4172,ST,6.23,25991.56,EUR
-460,.1~235,235,C2,Market,01,4,500g Blueberry Muesli,14,North,6504,ST,7.48,48649.92,EUR
-461,.1~237,237,C2,Market,01,4,500g Blueberry Muesli,14,South,6249,ST,7.48,46742.52,EUR
-462,.1~239,239,C2,Market,01,4,500g Blueberry Muesli,14,West,4170,ST,7.48,31191.60,EUR
-463,.1~241,241,C2,Market,01,4,500g Original Muesli,14,North,1721,ST,5.77,9930.17,EUR
-464,.1~243,243,C2,Market,01,4,500g Original Muesli,14,South,2383,ST,5.77,13749.91,EUR
-465,.1~245,245,C2,Market,01,4,500g Raisin Muesli,14,North,3821,ST,5.79,22123.59,EUR
-466,.1~247,247,C2,Market,01,4,500g Raisin Muesli,14,South,4391,ST,6.37,27721.85,EUR
-467,.1~249,249,C2,Market,01,4,500g Raisin Muesli,14,West,6146,ST,5.93,36284.82,EUR
-468,.1~251,251,C2,Market,01,4,500g Strawberry Muesli,14,North,4973,ST,6.23,30981.79,EUR
-469,.1~253,253,C2,Market,01,4,500g Strawberry Muesli,14,South,4648,ST,6.23,28957.04,EUR
-470,.1~255,255,C2,Market,01,4,500g Strawberry Muesli,14,West,5618,ST,6.23,35000.14,EUR
-471,.1~257,257,C2,Market,02,5,1kg Blueberry Muesli,10,South,3711,ST,6.90,25605.90,EUR
-472,.1~259,259,C2,Market,02,5,1kg Blueberry Muesli,10,West,783,ST,6.90,5402.70,EUR
-473,.1~261,261,C2,Market,02,5,1kg Mixed Fruit Muesli,10,North,2682,ST,7.06,18934.92,EUR
-474,.1~263,263,C2,Market,02,5,1kg Mixed Fruit Muesli,10,West,1858,ST,7.06,13117.48,EUR
-475,.1~265,265,C2,Market,02,5,1kg Nut Muesli,10,North,1883,ST,6.28,11825.24,EUR
-476,.1~267,267,C2,Market,02,5,1kg Nut Muesli,10,South,7712,ST,6.28,48431.36,EUR
-477,.1~269,269,C2,Market,02,5,1kg Nut Muesli,10,West,4914,ST,6.28,30859.92,EUR
-478,.1~271,271,C2,Market,02,5,1kg Original Muesli,10,North,1974,ST,6.35,12534.90,EUR
-479,.1~273,273,C2,Market,02,5,1kg Original Muesli,10,West,3326,ST,6.35,21120.10,EUR
-480,.1~275,275,C2,Market,02,5,1kg Raisin Muesli,10,North,2020,ST,6.38,12887.60,EUR
-481,.1~277,277,C2,Market,02,5,1kg Raisin Muesli,10,South,3045,ST,6.38,19427.10,EUR
-482,.1~279,279,C2,Market,02,5,1kg Raisin Muesli,10,West,1983,ST,6.38,12651.54,EUR
-483,.1~281,281,C2,Market,02,5,1kg Strawberry Muesli,10,North,4157,ST,7.27,30221.39,EUR
-484,.1~283,283,C2,Market,02,5,1kg Strawberry Muesli,10,West,1585,ST,7.27,11522.95,EUR
-485,.1~285,285,C2,Market,02,5,1kg Blueberry Muesli,12,North,6452,ST,7.26,46841.52,EUR
-486,.1~287,287,C2,Market,02,5,1kg Blueberry Muesli,12,South,4396,ST,7.26,31914.96,EUR
-487,.1~289,289,C2,Market,02,5,1kg Blueberry Muesli,12,West,5284,ST,7.26,38361.84,EUR
-488,.1~291,291,C2,Market,02,5,1kg Mixed Fruit Muesli,12,North,2764,ST,7.06,19513.84,EUR
-489,.1~293,293,C2,Market,02,5,1kg Mixed Fruit Muesli,12,South,6477,ST,7.06,45727.62,EUR
-490,.1~295,295,C2,Market,02,5,1kg Mixed Fruit Muesli,12,West,1779,ST,7.06,12559.74,EUR
-491,.1~297,297,C2,Market,02,5,1kg Nut Muesli,12,North,8372,ST,6.61,55338.92,EUR
-492,.1~299,299,C2,Market,02,5,1kg Nut Muesli,12,South,9446,ST,6.61,62438.06,EUR
-493,.1~301,301,C2,Market,02,5,1kg Nut Muesli,12,West,12775,ST,6.61,84442.75,EUR
-494,.1~303,303,C2,Market,02,5,1kg Original Muesli,12,South,891,ST,6.35,5657.85,EUR
-495,.1~305,305,C2,Market,02,5,1kg Original Muesli,12,West,976,ST,6.35,6197.60,EUR
-496,.1~307,307,C2,Market,02,5,1kg Raisin Muesli,12,North,5744,ST,6.38,36646.72,EUR
-497,.1~309,309,C2,Market,02,5,1kg Raisin Muesli,12,South,6715,ST,6.38,42841.70,EUR
-498,.1~311,311,C2,Market,02,5,1kg Raisin Muesli,12,West,6553,ST,6.38,41808.14,EUR
-499,.1~313,313,C2,Market,02,5,1kg Strawberry Muesli,12,North,3642,ST,7.27,26477.34,EUR
-500,.1~315,315,C2,Market,02,5,1kg Strawberry Muesli,12,South,2754,ST,7.27,20021.58,EUR
-501,.1~317,317,C2,Market,02,5,1kg Strawberry Muesli,12,West,4488,ST,7.27,32627.76,EUR
-502,.1~319,319,C2,Market,02,5,500g Blueberry Muesli,12,North,4063,ST,6.23,25312.49,EUR
-503,.1~321,321,C2,Market,02,5,500g Blueberry Muesli,12,South,7978,ST,6.23,49702.94,EUR
-504,.1~323,323,C2,Market,02,5,500g Blueberry Muesli,12,West,5535,ST,6.23,34483.05,EUR
-505,.1~325,325,C2,Market,02,5,500g Nut Muesli,12,North,2044,ST,5.90,12059.60,EUR
-506,.1~327,327,C2,Market,02,5,500g Nut Muesli,12,West,919,ST,5.90,5422.10,EUR
-507,.1~329,329,C2,Market,02,5,500g Raisin Muesli,12,North,3227,ST,5.79,18684.33,EUR
-508,.1~331,331,C2,Market,02,5,500g Raisin Muesli,12,South,2183,ST,5.79,12639.57,EUR
-509,.1~333,333,C2,Market,02,5,500g Raisin Muesli,12,West,6446,ST,5.79,37322.34,EUR
-510,.1~335,335,C2,Market,02,5,500g Blueberry Muesli,14,North,2064,ST,6.64,13656.22,EUR
-511,.1~337,337,C2,Market,02,5,500g Blueberry Muesli,14,South,1952,ST,7.48,14600.96,EUR
-512,.1~339,339,C2,Market,02,5,500g Blueberry Muesli,14,West,2472,ST,6.85,17013.06,EUR
-513,.1~341,341,C2,Market,02,5,500g Nut Muesli,14,North,3159,ST,5.90,18638.10,EUR
-514,.1~343,343,C2,Market,02,5,500g Nut Muesli,14,South,3326,ST,5.90,19623.40,EUR
-515,.1~345,345,C2,Market,02,5,500g Nut Muesli,14,West,1641,ST,5.90,9681.90,EUR
-516,.1~347,347,C2,Market,02,5,500g Original Muesli,14,North,2613,ST,5.77,15077.01,EUR
-517,.1~349,349,C2,Market,02,5,500g Original Muesli,14,South,2447,ST,5.77,14119.19,EUR
-518,.1~351,351,C2,Market,02,5,500g Original Muesli,14,West,763,ST,5.77,4402.51,EUR
-519,.1~353,353,C2,Market,02,5,500g Raisin Muesli,14,North,3237,ST,6.95,22497.15,EUR
-520,.1~355,355,C2,Market,02,5,500g Raisin Muesli,14,South,4111,ST,6.95,28571.45,EUR
-521,.1~357,357,C2,Market,02,5,500g Raisin Muesli,14,West,3922,ST,6.95,27257.90,EUR
-522,.1~359,359,C2,Market,02,6,1kg Blueberry Muesli,10,North,6285,ST,6.90,43366.50,EUR
-523,.1~361,361,C2,Market,02,6,1kg Blueberry Muesli,10,South,5231,ST,6.90,36093.90,EUR
-524,.1~363,363,C2,Market,02,6,1kg Blueberry Muesli,10,West,6355,ST,6.90,43849.50,EUR
-525,.1~365,365,C2,Market,02,6,1kg Nut Muesli,10,North,2202,ST,6.28,13828.56,EUR
-526,.1~367,367,C2,Market,02,6,1kg Nut Muesli,10,South,3062,ST,6.28,19229.36,EUR
-527,.1~369,369,C2,Market,02,6,1kg Nut Muesli,10,West,2007,ST,6.28,12603.96,EUR
-528,.1~371,371,C2,Market,02,6,1kg Original Muesli,10,South,1039,ST,6.35,6597.65,EUR
-529,.1~373,373,C2,Market,02,6,1kg Strawberry Muesli,10,South,2635,ST,7.27,19156.45,EUR
-530,.1~375,375,C2,Market,02,6,1kg Blueberry Muesli,12,North,5307,ST,7.26,38528.82,EUR
-531,.1~377,377,C2,Market,02,6,1kg Blueberry Muesli,12,South,11422,ST,7.26,82923.72,EUR
-532,.1~379,379,C2,Market,02,6,1kg Blueberry Muesli,12,West,8774,ST,7.26,63699.24,EUR
-533,.1~381,381,C2,Market,02,6,1kg Nut Muesli,12,North,3029,ST,6.61,20021.69,EUR
-534,.1~383,383,C2,Market,02,6,1kg Nut Muesli,12,South,4872,ST,6.61,32203.92,EUR
-535,.1~385,385,C2,Market,02,6,1kg Nut Muesli,12,West,3726,ST,6.61,24628.86,EUR
-536,.1~387,387,C2,Market,02,6,1kg Original Muesli,12,North,4841,ST,6.35,30740.35,EUR
-537,.1~389,389,C2,Market,02,6,1kg Original Muesli,12,South,6940,ST,6.35,44069.00,EUR
-538,.1~391,391,C2,Market,02,6,1kg Original Muesli,12,West,2316,ST,6.35,14706.60,EUR
-539,.1~393,393,C2,Market,02,6,1kg Raisin Muesli,12,North,2883,ST,6.38,18393.54,EUR
-540,.1~395,395,C2,Market,02,6,1kg Raisin Muesli,12,South,6121,ST,6.38,39051.98,EUR
-541,.1~397,397,C2,Market,02,6,1kg Raisin Muesli,12,West,1936,ST,6.38,12351.68,EUR
-542,.1~399,399,C2,Market,02,6,1kg Strawberry Muesli,12,North,7766,ST,7.27,56458.82,EUR
-543,.1~401,401,C2,Market,02,6,1kg Strawberry Muesli,12,South,4422,ST,7.27,32147.94,EUR
-544,.1~403,403,C2,Market,02,6,1kg Strawberry Muesli,12,West,5551,ST,7.27,40355.77,EUR
-545,.1~405,405,C2,Market,02,6,500g Blueberry Muesli,12,North,3940,ST,6.23,24546.20,EUR
-546,.1~407,407,C2,Market,02,6,500g Blueberry Muesli,12,South,2122,ST,6.23,13220.06,EUR
-547,.1~409,409,C2,Market,02,6,500g Blueberry Muesli,12,West,5503,ST,6.23,34283.69,EUR
-548,.1~411,411,C2,Market,02,6,500g Mixed Fruit Muesli,12,North,4196,ST,6.13,25721.48,EUR
-549,.1~413,413,C2,Market,02,6,500g Mixed Fruit Muesli,12,South,5301,ST,6.13,32495.13,EUR
-550,.1~415,415,C2,Market,02,6,500g Mixed Fruit Muesli,12,West,7302,ST,6.13,44761.26,EUR
-551,.1~417,417,C2,Market,02,6,500g Nut Muesli,12,North,8445,ST,5.90,49825.50,EUR
-552,.1~419,419,C2,Market,02,6,500g Nut Muesli,12,South,2512,ST,5.90,14820.80,EUR
-553,.1~421,421,C2,Market,02,6,500g Nut Muesli,12,West,2938,ST,5.90,17334.20,EUR
-554,.1~423,423,C2,Market,02,6,500g Original Muesli,12,South,1107,ST,5.77,6387.39,EUR
-555,.1~425,425,C2,Market,02,6,500g Raisin Muesli,12,North,3310,ST,5.79,19164.90,EUR
-556,.1~427,427,C2,Market,02,6,500g Raisin Muesli,12,South,3355,ST,5.79,19425.45,EUR
-557,.1~429,429,C2,Market,02,6,500g Raisin Muesli,12,West,4466,ST,5.79,25858.14,EUR
-558,.1~431,431,C2,Market,02,6,500g Strawberry Muesli,12,North,6058,ST,6.23,37741.34,EUR
-559,.1~433,433,C2,Market,02,6,500g Strawberry Muesli,12,South,898,ST,6.23,5594.54,EUR
-560,.1~435,435,C2,Market,02,6,500g Strawberry Muesli,12,West,2131,ST,6.23,13276.13,EUR
-561,.1~437,437,C2,Market,02,6,500g Blueberry Muesli,14,North,6817,ST,6.23,42469.91,EUR
-562,.1~439,439,C2,Market,02,6,500g Blueberry Muesli,14,South,3931,ST,6.23,24490.13,EUR
-563,.1~441,441,C2,Market,02,6,500g Blueberry Muesli,14,West,5858,ST,6.23,36495.34,EUR
-564,.1~443,443,C2,Market,02,6,500g Mixed Fruit Muesli,14,North,613,ST,7.36,4511.68,EUR
-565,.1~445,445,C2,Market,02,6,500g Mixed Fruit Muesli,14,South,1965,ST,7.36,14462.40,EUR
-566,.1~447,447,C2,Market,02,6,500g Mixed Fruit Muesli,14,West,3072,ST,7.36,22609.92,EUR
-567,.1~449,449,C2,Market,02,6,500g Nut Muesli,14,North,9211,ST,6.09,55902.50,EUR
-568,.1~451,451,C2,Market,02,6,500g Nut Muesli,14,South,3877,ST,6.13,23563.42,EUR
-569,.1~453,453,C2,Market,02,6,500g Nut Muesli,14,West,5605,ST,6.06,33869.54,EUR
-570,.1~455,455,C2,Market,02,6,500g Original Muesli,14,North,846,ST,5.77,4881.42,EUR
-571,.1~457,457,C2,Market,02,6,500g Original Muesli,14,South,857,ST,5.77,4944.89,EUR
-572,.1~459,459,C2,Market,02,6,500g Original Muesli,14,West,877,ST,5.77,5060.29,EUR
-573,.1~461,461,C2,Market,02,6,500g Raisin Muesli,14,North,1452,ST,6.37,9188.92,EUR
-574,.1~463,463,C2,Market,02,6,500g Raisin Muesli,14,South,2726,ST,6.95,18945.70,EUR
-575,.1~465,465,C2,Market,02,6,500g Raisin Muesli,14,West,2280,ST,6.17,13972.60,EUR
-576,.1~467,467,C2,Market,02,6,500g Strawberry Muesli,14,North,2930,ST,6.23,18253.90,EUR
-577,.1~469,469,C2,Market,02,6,500g Strawberry Muesli,14,South,5534,ST,6.23,34476.82,EUR
-578,.1~471,471,C2,Market,02,6,500g Strawberry Muesli,14,West,2070,ST,6.23,12896.10,EUR
-579,.1~473,473,C2,Market,02,7,1kg Blueberry Muesli,10,South,875,ST,7.26,6352.50,EUR
-580,.1~475,475,C2,Market,02,7,1kg Blueberry Muesli,10,West,1318,ST,7.26,9568.68,EUR
-581,.1~477,477,C2,Market,02,7,1kg Mixed Fruit Muesli,10,North,5299,ST,6.71,35556.29,EUR
-582,.1~479,479,C2,Market,02,7,1kg Mixed Fruit Muesli,10,South,4530,ST,6.71,30396.30,EUR
-583,.1~481,481,C2,Market,02,7,1kg Mixed Fruit Muesli,10,West,8531,ST,6.71,57243.01,EUR
-584,.1~483,483,C2,Market,02,7,1kg Nut Muesli,10,North,2207,ST,6.61,14588.27,EUR
-585,.1~485,485,C2,Market,02,7,1kg Nut Muesli,10,South,5706,ST,6.61,37716.66,EUR
-586,.1~487,487,C2,Market,02,7,1kg Nut Muesli,10,West,2661,ST,6.61,17589.21,EUR
-587,.1~489,489,C2,Market,02,7,1kg Raisin Muesli,10,North,1868,ST,6.38,11917.84,EUR
-588,.1~491,491,C2,Market,02,7,1kg Raisin Muesli,10,South,1110,ST,6.06,6726.60,EUR
-589,.1~493,493,C2,Market,02,7,1kg Blueberry Muesli,12,North,4268,ST,7.26,30985.68,EUR
-590,.1~495,495,C2,Market,02,7,1kg Blueberry Muesli,12,South,5060,ST,7.26,36735.60,EUR
-591,.1~497,497,C2,Market,02,7,1kg Blueberry Muesli,12,West,4479,ST,7.26,32517.54,EUR
-592,.1~499,499,C2,Market,02,7,1kg Mixed Fruit Muesli,12,North,12154,ST,7.06,85807.24,EUR
-593,.1~501,501,C2,Market,02,7,1kg Mixed Fruit Muesli,12,South,8143,ST,7.06,57489.58,EUR
-594,.1~503,503,C2,Market,02,7,1kg Mixed Fruit Muesli,12,West,9604,ST,7.06,67804.24,EUR
-595,.1~505,505,C2,Market,02,7,1kg Nut Muesli,12,North,2829,ST,6.61,18699.69,EUR
-596,.1~507,507,C2,Market,02,7,1kg Nut Muesli,12,South,14235,ST,6.61,94093.35,EUR
-597,.1~509,509,C2,Market,02,7,1kg Nut Muesli,12,West,9362,ST,6.61,61882.82,EUR
-598,.1~511,511,C2,Market,02,7,1kg Raisin Muesli,12,North,3819,ST,6.38,24365.22,EUR
-599,.1~513,513,C2,Market,02,7,1kg Raisin Muesli,12,South,3966,ST,6.38,25303.08,EUR
-600,.1~515,515,C2,Market,02,7,1kg Raisin Muesli,12,West,734,ST,6.38,4682.92,EUR
-601,.1~517,517,C2,Market,02,7,500g Mixed Fruit Muesli,12,North,4887,ST,6.13,29957.31,EUR
-602,.1~519,519,C2,Market,02,7,500g Mixed Fruit Muesli,12,South,3393,ST,6.13,20799.09,EUR
-603,.1~521,521,C2,Market,02,7,500g Mixed Fruit Muesli,12,West,3093,ST,6.13,18960.09,EUR
-604,.1~523,523,C2,Market,02,7,500g Nut Muesli,12,North,13914,ST,5.90,82092.60,EUR
-605,.1~525,525,C2,Market,02,7,500g Nut Muesli,12,South,1207,ST,5.90,7121.30,EUR
-606,.1~527,527,C2,Market,02,7,500g Nut Muesli,12,West,3429,ST,5.90,20231.10,EUR
-607,.1~529,529,C2,Market,02,7,500g Raisin Muesli,12,North,2883,ST,5.79,16692.57,EUR
-608,.1~531,531,C2,Market,02,7,500g Raisin Muesli,12,South,2289,ST,5.79,13253.31,EUR
-609,.1~533,533,C2,Market,02,7,500g Raisin Muesli,12,West,7495,ST,5.79,43396.05,EUR
-610,.1~535,535,C2,Market,02,7,500g Strawberry Muesli,12,North,5827,ST,6.23,36302.21,EUR
-611,.1~537,537,C2,Market,02,7,500g Strawberry Muesli,12,South,7225,ST,6.23,45011.75,EUR
-612,.1~539,539,C2,Market,02,7,500g Strawberry Muesli,12,West,5208,ST,6.23,32445.84,EUR
-613,.1~541,541,C2,Market,02,7,500g Mixed Fruit Muesli,14,North,2756,ST,7.36,20284.16,EUR
-614,.1~543,543,C2,Market,02,7,500g Mixed Fruit Muesli,14,South,2622,ST,7.36,19297.92,EUR
-615,.1~545,545,C2,Market,02,7,500g Mixed Fruit Muesli,14,West,3281,ST,7.36,24148.16,EUR
-616,.1~547,547,C2,Market,02,7,500g Nut Muesli,14,North,4757,ST,7.08,33679.56,EUR
-617,.1~549,549,C2,Market,02,7,500g Nut Muesli,14,South,1278,ST,7.08,9048.24,EUR
-618,.1~551,551,C2,Market,02,7,500g Nut Muesli,14,West,3225,ST,7.08,22833.00,EUR
-619,.1~553,553,C2,Market,02,7,500g Original Muesli,14,North,1525,ST,5.77,8799.25,EUR
-620,.1~555,555,C2,Market,02,7,500g Original Muesli,14,South,1792,ST,5.77,10339.84,EUR
-621,.1~557,557,C2,Market,02,7,500g Original Muesli,14,West,2650,ST,5.77,15290.50,EUR
-622,.1~559,559,C2,Market,02,7,500g Raisin Muesli,14,North,4042,ST,5.79,23403.18,EUR
-623,.1~561,561,C2,Market,02,7,500g Raisin Muesli,14,South,7569,ST,5.69,43041.80,EUR
-624,.1~563,563,C2,Market,02,7,500g Raisin Muesli,14,West,4057,ST,5.73,23269.05,EUR
-625,.1~565,565,C2,Market,02,7,500g Strawberry Muesli,14,North,6400,ST,6.64,42145.75,EUR
-626,.1~567,567,C2,Market,02,7,500g Strawberry Muesli,14,South,4787,ST,6.85,32729.26,EUR
-627,.1~569,569,C2,Market,02,7,500g Strawberry Muesli,14,West,6535,ST,6.60,42966.80,EUR
-628,.1~571,571,C2,Market,02,8,1kg Blueberry Muesli,10,North,1614,ST,7.26,11717.64,EUR
-629,.1~573,573,C2,Market,02,8,1kg Blueberry Muesli,10,South,871,ST,7.26,6323.46,EUR
-630,.1~575,575,C2,Market,02,8,1kg Blueberry Muesli,10,West,2741,ST,7.26,19899.66,EUR
-631,.1~577,577,C2,Market,02,8,1kg Mixed Fruit Muesli,10,North,4816,ST,6.88,33257.21,EUR
-632,.1~579,579,C2,Market,02,8,1kg Mixed Fruit Muesli,10,South,6374,ST,6.91,44028.84,EUR
-633,.1~581,581,C2,Market,02,8,1kg Mixed Fruit Muesli,10,West,1876,ST,6.71,12587.96,EUR
-634,.1~583,583,C2,Market,02,8,1kg Original Muesli,10,North,2902,ST,6.35,18427.70,EUR
-635,.1~585,585,C2,Market,02,8,1kg Original Muesli,10,South,1098,ST,6.35,6972.30,EUR
-636,.1~587,587,C2,Market,02,8,1kg Original Muesli,10,West,2054,ST,6.35,13042.90,EUR
-637,.1~589,589,C2,Market,02,8,1kg Raisin Muesli,10,North,2034,ST,6.22,12621.72,EUR
-638,.1~591,591,C2,Market,02,8,1kg Raisin Muesli,10,South,3817,ST,6.38,24352.46,EUR
-639,.1~593,593,C2,Market,02,8,1kg Raisin Muesli,10,West,6235,ST,6.11,38120.74,EUR
-640,.1~595,595,C2,Market,02,8,1kg Strawberry Muesli,10,North,1831,ST,6.91,12652.21,EUR
-641,.1~597,597,C2,Market,02,8,1kg Strawberry Muesli,10,South,1859,ST,7.27,13514.93,EUR
-642,.1~599,599,C2,Market,02,8,1kg Strawberry Muesli,10,West,1655,ST,6.91,11436.05,EUR
-643,.1~601,601,C2,Market,02,8,1kg Blueberry Muesli,12,North,3294,ST,7.26,23914.44,EUR
-644,.1~603,603,C2,Market,02,8,1kg Blueberry Muesli,12,South,3318,ST,7.26,24088.68,EUR
-645,.1~605,605,C2,Market,02,8,1kg Blueberry Muesli,12,West,2687,ST,7.26,19507.62,EUR
-646,.1~607,607,C2,Market,02,8,1kg Mixed Fruit Muesli,12,North,9058,ST,7.06,63949.48,EUR
-647,.1~609,609,C2,Market,02,8,1kg Mixed Fruit Muesli,12,South,5162,ST,7.06,36443.72,EUR
-648,.1~611,611,C2,Market,02,8,1kg Mixed Fruit Muesli,12,West,5292,ST,7.06,37361.52,EUR
-649,.1~613,613,C2,Market,02,8,1kg Nut Muesli,12,South,990,ST,6.61,6543.90,EUR
-650,.1~615,615,C2,Market,02,8,1kg Original Muesli,12,North,2079,ST,6.35,13201.65,EUR
-651,.1~617,617,C2,Market,02,8,1kg Original Muesli,12,South,1025,ST,6.35,6508.75,EUR
-652,.1~619,619,C2,Market,02,8,1kg Original Muesli,12,West,1020,ST,6.35,6477.00,EUR
-653,.1~621,621,C2,Market,02,8,1kg Raisin Muesli,12,North,7907,ST,6.38,50446.66,EUR
-654,.1~623,623,C2,Market,02,8,1kg Raisin Muesli,12,South,12179,ST,6.38,77702.02,EUR
-655,.1~625,625,C2,Market,02,8,1kg Raisin Muesli,12,West,15423,ST,6.38,98398.74,EUR
-656,.1~627,627,C2,Market,02,8,1kg Strawberry Muesli,12,North,5987,ST,7.27,43525.49,EUR
-657,.1~629,629,C2,Market,02,8,1kg Strawberry Muesli,12,South,6629,ST,7.27,48192.83,EUR
-658,.1~631,631,C2,Market,02,8,1kg Strawberry Muesli,12,West,10708,ST,7.27,77847.16,EUR
-659,.1~633,633,C2,Market,02,8,500g Mixed Fruit Muesli,12,North,2160,ST,6.13,13240.80,EUR
-660,.1~635,635,C2,Market,02,8,500g Mixed Fruit Muesli,12,South,4856,ST,6.13,29767.28,EUR
-661,.1~637,637,C2,Market,02,8,500g Mixed Fruit Muesli,12,West,7527,ST,6.13,46140.51,EUR
-662,.1~639,639,C2,Market,02,8,500g Nut Muesli,12,North,6711,ST,5.90,39594.90,EUR
-663,.1~641,641,C2,Market,02,8,500g Nut Muesli,12,South,3331,ST,5.90,19652.90,EUR
-664,.1~643,643,C2,Market,02,8,500g Original Muesli,12,North,946,ST,5.77,5458.42,EUR
-665,.1~645,645,C2,Market,02,8,500g Raisin Muesli,12,North,4414,ST,5.79,25557.06,EUR
-666,.1~647,647,C2,Market,02,8,500g Raisin Muesli,12,South,1052,ST,5.79,6091.08,EUR
-667,.1~649,649,C2,Market,02,8,500g Raisin Muesli,12,West,4270,ST,5.79,24723.30,EUR
-668,.1~651,651,C2,Market,02,8,500g Strawberry Muesli,12,North,5036,ST,6.23,31374.28,EUR
-669,.1~653,653,C2,Market,02,8,500g Strawberry Muesli,12,South,12359,ST,6.23,76996.57,EUR
-670,.1~655,655,C2,Market,02,8,500g Strawberry Muesli,12,West,3012,ST,6.23,18764.76,EUR
-671,.1~657,657,C2,Market,02,8,500g Mixed Fruit Muesli,14,North,1828,ST,7.36,13454.08,EUR
-672,.1~659,659,C2,Market,02,8,500g Mixed Fruit Muesli,14,South,2528,ST,7.36,18606.08,EUR
-673,.1~661,661,C2,Market,02,8,500g Mixed Fruit Muesli,14,West,2620,ST,7.36,19283.20,EUR
-674,.1~663,663,C2,Market,02,8,500g Nut Muesli,14,North,1377,ST,7.08,9749.16,EUR
-675,.1~665,665,C2,Market,02,8,500g Nut Muesli,14,South,715,ST,7.08,5062.20,EUR
-676,.1~667,667,C2,Market,02,8,500g Nut Muesli,14,West,1379,ST,7.08,9763.32,EUR
-677,.1~669,669,C2,Market,02,8,500g Original Muesli,14,North,1506,ST,5.77,8689.62,EUR
-678,.1~671,671,C2,Market,02,8,500g Original Muesli,14,South,2271,ST,5.77,13103.67,EUR
-679,.1~673,673,C2,Market,02,8,500g Original Muesli,14,West,838,ST,5.77,4835.26,EUR
-680,.1~675,675,C2,Market,02,8,500g Raisin Muesli,14,North,6405,ST,5.60,35914.80,EUR
-681,.1~677,677,C2,Market,02,8,500g Raisin Muesli,14,South,4413,ST,5.79,25551.27,EUR
-682,.1~679,679,C2,Market,02,8,500g Raisin Muesli,14,West,8519,ST,5.65,48286.52,EUR
-683,.1~681,681,C2,Market,02,8,500g Strawberry Muesli,14,North,4854,ST,7.48,36307.92,EUR
-684,.1~683,683,C2,Market,02,8,500g Strawberry Muesli,14,South,1755,ST,7.48,13127.40,EUR
-685,.1~685,685,C2,Market,02,8,500g Strawberry Muesli,14,West,2381,ST,7.48,17809.88,EUR
+343,.1~688,688,C2,Company,03,9,1kg Blueberry Muesli,10,North,1772,ST,6.90,12226.80,EUR
+344,.1~690,690,C2,Company,03,9,1kg Blueberry Muesli,10,South,863,ST,6.90,5954.70,EUR
+345,.1~692,692,C2,Company,03,9,1kg Blueberry Muesli,12,North,2628,ST,7.26,19079.28,EUR
+346,.1~694,694,C2,Company,03,9,1kg Blueberry Muesli,12,South,6499,ST,7.26,47182.74,EUR
+347,.1~696,696,C2,Company,03,9,1kg Blueberry Muesli,12,West,4389,ST,7.26,31864.14,EUR
+348,.1~698,698,C2,Company,03,9,1kg Mixed Fruit Muesli,10,North,0.000,,0.00,0.00,
+349,.1~700,700,C2,Company,03,9,1kg Mixed Fruit Muesli,10,South,0.000,,0.00,0.00,
+350,.1~702,702,C2,Company,03,9,1kg Mixed Fruit Muesli,10,West,0.000,,0.00,0.00,
+351,.1~704,704,C2,Company,03,9,1kg Mixed Fruit Muesli,12,North,0.000,,0.00,0.00,
+352,.1~706,706,C2,Company,03,9,1kg Mixed Fruit Muesli,12,South,0.000,,0.00,0.00,
+353,.1~708,708,C2,Company,03,9,1kg Mixed Fruit Muesli,12,West,0.000,,0.00,0.00,
+354,.1~710,710,C2,Company,03,9,1kg Nut Muesli,10,North,4123,ST,6.28,25892.44,EUR
+355,.1~712,712,C2,Company,03,9,1kg Nut Muesli,10,South,3938,ST,6.28,24730.64,EUR
+356,.1~714,714,C2,Company,03,9,1kg Nut Muesli,10,West,9065,ST,6.28,56928.20,EUR
+357,.1~716,716,C2,Company,03,9,1kg Nut Muesli,12,North,3621,ST,6.61,23934.81,EUR
+358,.1~718,718,C2,Company,03,9,1kg Nut Muesli,12,South,16614,ST,6.61,109818.54,EUR
+359,.1~720,720,C2,Company,03,9,1kg Nut Muesli,12,West,12331,ST,6.61,81507.91,EUR
+360,.1~722,722,C2,Company,03,9,1kg Original Muesli,12,North,0.000,,0.00,0.00,
+361,.1~724,724,C2,Company,03,9,1kg Original Muesli,12,West,0.000,,0.00,0.00,
+362,.1~726,726,C2,Company,03,9,1kg Raisin Muesli,10,North,2191,ST,6.06,13277.46,EUR
+363,.1~728,728,C2,Company,03,9,1kg Raisin Muesli,10,South,4138,ST,6.06,25076.28,EUR
+364,.1~730,730,C2,Company,03,9,1kg Raisin Muesli,10,West,1068,ST,6.06,6472.08,EUR
+365,.1~732,732,C2,Company,03,9,1kg Raisin Muesli,12,North,2510,ST,6.38,16013.80,EUR
+366,.1~734,734,C2,Company,03,9,1kg Raisin Muesli,12,South,6020,ST,6.38,38407.60,EUR
+367,.1~736,736,C2,Company,03,9,1kg Raisin Muesli,12,West,4981,ST,6.38,31778.78,EUR
+368,.1~738,738,C2,Company,03,9,1kg Strawberry Muesli,10,North,3698,ST,6.91,25553.18,EUR
+369,.1~740,740,C2,Company,03,9,1kg Strawberry Muesli,10,West,1743,ST,6.91,12044.13,EUR
+370,.1~742,742,C2,Company,03,9,1kg Strawberry Muesli,12,North,1692,ST,7.27,12300.84,EUR
+371,.1~744,744,C2,Company,03,9,1kg Strawberry Muesli,12,South,6083,ST,7.27,44223.41,EUR
+372,.1~746,746,C2,Company,03,9,1kg Strawberry Muesli,12,West,6084,ST,7.27,44230.68,EUR
+373,.1~748,748,C2,Company,03,9,500g Nut Muesli,12,North,0.000,,0.00,0.00,
+374,.1~750,750,C2,Company,03,9,500g Nut Muesli,12,West,0.000,,0.00,0.00,
+375,.1~752,752,C2,Company,03,9,500g Nut Muesli,14,North,0.000,,0.00,0.00,
+376,.1~754,754,C2,Company,03,9,500g Nut Muesli,14,South,0.000,,0.00,0.00,
+377,.1~756,756,C2,Company,03,9,500g Nut Muesli,14,West,0.000,,0.00,0.00,
+378,.1~758,758,C2,Company,03,9,500g Original Muesli,12,West,0.000,,0.00,0.00,
+379,.1~760,760,C2,Company,03,9,500g Original Muesli,14,North,0.000,,0.00,0.00,
+380,.1~762,762,C2,Company,03,9,500g Original Muesli,14,South,0.000,,0.00,0.00,
+381,.1~764,764,C2,Company,03,9,500g Original Muesli,14,West,0.000,,0.00,0.00,
+382,.1~766,766,C2,Company,03,9,500g Raisin Muesli,14,North,0.000,,0.00,0.00,
+383,.1~768,768,C2,Company,03,9,500g Raisin Muesli,14,South,0.000,,0.00,0.00,
+384,.1~770,770,C2,Company,03,9,500g Raisin Muesli,14,West,0.000,,0.00,0.00,
+385,.1~772,772,C2,Company,03,9,500g Strawberry Muesli,12,North,0.000,,0.00,0.00,
+386,.1~774,774,C2,Company,03,9,500g Strawberry Muesli,12,West,0.000,,0.00,0.00,
+387,.1~776,776,C2,Company,03,9,500g Strawberry Muesli,14,North,0.000,,0.00,0.00,
+388,.1~778,778,C2,Company,03,9,500g Strawberry Muesli,14,South,0.000,,0.00,0.00,
+389,.1~780,780,C2,Company,03,9,500g Strawberry Muesli,14,West,0.000,,0.00,0.00,
+390,.1~782,782,C2,Company,03,10,1kg Blueberry Muesli,10,North,3549,ST,6.90,24488.10,EUR
+391,.1~784,784,C2,Company,03,10,1kg Blueberry Muesli,10,South,4772,ST,6.90,32926.80,EUR
+392,.1~786,786,C2,Company,03,10,1kg Blueberry Muesli,10,West,2781,ST,6.90,19188.90,EUR
+393,.1~788,788,C2,Company,03,10,1kg Blueberry Muesli,12,North,11826,ST,7.26,85856.76,EUR
+394,.1~790,790,C2,Company,03,10,1kg Blueberry Muesli,12,South,11351,ST,7.26,82408.26,EUR
+395,.1~792,792,C2,Company,03,10,1kg Blueberry Muesli,12,West,14362,ST,7.26,104268.12,EUR
+396,.1~794,794,C2,Company,03,10,1kg Mixed Fruit Muesli,12,South,0.000,,0.00,0.00,
+397,.1~796,796,C2,Company,03,10,1kg Nut Muesli,10,North,2980,ST,6.28,18714.40,EUR
+398,.1~798,798,C2,Company,03,10,1kg Nut Muesli,10,South,5096,ST,6.28,32002.88,EUR
+399,.1~800,800,C2,Company,03,10,1kg Nut Muesli,10,West,3018,ST,6.28,18953.04,EUR
+400,.1~802,802,C2,Company,03,10,1kg Nut Muesli,12,North,5768,ST,6.61,38126.48,EUR
+401,.1~804,804,C2,Company,03,10,1kg Nut Muesli,12,South,8311,ST,6.61,54935.71,EUR
+402,.1~806,806,C2,Company,03,10,1kg Nut Muesli,12,West,4145,ST,6.61,27398.45,EUR
+403,.1~808,808,C2,Company,03,10,1kg Original Muesli,10,West,0.000,,0.00,0.00,
+404,.1~810,810,C2,Company,03,10,1kg Original Muesli,12,North,0.000,,0.00,0.00,
+405,.1~812,812,C2,Company,03,10,1kg Original Muesli,12,South,0.000,,0.00,0.00,
+406,.1~814,814,C2,Company,03,10,1kg Raisin Muesli,10,North,0.000,,0.00,0.00,
+407,.1~816,816,C2,Company,03,10,1kg Raisin Muesli,10,South,0.000,,0.00,0.00,
+408,.1~818,818,C2,Company,03,10,1kg Raisin Muesli,10,West,0.000,,0.00,0.00,
+409,.1~820,820,C2,Company,03,10,1kg Raisin Muesli,12,North,0.000,,0.00,0.00,
+410,.1~822,822,C2,Company,03,10,1kg Raisin Muesli,12,South,0.000,,0.00,0.00,
+411,.1~824,824,C2,Company,03,10,1kg Raisin Muesli,12,West,0.000,,0.00,0.00,
+412,.1~826,826,C2,Company,03,10,1kg Strawberry Muesli,10,North,4748,ST,6.91,32808.68,EUR
+413,.1~828,828,C2,Company,03,10,1kg Strawberry Muesli,10,South,1638,ST,6.91,11318.58,EUR
+414,.1~830,830,C2,Company,03,10,1kg Strawberry Muesli,10,West,5703,ST,6.91,39407.73,EUR
+415,.1~832,832,C2,Company,03,10,1kg Strawberry Muesli,12,North,5077,ST,7.27,36909.79,EUR
+416,.1~834,834,C2,Company,03,10,1kg Strawberry Muesli,12,South,5196,ST,7.27,37774.92,EUR
+417,.1~836,836,C2,Company,03,10,1kg Strawberry Muesli,12,West,9336,ST,7.27,67872.72,EUR
+418,.1~838,838,C2,Company,03,10,500g Blueberry Muesli,12,North,7082,ST,6.23,44120.86,EUR
+419,.1~840,840,C2,Company,03,10,500g Blueberry Muesli,12,South,5936,ST,6.23,36981.28,EUR
+420,.1~842,842,C2,Company,03,10,500g Blueberry Muesli,12,West,6218,ST,6.23,38738.14,EUR
+421,.1~844,844,C2,Company,03,10,500g Blueberry Muesli,14,North,0.000,,0.00,0.00,
+422,.1~846,846,C2,Company,03,10,500g Blueberry Muesli,14,South,1891,ST,7.40,13993.40,EUR
+423,.1~848,848,C2,Company,03,10,500g Blueberry Muesli,14,West,1359,ST,7.40,10056.60,EUR
+424,.1~850,850,C2,Company,03,10,500g Nut Muesli,12,North,0.000,,0.00,0.00,
+425,.1~852,852,C2,Company,03,10,500g Nut Muesli,12,West,0.000,,0.00,0.00,
+426,.1~854,854,C2,Company,03,10,500g Nut Muesli,14,North,0.000,,0.00,0.00,
+427,.1~856,856,C2,Company,03,10,500g Nut Muesli,14,West,0.000,,0.00,0.00,
+428,.1~858,858,C2,Company,03,10,500g Original Muesli,12,North,0.000,,0.00,0.00,
+429,.1~860,860,C2,Company,03,10,500g Original Muesli,14,North,0.000,,0.00,0.00,
+430,.1~862,862,C2,Company,03,10,500g Original Muesli,14,South,0.000,,0.00,0.00,
+431,.1~864,864,C2,Company,03,10,500g Raisin Muesli,12,North,0.000,,0.00,0.00,
+432,.1~866,866,C2,Company,03,10,500g Raisin Muesli,12,South,0.000,,0.00,0.00,
+433,.1~868,868,C2,Company,03,10,500g Raisin Muesli,12,West,3391,ST,5.79,19633.89,EUR
+434,.1~870,870,C2,Company,03,10,500g Raisin Muesli,14,North,858,ST,5.50,4719.00,EUR
+435,.1~872,872,C2,Company,03,10,500g Raisin Muesli,14,South,0.000,,0.00,0.00,
+436,.1~874,874,C2,Company,03,10,500g Raisin Muesli,14,West,2486,ST,5.50,13673.00,EUR
+437,.1~876,876,C2,Company,03,10,500g Strawberry Muesli,12,North,0.000,,0.00,0.00,
+438,.1~878,878,C2,Company,03,10,500g Strawberry Muesli,12,South,0.000,,0.00,0.00,
+439,.1~880,880,C2,Company,03,10,500g Strawberry Muesli,12,West,0.000,,0.00,0.00,
+440,.1~882,882,C2,Company,03,10,500g Strawberry Muesli,14,North,0.000,,0.00,0.00,
+441,.1~884,884,C2,Company,03,10,500g Strawberry Muesli,14,South,0.000,,0.00,0.00,
+442,.1~886,886,C2,Company,03,10,500g Strawberry Muesli,14,West,0.000,,0.00,0.00,
+443,.1~888,888,C2,Company,03,11,1kg Blueberry Muesli,10,North,5274,ST,6.90,36390.60,EUR
+444,.1~890,890,C2,Company,03,11,1kg Blueberry Muesli,10,South,1772,ST,6.90,12226.80,EUR
+445,.1~892,892,C2,Company,03,11,1kg Blueberry Muesli,10,West,5531,ST,6.90,38163.90,EUR
+446,.1~894,894,C2,Company,03,11,1kg Blueberry Muesli,12,North,3052,ST,7.26,22157.52,EUR
+447,.1~896,896,C2,Company,03,11,1kg Blueberry Muesli,12,South,4448,ST,7.26,32292.48,EUR
+448,.1~898,898,C2,Company,03,11,1kg Blueberry Muesli,12,West,5131,ST,7.26,37251.06,EUR
+449,.1~900,900,C2,Company,03,11,1kg Mixed Fruit Muesli,10,North,0.000,,0.00,0.00,
+450,.1~902,902,C2,Company,03,11,1kg Mixed Fruit Muesli,10,South,0.000,,0.00,0.00,
+451,.1~904,904,C2,Company,03,11,1kg Mixed Fruit Muesli,10,West,0.000,,0.00,0.00,
+452,.1~906,906,C2,Company,03,11,1kg Mixed Fruit Muesli,12,North,0.000,,0.00,0.00,
+453,.1~908,908,C2,Company,03,11,1kg Mixed Fruit Muesli,12,South,0.000,,0.00,0.00,
+454,.1~910,910,C2,Company,03,11,1kg Mixed Fruit Muesli,12,West,0.000,,0.00,0.00,
+455,.1~912,912,C2,Company,03,11,1kg Nut Muesli,10,North,0.000,,0.00,0.00,
+456,.1~914,914,C2,Company,03,11,1kg Nut Muesli,10,South,0.000,,0.00,0.00,
+457,.1~916,916,C2,Company,03,11,1kg Nut Muesli,10,West,0.000,,0.00,0.00,
+458,.1~918,918,C2,Company,03,11,1kg Nut Muesli,12,North,0.000,,0.00,0.00,
+459,.1~920,920,C2,Company,03,11,1kg Nut Muesli,12,South,0.000,,0.00,0.00,
+460,.1~922,922,C2,Company,03,11,1kg Nut Muesli,12,West,0.000,,0.00,0.00,
+461,.1~924,924,C2,Company,03,11,1kg Original Muesli,10,North,0.000,,0.00,0.00,
+462,.1~926,926,C2,Company,03,11,1kg Original Muesli,12,North,0.000,,0.00,0.00,
+463,.1~928,928,C2,Company,03,11,1kg Original Muesli,12,South,0.000,,0.00,0.00,
+464,.1~930,930,C2,Company,03,11,1kg Original Muesli,12,West,0.000,,0.00,0.00,
+465,.1~932,932,C2,Company,03,11,1kg Raisin Muesli,12,North,0.000,,0.00,0.00,
+466,.1~934,934,C2,Company,03,11,1kg Raisin Muesli,12,South,0.000,,0.00,0.00,
+467,.1~936,936,C2,Company,03,11,1kg Raisin Muesli,12,West,0.000,,0.00,0.00,
+468,.1~938,938,C2,Company,03,11,1kg Strawberry Muesli,10,North,0.000,,0.00,0.00,
+469,.1~940,940,C2,Company,03,11,1kg Strawberry Muesli,10,South,148,ST,6.91,1022.68,EUR
+470,.1~942,942,C2,Company,03,11,1kg Strawberry Muesli,10,West,0.000,,0.00,0.00,
+471,.1~944,944,C2,Company,03,11,1kg Strawberry Muesli,12,North,0.000,,0.00,0.00,
+472,.1~946,946,C2,Company,03,11,1kg Strawberry Muesli,12,South,0.000,,0.00,0.00,
+473,.1~948,948,C2,Company,03,11,1kg Strawberry Muesli,12,West,0.000,,0.00,0.00,
+474,.1~950,950,C2,Company,03,11,500g Blueberry Muesli,12,North,9087,ST,6.23,56612.01,EUR
+475,.1~952,952,C2,Company,03,11,500g Blueberry Muesli,12,South,12620,ST,6.23,78622.60,EUR
+476,.1~954,954,C2,Company,03,11,500g Blueberry Muesli,12,West,5979,ST,6.23,37249.17,EUR
+477,.1~956,956,C2,Company,03,11,500g Blueberry Muesli,14,North,4632,ST,7.40,34276.80,EUR
+478,.1~958,958,C2,Company,03,11,500g Blueberry Muesli,14,South,5175,ST,7.40,38295.00,EUR
+479,.1~960,960,C2,Company,03,11,500g Blueberry Muesli,14,West,4021,ST,7.40,29755.40,EUR
+480,.1~962,962,C2,Company,03,11,500g Mixed Fruit Muesli,12,South,916,ST,6.13,5615.08,EUR
+481,.1~964,964,C2,Company,03,11,500g Mixed Fruit Muesli,14,North,1344,ST,7.36,9891.84,EUR
+482,.1~966,966,C2,Company,03,11,500g Mixed Fruit Muesli,14,South,2590,ST,7.36,19062.40,EUR
+483,.1~968,968,C2,Company,03,11,500g Mixed Fruit Muesli,14,West,3878,ST,7.36,28542.08,EUR
+484,.1~970,970,C2,Company,03,11,500g Original Muesli,12,West,0.000,,0.00,0.00,
+485,.1~972,972,C2,Company,03,11,500g Original Muesli,14,North,0.000,,0.00,0.00,
+486,.1~974,974,C2,Company,03,11,500g Original Muesli,14,South,0.000,,0.00,0.00,
+487,.1~976,976,C2,Company,03,11,500g Raisin Muesli,12,North,4490,ST,5.79,25997.10,EUR
+488,.1~978,978,C2,Company,03,11,500g Raisin Muesli,12,South,4468,ST,5.79,25869.72,EUR
+489,.1~980,980,C2,Company,03,11,500g Raisin Muesli,12,West,3060,ST,5.79,17717.40,EUR
+490,.1~982,982,C2,Company,03,11,500g Raisin Muesli,14,North,8286,ST,5.50,45573.00,EUR
+491,.1~984,984,C2,Company,03,11,500g Raisin Muesli,14,South,8485,ST,5.50,46667.50,EUR
+492,.1~986,986,C2,Company,03,11,500g Raisin Muesli,14,West,8437,ST,5.50,46403.50,EUR
+493,.1~988,988,C2,Company,03,12,1kg Blueberry Muesli,10,South,0.000,,0.00,0.00,
+494,.1~990,990,C2,Company,03,12,1kg Blueberry Muesli,12,North,0.000,,0.00,0.00,
+495,.1~992,992,C2,Company,03,12,1kg Blueberry Muesli,12,South,0.000,,0.00,0.00,
+496,.1~994,994,C2,Company,03,12,1kg Blueberry Muesli,12,West,0.000,,0.00,0.00,
+497,.1~996,996,C2,Company,03,12,1kg Mixed Fruit Muesli,10,North,5500,ST,6.71,36905.00,EUR
+498,.1~998,998,C2,Company,03,12,1kg Mixed Fruit Muesli,10,South,0.000,,0.00,0.00,
+499,.1~1000,1000,C2,Company,03,12,1kg Mixed Fruit Muesli,10,West,4555,ST,6.71,30564.05,EUR
+500,.1~1002,1002,C2,Company,03,12,1kg Mixed Fruit Muesli,12,North,7349,ST,7.06,51883.94,EUR
+501,.1~1004,1004,C2,Company,03,12,1kg Mixed Fruit Muesli,12,South,12173,ST,7.06,85941.38,EUR
+502,.1~1006,1006,C2,Company,03,12,1kg Mixed Fruit Muesli,12,West,11775,ST,7.06,83131.50,EUR
+503,.1~1008,1008,C2,Company,03,12,1kg Nut Muesli,10,West,0.000,,0.00,0.00,
+504,.1~1010,1010,C2,Company,03,12,1kg Nut Muesli,12,North,0.000,,0.00,0.00,
+505,.1~1012,1012,C2,Company,03,12,1kg Nut Muesli,12,South,0.000,,0.00,0.00,
+506,.1~1014,1014,C2,Company,03,12,1kg Nut Muesli,12,West,0.000,,0.00,0.00,
+507,.1~1016,1016,C2,Company,03,12,1kg Original Muesli,10,North,0.000,,0.00,0.00,
+508,.1~1018,1018,C2,Company,03,12,1kg Original Muesli,10,South,0.000,,0.00,0.00,
+509,.1~1020,1020,C2,Company,03,12,1kg Original Muesli,12,North,0.000,,0.00,0.00,
+510,.1~1022,1022,C2,Company,03,12,1kg Original Muesli,12,South,0.000,,0.00,0.00,
+511,.1~1024,1024,C2,Company,03,12,1kg Raisin Muesli,10,North,0.000,,0.00,0.00,
+512,.1~1026,1026,C2,Company,03,12,1kg Raisin Muesli,10,South,0.000,,0.00,0.00,
+513,.1~1028,1028,C2,Company,03,12,1kg Raisin Muesli,10,West,0.000,,0.00,0.00,
+514,.1~1030,1030,C2,Company,03,12,1kg Raisin Muesli,12,North,0.000,,0.00,0.00,
+515,.1~1032,1032,C2,Company,03,12,1kg Raisin Muesli,12,South,0.000,,0.00,0.00,
+516,.1~1034,1034,C2,Company,03,12,1kg Raisin Muesli,12,West,0.000,,0.00,0.00,
+517,.1~1036,1036,C2,Company,03,12,1kg Strawberry Muesli,10,North,0.000,,0.00,0.00,
+518,.1~1038,1038,C2,Company,03,12,1kg Strawberry Muesli,10,South,0.000,,0.00,0.00,
+519,.1~1040,1040,C2,Company,03,12,1kg Strawberry Muesli,10,West,0.000,,0.00,0.00,
+520,.1~1042,1042,C2,Company,03,12,1kg Strawberry Muesli,12,North,0.000,,0.00,0.00,
+521,.1~1044,1044,C2,Company,03,12,1kg Strawberry Muesli,12,South,0.000,,0.00,0.00,
+522,.1~1046,1046,C2,Company,03,12,1kg Strawberry Muesli,12,West,0.000,,0.00,0.00,
+523,.1~1048,1048,C2,Company,03,12,500g Mixed Fruit Muesli,12,North,7122,ST,6.13,43657.86,EUR
+524,.1~1050,1050,C2,Company,03,12,500g Mixed Fruit Muesli,12,South,2961,ST,6.13,18150.93,EUR
+525,.1~1052,1052,C2,Company,03,12,500g Mixed Fruit Muesli,12,West,5240,ST,6.13,32121.20,EUR
+526,.1~1054,1054,C2,Company,03,12,500g Mixed Fruit Muesli,14,North,1262,ST,7.36,9288.32,EUR
+527,.1~1056,1056,C2,Company,03,12,500g Mixed Fruit Muesli,14,South,3377,ST,7.36,24854.72,EUR
+528,.1~1058,1058,C2,Company,03,12,500g Mixed Fruit Muesli,14,West,4260,ST,7.36,31353.60,EUR
+529,.1~1060,1060,C2,Company,03,12,500g Nut Muesli,12,North,0.000,,0.00,0.00,
+530,.1~1062,1062,C2,Company,03,12,500g Nut Muesli,12,South,0.000,,0.00,0.00,
+531,.1~1064,1064,C2,Company,03,12,500g Nut Muesli,12,West,0.000,,0.00,0.00,
+532,.1~1066,1066,C2,Company,03,12,500g Nut Muesli,14,North,0.000,,0.00,0.00,
+533,.1~1068,1068,C2,Company,03,12,500g Nut Muesli,14,South,0.000,,0.00,0.00,
+534,.1~1070,1070,C2,Company,03,12,500g Nut Muesli,14,West,0.000,,0.00,0.00,
+535,.1~1072,1072,C2,Company,03,12,500g Original Muesli,14,North,0.000,,0.00,0.00,
+536,.1~1074,1074,C2,Company,03,12,500g Raisin Muesli,12,North,2098,ST,5.79,12147.42,EUR
+537,.1~1076,1076,C2,Company,03,12,500g Raisin Muesli,12,South,3133,ST,5.79,18140.07,EUR
+538,.1~1078,1078,C2,Company,03,12,500g Raisin Muesli,12,West,4349,ST,5.79,25180.71,EUR
+539,.1~1080,1080,C2,Company,03,12,500g Raisin Muesli,14,North,8669,ST,5.50,47679.50,EUR
+540,.1~1082,1082,C2,Company,03,12,500g Raisin Muesli,14,South,7017,ST,5.50,38593.50,EUR
+541,.1~1084,1084,C2,Company,03,12,500g Raisin Muesli,14,West,6011,ST,5.50,33060.50,EUR
+542,.1~1086,1086,C2,Company,03,12,500g Strawberry Muesli,12,North,0.000,,0.00,0.00,
+543,.1~1088,1088,C2,Company,03,12,500g Strawberry Muesli,12,South,0.000,,0.00,0.00,
+544,.1~1090,1090,C2,Company,03,12,500g Strawberry Muesli,12,West,0.000,,0.00,0.00,
+545,.1~1092,1092,C2,Company,03,12,500g Strawberry Muesli,14,North,0.000,,0.00,0.00,
+546,.1~1094,1094,C2,Company,03,12,500g Strawberry Muesli,14,South,0.000,,0.00,0.00,
+547,.1~1096,1096,C2,Company,03,12,500g Strawberry Muesli,14,West,0.000,,0.00,0.00,
+548,.1~1,1,C2,Market,01,1,500g Nut Muesli,12,North,7473,ST,5.90,44090.70,EUR
+549,.1~3,3,C2,Market,01,1,500g Nut Muesli,12,South,2130,ST,5.90,12567.00,EUR
+550,.1~5,5,C2,Market,01,1,500g Nut Muesli,12,West,5247,ST,5.90,30957.30,EUR
+551,.1~7,7,C2,Market,01,1,500g Nut Muesli,14,North,4218,ST,6.49,27097.52,EUR
+552,.1~9,9,C2,Market,01,1,500g Nut Muesli,14,South,3789,ST,6.37,24031.88,EUR
+553,.1~11,11,C2,Market,01,1,500g Nut Muesli,14,West,3348,ST,5.90,19753.20,EUR
+554,.1~13,13,C2,Market,01,2,1kg Nut Muesli,10,North,1985,ST,6.61,13120.85,EUR
+555,.1~15,15,C2,Market,01,2,1kg Raisin Muesli,10,North,5176,ST,6.06,31366.56,EUR
+556,.1~17,17,C2,Market,01,2,1kg Raisin Muesli,10,South,8488,ST,6.06,51437.28,EUR
+557,.1~19,19,C2,Market,01,2,1kg Raisin Muesli,10,West,6967,ST,6.06,42220.02,EUR
+558,.1~21,21,C2,Market,01,2,1kg Strawberry Muesli,10,South,1026,ST,6.91,7089.66,EUR
+559,.1~23,23,C2,Market,01,2,1kg Strawberry Muesli,10,West,686,ST,6.91,4740.26,EUR
+560,.1~25,25,C2,Market,01,2,1kg Nut Muesli,12,South,6062,ST,6.61,40069.82,EUR
+561,.1~27,27,C2,Market,01,2,1kg Nut Muesli,12,West,1919,ST,6.61,12684.59,EUR
+562,.1~29,29,C2,Market,01,2,1kg Raisin Muesli,12,North,8943,ST,6.38,57056.34,EUR
+563,.1~31,31,C2,Market,01,2,1kg Raisin Muesli,12,South,12871,ST,6.38,82116.98,EUR
+564,.1~33,33,C2,Market,01,2,1kg Raisin Muesli,12,West,12650,ST,6.38,80707.00,EUR
+565,.1~35,35,C2,Market,01,2,1kg Strawberry Muesli,12,North,5428,ST,7.27,39461.56,EUR
+566,.1~37,37,C2,Market,01,2,1kg Strawberry Muesli,12,West,1858,ST,7.27,13507.66,EUR
+567,.1~39,39,C2,Market,01,2,500g Blueberry Muesli,12,North,8036,ST,6.23,50064.28,EUR
+568,.1~41,41,C2,Market,01,2,500g Blueberry Muesli,12,South,8853,ST,6.23,55154.19,EUR
+569,.1~43,43,C2,Market,01,2,500g Blueberry Muesli,12,West,1132,ST,6.23,7052.36,EUR
+570,.1~45,45,C2,Market,01,2,500g Mixed Fruit Muesli,12,North,1012,ST,6.13,6203.56,EUR
+571,.1~47,47,C2,Market,01,2,500g Mixed Fruit Muesli,12,South,1962,ST,6.13,12027.06,EUR
+572,.1~49,49,C2,Market,01,2,500g Mixed Fruit Muesli,12,West,4189,ST,6.13,25678.57,EUR
+573,.1~51,51,C2,Market,01,2,500g Nut Muesli,12,North,10956,ST,5.90,64640.40,EUR
+574,.1~53,53,C2,Market,01,2,500g Nut Muesli,12,South,5207,ST,5.90,30721.30,EUR
+575,.1~55,55,C2,Market,01,2,500g Nut Muesli,12,West,6583,ST,5.90,38839.70,EUR
+576,.1~57,57,C2,Market,01,2,500g Strawberry Muesli,12,North,6014,ST,6.23,37467.22,EUR
+577,.1~59,59,C2,Market,01,2,500g Strawberry Muesli,12,South,8536,ST,6.23,53179.28,EUR
+578,.1~61,61,C2,Market,01,2,500g Strawberry Muesli,12,West,4946,ST,6.23,30813.58,EUR
+579,.1~63,63,C2,Market,01,2,500g Blueberry Muesli,14,North,7278,ST,6.23,45341.94,EUR
+580,.1~65,65,C2,Market,01,2,500g Blueberry Muesli,14,South,6463,ST,6.23,40264.49,EUR
+581,.1~67,67,C2,Market,01,2,500g Blueberry Muesli,14,West,5238,ST,6.23,32632.74,EUR
+582,.1~69,69,C2,Market,01,2,500g Mixed Fruit Muesli,14,North,5142,ST,6.13,31520.46,EUR
+583,.1~71,71,C2,Market,01,2,500g Mixed Fruit Muesli,14,South,5063,ST,6.13,31036.19,EUR
+584,.1~73,73,C2,Market,01,2,500g Mixed Fruit Muesli,14,West,4751,ST,6.13,29123.63,EUR
+585,.1~75,75,C2,Market,01,2,500g Nut Muesli,14,North,6854,ST,6.03,41183.18,EUR
+586,.1~77,77,C2,Market,01,2,500g Nut Muesli,14,South,3031,ST,6.19,18585.00,EUR
+587,.1~79,79,C2,Market,01,2,500g Nut Muesli,14,West,5000,ST,6.06,30176.14,EUR
+588,.1~81,81,C2,Market,01,2,500g Strawberry Muesli,14,North,1923,ST,7.48,14384.04,EUR
+589,.1~83,83,C2,Market,01,2,500g Strawberry Muesli,14,South,2332,ST,7.48,17443.36,EUR
+590,.1~85,85,C2,Market,01,2,500g Strawberry Muesli,14,West,4566,ST,7.48,34153.68,EUR
+591,.1~87,87,C2,Market,01,3,1kg Mixed Fruit Muesli,10,North,4585,ST,6.71,30765.35,EUR
+592,.1~89,89,C2,Market,01,3,1kg Mixed Fruit Muesli,10,South,2710,ST,6.71,18184.10,EUR
+593,.1~91,91,C2,Market,01,3,1kg Mixed Fruit Muesli,10,West,3793,ST,6.71,25451.03,EUR
+594,.1~93,93,C2,Market,01,3,1kg Nut Muesli,10,South,3066,ST,6.61,20266.26,EUR
+595,.1~95,95,C2,Market,01,3,1kg Nut Muesli,10,West,2003,ST,6.61,13239.83,EUR
+596,.1~97,97,C2,Market,01,3,1kg Raisin Muesli,10,North,607,ST,6.06,3678.42,EUR
+597,.1~99,99,C2,Market,01,3,1kg Strawberry Muesli,10,North,8294,ST,6.91,57311.54,EUR
+598,.1~101,101,C2,Market,01,3,1kg Strawberry Muesli,10,South,7788,ST,6.91,53815.08,EUR
+599,.1~103,103,C2,Market,01,3,1kg Strawberry Muesli,10,West,7380,ST,6.91,50995.80,EUR
+600,.1~105,105,C2,Market,01,3,1kg Mixed Fruit Muesli,12,North,7818,ST,7.06,55195.08,EUR
+601,.1~107,107,C2,Market,01,3,1kg Mixed Fruit Muesli,12,South,14521,ST,7.06,102518.26,EUR
+602,.1~109,109,C2,Market,01,3,1kg Mixed Fruit Muesli,12,West,17535,ST,7.06,123797.10,EUR
+603,.1~111,111,C2,Market,01,3,1kg Nut Muesli,12,North,4596,ST,6.61,30379.56,EUR
+604,.1~113,113,C2,Market,01,3,1kg Nut Muesli,12,South,11817,ST,6.61,78110.37,EUR
+605,.1~115,115,C2,Market,01,3,1kg Nut Muesli,12,West,5552,ST,6.61,36698.72,EUR
+606,.1~117,117,C2,Market,01,3,1kg Raisin Muesli,12,North,2083,ST,6.38,13289.54,EUR
+607,.1~119,119,C2,Market,01,3,1kg Raisin Muesli,12,South,6215,ST,6.38,39651.70,EUR
+608,.1~121,121,C2,Market,01,3,1kg Strawberry Muesli,12,North,13199,ST,7.27,95956.73,EUR
+609,.1~123,123,C2,Market,01,3,1kg Strawberry Muesli,12,South,6777,ST,7.27,49268.79,EUR
+610,.1~125,125,C2,Market,01,3,1kg Strawberry Muesli,12,West,11564,ST,7.27,84070.28,EUR
+611,.1~127,127,C2,Market,01,3,500g Blueberry Muesli,12,North,958,ST,6.23,5968.34,EUR
+612,.1~129,129,C2,Market,01,3,500g Blueberry Muesli,12,West,925,ST,6.23,5762.75,EUR
+613,.1~131,131,C2,Market,01,3,500g Mixed Fruit Muesli,12,South,4049,ST,6.13,24820.37,EUR
+614,.1~133,133,C2,Market,01,3,500g Mixed Fruit Muesli,12,West,975,ST,6.13,5976.75,EUR
+615,.1~135,135,C2,Market,01,3,500g Nut Muesli,12,North,8365,ST,5.90,49353.50,EUR
+616,.1~137,137,C2,Market,01,3,500g Nut Muesli,12,South,1189,ST,5.90,7015.10,EUR
+617,.1~139,139,C2,Market,01,3,500g Nut Muesli,12,West,2991,ST,5.90,17646.90,EUR
+618,.1~141,141,C2,Market,01,3,500g Raisin Muesli,12,North,1081,ST,5.79,6258.99,EUR
+619,.1~143,143,C2,Market,01,3,500g Raisin Muesli,12,West,1135,ST,5.79,6571.65,EUR
+620,.1~145,145,C2,Market,01,3,500g Strawberry Muesli,12,North,6849,ST,6.23,42669.27,EUR
+621,.1~147,147,C2,Market,01,3,500g Strawberry Muesli,12,South,2306,ST,6.23,14366.38,EUR
+622,.1~149,149,C2,Market,01,3,500g Strawberry Muesli,12,West,5117,ST,6.23,31878.91,EUR
+623,.1~151,151,C2,Market,01,3,500g Blueberry Muesli,14,South,447,ST,7.48,3343.56,EUR
+624,.1~153,153,C2,Market,01,3,500g Mixed Fruit Muesli,14,North,2266,ST,6.13,13890.58,EUR
+625,.1~155,155,C2,Market,01,3,500g Mixed Fruit Muesli,14,South,4734,ST,6.13,29019.42,EUR
+626,.1~157,157,C2,Market,01,3,500g Mixed Fruit Muesli,14,West,2857,ST,6.13,17513.41,EUR
+627,.1~159,159,C2,Market,01,3,500g Nut Muesli,14,North,3802,ST,7.08,26918.16,EUR
+628,.1~161,161,C2,Market,01,3,500g Nut Muesli,14,South,1169,ST,7.08,8276.52,EUR
+629,.1~163,163,C2,Market,01,3,500g Nut Muesli,14,West,2041,ST,7.08,14450.28,EUR
+630,.1~165,165,C2,Market,01,3,500g Original Muesli,14,North,861,ST,5.77,4967.97,EUR
+631,.1~167,167,C2,Market,01,3,500g Original Muesli,14,West,1606,ST,5.77,9266.62,EUR
+632,.1~169,169,C2,Market,01,3,500g Raisin Muesli,14,North,4544,ST,5.79,26309.76,EUR
+633,.1~171,171,C2,Market,01,3,500g Raisin Muesli,14,South,5425,ST,5.79,31410.75,EUR
+634,.1~173,173,C2,Market,01,3,500g Raisin Muesli,14,West,5067,ST,5.79,29337.93,EUR
+635,.1~175,175,C2,Market,01,3,500g Strawberry Muesli,14,North,7955,ST,6.68,52730.90,EUR
+636,.1~177,177,C2,Market,01,3,500g Strawberry Muesli,14,South,2875,ST,6.54,18715.00,EUR
+637,.1~179,179,C2,Market,01,3,500g Strawberry Muesli,14,West,5193,ST,7.01,36286.14,EUR
+638,.1~181,181,C2,Market,01,4,1kg Blueberry Muesli,10,North,5175,ST,7.26,37570.50,EUR
+639,.1~183,183,C2,Market,01,4,1kg Blueberry Muesli,10,South,6462,ST,7.26,46914.12,EUR
+640,.1~185,185,C2,Market,01,4,1kg Blueberry Muesli,10,West,2812,ST,7.26,20415.12,EUR
+641,.1~187,187,C2,Market,01,4,1kg Mixed Fruit Muesli,10,North,1922,ST,7.06,13569.32,EUR
+642,.1~189,189,C2,Market,01,4,1kg Mixed Fruit Muesli,10,South,5311,ST,7.06,37495.66,EUR
+643,.1~191,191,C2,Market,01,4,1kg Mixed Fruit Muesli,10,West,5458,ST,6.88,37558.03,EUR
+644,.1~193,193,C2,Market,01,4,1kg Original Muesli,10,North,4126,ST,6.35,26200.10,EUR
+645,.1~195,195,C2,Market,01,4,1kg Original Muesli,10,South,909,ST,6.35,5772.15,EUR
+646,.1~197,197,C2,Market,01,4,1kg Blueberry Muesli,12,North,5094,ST,7.26,36982.44,EUR
+647,.1~199,199,C2,Market,01,4,1kg Blueberry Muesli,12,South,12262,ST,7.26,89022.12,EUR
+648,.1~201,201,C2,Market,01,4,1kg Blueberry Muesli,12,West,5195,ST,7.26,37715.70,EUR
+649,.1~203,203,C2,Market,01,4,1kg Mixed Fruit Muesli,12,North,6667,ST,7.06,47069.02,EUR
+650,.1~205,205,C2,Market,01,4,1kg Mixed Fruit Muesli,12,South,6820,ST,7.06,48149.20,EUR
+651,.1~207,207,C2,Market,01,4,1kg Mixed Fruit Muesli,12,West,8300,ST,7.06,58598.00,EUR
+652,.1~209,209,C2,Market,01,4,1kg Original Muesli,12,South,4966,ST,6.35,31534.10,EUR
+653,.1~211,211,C2,Market,01,4,1kg Original Muesli,12,West,4696,ST,6.35,29819.60,EUR
+654,.1~213,213,C2,Market,01,4,500g Blueberry Muesli,12,North,14264,ST,6.23,88864.72,EUR
+655,.1~215,215,C2,Market,01,4,500g Blueberry Muesli,12,South,9056,ST,6.23,56418.88,EUR
+656,.1~217,217,C2,Market,01,4,500g Blueberry Muesli,12,West,6192,ST,6.23,38576.16,EUR
+657,.1~219,219,C2,Market,01,4,500g Nut Muesli,12,North,1607,ST,5.90,9481.30,EUR
+658,.1~221,221,C2,Market,01,4,500g Original Muesli,12,North,2321,ST,5.77,13392.17,EUR
+659,.1~223,223,C2,Market,01,4,500g Raisin Muesli,12,North,4357,ST,5.79,25227.03,EUR
+660,.1~225,225,C2,Market,01,4,500g Raisin Muesli,12,South,2287,ST,5.79,13241.73,EUR
+661,.1~227,227,C2,Market,01,4,500g Raisin Muesli,12,West,4623,ST,5.79,26767.17,EUR
+662,.1~229,229,C2,Market,01,4,500g Strawberry Muesli,12,North,3932,ST,6.23,24496.36,EUR
+663,.1~231,231,C2,Market,01,4,500g Strawberry Muesli,12,South,3045,ST,6.23,18970.35,EUR
+664,.1~233,233,C2,Market,01,4,500g Strawberry Muesli,12,West,4172,ST,6.23,25991.56,EUR
+665,.1~235,235,C2,Market,01,4,500g Blueberry Muesli,14,North,6504,ST,7.48,48649.92,EUR
+666,.1~237,237,C2,Market,01,4,500g Blueberry Muesli,14,South,6249,ST,7.48,46742.52,EUR
+667,.1~239,239,C2,Market,01,4,500g Blueberry Muesli,14,West,4170,ST,7.48,31191.60,EUR
+668,.1~241,241,C2,Market,01,4,500g Original Muesli,14,North,1721,ST,5.77,9930.17,EUR
+669,.1~243,243,C2,Market,01,4,500g Original Muesli,14,South,2383,ST,5.77,13749.91,EUR
+670,.1~245,245,C2,Market,01,4,500g Raisin Muesli,14,North,3821,ST,5.79,22123.59,EUR
+671,.1~247,247,C2,Market,01,4,500g Raisin Muesli,14,South,4391,ST,6.37,27721.85,EUR
+672,.1~249,249,C2,Market,01,4,500g Raisin Muesli,14,West,6146,ST,5.93,36284.82,EUR
+673,.1~251,251,C2,Market,01,4,500g Strawberry Muesli,14,North,4973,ST,6.23,30981.79,EUR
+674,.1~253,253,C2,Market,01,4,500g Strawberry Muesli,14,South,4648,ST,6.23,28957.04,EUR
+675,.1~255,255,C2,Market,01,4,500g Strawberry Muesli,14,West,5618,ST,6.23,35000.14,EUR
+676,.1~257,257,C2,Market,02,5,1kg Blueberry Muesli,10,South,3711,ST,6.90,25605.90,EUR
+677,.1~259,259,C2,Market,02,5,1kg Blueberry Muesli,10,West,783,ST,6.90,5402.70,EUR
+678,.1~261,261,C2,Market,02,5,1kg Mixed Fruit Muesli,10,North,2682,ST,7.06,18934.92,EUR
+679,.1~263,263,C2,Market,02,5,1kg Mixed Fruit Muesli,10,West,1858,ST,7.06,13117.48,EUR
+680,.1~265,265,C2,Market,02,5,1kg Nut Muesli,10,North,1883,ST,6.28,11825.24,EUR
+681,.1~267,267,C2,Market,02,5,1kg Nut Muesli,10,South,7712,ST,6.28,48431.36,EUR
+682,.1~269,269,C2,Market,02,5,1kg Nut Muesli,10,West,4914,ST,6.28,30859.92,EUR
+683,.1~271,271,C2,Market,02,5,1kg Original Muesli,10,North,1974,ST,6.35,12534.90,EUR
+684,.1~273,273,C2,Market,02,5,1kg Original Muesli,10,West,3326,ST,6.35,21120.10,EUR
+685,.1~275,275,C2,Market,02,5,1kg Raisin Muesli,10,North,2020,ST,6.38,12887.60,EUR
+686,.1~277,277,C2,Market,02,5,1kg Raisin Muesli,10,South,3045,ST,6.38,19427.10,EUR
+687,.1~279,279,C2,Market,02,5,1kg Raisin Muesli,10,West,1983,ST,6.38,12651.54,EUR
+688,.1~281,281,C2,Market,02,5,1kg Strawberry Muesli,10,North,4157,ST,7.27,30221.39,EUR
+689,.1~283,283,C2,Market,02,5,1kg Strawberry Muesli,10,West,1585,ST,7.27,11522.95,EUR
+690,.1~285,285,C2,Market,02,5,1kg Blueberry Muesli,12,North,6452,ST,7.26,46841.52,EUR
+691,.1~287,287,C2,Market,02,5,1kg Blueberry Muesli,12,South,4396,ST,7.26,31914.96,EUR
+692,.1~289,289,C2,Market,02,5,1kg Blueberry Muesli,12,West,5284,ST,7.26,38361.84,EUR
+693,.1~291,291,C2,Market,02,5,1kg Mixed Fruit Muesli,12,North,2764,ST,7.06,19513.84,EUR
+694,.1~293,293,C2,Market,02,5,1kg Mixed Fruit Muesli,12,South,6477,ST,7.06,45727.62,EUR
+695,.1~295,295,C2,Market,02,5,1kg Mixed Fruit Muesli,12,West,1779,ST,7.06,12559.74,EUR
+696,.1~297,297,C2,Market,02,5,1kg Nut Muesli,12,North,8372,ST,6.61,55338.92,EUR
+697,.1~299,299,C2,Market,02,5,1kg Nut Muesli,12,South,9446,ST,6.61,62438.06,EUR
+698,.1~301,301,C2,Market,02,5,1kg Nut Muesli,12,West,12775,ST,6.61,84442.75,EUR
+699,.1~303,303,C2,Market,02,5,1kg Original Muesli,12,South,891,ST,6.35,5657.85,EUR
+700,.1~305,305,C2,Market,02,5,1kg Original Muesli,12,West,976,ST,6.35,6197.60,EUR
+701,.1~307,307,C2,Market,02,5,1kg Raisin Muesli,12,North,5744,ST,6.38,36646.72,EUR
+702,.1~309,309,C2,Market,02,5,1kg Raisin Muesli,12,South,6715,ST,6.38,42841.70,EUR
+703,.1~311,311,C2,Market,02,5,1kg Raisin Muesli,12,West,6553,ST,6.38,41808.14,EUR
+704,.1~313,313,C2,Market,02,5,1kg Strawberry Muesli,12,North,3642,ST,7.27,26477.34,EUR
+705,.1~315,315,C2,Market,02,5,1kg Strawberry Muesli,12,South,2754,ST,7.27,20021.58,EUR
+706,.1~317,317,C2,Market,02,5,1kg Strawberry Muesli,12,West,4488,ST,7.27,32627.76,EUR
+707,.1~319,319,C2,Market,02,5,500g Blueberry Muesli,12,North,4063,ST,6.23,25312.49,EUR
+708,.1~321,321,C2,Market,02,5,500g Blueberry Muesli,12,South,7978,ST,6.23,49702.94,EUR
+709,.1~323,323,C2,Market,02,5,500g Blueberry Muesli,12,West,5535,ST,6.23,34483.05,EUR
+710,.1~325,325,C2,Market,02,5,500g Nut Muesli,12,North,2044,ST,5.90,12059.60,EUR
+711,.1~327,327,C2,Market,02,5,500g Nut Muesli,12,West,919,ST,5.90,5422.10,EUR
+712,.1~329,329,C2,Market,02,5,500g Raisin Muesli,12,North,3227,ST,5.79,18684.33,EUR
+713,.1~331,331,C2,Market,02,5,500g Raisin Muesli,12,South,2183,ST,5.79,12639.57,EUR
+714,.1~333,333,C2,Market,02,5,500g Raisin Muesli,12,West,6446,ST,5.79,37322.34,EUR
+715,.1~335,335,C2,Market,02,5,500g Blueberry Muesli,14,North,2064,ST,6.64,13656.22,EUR
+716,.1~337,337,C2,Market,02,5,500g Blueberry Muesli,14,South,1952,ST,7.48,14600.96,EUR
+717,.1~339,339,C2,Market,02,5,500g Blueberry Muesli,14,West,2472,ST,6.85,17013.06,EUR
+718,.1~341,341,C2,Market,02,5,500g Nut Muesli,14,North,3159,ST,5.90,18638.10,EUR
+719,.1~343,343,C2,Market,02,5,500g Nut Muesli,14,South,3326,ST,5.90,19623.40,EUR
+720,.1~345,345,C2,Market,02,5,500g Nut Muesli,14,West,1641,ST,5.90,9681.90,EUR
+721,.1~347,347,C2,Market,02,5,500g Original Muesli,14,North,2613,ST,5.77,15077.01,EUR
+722,.1~349,349,C2,Market,02,5,500g Original Muesli,14,South,2447,ST,5.77,14119.19,EUR
+723,.1~351,351,C2,Market,02,5,500g Original Muesli,14,West,763,ST,5.77,4402.51,EUR
+724,.1~353,353,C2,Market,02,5,500g Raisin Muesli,14,North,3237,ST,6.95,22497.15,EUR
+725,.1~355,355,C2,Market,02,5,500g Raisin Muesli,14,South,4111,ST,6.95,28571.45,EUR
+726,.1~357,357,C2,Market,02,5,500g Raisin Muesli,14,West,3922,ST,6.95,27257.90,EUR
+727,.1~359,359,C2,Market,02,6,1kg Blueberry Muesli,10,North,6285,ST,6.90,43366.50,EUR
+728,.1~361,361,C2,Market,02,6,1kg Blueberry Muesli,10,South,5231,ST,6.90,36093.90,EUR
+729,.1~363,363,C2,Market,02,6,1kg Blueberry Muesli,10,West,6355,ST,6.90,43849.50,EUR
+730,.1~365,365,C2,Market,02,6,1kg Nut Muesli,10,North,2202,ST,6.28,13828.56,EUR
+731,.1~367,367,C2,Market,02,6,1kg Nut Muesli,10,South,3062,ST,6.28,19229.36,EUR
+732,.1~369,369,C2,Market,02,6,1kg Nut Muesli,10,West,2007,ST,6.28,12603.96,EUR
+733,.1~371,371,C2,Market,02,6,1kg Original Muesli,10,South,1039,ST,6.35,6597.65,EUR
+734,.1~373,373,C2,Market,02,6,1kg Strawberry Muesli,10,South,2635,ST,7.27,19156.45,EUR
+735,.1~375,375,C2,Market,02,6,1kg Blueberry Muesli,12,North,5307,ST,7.26,38528.82,EUR
+736,.1~377,377,C2,Market,02,6,1kg Blueberry Muesli,12,South,11422,ST,7.26,82923.72,EUR
+737,.1~379,379,C2,Market,02,6,1kg Blueberry Muesli,12,West,8774,ST,7.26,63699.24,EUR
+738,.1~381,381,C2,Market,02,6,1kg Nut Muesli,12,North,3029,ST,6.61,20021.69,EUR
+739,.1~383,383,C2,Market,02,6,1kg Nut Muesli,12,South,4872,ST,6.61,32203.92,EUR
+740,.1~385,385,C2,Market,02,6,1kg Nut Muesli,12,West,3726,ST,6.61,24628.86,EUR
+741,.1~387,387,C2,Market,02,6,1kg Original Muesli,12,North,4841,ST,6.35,30740.35,EUR
+742,.1~389,389,C2,Market,02,6,1kg Original Muesli,12,South,6940,ST,6.35,44069.00,EUR
+743,.1~391,391,C2,Market,02,6,1kg Original Muesli,12,West,2316,ST,6.35,14706.60,EUR
+744,.1~393,393,C2,Market,02,6,1kg Raisin Muesli,12,North,2883,ST,6.38,18393.54,EUR
+745,.1~395,395,C2,Market,02,6,1kg Raisin Muesli,12,South,6121,ST,6.38,39051.98,EUR
+746,.1~397,397,C2,Market,02,6,1kg Raisin Muesli,12,West,1936,ST,6.38,12351.68,EUR
+747,.1~399,399,C2,Market,02,6,1kg Strawberry Muesli,12,North,7766,ST,7.27,56458.82,EUR
+748,.1~401,401,C2,Market,02,6,1kg Strawberry Muesli,12,South,4422,ST,7.27,32147.94,EUR
+749,.1~403,403,C2,Market,02,6,1kg Strawberry Muesli,12,West,5551,ST,7.27,40355.77,EUR
+750,.1~405,405,C2,Market,02,6,500g Blueberry Muesli,12,North,3940,ST,6.23,24546.20,EUR
+751,.1~407,407,C2,Market,02,6,500g Blueberry Muesli,12,South,2122,ST,6.23,13220.06,EUR
+752,.1~409,409,C2,Market,02,6,500g Blueberry Muesli,12,West,5503,ST,6.23,34283.69,EUR
+753,.1~411,411,C2,Market,02,6,500g Mixed Fruit Muesli,12,North,4196,ST,6.13,25721.48,EUR
+754,.1~413,413,C2,Market,02,6,500g Mixed Fruit Muesli,12,South,5301,ST,6.13,32495.13,EUR
+755,.1~415,415,C2,Market,02,6,500g Mixed Fruit Muesli,12,West,7302,ST,6.13,44761.26,EUR
+756,.1~417,417,C2,Market,02,6,500g Nut Muesli,12,North,8445,ST,5.90,49825.50,EUR
+757,.1~419,419,C2,Market,02,6,500g Nut Muesli,12,South,2512,ST,5.90,14820.80,EUR
+758,.1~421,421,C2,Market,02,6,500g Nut Muesli,12,West,2938,ST,5.90,17334.20,EUR
+759,.1~423,423,C2,Market,02,6,500g Original Muesli,12,South,1107,ST,5.77,6387.39,EUR
+760,.1~425,425,C2,Market,02,6,500g Raisin Muesli,12,North,3310,ST,5.79,19164.90,EUR
+761,.1~427,427,C2,Market,02,6,500g Raisin Muesli,12,South,3355,ST,5.79,19425.45,EUR
+762,.1~429,429,C2,Market,02,6,500g Raisin Muesli,12,West,4466,ST,5.79,25858.14,EUR
+763,.1~431,431,C2,Market,02,6,500g Strawberry Muesli,12,North,6058,ST,6.23,37741.34,EUR
+764,.1~433,433,C2,Market,02,6,500g Strawberry Muesli,12,South,898,ST,6.23,5594.54,EUR
+765,.1~435,435,C2,Market,02,6,500g Strawberry Muesli,12,West,2131,ST,6.23,13276.13,EUR
+766,.1~437,437,C2,Market,02,6,500g Blueberry Muesli,14,North,6817,ST,6.23,42469.91,EUR
+767,.1~439,439,C2,Market,02,6,500g Blueberry Muesli,14,South,3931,ST,6.23,24490.13,EUR
+768,.1~441,441,C2,Market,02,6,500g Blueberry Muesli,14,West,5858,ST,6.23,36495.34,EUR
+769,.1~443,443,C2,Market,02,6,500g Mixed Fruit Muesli,14,North,613,ST,7.36,4511.68,EUR
+770,.1~445,445,C2,Market,02,6,500g Mixed Fruit Muesli,14,South,1965,ST,7.36,14462.40,EUR
+771,.1~447,447,C2,Market,02,6,500g Mixed Fruit Muesli,14,West,3072,ST,7.36,22609.92,EUR
+772,.1~449,449,C2,Market,02,6,500g Nut Muesli,14,North,9211,ST,6.09,55902.50,EUR
+773,.1~451,451,C2,Market,02,6,500g Nut Muesli,14,South,3877,ST,6.13,23563.42,EUR
+774,.1~453,453,C2,Market,02,6,500g Nut Muesli,14,West,5605,ST,6.06,33869.54,EUR
+775,.1~455,455,C2,Market,02,6,500g Original Muesli,14,North,846,ST,5.77,4881.42,EUR
+776,.1~457,457,C2,Market,02,6,500g Original Muesli,14,South,857,ST,5.77,4944.89,EUR
+777,.1~459,459,C2,Market,02,6,500g Original Muesli,14,West,877,ST,5.77,5060.29,EUR
+778,.1~461,461,C2,Market,02,6,500g Raisin Muesli,14,North,1452,ST,6.37,9188.92,EUR
+779,.1~463,463,C2,Market,02,6,500g Raisin Muesli,14,South,2726,ST,6.95,18945.70,EUR
+780,.1~465,465,C2,Market,02,6,500g Raisin Muesli,14,West,2280,ST,6.17,13972.60,EUR
+781,.1~467,467,C2,Market,02,6,500g Strawberry Muesli,14,North,2930,ST,6.23,18253.90,EUR
+782,.1~469,469,C2,Market,02,6,500g Strawberry Muesli,14,South,5534,ST,6.23,34476.82,EUR
+783,.1~471,471,C2,Market,02,6,500g Strawberry Muesli,14,West,2070,ST,6.23,12896.10,EUR
+784,.1~473,473,C2,Market,02,7,1kg Blueberry Muesli,10,South,875,ST,7.26,6352.50,EUR
+785,.1~475,475,C2,Market,02,7,1kg Blueberry Muesli,10,West,1318,ST,7.26,9568.68,EUR
+786,.1~477,477,C2,Market,02,7,1kg Mixed Fruit Muesli,10,North,5299,ST,6.71,35556.29,EUR
+787,.1~479,479,C2,Market,02,7,1kg Mixed Fruit Muesli,10,South,4530,ST,6.71,30396.30,EUR
+788,.1~481,481,C2,Market,02,7,1kg Mixed Fruit Muesli,10,West,8531,ST,6.71,57243.01,EUR
+789,.1~483,483,C2,Market,02,7,1kg Nut Muesli,10,North,2207,ST,6.61,14588.27,EUR
+790,.1~485,485,C2,Market,02,7,1kg Nut Muesli,10,South,5706,ST,6.61,37716.66,EUR
+791,.1~487,487,C2,Market,02,7,1kg Nut Muesli,10,West,2661,ST,6.61,17589.21,EUR
+792,.1~489,489,C2,Market,02,7,1kg Raisin Muesli,10,North,1868,ST,6.38,11917.84,EUR
+793,.1~491,491,C2,Market,02,7,1kg Raisin Muesli,10,South,1110,ST,6.06,6726.60,EUR
+794,.1~493,493,C2,Market,02,7,1kg Blueberry Muesli,12,North,4268,ST,7.26,30985.68,EUR
+795,.1~495,495,C2,Market,02,7,1kg Blueberry Muesli,12,South,5060,ST,7.26,36735.60,EUR
+796,.1~497,497,C2,Market,02,7,1kg Blueberry Muesli,12,West,4479,ST,7.26,32517.54,EUR
+797,.1~499,499,C2,Market,02,7,1kg Mixed Fruit Muesli,12,North,12154,ST,7.06,85807.24,EUR
+798,.1~501,501,C2,Market,02,7,1kg Mixed Fruit Muesli,12,South,8143,ST,7.06,57489.58,EUR
+799,.1~503,503,C2,Market,02,7,1kg Mixed Fruit Muesli,12,West,9604,ST,7.06,67804.24,EUR
+800,.1~505,505,C2,Market,02,7,1kg Nut Muesli,12,North,2829,ST,6.61,18699.69,EUR
+801,.1~507,507,C2,Market,02,7,1kg Nut Muesli,12,South,14235,ST,6.61,94093.35,EUR
+802,.1~509,509,C2,Market,02,7,1kg Nut Muesli,12,West,9362,ST,6.61,61882.82,EUR
+803,.1~511,511,C2,Market,02,7,1kg Raisin Muesli,12,North,3819,ST,6.38,24365.22,EUR
+804,.1~513,513,C2,Market,02,7,1kg Raisin Muesli,12,South,3966,ST,6.38,25303.08,EUR
+805,.1~515,515,C2,Market,02,7,1kg Raisin Muesli,12,West,734,ST,6.38,4682.92,EUR
+806,.1~517,517,C2,Market,02,7,500g Mixed Fruit Muesli,12,North,4887,ST,6.13,29957.31,EUR
+807,.1~519,519,C2,Market,02,7,500g Mixed Fruit Muesli,12,South,3393,ST,6.13,20799.09,EUR
+808,.1~521,521,C2,Market,02,7,500g Mixed Fruit Muesli,12,West,3093,ST,6.13,18960.09,EUR
+809,.1~523,523,C2,Market,02,7,500g Nut Muesli,12,North,13914,ST,5.90,82092.60,EUR
+810,.1~525,525,C2,Market,02,7,500g Nut Muesli,12,South,1207,ST,5.90,7121.30,EUR
+811,.1~527,527,C2,Market,02,7,500g Nut Muesli,12,West,3429,ST,5.90,20231.10,EUR
+812,.1~529,529,C2,Market,02,7,500g Raisin Muesli,12,North,2883,ST,5.79,16692.57,EUR
+813,.1~531,531,C2,Market,02,7,500g Raisin Muesli,12,South,2289,ST,5.79,13253.31,EUR
+814,.1~533,533,C2,Market,02,7,500g Raisin Muesli,12,West,7495,ST,5.79,43396.05,EUR
+815,.1~535,535,C2,Market,02,7,500g Strawberry Muesli,12,North,5827,ST,6.23,36302.21,EUR
+816,.1~537,537,C2,Market,02,7,500g Strawberry Muesli,12,South,7225,ST,6.23,45011.75,EUR
+817,.1~539,539,C2,Market,02,7,500g Strawberry Muesli,12,West,5208,ST,6.23,32445.84,EUR
+818,.1~541,541,C2,Market,02,7,500g Mixed Fruit Muesli,14,North,2756,ST,7.36,20284.16,EUR
+819,.1~543,543,C2,Market,02,7,500g Mixed Fruit Muesli,14,South,2622,ST,7.36,19297.92,EUR
+820,.1~545,545,C2,Market,02,7,500g Mixed Fruit Muesli,14,West,3281,ST,7.36,24148.16,EUR
+821,.1~547,547,C2,Market,02,7,500g Nut Muesli,14,North,4757,ST,7.08,33679.56,EUR
+822,.1~549,549,C2,Market,02,7,500g Nut Muesli,14,South,1278,ST,7.08,9048.24,EUR
+823,.1~551,551,C2,Market,02,7,500g Nut Muesli,14,West,3225,ST,7.08,22833.00,EUR
+824,.1~553,553,C2,Market,02,7,500g Original Muesli,14,North,1525,ST,5.77,8799.25,EUR
+825,.1~555,555,C2,Market,02,7,500g Original Muesli,14,South,1792,ST,5.77,10339.84,EUR
+826,.1~557,557,C2,Market,02,7,500g Original Muesli,14,West,2650,ST,5.77,15290.50,EUR
+827,.1~559,559,C2,Market,02,7,500g Raisin Muesli,14,North,4042,ST,5.79,23403.18,EUR
+828,.1~561,561,C2,Market,02,7,500g Raisin Muesli,14,South,7569,ST,5.69,43041.80,EUR
+829,.1~563,563,C2,Market,02,7,500g Raisin Muesli,14,West,4057,ST,5.73,23269.05,EUR
+830,.1~565,565,C2,Market,02,7,500g Strawberry Muesli,14,North,6400,ST,6.64,42145.75,EUR
+831,.1~567,567,C2,Market,02,7,500g Strawberry Muesli,14,South,4787,ST,6.85,32729.26,EUR
+832,.1~569,569,C2,Market,02,7,500g Strawberry Muesli,14,West,6535,ST,6.60,42966.80,EUR
+833,.1~571,571,C2,Market,02,8,1kg Blueberry Muesli,10,North,1614,ST,7.26,11717.64,EUR
+834,.1~573,573,C2,Market,02,8,1kg Blueberry Muesli,10,South,871,ST,7.26,6323.46,EUR
+835,.1~575,575,C2,Market,02,8,1kg Blueberry Muesli,10,West,2741,ST,7.26,19899.66,EUR
+836,.1~577,577,C2,Market,02,8,1kg Mixed Fruit Muesli,10,North,4816,ST,6.88,33257.21,EUR
+837,.1~579,579,C2,Market,02,8,1kg Mixed Fruit Muesli,10,South,6374,ST,6.91,44028.84,EUR
+838,.1~581,581,C2,Market,02,8,1kg Mixed Fruit Muesli,10,West,1876,ST,6.71,12587.96,EUR
+839,.1~583,583,C2,Market,02,8,1kg Original Muesli,10,North,2902,ST,6.35,18427.70,EUR
+840,.1~585,585,C2,Market,02,8,1kg Original Muesli,10,South,1098,ST,6.35,6972.30,EUR
+841,.1~587,587,C2,Market,02,8,1kg Original Muesli,10,West,2054,ST,6.35,13042.90,EUR
+842,.1~589,589,C2,Market,02,8,1kg Raisin Muesli,10,North,2034,ST,6.22,12621.72,EUR
+843,.1~591,591,C2,Market,02,8,1kg Raisin Muesli,10,South,3817,ST,6.38,24352.46,EUR
+844,.1~593,593,C2,Market,02,8,1kg Raisin Muesli,10,West,6235,ST,6.11,38120.74,EUR
+845,.1~595,595,C2,Market,02,8,1kg Strawberry Muesli,10,North,1831,ST,6.91,12652.21,EUR
+846,.1~597,597,C2,Market,02,8,1kg Strawberry Muesli,10,South,1859,ST,7.27,13514.93,EUR
+847,.1~599,599,C2,Market,02,8,1kg Strawberry Muesli,10,West,1655,ST,6.91,11436.05,EUR
+848,.1~601,601,C2,Market,02,8,1kg Blueberry Muesli,12,North,3294,ST,7.26,23914.44,EUR
+849,.1~603,603,C2,Market,02,8,1kg Blueberry Muesli,12,South,3318,ST,7.26,24088.68,EUR
+850,.1~605,605,C2,Market,02,8,1kg Blueberry Muesli,12,West,2687,ST,7.26,19507.62,EUR
+851,.1~607,607,C2,Market,02,8,1kg Mixed Fruit Muesli,12,North,9058,ST,7.06,63949.48,EUR
+852,.1~609,609,C2,Market,02,8,1kg Mixed Fruit Muesli,12,South,5162,ST,7.06,36443.72,EUR
+853,.1~611,611,C2,Market,02,8,1kg Mixed Fruit Muesli,12,West,5292,ST,7.06,37361.52,EUR
+854,.1~613,613,C2,Market,02,8,1kg Nut Muesli,12,South,990,ST,6.61,6543.90,EUR
+855,.1~615,615,C2,Market,02,8,1kg Original Muesli,12,North,2079,ST,6.35,13201.65,EUR
+856,.1~617,617,C2,Market,02,8,1kg Original Muesli,12,South,1025,ST,6.35,6508.75,EUR
+857,.1~619,619,C2,Market,02,8,1kg Original Muesli,12,West,1020,ST,6.35,6477.00,EUR
+858,.1~621,621,C2,Market,02,8,1kg Raisin Muesli,12,North,7907,ST,6.38,50446.66,EUR
+859,.1~623,623,C2,Market,02,8,1kg Raisin Muesli,12,South,12179,ST,6.38,77702.02,EUR
+860,.1~625,625,C2,Market,02,8,1kg Raisin Muesli,12,West,15423,ST,6.38,98398.74,EUR
+861,.1~627,627,C2,Market,02,8,1kg Strawberry Muesli,12,North,5987,ST,7.27,43525.49,EUR
+862,.1~629,629,C2,Market,02,8,1kg Strawberry Muesli,12,South,6629,ST,7.27,48192.83,EUR
+863,.1~631,631,C2,Market,02,8,1kg Strawberry Muesli,12,West,10708,ST,7.27,77847.16,EUR
+864,.1~633,633,C2,Market,02,8,500g Mixed Fruit Muesli,12,North,2160,ST,6.13,13240.80,EUR
+865,.1~635,635,C2,Market,02,8,500g Mixed Fruit Muesli,12,South,4856,ST,6.13,29767.28,EUR
+866,.1~637,637,C2,Market,02,8,500g Mixed Fruit Muesli,12,West,7527,ST,6.13,46140.51,EUR
+867,.1~639,639,C2,Market,02,8,500g Nut Muesli,12,North,6711,ST,5.90,39594.90,EUR
+868,.1~641,641,C2,Market,02,8,500g Nut Muesli,12,South,3331,ST,5.90,19652.90,EUR
+869,.1~643,643,C2,Market,02,8,500g Original Muesli,12,North,946,ST,5.77,5458.42,EUR
+870,.1~645,645,C2,Market,02,8,500g Raisin Muesli,12,North,4414,ST,5.79,25557.06,EUR
+871,.1~647,647,C2,Market,02,8,500g Raisin Muesli,12,South,1052,ST,5.79,6091.08,EUR
+872,.1~649,649,C2,Market,02,8,500g Raisin Muesli,12,West,4270,ST,5.79,24723.30,EUR
+873,.1~651,651,C2,Market,02,8,500g Strawberry Muesli,12,North,5036,ST,6.23,31374.28,EUR
+874,.1~653,653,C2,Market,02,8,500g Strawberry Muesli,12,South,12359,ST,6.23,76996.57,EUR
+875,.1~655,655,C2,Market,02,8,500g Strawberry Muesli,12,West,3012,ST,6.23,18764.76,EUR
+876,.1~657,657,C2,Market,02,8,500g Mixed Fruit Muesli,14,North,1828,ST,7.36,13454.08,EUR
+877,.1~659,659,C2,Market,02,8,500g Mixed Fruit Muesli,14,South,2528,ST,7.36,18606.08,EUR
+878,.1~661,661,C2,Market,02,8,500g Mixed Fruit Muesli,14,West,2620,ST,7.36,19283.20,EUR
+879,.1~663,663,C2,Market,02,8,500g Nut Muesli,14,North,1377,ST,7.08,9749.16,EUR
+880,.1~665,665,C2,Market,02,8,500g Nut Muesli,14,South,715,ST,7.08,5062.20,EUR
+881,.1~667,667,C2,Market,02,8,500g Nut Muesli,14,West,1379,ST,7.08,9763.32,EUR
+882,.1~669,669,C2,Market,02,8,500g Original Muesli,14,North,1506,ST,5.77,8689.62,EUR
+883,.1~671,671,C2,Market,02,8,500g Original Muesli,14,South,2271,ST,5.77,13103.67,EUR
+884,.1~673,673,C2,Market,02,8,500g Original Muesli,14,West,838,ST,5.77,4835.26,EUR
+885,.1~675,675,C2,Market,02,8,500g Raisin Muesli,14,North,6405,ST,5.60,35914.80,EUR
+886,.1~677,677,C2,Market,02,8,500g Raisin Muesli,14,South,4413,ST,5.79,25551.27,EUR
+887,.1~679,679,C2,Market,02,8,500g Raisin Muesli,14,West,8519,ST,5.65,48286.52,EUR
+888,.1~681,681,C2,Market,02,8,500g Strawberry Muesli,14,North,4854,ST,7.48,36307.92,EUR
+889,.1~683,683,C2,Market,02,8,500g Strawberry Muesli,14,South,1755,ST,7.48,13127.40,EUR
+890,.1~685,685,C2,Market,02,8,500g Strawberry Muesli,14,West,2381,ST,7.48,17809.88,EUR
+891,.1~687,687,C2,Market,03,9,1kg Blueberry Muesli,10,North,3548,ST,7.08,25120.56,EUR
+892,.1~689,689,C2,Market,03,9,1kg Blueberry Muesli,10,South,2628,ST,7.14,18768.60,EUR
+893,.1~691,691,C2,Market,03,9,1kg Mixed Fruit Muesli,10,North,970,ST,7.06,6848.20,EUR
+894,.1~693,693,C2,Market,03,9,1kg Mixed Fruit Muesli,10,South,3391,ST,7.06,23940.46,EUR
+895,.1~695,695,C2,Market,03,9,1kg Mixed Fruit Muesli,10,West,2734,ST,7.06,19302.04,EUR
+896,.1~697,697,C2,Market,03,9,1kg Nut Muesli,10,North,4123,ST,6.28,25892.44,EUR
+897,.1~699,699,C2,Market,03,9,1kg Nut Muesli,10,South,3938,ST,6.28,24730.64,EUR
+898,.1~701,701,C2,Market,03,9,1kg Nut Muesli,10,West,9065,ST,6.28,56928.20,EUR
+899,.1~703,703,C2,Market,03,9,1kg Raisin Muesli,10,North,2191,ST,6.06,13277.46,EUR
+900,.1~705,705,C2,Market,03,9,1kg Raisin Muesli,10,South,4138,ST,6.06,25076.28,EUR
+901,.1~707,707,C2,Market,03,9,1kg Raisin Muesli,10,West,1068,ST,6.06,6472.08,EUR
+902,.1~709,709,C2,Market,03,9,1kg Strawberry Muesli,10,North,3698,ST,6.91,25553.18,EUR
+903,.1~711,711,C2,Market,03,9,1kg Strawberry Muesli,10,West,1743,ST,6.91,12044.13,EUR
+904,.1~713,713,C2,Market,03,9,1kg Blueberry Muesli,12,North,3935,ST,7.26,28568.10,EUR
+905,.1~715,715,C2,Market,03,9,1kg Blueberry Muesli,12,South,8126,ST,7.26,58994.76,EUR
+906,.1~717,717,C2,Market,03,9,1kg Blueberry Muesli,12,West,4389,ST,7.26,31864.14,EUR
+907,.1~719,719,C2,Market,03,9,1kg Mixed Fruit Muesli,12,North,7770,ST,7.06,54856.20,EUR
+908,.1~721,721,C2,Market,03,9,1kg Mixed Fruit Muesli,12,South,971,ST,7.06,6855.26,EUR
+909,.1~723,723,C2,Market,03,9,1kg Mixed Fruit Muesli,12,West,4319,ST,7.06,30492.14,EUR
+910,.1~725,725,C2,Market,03,9,1kg Nut Muesli,12,North,3621,ST,6.61,23934.81,EUR
+911,.1~727,727,C2,Market,03,9,1kg Nut Muesli,12,South,16614,ST,6.61,109818.54,EUR
+912,.1~729,729,C2,Market,03,9,1kg Nut Muesli,12,West,12331,ST,6.61,81507.91,EUR
+913,.1~731,731,C2,Market,03,9,1kg Original Muesli,12,North,5093,ST,6.35,32340.55,EUR
+914,.1~733,733,C2,Market,03,9,1kg Original Muesli,12,West,910,ST,6.35,5778.50,EUR
+915,.1~735,735,C2,Market,03,9,1kg Raisin Muesli,12,North,2510,ST,6.38,16013.80,EUR
+916,.1~737,737,C2,Market,03,9,1kg Raisin Muesli,12,South,6020,ST,6.38,38407.60,EUR
+917,.1~739,739,C2,Market,03,9,1kg Raisin Muesli,12,West,4981,ST,6.38,31778.78,EUR
+918,.1~741,741,C2,Market,03,9,1kg Strawberry Muesli,12,North,1692,ST,7.27,12300.84,EUR
+919,.1~743,743,C2,Market,03,9,1kg Strawberry Muesli,12,South,6083,ST,7.27,44223.41,EUR
+920,.1~745,745,C2,Market,03,9,1kg Strawberry Muesli,12,West,6269,ST,7.27,45575.63,EUR
+921,.1~747,747,C2,Market,03,9,500g Nut Muesli,12,North,10784,ST,5.90,63625.60,EUR
+922,.1~749,749,C2,Market,03,9,500g Nut Muesli,12,West,1065,ST,5.90,6283.50,EUR
+923,.1~751,751,C2,Market,03,9,500g Original Muesli,12,West,1125,ST,5.77,6491.25,EUR
+924,.1~753,753,C2,Market,03,9,500g Strawberry Muesli,12,North,6525,ST,6.23,40650.75,EUR
+925,.1~755,755,C2,Market,03,9,500g Strawberry Muesli,12,West,996,ST,6.23,6205.08,EUR
+926,.1~757,757,C2,Market,03,9,500g Nut Muesli,14,North,6457,ST,5.90,38096.30,EUR
+927,.1~759,759,C2,Market,03,9,500g Nut Muesli,14,South,8691,ST,5.90,51276.90,EUR
+928,.1~761,761,C2,Market,03,9,500g Nut Muesli,14,West,5654,ST,5.90,33358.60,EUR
+929,.1~763,763,C2,Market,03,9,500g Original Muesli,14,North,3553,ST,5.77,20500.81,EUR
+930,.1~765,765,C2,Market,03,9,500g Original Muesli,14,South,808,ST,5.77,4662.16,EUR
+931,.1~767,767,C2,Market,03,9,500g Original Muesli,14,West,3350,ST,5.77,19329.50,EUR
+932,.1~769,769,C2,Market,03,9,500g Raisin Muesli,14,North,1738,ST,5.79,10063.02,EUR
+933,.1~771,771,C2,Market,03,9,500g Raisin Muesli,14,South,808,ST,5.79,4678.32,EUR
+934,.1~773,773,C2,Market,03,9,500g Raisin Muesli,14,West,1481,ST,5.79,8574.99,EUR
+935,.1~775,775,C2,Market,03,9,500g Strawberry Muesli,14,North,3500,ST,6.23,21805.00,EUR
+936,.1~777,777,C2,Market,03,9,500g Strawberry Muesli,14,South,1436,ST,6.23,8946.28,EUR
+937,.1~779,779,C2,Market,03,9,500g Strawberry Muesli,14,West,4301,ST,6.23,26795.23,EUR
+938,.1~781,781,C2,Market,03,10,1kg Blueberry Muesli,10,North,3549,ST,6.90,24488.10,EUR
+939,.1~783,783,C2,Market,03,10,1kg Blueberry Muesli,10,South,4772,ST,6.90,32926.80,EUR
+940,.1~785,785,C2,Market,03,10,1kg Blueberry Muesli,10,West,2781,ST,6.90,19188.90,EUR
+941,.1~787,787,C2,Market,03,10,1kg Nut Muesli,10,North,2980,ST,6.28,18714.40,EUR
+942,.1~789,789,C2,Market,03,10,1kg Nut Muesli,10,South,5096,ST,6.28,32002.88,EUR
+943,.1~791,791,C2,Market,03,10,1kg Nut Muesli,10,West,3018,ST,6.28,18953.04,EUR
+944,.1~793,793,C2,Market,03,10,1kg Original Muesli,10,West,1032,ST,6.35,6553.20,EUR
+945,.1~795,795,C2,Market,03,10,1kg Raisin Muesli,10,North,3161,ST,6.38,20167.18,EUR
+946,.1~797,797,C2,Market,03,10,1kg Raisin Muesli,10,South,3241,ST,6.38,20677.58,EUR
+947,.1~799,799,C2,Market,03,10,1kg Raisin Muesli,10,West,884,ST,6.38,5639.92,EUR
+948,.1~801,801,C2,Market,03,10,1kg Strawberry Muesli,10,North,4748,ST,6.91,32808.68,EUR
+949,.1~803,803,C2,Market,03,10,1kg Strawberry Muesli,10,South,1638,ST,6.91,11318.58,EUR
+950,.1~805,805,C2,Market,03,10,1kg Strawberry Muesli,10,West,5703,ST,6.91,39407.73,EUR
+951,.1~807,807,C2,Market,03,10,1kg Blueberry Muesli,12,North,11826,ST,7.26,85856.76,EUR
+952,.1~809,809,C2,Market,03,10,1kg Blueberry Muesli,12,South,11351,ST,7.26,82408.26,EUR
+953,.1~811,811,C2,Market,03,10,1kg Blueberry Muesli,12,West,14362,ST,7.26,104268.12,EUR
+954,.1~813,813,C2,Market,03,10,1kg Mixed Fruit Muesli,12,South,6,ST,7.06,42.36,EUR
+955,.1~815,815,C2,Market,03,10,1kg Nut Muesli,12,North,5768,ST,6.61,38126.48,EUR
+956,.1~817,817,C2,Market,03,10,1kg Nut Muesli,12,South,8311,ST,6.61,54935.71,EUR
+957,.1~819,819,C2,Market,03,10,1kg Nut Muesli,12,West,4145,ST,6.61,27398.45,EUR
+958,.1~821,821,C2,Market,03,10,1kg Original Muesli,12,North,927,ST,6.35,5886.45,EUR
+959,.1~823,823,C2,Market,03,10,1kg Original Muesli,12,South,3848,ST,6.35,24434.80,EUR
+960,.1~825,825,C2,Market,03,10,1kg Raisin Muesli,12,North,3911,ST,6.38,24952.18,EUR
+961,.1~827,827,C2,Market,03,10,1kg Raisin Muesli,12,South,7097,ST,6.38,45278.86,EUR
+962,.1~829,829,C2,Market,03,10,1kg Raisin Muesli,12,West,1893,ST,6.38,12077.34,EUR
+963,.1~831,831,C2,Market,03,10,1kg Strawberry Muesli,12,North,5077,ST,7.27,36909.79,EUR
+964,.1~833,833,C2,Market,03,10,1kg Strawberry Muesli,12,South,5196,ST,7.27,37774.92,EUR
+965,.1~835,835,C2,Market,03,10,1kg Strawberry Muesli,12,West,9336,ST,7.27,67872.72,EUR
+966,.1~837,837,C2,Market,03,10,500g Blueberry Muesli,12,North,8920,ST,6.23,55571.60,EUR
+967,.1~839,839,C2,Market,03,10,500g Blueberry Muesli,12,South,10942,ST,6.23,68168.66,EUR
+968,.1~841,841,C2,Market,03,10,500g Blueberry Muesli,12,West,9470,ST,6.23,58998.10,EUR
+969,.1~843,843,C2,Market,03,10,500g Nut Muesli,12,North,1970,ST,5.90,11623.00,EUR
+970,.1~845,845,C2,Market,03,10,500g Nut Muesli,12,West,1034,ST,5.90,6100.60,EUR
+971,.1~847,847,C2,Market,03,10,500g Original Muesli,12,North,987,ST,5.77,5694.99,EUR
+972,.1~849,849,C2,Market,03,10,500g Raisin Muesli,12,North,2266,ST,5.79,13120.14,EUR
+973,.1~851,851,C2,Market,03,10,500g Raisin Muesli,12,South,934,ST,5.79,5407.86,EUR
+974,.1~853,853,C2,Market,03,10,500g Raisin Muesli,12,West,4593,ST,5.79,26593.47,EUR
+975,.1~855,855,C2,Market,03,10,500g Strawberry Muesli,12,North,2017,ST,6.23,12565.91,EUR
+976,.1~857,857,C2,Market,03,10,500g Strawberry Muesli,12,South,3213,ST,6.23,20016.99,EUR
+977,.1~859,859,C2,Market,03,10,500g Strawberry Muesli,12,West,1053,ST,6.23,6560.19,EUR
+978,.1~861,861,C2,Market,03,10,500g Blueberry Muesli,14,North,8855,ST,6.23,55166.65,EUR
+979,.1~863,863,C2,Market,03,10,500g Blueberry Muesli,14,South,11851,ST,6.44,76044.20,EUR
+980,.1~865,865,C2,Market,03,10,500g Blueberry Muesli,14,West,9448,ST,6.41,60451.07,EUR
+981,.1~867,867,C2,Market,03,10,500g Nut Muesli,14,North,909,ST,5.90,5363.10,EUR
+982,.1~869,869,C2,Market,03,10,500g Nut Muesli,14,West,436,ST,5.90,2572.40,EUR
+983,.1~871,871,C2,Market,03,10,500g Original Muesli,14,North,2587,ST,5.77,14926.99,EUR
+984,.1~873,873,C2,Market,03,10,500g Original Muesli,14,South,1624,ST,5.77,9370.48,EUR
+985,.1~875,875,C2,Market,03,10,500g Raisin Muesli,14,North,5850,ST,5.74,33622.68,EUR
+986,.1~877,877,C2,Market,03,10,500g Raisin Muesli,14,South,3935,ST,5.79,22783.65,EUR
+987,.1~879,879,C2,Market,03,10,500g Raisin Muesli,14,West,5048,ST,5.64,28506.98,EUR
+988,.1~881,881,C2,Market,03,10,500g Strawberry Muesli,14,North,5271,ST,6.23,32838.33,EUR
+989,.1~883,883,C2,Market,03,10,500g Strawberry Muesli,14,South,2220,ST,6.23,13830.60,EUR
+990,.1~885,885,C2,Market,03,10,500g Strawberry Muesli,14,West,6468,ST,6.23,40295.64,EUR
+991,.1~887,887,C2,Market,03,11,1kg Blueberry Muesli,10,North,7498,ST,7.02,52536.84,EUR
+992,.1~889,889,C2,Market,03,11,1kg Blueberry Muesli,10,South,1772,ST,6.90,12226.80,EUR
+993,.1~891,891,C2,Market,03,11,1kg Blueberry Muesli,10,West,6450,ST,6.95,44835.84,EUR
+994,.1~893,893,C2,Market,03,11,1kg Mixed Fruit Muesli,10,North,789,ST,7.06,5570.34,EUR
+995,.1~895,895,C2,Market,03,11,1kg Mixed Fruit Muesli,10,South,979,ST,7.06,6911.74,EUR
+996,.1~897,897,C2,Market,03,11,1kg Mixed Fruit Muesli,10,West,901,ST,7.06,6361.06,EUR
+997,.1~899,899,C2,Market,03,11,1kg Nut Muesli,10,North,1915,ST,6.61,12658.15,EUR
+998,.1~901,901,C2,Market,03,11,1kg Nut Muesli,10,South,5773,ST,6.61,38159.53,EUR
+999,.1~903,903,C2,Market,03,11,1kg Nut Muesli,10,West,3818,ST,6.61,25236.98,EUR
+1000,.1~905,905,C2,Market,03,11,1kg Original Muesli,10,North,1849,ST,6.35,11741.15,EUR
+1001,.1~907,907,C2,Market,03,11,1kg Strawberry Muesli,10,North,818,ST,7.27,5946.86,EUR
+1002,.1~909,909,C2,Market,03,11,1kg Strawberry Muesli,10,South,4409,ST,7.21,32000.15,EUR
+1003,.1~911,911,C2,Market,03,11,1kg Strawberry Muesli,10,West,2401,ST,7.27,17455.27,EUR
+1004,.1~913,913,C2,Market,03,11,1kg Blueberry Muesli,12,North,8660,ST,7.26,62871.60,EUR
+1005,.1~915,915,C2,Market,03,11,1kg Blueberry Muesli,12,South,8680,ST,7.26,63016.80,EUR
+1006,.1~917,917,C2,Market,03,11,1kg Blueberry Muesli,12,West,11148,ST,7.26,80934.48,EUR
+1007,.1~919,919,C2,Market,03,11,1kg Mixed Fruit Muesli,12,North,1140,ST,7.06,8048.40,EUR
+1008,.1~921,921,C2,Market,03,11,1kg Mixed Fruit Muesli,12,South,3528,ST,7.06,24907.68,EUR
+1009,.1~923,923,C2,Market,03,11,1kg Mixed Fruit Muesli,12,West,939,ST,7.06,6629.34,EUR
+1010,.1~925,925,C2,Market,03,11,1kg Nut Muesli,12,North,951,ST,6.61,6286.11,EUR
+1011,.1~927,927,C2,Market,03,11,1kg Nut Muesli,12,South,6739,ST,6.61,44544.79,EUR
+1012,.1~929,929,C2,Market,03,11,1kg Nut Muesli,12,West,9192,ST,6.61,60759.12,EUR
+1013,.1~931,931,C2,Market,03,11,1kg Original Muesli,12,North,1832,ST,6.35,11633.20,EUR
+1014,.1~933,933,C2,Market,03,11,1kg Original Muesli,12,South,5277,ST,6.35,33508.95,EUR
+1015,.1~935,935,C2,Market,03,11,1kg Original Muesli,12,West,993,ST,6.35,6305.55,EUR
+1016,.1~937,937,C2,Market,03,11,1kg Raisin Muesli,12,North,3927,ST,6.38,25054.26,EUR
+1017,.1~939,939,C2,Market,03,11,1kg Raisin Muesli,12,South,1087,ST,6.38,6935.06,EUR
+1018,.1~941,941,C2,Market,03,11,1kg Raisin Muesli,12,West,799,ST,6.38,5097.62,EUR
+1019,.1~943,943,C2,Market,03,11,1kg Strawberry Muesli,12,North,4381,ST,7.27,31849.87,EUR
+1020,.1~945,945,C2,Market,03,11,1kg Strawberry Muesli,12,South,4114,ST,7.27,29908.78,EUR
+1021,.1~947,947,C2,Market,03,11,1kg Strawberry Muesli,12,West,8025,ST,7.27,58341.75,EUR
+1022,.1~949,949,C2,Market,03,11,500g Blueberry Muesli,12,North,9087,ST,6.23,56612.01,EUR
+1023,.1~951,951,C2,Market,03,11,500g Blueberry Muesli,12,South,12620,ST,6.23,78622.60,EUR
+1024,.1~953,953,C2,Market,03,11,500g Blueberry Muesli,12,West,5979,ST,6.23,37249.17,EUR
+1025,.1~955,955,C2,Market,03,11,500g Mixed Fruit Muesli,12,South,916,ST,6.13,5615.08,EUR
+1026,.1~957,957,C2,Market,03,11,500g Original Muesli,12,West,3139,ST,5.77,18112.03,EUR
+1027,.1~959,959,C2,Market,03,11,500g Raisin Muesli,12,North,6572,ST,5.79,38051.88,EUR
+1028,.1~961,961,C2,Market,03,11,500g Raisin Muesli,12,South,4468,ST,5.79,25869.72,EUR
+1029,.1~963,963,C2,Market,03,11,500g Raisin Muesli,12,West,3060,ST,5.79,17717.40,EUR
+1030,.1~965,965,C2,Market,03,11,500g Blueberry Muesli,14,North,4632,ST,7.40,34276.80,EUR
+1031,.1~967,967,C2,Market,03,11,500g Blueberry Muesli,14,South,5175,ST,7.40,38295.00,EUR
+1032,.1~969,969,C2,Market,03,11,500g Blueberry Muesli,14,West,4021,ST,7.40,29755.40,EUR
+1033,.1~971,971,C2,Market,03,11,500g Mixed Fruit Muesli,14,North,1344,ST,7.36,9891.84,EUR
+1034,.1~973,973,C2,Market,03,11,500g Mixed Fruit Muesli,14,South,2590,ST,7.36,19062.40,EUR
+1035,.1~975,975,C2,Market,03,11,500g Mixed Fruit Muesli,14,West,3878,ST,7.36,28542.08,EUR
+1036,.1~977,977,C2,Market,03,11,500g Original Muesli,14,North,2343,ST,5.77,13519.11,EUR
+1037,.1~979,979,C2,Market,03,11,500g Original Muesli,14,South,899,ST,5.77,5187.23,EUR
+1038,.1~981,981,C2,Market,03,11,500g Raisin Muesli,14,North,8286,ST,5.50,45573.00,EUR
+1039,.1~983,983,C2,Market,03,11,500g Raisin Muesli,14,South,8485,ST,5.50,46667.50,EUR
+1040,.1~985,985,C2,Market,03,11,500g Raisin Muesli,14,West,8437,ST,5.50,46403.50,EUR
+1041,.1~987,987,C2,Market,03,12,1kg Blueberry Muesli,10,South,1821,ST,7.26,13220.46,EUR
+1042,.1~989,989,C2,Market,03,12,1kg Mixed Fruit Muesli,10,North,5500,ST,6.71,36905.00,EUR
+1043,.1~991,991,C2,Market,03,12,1kg Mixed Fruit Muesli,10,South,1809,ST,7.06,12771.54,EUR
+1044,.1~993,993,C2,Market,03,12,1kg Mixed Fruit Muesli,10,West,4555,ST,6.71,30564.05,EUR
+1045,.1~995,995,C2,Market,03,12,1kg Nut Muesli,10,West,1231,ST,6.61,8136.91,EUR
+1046,.1~997,997,C2,Market,03,12,1kg Original Muesli,10,North,1035,ST,6.35,6572.25,EUR
+1047,.1~999,999,C2,Market,03,12,1kg Original Muesli,10,South,2901,ST,6.35,18421.35,EUR
+1048,.1~1001,1001,C2,Market,03,12,1kg Raisin Muesli,10,North,2141,ST,6.38,13659.58,EUR
+1049,.1~1003,1003,C2,Market,03,12,1kg Raisin Muesli,10,South,2818,ST,6.38,17978.84,EUR
+1050,.1~1005,1005,C2,Market,03,12,1kg Raisin Muesli,10,West,1041,ST,6.38,6641.58,EUR
+1051,.1~1007,1007,C2,Market,03,12,1kg Strawberry Muesli,10,North,958,ST,7.27,6964.66,EUR
+1052,.1~1009,1009,C2,Market,03,12,1kg Strawberry Muesli,10,South,3721,ST,7.27,27051.67,EUR
+1053,.1~1011,1011,C2,Market,03,12,1kg Strawberry Muesli,10,West,1539,ST,7.27,11188.53,EUR
+1054,.1~1013,1013,C2,Market,03,12,1kg Blueberry Muesli,12,North,2688,ST,7.26,19514.88,EUR
+1055,.1~1015,1015,C2,Market,03,12,1kg Blueberry Muesli,12,South,1802,ST,7.26,13082.52,EUR
+1056,.1~1017,1017,C2,Market,03,12,1kg Blueberry Muesli,12,West,3629,ST,7.26,26346.54,EUR
+1057,.1~1019,1019,C2,Market,03,12,1kg Mixed Fruit Muesli,12,North,11130,ST,7.06,78577.80,EUR
+1058,.1~1021,1021,C2,Market,03,12,1kg Mixed Fruit Muesli,12,South,14022,ST,7.06,98995.32,EUR
+1059,.1~1023,1023,C2,Market,03,12,1kg Mixed Fruit Muesli,12,West,12060,ST,7.06,85143.60,EUR
+1060,.1~1025,1025,C2,Market,03,12,1kg Nut Muesli,12,North,949,ST,6.61,6272.89,EUR
+1061,.1~1027,1027,C2,Market,03,12,1kg Nut Muesli,12,South,5524,ST,6.61,36513.64,EUR
+1062,.1~1029,1029,C2,Market,03,12,1kg Nut Muesli,12,West,3908,ST,6.61,25831.88,EUR
+1063,.1~1031,1031,C2,Market,03,12,1kg Original Muesli,12,North,399,ST,6.35,2533.65,EUR
+1064,.1~1033,1033,C2,Market,03,12,1kg Original Muesli,12,South,3726,ST,6.35,23660.10,EUR
+1065,.1~1035,1035,C2,Market,03,12,1kg Raisin Muesli,12,North,1834,ST,6.38,11700.92,EUR
+1066,.1~1037,1037,C2,Market,03,12,1kg Raisin Muesli,12,South,1882,ST,6.38,12007.16,EUR
+1067,.1~1039,1039,C2,Market,03,12,1kg Raisin Muesli,12,West,4858,ST,6.38,30994.04,EUR
+1068,.1~1041,1041,C2,Market,03,12,1kg Strawberry Muesli,12,North,1883,ST,7.27,13689.41,EUR
+1069,.1~1043,1043,C2,Market,03,12,1kg Strawberry Muesli,12,South,5328,ST,7.27,38734.56,EUR
+1070,.1~1045,1045,C2,Market,03,12,1kg Strawberry Muesli,12,West,2571,ST,7.27,18691.17,EUR
+1071,.1~1047,1047,C2,Market,03,12,500g Mixed Fruit Muesli,12,North,7122,ST,6.13,43657.86,EUR
+1072,.1~1049,1049,C2,Market,03,12,500g Mixed Fruit Muesli,12,South,2961,ST,6.13,18150.93,EUR
+1073,.1~1051,1051,C2,Market,03,12,500g Mixed Fruit Muesli,12,West,5240,ST,6.13,32121.20,EUR
+1074,.1~1053,1053,C2,Market,03,12,500g Nut Muesli,12,North,7502,ST,5.90,44261.80,EUR
+1075,.1~1055,1055,C2,Market,03,12,500g Nut Muesli,12,South,3240,ST,5.90,19116.00,EUR
+1076,.1~1057,1057,C2,Market,03,12,500g Nut Muesli,12,West,2038,ST,5.90,12024.20,EUR
+1077,.1~1059,1059,C2,Market,03,12,500g Raisin Muesli,12,North,3318,ST,5.79,19211.22,EUR
+1078,.1~1061,1061,C2,Market,03,12,500g Raisin Muesli,12,South,4374,ST,5.79,25325.46,EUR
+1079,.1~1063,1063,C2,Market,03,12,500g Raisin Muesli,12,West,5380,ST,5.79,31150.20,EUR
+1080,.1~1065,1065,C2,Market,03,12,500g Strawberry Muesli,12,North,2043,ST,6.23,12727.89,EUR
+1081,.1~1067,1067,C2,Market,03,12,500g Strawberry Muesli,12,South,3811,ST,6.23,23742.53,EUR
+1082,.1~1069,1069,C2,Market,03,12,500g Strawberry Muesli,12,West,2525,ST,6.23,15730.75,EUR
+1083,.1~1071,1071,C2,Market,03,12,500g Mixed Fruit Muesli,14,North,1262,ST,7.36,9288.32,EUR
+1084,.1~1073,1073,C2,Market,03,12,500g Mixed Fruit Muesli,14,South,3377,ST,7.36,24854.72,EUR
+1085,.1~1075,1075,C2,Market,03,12,500g Mixed Fruit Muesli,14,West,4260,ST,7.36,31353.60,EUR
+1086,.1~1077,1077,C2,Market,03,12,500g Nut Muesli,14,North,2398,ST,5.90,14148.20,EUR
+1087,.1~1079,1079,C2,Market,03,12,500g Nut Muesli,14,South,2232,ST,5.90,13168.80,EUR
+1088,.1~1081,1081,C2,Market,03,12,500g Nut Muesli,14,West,1590,ST,5.90,9381.00,EUR
+1089,.1~1083,1083,C2,Market,03,12,500g Original Muesli,14,North,1582,ST,5.77,9128.14,EUR
+1090,.1~1085,1085,C2,Market,03,12,500g Raisin Muesli,14,North,10315,ST,5.54,57209.84,EUR
+1091,.1~1087,1087,C2,Market,03,12,500g Raisin Muesli,14,South,8612,ST,5.55,47828.55,EUR
+1092,.1~1089,1089,C2,Market,03,12,500g Raisin Muesli,14,West,7621,ST,5.56,42382.40,EUR
+1093,.1~1091,1091,C2,Market,03,12,500g Strawberry Muesli,14,North,3087,ST,6.23,19232.01,EUR
+1094,.1~1093,1093,C2,Market,03,12,500g Strawberry Muesli,14,South,705,ST,6.23,4392.15,EUR
+1095,.1~1095,1095,C2,Market,03,12,500g Strawberry Muesli,14,West,3829,ST,6.23,23854.67,EUR

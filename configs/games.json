@@ -2,5 +2,5 @@
     "data_source_link": "https://e04.sapucc.in.tum.de/odata/907/",
     "username": "C_4",
     "password": "123456",
-    "auto_refresh": 30
+    "auto_refresh": 60
 }
