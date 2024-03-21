@@ -1,5 +1,4 @@
 {
-	"autopep8.args": ["--max-line-length", "120"],
 	"files.exclude": {
 		"**/.git": true,
 		"**/.svn": true,
@@ -7,7 +6,7 @@
 		"**/CVS": true,
 		"**/.DS_Store": true,
 		"**/Thumbs.db": true,
-		".venv": true,
+		".venv": false,
 		"LICENSE": true
 	},
 	"editor.formatOnSave": true,

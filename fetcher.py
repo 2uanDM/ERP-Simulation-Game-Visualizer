@@ -1,45 +1,42 @@
 import os
-import shutil
 import sys
 import time
+
 sys.path.append(os.getcwd())  # NOQA
 
 import json
+import sqlite3
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from datetime import datetime
+from typing import List
+
 import httpx
 import pandas as pd
 import polars as pl
-import sqlite3
-
-from lxml import etree
 from bs4 import BeautifulSoup as bs
-from typing import List
+from lxml import etree
 from pydantic import BaseModel
-from datetime import datetime
 
-from database.schema import Market, Inventory, Current_Inventory
 from database.init_db import init_db
+from database.schema import Current_Inventory, Inventory, Market
 
-from concurrent.futures import ThreadPoolExecutor, as_completed
-
-
-with open('configs/games.json', 'r') as f:
+with open("configs/games.json", "r") as f:
     CONFIG = json.load(f)
 
 
 table_to_model: dict = {
-    'Market': Market,
-    'Inventory': Inventory,
-    'Current_Inventory': Current_Inventory
-
+    "Market": Market,
+    "Inventory": Inventory,
+    "Current_Inventory": Current_Inventory,
 }
 
 
-class DataRefresher():
+class DataRefresher:
     def __init__(self, main_url: str, tables: list) -> None:
         """
-        Tables: 
+        Tables:
             ```python
-            Company_Valuation, Financial_Postings, Purchase_Orders, Production_Orders,  
+            Company_Valuation, Financial_Postings, Purchase_Orders, Production_Orders,
             Inventory, Current_Inventory, Market, Marketing_Expenses, Sales
             ```
         Args:
@@ -49,13 +46,20 @@ class DataRefresher():
         os.makedirs(".temp", exist_ok=True)
 
         self.tables = tables
-        self.urls = [f"{main_url}/{table}" if main_url[-1] != "/" else f"{main_url}{table}" for table in tables]
+        self.urls = [
+            f"{main_url}/{table}" if main_url[-1] != "/" else f"{main_url}{table}"
+            for table in tables
+        ]
 
     def _fetch_xml(self, url: str, table_name: str = None):
         try:
             with httpx.Client() as client:
-                response = client.get(url, follow_redirects=True, auth=(
-                    CONFIG['username'], CONFIG['password']), timeout=60)
+                response = client.get(
+                    url,
+                    follow_redirects=True,
+                    auth=(CONFIG["username"], CONFIG["password"]),
+                    timeout=60,
+                )
                 response.raise_for_status()
 
                 root = etree.fromstring(response.text)
@@ -80,12 +84,12 @@ class DataRefresher():
         with open(f".temp/{table_name}.xml", "r") as f:
             contents = f.read()
 
-        soup = bs(contents, 'xml')
-        rows = soup.find_all('content')
+        soup = bs(contents, "xml")
+        rows = soup.find_all("content")
 
         for row in rows:
             line = {}
-            columns = row.find('properties').find_all()
+            columns = row.find("properties").find_all()
 
             for column in columns:
                 line[column.name] = column.text.strip()
@@ -112,12 +116,12 @@ class DataRefresher():
         with open(f".temp/{table_name}.xml", "r") as f:
             contents = f.read()
 
-        soup = bs(contents, 'xml')
-        rows = soup.find_all('content')
+        soup = bs(contents, "xml")
+        rows = soup.find_all("content")
 
         for row in rows:
             line = {}
-            columns = row.find('properties').find_all()
+            columns = row.find("properties").find_all()
 
             for column in columns:
                 line[column.name] = column.text.strip()
@@ -156,12 +160,12 @@ class DataRefresher():
             url (str): The url to the server
         """
 
-        table = url.split('/')[-1]
+        table = url.split("/")[-1]
         print(f'Fetching data of table: "{table}"...')
 
         # Remove the old xml file
-        if os.path.exists(f'.temp/{table}.xml'):
-            os.remove(f'.temp/{table}.xml')
+        if os.path.exists(f".temp/{table}.xml"):
+            os.remove(f".temp/{table}.xml")
 
         # Fetch the data
         self._fetch_xml(url=url, table_name=table)
@@ -176,7 +180,7 @@ class DataRefresher():
         model = table_to_model[table_name]
         model_data = self._xml_to_model(table_name=table_name, model=model)
         if model_data == []:
-            print('=> No data to push!')
+            print("=> No data to push!")
         else:
             query = self._build_insert_query(table_name=table_name, model=model_data)
             conn.executescript(query)
@@ -185,15 +189,15 @@ class DataRefresher():
     def run(self):
         while True:
             # Connect to the database
-            self.conn = sqlite3.connect('erp.db')
+            self.conn = sqlite3.connect("erp.db")
 
             datetime_now = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
             print(f"========>> [{datetime_now}] - Refreshing data...")
 
-            print('===> Recreating the database...')
+            print("===> Recreating the database...")
             init_db(self.tables)
 
-            print('===> Fetching data')
+            print("===> Fetching data")
 
             done_tables = []
 
@@ -204,37 +208,80 @@ class DataRefresher():
                     table: str = future.result()
                     done_tables.append(table)
 
-            # print('===> Pushing data to the database...')
+            print("===> Pushing data to the database...")
 
-            # # for table in done_tables:
-            # for table in list(table_to_model.keys()):
-            #     self._insert_db(table_name=table, conn=self.conn)
+            # for table in done_tables:
+            for table in list(table_to_model.keys()):
+                self._insert_db(table_name=table, conn=self.conn)
 
-            # print('===> Done pushing to database!')
-            # print('===> Closing the connection...')
+            print("===> Done pushing to database!")
+            print("===> Closing the connection...")
 
-            # # Close the connection
-            # self.conn.close()
+            # Close the connection
+            self.conn.close()
 
-            # with open('configs/games.json', 'r') as f:
-            #     CONFIG = json.load(f)
+            with open("configs/games.json", "r") as f:
+                CONFIG = json.load(f)
 
             print(f"===> Next run: {CONFIG['auto_refresh']} seconds")
 
-            for i in range(CONFIG['auto_refresh']):
-                print(f"===> {CONFIG['auto_refresh'] - i} seconds left", end='\r')
+            for i in range(CONFIG["auto_refresh"]):
+                print(f"===> {CONFIG['auto_refresh'] - i} seconds left", end="\r")
                 time.sleep(1)
 
-            print('\n\n')
+            print("\n\n")
+
+    def run_save_csv(self):
+        # # Fetch the data
+        # with ThreadPoolExecutor(max_workers=10) as executor:
+        #     futures = [
+        #         executor.submit(self._fetch_xml, url, table_name)
+        #         for url, table_name in zip(self.urls, self.tables)
+        #     ]
+
+        #     for future in as_completed(futures):
+        #         future.result()
+
+        # Convert the xml to csv
+        with ThreadPoolExecutor(max_workers=10) as executor:
+            futures = {}
+
+            for table in self.tables:
+                futures[table] = executor.submit(self._xml_to_df, table)
+
+            for table, future in futures.items():
+                future.result().to_csv(f"output/{table}.csv")
 
 
-if __name__ == '__main__':
-    main_url = CONFIG['data_source_link']
+if __name__ == "__main__":
+    main_url = CONFIG["data_source_link"]
 
-    tables = ['Market', 'Inventory', 'Current_Inventory',  'Company_Valuation',
-              'Financial_Postings', 'Purchase_Orders', 'Production_Orders',
-              'Marketing_Expenses', 'Sales', 'NPS_Surveys']
+    tables = [
+        "BOM_Changes",
+        "Carbon_Emissions",
+        "Company_Valuation",
+        "Financial_Postings",
+        "Goods_Movements",
+        "Independent_Requirements",
+        "Purchase_Orders",
+        "Production_Orders",
+        "Inventory",
+        "Current_Inventory",
+        "Current_Inventory_KPI",
+        "Current_Suppliers_Prices",
+        "Market",
+        "Marketing_Expenses",
+        "NPS_Surveys",
+        "Pricing_Conditions",
+        "Production",
+        "Current_Game_Rules",
+        "Sales",
+        "Suppliers_Prices",
+        "Stock_Transfers",
+    ]
 
     data_refresher = DataRefresher(main_url=main_url, tables=tables)
 
     data_refresher.run()
+
+    # data_refresher.run_save_csv()
