@@ -319,19 +319,6 @@ class DataRefresher:
             if result:
                 print(result)
 
-        # with ThreadPoolExecutor(max_workers=1) as executor:
-        #     futures = [
-        #         executor.submit(self.__subprocess_xmls_to_models, table, folder_dir)
-        #         for table in tables
-        #     ]
-
-        #     for idx, future in enumerate(as_completed(futures)):
-        #         print(f"Processing table {idx + 1}/{len(tables)}...")
-        #         result = future.result()
-
-        #         if result:
-        #             print(result)
-
     def xmls_to_csvs(self, fetch_data: bool = False):
         if fetch_data:
             # Fetch the data
@@ -382,7 +369,6 @@ if __name__ == "__main__":
     ]
 
     data_refresher = DataRefresher(main_url=main_url, tables=tables)
-
     data_refresher.run()
 
     # start_time = time.time()
