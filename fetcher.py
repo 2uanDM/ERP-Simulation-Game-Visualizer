@@ -1,6 +1,7 @@
 import os
 import sys
 import time
+import traceback
 
 sys.path.append(os.getcwd())  # NOQA
 
@@ -18,16 +19,52 @@ from lxml import etree
 from pydantic import BaseModel
 
 from database.init_db import init_db
-from database.schema import Current_Inventory, Inventory, Market
+from database.schema import (
+    BOM_Changes,
+    Carbon_Emission,
+    Company_Valuation,
+    Current_Inventory,
+    Current_Inventory_KPI,
+    Current_Suppliers_Prices,
+    Financial_Postings,
+    Goods_Movements,
+    Independent_Requirements,
+    Inventory,
+    Market,
+    Marketing_Expenses,
+    NPS_Surveys,
+    Pricing_Conditions,
+    Production,
+    Production_Orders,
+    Purchase_Orders,
+    Sales,
+    Suppliers_Prices,
+)
 
 with open("configs/games.json", "r") as f:
     CONFIG = json.load(f)
 
 
 table_to_model: dict = {
+    "BOM_Changes": BOM_Changes,
+    "Carbon_Emissions": Carbon_Emission,
+    "Company_Valuation": Company_Valuation,
+    "Current_Inventory": Current_Inventory,
+    "Current_Inventory_KPI": Current_Inventory_KPI,
+    "Current_Suppliers_Prices": Current_Suppliers_Prices,
+    "Financial_Postings": Financial_Postings,
+    "Goods_Movements": Goods_Movements,
+    "Independent_Requirements": Independent_Requirements,
     "Market": Market,
     "Inventory": Inventory,
-    "Current_Inventory": Current_Inventory,
+    "Marketing_Expenses": Marketing_Expenses,
+    "NPS_Surveys": NPS_Surveys,
+    "Pricing_Conditions": Pricing_Conditions,
+    "Production": Production,
+    "Production_Orders": Production_Orders,
+    "Purchase_Orders": Purchase_Orders,
+    "Sales": Sales,
+    "Suppliers_Prices": Suppliers_Prices,
 }
 
 
@@ -70,7 +107,12 @@ class DataRefresher:
         except httpx.HTTPError as e:
             print(f"HTTP Error: {e}")
 
-    def _xml_to_model(self, table_name: str, model: BaseModel) -> list:
+    def _xml_to_model(
+        self,
+        table_name: str,
+        model: BaseModel,
+        parent_dir: str = ".temp",
+    ) -> list:
         """
             Convert the xml file to the pydantic model
         Args:
@@ -81,7 +123,7 @@ class DataRefresher:
         """
         lines = []
 
-        with open(f".temp/{table_name}.xml", "r") as f:
+        with open(f"{parent_dir}/{table_name}.xml", "r") as f:
             contents = f.read()
 
         soup = bs(contents, "xml")
@@ -133,6 +175,7 @@ class DataRefresher:
         return df
 
     def _build_insert_query(self, table_name: str, model: List[BaseModel]):
+        print(f"=> Building query for table: {table_name}...")
         columns = list(model[0].model_dump().keys())
 
         query = f"INSERT INTO {table_name} ({','.join(columns)})\nVALUES\n"
@@ -142,7 +185,7 @@ class DataRefresher:
             # Query need to handel for the case string value or int, float value (no quote)
             for column in columns:
                 if isinstance(getattr(value, column), str):
-                    query += f"'{getattr(value, column)}',"
+                    query += f'"{getattr(value, column)}",'
                 else:
                     query += f"{getattr(value, column)},"
 
@@ -188,6 +231,7 @@ class DataRefresher:
 
     def run(self):
         while True:
+            start_time = time.time()
             # Connect to the database
             self.conn = sqlite3.connect("erp.db")
 
@@ -201,7 +245,7 @@ class DataRefresher:
 
             done_tables = []
 
-            with ThreadPoolExecutor(max_workers=10) as executor:
+            with ThreadPoolExecutor(max_workers=22) as executor:
                 futures = [executor.submit(self._fetch_data, url) for url in self.urls]
 
                 for future in as_completed(futures):
@@ -210,15 +254,8 @@ class DataRefresher:
 
             print("===> Pushing data to the database...")
 
-            # for table in done_tables:
-            for table in list(table_to_model.keys()):
-                self._insert_db(table_name=table, conn=self.conn)
-
-            print("===> Done pushing to database!")
-            print("===> Closing the connection...")
-
-            # Close the connection
-            self.conn.close()
+            self.xmls_to_models(folder_dir=".temp")
+            print(f"Time taken: {time.time() - start_time} seconds")
 
             with open("configs/games.json", "r") as f:
                 CONFIG = json.load(f)
@@ -231,16 +268,81 @@ class DataRefresher:
 
             print("\n\n")
 
-    def run_save_csv(self):
-        # # Fetch the data
-        # with ThreadPoolExecutor(max_workers=10) as executor:
+    def __subprocess_xmls_to_models(self, table: str, folder_dir: str):
+        if table in (
+            "Carbon_Emissions.xml",
+            "Current_Game_Rules.xml",
+            "Stock_Transfers.xml",
+            "NPS_Surveys.xml",
+        ):
+            return
+
+        just_name = table.split(".")[0]
+        if just_name == "":  # .placeholder
+            return
+
+        model = table_to_model[just_name]
+        model_data = self._xml_to_model(
+            table_name=just_name, model=model, parent_dir=folder_dir
+        )
+
+        # Insert the data to the database
+        conn = sqlite3.connect("erp.db")
+        query = self._build_insert_query(table_name=just_name, model=model_data)
+
+        if model_data == []:
+            return f"No data to push for table: {just_name}"
+        else:
+            try:
+                conn.executescript(query)
+                conn.commit()
+            except Exception:
+                print(traceback.format_exc())  # noqa: F821
+                print(f"Query: {query}")
+                return
+
+            conn.close()
+            return f"Data of table: {just_name} is pushed successfully!"
+
+    def xmls_to_models(self, folder_dir: str):
+        if not os.path.exists(folder_dir):
+            raise FileNotFoundError(f"Folder {folder_dir} not found!")
+
+        # Recreate the database
+        init_db(self.tables)
+
+        tables = os.listdir(folder_dir)
+
+        # In this case, don't use ThreadPoolExecutor will be faster
+        for table in tables:
+            result = self.__subprocess_xmls_to_models(table, folder_dir)
+            if result:
+                print(result)
+
+        # with ThreadPoolExecutor(max_workers=1) as executor:
         #     futures = [
-        #         executor.submit(self._fetch_xml, url, table_name)
-        #         for url, table_name in zip(self.urls, self.tables)
+        #         executor.submit(self.__subprocess_xmls_to_models, table, folder_dir)
+        #         for table in tables
         #     ]
 
-        #     for future in as_completed(futures):
-        #         future.result()
+        #     for idx, future in enumerate(as_completed(futures)):
+        #         print(f"Processing table {idx + 1}/{len(tables)}...")
+        #         result = future.result()
+
+        #         if result:
+        #             print(result)
+
+    def xmls_to_csvs(self, fetch_data: bool = False):
+        if fetch_data:
+            # Fetch the data
+            with ThreadPoolExecutor(max_workers=10) as executor:
+                futures = [
+                    executor.submit(self._fetch_xml, url, table_name)
+                    for url, table_name in zip(self.urls, self.tables)
+                ]
+
+                for idx, future in enumerate(as_completed(futures)):
+                    future.result()
 
         # Convert the xml to csv
         with ThreadPoolExecutor(max_workers=10) as executor:
@@ -271,7 +373,6 @@ if __name__ == "__main__":
         "Current_Suppliers_Prices",
         "Market",
         "Marketing_Expenses",
-        "NPS_Surveys",
         "Pricing_Conditions",
         "Production",
         "Current_Game_Rules",
@@ -282,6 +383,10 @@ if __name__ == "__main__":
 
     data_refresher = DataRefresher(main_url=main_url, tables=tables)
 
-    # data_refresher.run()
+    data_refresher.run()
 
-    data_refresher.run_save_csv()
+    # start_time = time.time()
+    # data_refresher.xmls_to_models(folder_dir=".temp")
+    # print(f"Time taken: {time.time() - start_time} seconds")
+
+    # data_refresher.xmls_to_csvs()
