@@ -80,7 +80,7 @@ class DataRefresher:
             tables (list): The list of table name
         """
 
-        os.makedirs(".temp", exist_ok=True)
+        # os.makedirs(".temp", exist_ok=True)
 
         self.tables = tables
         self.urls = [
@@ -176,6 +176,7 @@ class DataRefresher:
 
     def _build_insert_query(self, table_name: str, model: List[BaseModel]):
         print(f"=> Building query for table: {table_name}...")
+
         columns = list(model[0].model_dump().keys())
 
         query = f"INSERT INTO {table_name} ({','.join(columns)})\nVALUES\n"
@@ -288,11 +289,11 @@ class DataRefresher:
 
         # Insert the data to the database
         conn = sqlite3.connect("erp.db")
-        query = self._build_insert_query(table_name=just_name, model=model_data)
 
         if model_data == []:
             return f"No data to push for table: {just_name}"
         else:
+            query = self._build_insert_query(table_name=just_name, model=model_data)
             try:
                 conn.executescript(query)
                 conn.commit()
@@ -369,10 +370,10 @@ if __name__ == "__main__":
     ]
 
     data_refresher = DataRefresher(main_url=main_url, tables=tables)
-    data_refresher.run()
+    # data_refresher.run()
 
     # start_time = time.time()
     # data_refresher.xmls_to_models(folder_dir=".temp")
     # print(f"Time taken: {time.time() - start_time} seconds")
 
-    # data_refresher.xmls_to_csvs()
+    data_refresher.xmls_to_csvs()
