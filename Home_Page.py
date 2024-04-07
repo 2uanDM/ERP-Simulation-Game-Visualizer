@@ -1,9 +1,12 @@
 import json
+import os
+import shutil
 import subprocess
 
 import streamlit as st
 
-from utils.common import product_info
+from fetcher import DataRefresher
+from utils.common import product_info, tables
 
 st.set_page_config(
     page_title="ERP SIMULATION",
@@ -24,6 +27,7 @@ class HomePage:
 
         if self.role == "Admin":
             self.setup_input_config_ui()
+            self.setup_database_management_ui()
 
     def init_ui(self):
         st.write("---")
@@ -70,8 +74,6 @@ class HomePage:
             "Refresh data after (s)", value=config["auto_refresh"], step=1, format="%d"
         )
 
-        print(f"==>> self.data_source_link: {self.data_source_link}")
-
         # Show the save button
         if st.sidebar.button("Save Config", use_container_width=True):
             self._save_config()
@@ -101,6 +103,78 @@ class HomePage:
             unsafe_allow_html=True,
         )
 
+    def _create_database_from_xmls(self):
+        def load_files():
+            with st.spinner("Creating database..."):
+                if xml_files:
+                    shutil.rmtree(".temp", ignore_errors=True)
+                    os.makedirs(".temp", exist_ok=True)  # noqa: F821
+                    for file in xml_files:
+                        with open(f".temp/{file.name}", "wb") as f:
+                            f.write(file.read())
+
+                    refresher = DataRefresher()
+                    refresher._set_tables(tables)
+                    refresher.xmls_to_models(folder_dir=".temp")
+
+                    st.success("Database created successfully!")
+
+        xml_files = st.file_uploader(
+            "Choose folder with xmls",
+            type=["xml"],
+            accept_multiple_files=True,
+            key="xml_files",
+        )
+
+        st.button(
+            "Create Database", key="create_database_xmls", on_click=lambda: load_files()
+        )
+
+    def _create_database_from_csv(self):
+        def load_files():
+            with st.spinner("Creating database..."):
+                if csv_files:
+                    shutil.rmtree(".temp_csvs", ignore_errors=True)
+                    os.makedirs(".temp_csvs", exist_ok=True)
+                    for file in csv_files:
+                        with open(f".temp_csvs/{file.name}", "wb") as f:
+                            f.write(file.read())
+
+                    refresher = DataRefresher()
+                    refresher._set_tables(tables)
+                    refresher.csvs_to_models(folder_dir=".temp_csvs")
+
+                    st.success("Database created successfully!")
+
+        csv_files = st.file_uploader(
+            "Choose folder with csvs",
+            type=["csv"],
+            accept_multiple_files=True,
+            key="csv_files",
+        )
+
+        st.button(
+            "Create Database", key="create_database_csvs", on_click=lambda: load_files()
+        )
+
+    def _export_csv_from_xmls(self):
+        pass
+
+    def setup_database_management_ui(self):
+        st.write("---")
+        # Mode 1: Create database from xmls
+        st.markdown("### Mode 1: Create database from xmls")
+        self._create_database_from_xmls()
+
+        st.write("---")
+        # Mode 2: Create databse from csv
+        st.markdown("### Mode 2: Create database from csv")
+        self._create_database_from_csv()
+
+        st.write("---")
+        # Mode 3: Export csv from xmls
+        st.markdown("### Mode 3: Export csv from xmls")
+
     def start_simulation(self):
         st.toast("Simulation Started! Good luck", icon="🚀")
 
@@ -108,7 +182,9 @@ class HomePage:
         command = "call .venv/Scripts/activate.bat && python fetcher.py"
 
         # Run the command
-        subprocess.call(command, shell=True)
+        subprocess.Popen(
+            command, shell=True, creationflags=subprocess.CREATE_NEW_CONSOLE
+        )
 
 
 if __name__ == "__main__":
