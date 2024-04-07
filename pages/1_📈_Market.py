@@ -50,6 +50,7 @@ class Market:
                 <p class="toc_title">Contents</p>
                 <ul class="toc_list">
                     <li><a style="text-decoration: none;" href="#market-revenue">Market Revenue</a></li>
+                    <li><a style="text-decoration: none;" href="#market-products-ranking">Market Products Ranking</a></li>
                     <li><a style="text-decoration: none;" href="#market-unit-sold">Market Unit Sold</a></li>
                     <li><a style="text-decoration: none;" href="#market-average-price">Market Average Price</a></li>
                     <li><a style="text-decoration: none;" href="#market-bar-chart">Market Bar Chart</a></li>
@@ -202,6 +203,55 @@ class Market:
 
         return result.fetchall()
 
+    def _query_ranking_products(
+        self,
+        rounds: list,
+        weeks: list,
+        distribution_channels: list,
+        area: list,
+    ):
+        result = self.conn.execute(f"""
+            with company_unit_sold as (
+                select
+                    p.CODE,
+                    sum(QUANTITY) as total_quantity
+                from Product as p
+                left join Market as m
+                    on m.MATERIAL_DESCRIPTION = p.NAME
+                where 1 = 1
+                    and m.SIM_ROUND in ({','.join([str(i) for i in rounds])})
+                    and m.SIM_PERIOD in ({','.join([str(i) for i in weeks])})
+                    and m.AREA in ({','.join([f"'{i}'" for i in area])})
+                    and m.DISTRIBUTION_CHANNEL in ({','.join([str(i) for i in distribution_channels])})
+                    and m.SALES_ORGANIZATION = 'Company'
+                group by p.CODE
+            ), market_unit_sold as (
+                select
+                    p.CODE,
+                    sum(QUANTITY) as total_quantity
+                from Product as p
+                left join Market as m
+                    on m.MATERIAL_DESCRIPTION = p.NAME
+                where 1 = 1
+                    and m.SIM_ROUND in ({','.join([str(i) for i in rounds])})
+                    and m.SIM_PERIOD in ({','.join([str(i) for i in weeks])})
+                    and m.AREA in ({','.join([f"'{i}'" for i in area])})
+                    and m.DISTRIBUTION_CHANNEL in ({','.join([str(i) for i in distribution_channels])})
+                    and m.SALES_ORGANIZATION = 'Market'
+                group by p.CODE
+            )
+            select
+                c.CODE,
+                c.total_quantity as company_sold,
+                m.total_quantity as market_sold,
+                round((c.total_quantity * 1.0 / m.total_quantity),3) * 100 as proportion,
+                rank() over (order by (c.total_quantity * 1.0 / m.total_quantity) desc) as rank
+            from company_unit_sold as c, market_unit_sold as m
+            where c.CODE = m.CODE;
+            """)
+
+        return result.fetchall()
+
     """-----------------------------UI Elements-----------------------------"""
 
     def market_revenue(self):
@@ -229,12 +279,80 @@ class Market:
         st.dataframe(df, use_container_width=True)
 
         st.write("---")
-        st.line_chart(
-            data=df.iloc[:-1, :][["Company Revenue", "Market Revenue"]],
-            color=["#FF0000", "#00FF00"],
-            width=1,
-            use_container_width=True,
+        # st.line_chart(
+        #     data=df.iloc[:-1, :][["Company Revenue", "Market Revenue"]],
+        #     color=["#FF0000", "#00FF00"],
+        #     width=1,
+        #     use_container_width=True,
+        # )
+
+    def market_products_ranking(self):
+        st.markdown("### Market Products Ranking")
+
+        col1, col2 = st.columns(2)
+
+        with col1:
+            self.max_round: int = int(
+                self.conn.execute(""" 
+                SELECT MAX(SIM_ROUND) FROM Market;
+            """).fetchone()[0]
+            )
+
+            choose_rounds: list = st.multiselect(
+                label="Round",
+                options=[i for i in range(1, self.max_round + 1)],
+                default=[i for i in range(1, self.max_round + 1)],
+                key="market_products_ranking_rounds",
+            )
+
+        with col2:
+            # Get the lastest week from the table Market
+            self.max_week: int = int(
+                self.conn.execute("""
+                SELECT MAX(SIM_PERIOD) FROM Market;
+            """).fetchone()[0]
+            )
+
+            choose_weeks: list = st.multiselect(
+                label="Week",
+                options=[i for i in range(1, self.max_week + 1)],
+                default=[i for i in range(1, self.max_week + 1)],
+                key="market_products_ranking_weeks",
+            )
+
+        col3, col4 = st.columns(2)
+
+        with col3:
+            result = self.conn.execute("""
+                SELECT DISTINCT AREA FROM Market;
+            """).fetchall()
+
+            choose_area: list = st.multiselect(
+                label="Area",
+                options=[i[0] for i in result],
+                default=[i[0] for i in result],
+                key="market_products_ranking_area",
+            )
+
+        with col4:
+            choose_distribution_channels: list = st.multiselect(
+                label="Distribution Channel",
+                options=[10, 12, 14],
+                default=[10, 12, 14],
+                key="market_products_ranking_distribution_channels",
+            )
+
+        data = self._query_ranking_products(
+            choose_rounds, choose_weeks, choose_distribution_channels, choose_area
         )
+
+        # Create the DataFrame
+        headers = ["Code", "Company Sold", "Market Sold", "Proportion", "Rank"]
+        df = pd.DataFrame(data, columns=headers)
+        df.set_index("Code", inplace=True)
+
+        # Create the table
+        st.dataframe(df, use_container_width=True)
 
     def market_unit_sold(self):
         data = self._query_unit_sold()
@@ -260,19 +378,14 @@ class Market:
 
         st.dataframe(df, use_container_width=True)
         st.write("---")
-        st.line_chart(
-            data=df.iloc[:-1, :][["Company Quantity", "Market Quantity"]],
-            color=["#FF0000", "#00FF00"],
-            width=1,
-            use_container_width=True,
-        )
+        # st.line_chart(
+        #     data=df.iloc[:-1, :][["Company Quantity", "Market Quantity"]],
+        #     color=["#FF0000", "#00FF00"],
+        #     width=1,
+        #     use_container_width=True,
+        # )
 
     def market_average_price(self):
-        # Get the lastest week from the table Market
-        self.max_week: int = self.conn.execute("""
-            SELECT MAX(SIM_PERIOD) FROM Market;
-        """).fetchone()[0]
-
         st.markdown("### Market Average Price")
 
         col1, col2 = st.columns(2)
@@ -411,11 +524,14 @@ class Market:
             # Create a table of content relative to the markdown headers
             self.market_revenue()
             st.write("---")
+            self.market_products_ranking()
+            st.write("---")
             self.market_unit_sold()
             st.write("---")
             self.market_average_price()
             st.write("---")
             self.market_bar_chart()
+
         except ZeroDivisionError:
             st.error(
                 "Data is being loaded, please wait a few seconds and refresh the page again!"
