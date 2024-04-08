@@ -1,13 +1,11 @@
-FROM ubuntu:latest
+FROM python:3.11-slim
 
 WORKDIR /app
 
 COPY . /app
 
-RUN apt-get update && apt-get install -y python3.11 python3-pip
+RUN pip install -r requirements.txt
 
-RUN pip3 install -r requirements.txt
+EXPOSE 8000
 
-EXPOSE 443
-
-CMD ["streamlit", "run", "Home_Page.py", "--server.port", "443", "--server.address", "0.0.0.0"]
+CMD ["streamlit", "run", "Home_Page.py", "--server.port", "8000", "--server.address", "0.0.0.0"]
