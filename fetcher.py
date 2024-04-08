@@ -1,4 +1,5 @@
 import os
+import shutil
 import sys
 import traceback
 
@@ -7,6 +8,7 @@ sys.path.append(os.getcwd())  # NOQA
 import json
 import sqlite3
 import time
+import zipfile
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from typing import List
@@ -243,7 +245,7 @@ class DataRefresher:
             if result:
                 print(result)
 
-    def _xml_to_df(self, table_name: str) -> pd.DataFrame:
+    def _xml_to_df(self, table_name: str, folder_dir: str) -> pd.DataFrame:
         """
             Convert the xml file to the csv
         Args:
@@ -255,7 +257,7 @@ class DataRefresher:
 
         lines = []
 
-        with open(f".temp/{table_name}.xml", "r") as f:
+        with open(f"{folder_dir}/{table_name}.xml", "r") as f:
             contents = f.read()
 
         soup = bs(contents, "xml")
@@ -274,27 +276,38 @@ class DataRefresher:
 
         return df
 
-    def xmls_to_csvs(self, fetch_data: bool = False):
-        if fetch_data:
-            # Fetch the data
-            with ThreadPoolExecutor(max_workers=10) as executor:
-                futures = [
-                    executor.submit(self._fetch_xml, url, table_name)
-                    for url, table_name in zip(self.urls, self.tables)
-                ]
+    def xmls_to_csvs(self) -> str:
+        """
+            Convert the xml files to the csv and return the path to the zip file
+        Args:
+            folder_dir (str): _description_
 
-                for idx, future in enumerate(as_completed(futures)):
-                    future.result()
+        Returns:
+            str: _description_
+        """
+        shutil.rmtree(".temp_csvs", ignore_errors=True)
+        os.makedirs(".temp_csvs", exist_ok=True)
 
         # Convert the xml to csv
         with ThreadPoolExecutor(max_workers=10) as executor:
             futures = {}
 
             for table in self.tables:
-                futures[table] = executor.submit(self._xml_to_df, table)
+                futures[table] = executor.submit(self._xml_to_df, table, ".temp")
 
             for table, future in futures.items():
-                future.result().to_csv(f"output/{table}.csv")
+                future.result().to_csv(f".temp_csvs/{table}.csv")
+
+        # Zip the csv files
+        date_now = datetime.now().strftime("%d-%m-%Y_%H-%M-%S")
+        os.makedirs("export", exist_ok=True)
+        with zipfile.ZipFile(f"export/{date_now}-erp_csvs.zip", "w") as zipf:
+            for table in self.tables:
+                zipf.write(f"{table}.csv")
+
+        shutil.rmtree(".temp_csvs", ignore_errors=True)
+
+        return f"export/{date_now}-erp_csvs.zip"
 
     def _csv_to_model(
         self,
