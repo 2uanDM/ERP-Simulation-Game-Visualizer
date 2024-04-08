@@ -159,6 +159,13 @@ class HomePage:
         )
 
     def _export_csv_from_xmls(self):
+        xml_files = st.file_uploader(
+            "Choose folder with xmls",
+            type=["xml"],
+            accept_multiple_files=True,
+            key="xml_files_to_csvs",
+        )
+
         def convert():
             if xml_files:
                 shutil.rmtree(".temp", ignore_errors=True)
@@ -178,13 +185,6 @@ class HomePage:
                     data=open(path, "rb").read(),
                     file_name=f"{date_now}-erp_data.zip",
                 )
-
-        xml_files = st.file_uploader(
-            "Choose folder with xmls",
-            type=["xml"],
-            accept_multiple_files=True,
-            key="xml_files_to_csvs",
-        )
 
         st.button("Convert", key="xmls_to_csvs", on_click=lambda: convert())
 
@@ -211,9 +211,7 @@ class HomePage:
         command = "call .venv/Scripts/activate.bat && python fetcher.py"
 
         # Run the command
-        subprocess.Popen(
-            command, shell=True, creationflags=subprocess.CREATE_NEW_CONSOLE
-        )
+        subprocess.call(command, shell=True)
 
 
 if __name__ == "__main__":

@@ -296,6 +296,7 @@ class DataRefresher:
                 futures[table] = executor.submit(self._xml_to_df, table, ".temp")
 
             for table, future in futures.items():
+                print("Converting table:", table)
                 future.result().to_csv(f".temp_csvs/{table}.csv")
 
         # Zip the csv files
@@ -303,7 +304,7 @@ class DataRefresher:
         os.makedirs("export", exist_ok=True)
         with zipfile.ZipFile(f"export/{date_now}-erp_csvs.zip", "w") as zipf:
             for table in self.tables:
-                zipf.write(f"{table}.csv")
+                zipf.write(f".temp_csvs/{table}.csv")
 
         shutil.rmtree(".temp_csvs", ignore_errors=True)
 
