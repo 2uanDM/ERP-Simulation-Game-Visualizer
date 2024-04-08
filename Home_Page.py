@@ -2,7 +2,6 @@ import json
 import os
 import shutil
 import subprocess
-from datetime import datetime
 
 import streamlit as st
 
@@ -159,34 +158,7 @@ class HomePage:
         )
 
     def _export_csv_from_xmls(self):
-        xml_files = st.file_uploader(
-            "Choose folder with xmls",
-            type=["xml"],
-            accept_multiple_files=True,
-            key="xml_files_to_csvs",
-        )
-
-        def convert():
-            if xml_files:
-                shutil.rmtree(".temp", ignore_errors=True)
-                os.makedirs(".temp", exist_ok=True)
-                for file in xml_files:
-                    print(f".temp/{file.name}")
-                    with open(f".temp/{file.name}", "wb") as f:
-                        f.write(file.read())
-
-                refresher = DataRefresher()
-                refresher._set_tables(tables)
-                path = refresher.xmls_to_csvs()
-
-                date_now = datetime.now().strftime("%Y-%m-%d %H-%M-%S")
-                st.download_button(
-                    label="Download zip",
-                    data=open(path, "rb").read(),
-                    file_name=f"{date_now}-erp_data.zip",
-                )
-
-        st.button("Convert", key="xmls_to_csvs", on_click=lambda: convert())
+        pass
 
     def setup_database_management_ui(self):
         st.write("---")
@@ -202,7 +174,6 @@ class HomePage:
         st.write("---")
         # Mode 3: Export csv from xmls
         st.markdown("### Mode 3: Export csv from xmls")
-        self._export_csv_from_xmls()
 
     def start_simulation(self):
         st.toast("Simulation Started! Good luck", icon="🚀")
