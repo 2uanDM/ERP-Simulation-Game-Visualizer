@@ -113,7 +113,7 @@ class Company_Valuation(BaseModel):
     MARKET_RISK_RATE_PCT: float
     COMPANY_VALUATION: float
     DEBT_LOADING_UNADJUSTED: float
-    CREDIT_RATING_UNADJUSTED: float
+    CREDIT_RATING_UNADJUSTED: str
     COMPANY_RISK_RATE_UNADJUSTED: float
     COMPANY_VALUATION_UNADJUSTED: float
     CURRENCY: str
@@ -285,7 +285,7 @@ class Production(BaseModel):
     MATERIAL_SIZE: str
     MATERIAL_LABEL: str
     MATERIAL_CODE: str
-    YIELD: int
+    YIELD: str
     UNIT: str
 
 

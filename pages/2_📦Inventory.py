@@ -2,41 +2,45 @@ import json
 import os
 import sqlite3
 import sys
+
 import polars as pl
+
 sys.path.append(os.getcwd())  # NOQA
 
 import streamlit as st
+
 from database.schema import Inventory
 
-with open('configs/games.json', 'r') as f:
+with open("configs/games.json", "r") as f:
     CONFIG = json.load(f)
 
 st.set_page_config(
     page_title="Inventory 📦",
     page_icon="📦",
+    layout="wide",
 )
 
 
 def main():
     st.title("Inventory 📦")
 
-    st.write('---')
+    st.write("---")
 
     # Refresh button
-    refresh_button = st.sidebar.button('Refresh (Press R)', use_container_width=True)
+    refresh_button = st.sidebar.button("Refresh (Press R)", use_container_width=True)
 
     with st.spinner("Loading Inventory table..."):
-        conn = sqlite3.connect('erp.db')
+        conn = sqlite3.connect("erp.db")
 
         remove_col = [
-            'ID',
-            'ROW_ID',
-            'PLANT',
-            'SIM_DATE',
-            'SIM_CALENDAR_DATE',
-            'SIM_ELAPSED_STEPS',
-            'MATERIAL_LABEL',
-            'MATERIAL_SIZE'
+            "ID",
+            "ROW_ID",
+            "PLANT",
+            "SIM_DATE",
+            "SIM_CALENDAR_DATE",
+            "SIM_ELAPSED_STEPS",
+            "MATERIAL_LABEL",
+            "MATERIAL_SIZE",
         ]
 
         select_col = list(Inventory.__annotations__.keys())
@@ -49,10 +53,10 @@ def main():
         max_day = int(max_day.fetchone()[0])
 
         day = st.sidebar.multiselect(
-            'Day',
-            list(range(1, max_day+1)),
-            key='inventory_day_filter',
-            default=list(range(1, max_day + 1))
+            "Day",
+            list(range(1, max_day + 1)),
+            key="inventory_day_filter",
+            default=list(range(1, max_day + 1)),
         )
 
         data = conn.execute(f"""
@@ -72,7 +76,9 @@ def main():
             """).fetchall()
 
         if data == []:
-            st.error("The Inventory table does not exist! Wait for the data to be fetched!")
+            st.error(
+                "The Inventory table does not exist! Wait for the data to be fetched!"
+            )
         else:
             inventory_df = pl.DataFrame(data).to_pandas()
             inventory_df.columns = select_col
@@ -81,5 +87,5 @@ def main():
         conn.close()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
