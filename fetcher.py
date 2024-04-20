@@ -188,6 +188,18 @@ class DataRefresher:
 
             lines.append(line)
 
+        # Try to convert the type of each column base on the type of the model
+        for item in lines:
+            for column in item:
+                if model.__annotations__[column] == int:
+                    item[column] = int(float(item[column]))
+                elif model.__annotations__[column] == float:
+                    item[column] = float(item[column])
+                elif model.__annotations__[column] == str:
+                    item[column] = str(item[column])
+                elif model.__annotations__[column] == bool:
+                    item[column] = bool(item[column])
+
         # Convert the data to the pydantic model
         model_data = [model(**item) for item in lines]
 
