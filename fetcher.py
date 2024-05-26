@@ -454,3 +454,4 @@ if __name__ == "__main__":
     data_refresher._set_main_url(main_url)
     data_refresher._set_tables(tables)
     data_refresher.run()
+    # data_refresher.xmls_to_csvs(".temp")
