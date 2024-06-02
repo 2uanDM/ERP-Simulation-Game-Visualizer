@@ -7,6 +7,7 @@ sys.path.append(os.getcwd())  # NOQA
 import json
 import sqlite3
 import time
+import zipfile
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from typing import List
@@ -187,6 +188,18 @@ class DataRefresher:
 
             lines.append(line)
 
+        # Try to convert the type of each column base on the type of the model
+        for item in lines:
+            for column in item:
+                if model.__annotations__[column] == int:
+                    item[column] = int(float(item[column]))
+                elif model.__annotations__[column] == float:
+                    item[column] = float(item[column])
+                elif model.__annotations__[column] == str:
+                    item[column] = str(item[column])
+                elif model.__annotations__[column] == bool:
+                    item[column] = bool(item[column])
+
         # Convert the data to the pydantic model
         model_data = [model(**item) for item in lines]
 
@@ -243,7 +256,7 @@ class DataRefresher:
             if result:
                 print(result)
 
-    def _xml_to_df(self, table_name: str) -> pd.DataFrame:
+    def _xml_to_df(self, folder_dir: str, table_name: str) -> pd.DataFrame:
         """
             Convert the xml file to the csv
         Args:
@@ -255,7 +268,7 @@ class DataRefresher:
 
         lines = []
 
-        with open(f".temp/{table_name}.xml", "r") as f:
+        with open(f"{folder_dir}/{table_name}.xml", "r") as f:
             contents = f.read()
 
         soup = bs(contents, "xml")
@@ -274,27 +287,26 @@ class DataRefresher:
 
         return df
 
-    def xmls_to_csvs(self, fetch_data: bool = False):
-        if fetch_data:
-            # Fetch the data
-            with ThreadPoolExecutor(max_workers=10) as executor:
-                futures = [
-                    executor.submit(self._fetch_xml, url, table_name)
-                    for url, table_name in zip(self.urls, self.tables)
-                ]
-
-                for idx, future in enumerate(as_completed(futures)):
-                    future.result()
-
+    def xmls_to_csvs(self, folder_dir):
         # Convert the xml to csv
         with ThreadPoolExecutor(max_workers=10) as executor:
             futures = {}
 
             for table in self.tables:
-                futures[table] = executor.submit(self._xml_to_df, table)
+                futures[table] = executor.submit(self._xml_to_df, folder_dir, table)
 
             for table, future in futures.items():
                 future.result().to_csv(f"output/{table}.csv")
+
+        # zip the csv files
+        date_now = datetime.now().strftime("%d-%m-%Y_%H-%M-%S")
+        file_name = f"output_{date_now}.zip"
+
+        with zipfile.ZipFile(file_name, "w") as zipf:
+            for table in self.tables:
+                zipf.write(f"output/{table}.csv", arcname=f"{table}.csv")
+
+        return file_name
 
     def _csv_to_model(
         self,
@@ -442,3 +454,4 @@ if __name__ == "__main__":
     data_refresher._set_main_url(main_url)
     data_refresher._set_tables(tables)
     data_refresher.run()
+    # data_refresher.xmls_to_csvs(".temp")

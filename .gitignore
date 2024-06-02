@@ -157,3 +157,7 @@ cython_debug/
 .temp/*
 .temp_csvs/*
 !.temp/.placeholder
+*.zip
+.temp_csvs
+.temp_xml
+.temp
