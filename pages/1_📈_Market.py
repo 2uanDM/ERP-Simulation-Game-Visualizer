@@ -395,7 +395,7 @@ class Market:
             choose_weeks: list = st.multiselect(
                 label="Week",
                 options=[i for i in range(1, self.max_week + 1)],
-                default=[i for i in range(1, self.max_week + 1)],
+                default=self.max_week,
                 key="market_average_price_weeks",
             )
 

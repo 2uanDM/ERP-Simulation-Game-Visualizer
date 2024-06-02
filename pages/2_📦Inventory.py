@@ -50,7 +50,15 @@ def main():
             SELECT MAX(SIM_STEP) FROM Inventory
             """)
 
-        max_day = int(max_day.fetchone()[0])
+        result = max_day.fetchone()
+
+        if result[0] is None:
+            st.error(
+                "The Inventory table does not exist! Wait for the data to be fetched!"
+            )
+            return
+
+        max_day = int(result[0])
 
         day = st.sidebar.multiselect(
             "Day",
