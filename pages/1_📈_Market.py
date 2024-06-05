@@ -301,7 +301,7 @@ class Market:
             choose_rounds: list = st.multiselect(
                 label="Round",
                 options=[i for i in range(1, self.max_round + 1)],
-                default=[i for i in range(1, self.max_round + 1)],
+                default=self.max_round,
                 key="market_products_ranking_rounds",
             )
 
